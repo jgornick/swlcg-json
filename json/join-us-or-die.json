@@ -1,0 +1,1283 @@
+[
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 567,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000727",
+        "objectiveSetNumber": 112,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "May the Force Be With You",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you commit a unit to the Force, remove all focus tokens from that unit.",
+        "abilities": {
+            "traits": [
+                "Dagobah"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you commit a unit to the Force, remove all focus tokens from that unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 568,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000728",
+        "objectiveSetNumber": 112,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Yoda",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 5,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite.\nThis unit gains [Unit Damage] for each point on the Death Star dial.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 569,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000729",
+        "objectiveSetNumber": 112,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Dagobah Nudj",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 1,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit enters play decrease the Death Star dial by 1.\nForced Interrupt: When this unit leaves play increase the Death Star dial by 1.",
+        "abilities": {
+            "traits": [
+                "Creature"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit enters play decrease the Death Star dial by 1."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": [
+                "When this unit leaves play increase the Death Star dial by 1."
+            ]
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 31,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000730",
+        "objectiveSetNumber": 112,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Dagobah Training Grounds",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card each turn.)",
+        "abilities": {
+            "traits": [
+                "Dagobah",
+                "Location"
+            ],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 570,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000731",
+        "objectiveSetNumber": 112,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Yoda, You Seek Yoda",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Increase the Death Star dial by 1 to search your deck for Yoda, and put him into play, if able.",
+        "abilities": {
+            "traits": [
+                "Force"
+            ],
+            "keywords": null,
+            "actions": [
+                "Increase the Death Star dial by 1 to search your deck for Yoda, and put him into play, if able."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 523,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000732",
+        "objectiveSetNumber": 112,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Seeds of Decay",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may place 1 focus token on a target ready unit that is commmitted to the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 571,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000733",
+        "objectiveSetNumber": 113,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Behind Enemy Lines",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an objective enters play, look at the top card of an opponent's objective or command deck. You may move that card to the bottom of its deck.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an objective enters play, look at the top card of an opponent's objective or command deck. You may move that card to the bottom of its deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 572,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000734",
+        "objectiveSetNumber": 113,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Winter",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After you win a Force struggle, return a target enemy enhancement to the top of its owner's deck.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Spy"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you win a Force struggle, return a target enemy enhancement to the top of its owner's deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 573,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000735",
+        "objectiveSetNumber": 113,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Tactical Genius",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit enters play, remove 1 focus token from a target unit committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Character."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit enters play, remove 1 focus token from a target unit committed to the Force."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 574,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000736",
+        "objectiveSetNumber": 113,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Observation Point",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance you play area.\nAction: Focus this enhancement to look at the top card of each player's deck. Then you may discard 1 of those cards.",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": null,
+            "actions": [
+                "Focus this enhancement to look at the top card of each player's deck. Then you may discard 1 of those cards."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 49,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000737",
+        "objectiveSetNumber": 113,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Hidden Outpost",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card per turn.)",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 575,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000738",
+        "objectiveSetNumber": 113,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Infiltration",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: During an engagement, put a Character unit into play from your hand as a participating unit on your side. If that unit is still in play at the end of the phase, return it to your hand.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "During an engagement, put a Character unit into play from your hand as a participating unit on your side. If that unit is still in play at the end of the phase, return it to your hand."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 576,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000739",
+        "objectiveSetNumber": 114,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "The Second Phase",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Sith affiliation only.\nAction: Damage this objective to reduce the cost of the next [Sith] unit you play this phase by 1. (Limit once per phase.)",
+        "abilities": {
+            "traits": [
+                "Arc Hammer"
+            ],
+            "keywords": null,
+            "actions": [
+                "Damage this objective to reduce the cost of the next [Sith] unit you play this phase by 1. (Limit once per phase.)"
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 577,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000740",
+        "objectiveSetNumber": 114,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Dark Trooper Legion",
+        "isUnique": false,
+        "cost": 6,
+        "damageCapacity": 4,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Interrupt: When you play this unit from your hand, deal 1 damage each to any number of your objectives to reduce the cost of this unit by 1 for each damage dealt.",
+        "abilities": {
+            "traits": [
+                "Droid",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When you play this unit from your hand, deal 1 damage each to any number of your objectives to reduce the cost of this unit by 1 for each damage dealt."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 577,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000741",
+        "objectiveSetNumber": 114,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Dark Trooper Legion",
+        "isUnique": false,
+        "cost": 6,
+        "damageCapacity": 4,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Interrupt: When you play this unit from your hand, deal 1 damage each to any number of your objectives to reduce the cost of this unit by 1 for each damage dealt.",
+        "abilities": {
+            "traits": [
+                "Droid",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When you play this unit from your hand, deal 1 damage each to any number of your objectives to reduce the cost of this unit by 1 for each damage dealt."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 578,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000742",
+        "objectiveSetNumber": 114,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Enhancement",
+        "title": "Force Shield",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a [Sith] objective.\nInterrupt: When enhanced objective is destroyed, draw 2 cards. If the Balance of the Force is with the dark side, draw 3 cards instead.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Control",
+                "Alter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When enhanced objective is destroyed, draw 2 cards. If the Balance of the Force is with the dark side, draw 3 cards instead."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 579,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000743",
+        "objectiveSetNumber": 114,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Facility Repair",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After a [Sith] objective is dealt damage, remove 1 damage from that objective. Then, place 1 shield on that objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a [Sith] objective is dealt damage, remove 1 damage from that objective. Then, place 1 shield on that objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 580,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000744",
+        "objectiveSetNumber": 114,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Event",
+        "title": "Consumed by the Dark Side",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only in the Balance of the Force is with the dark side.\nAction: Remove up to 1 damage from each objective you control.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Alter"
+            ],
+            "keywords": null,
+            "actions": [
+                "Remove up to 1 damage from each objective you control."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 581,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000745",
+        "objectiveSetNumber": 115,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Reinforcements",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this objective enters play, put the topmost [Imperial Navy] unit in your discard pile into play, committed to the Force. (If that unit cannot be committed to the Force, this effect cannot initiate.)",
+        "abilities": {
+            "traits": [
+                "Carida"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective enters play, put the topmost [Imperial Navy] unit in your discard pile into play, committed to the Force. (If that unit cannot be committed to the Force, this effect cannot initiate.)"
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 582,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000746",
+        "objectiveSetNumber": 115,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Reserve Troopers",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Targeted Strike.\nThis unit cannot be declared as an attacker or defender unless it is committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": [
+                "Targeted Strike"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 582,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000747",
+        "objectiveSetNumber": 115,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Reserve Troopers",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Targeted Strike.\nThis unit cannot be declared as an attacker or defender unless it is committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": [
+                "Targeted Strike"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 583,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000748",
+        "objectiveSetNumber": 115,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Security Checkpoint",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nEach unit you control that is committed to the Force gains edge (1).",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 584,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000749",
+        "objectiveSetNumber": 115,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Event",
+        "title": "Award Ceremony",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only if you have at least 1 Force card in your supply.\nAction: Put an [Imperial Navy] Character unit into play from your hand. Then, commit that unit to the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Put an [Imperial Navy] Character unit into play from your hand. Then, commit that unit to the Force."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 536,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000750",
+        "objectiveSetNumber": 115,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Echoes of the Force",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 4,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "you may commit a target unit to or remove a target unit from the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 585,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000751",
+        "objectiveSetNumber": 116,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "The Scavengers",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this objective enters play, destroy all units in play.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective enters play, destroy all units in play."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 586,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000752",
+        "objectiveSetNumber": 116,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Wittin",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "While this unit is committed to the Force, it cannot be damaged or destroyed.\nForced Reaction: After you lose a Force struggle, remove this unit from the Force, if able.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Scavenger"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": [
+                "After you lose a Force struggle, remove this unit from the Force, if able."
+            ],
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 587,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000753",
+        "objectiveSetNumber": 116,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Jawa Scrap Dealers",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After a friendly unit is destroyed, put this unit into play from your hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Scavenger"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a friendly unit is destroyed, put this unit into play from your hand."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 587,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000754",
+        "objectiveSetNumber": 116,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Jawa Scrap Dealers",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After a friendly unit is destroyed, put this unit into play from your hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Scavenger"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a friendly unit is destroyed, put this unit into play from your hand."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 588,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000755",
+        "objectiveSetNumber": 116,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Event",
+        "title": "Watchful Eyes",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Look at the top 2 cards of an objective deck. You may move 1 of those cards to the bottom of its deck. Return the other cards to the top of the deck in any order.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Look at the top 2 cards of an objective deck. You may move 1 of those cards to the bottom of its deck. Return the other cards to the top of the deck in any order."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Join Us or Die",
+        "productOctgnId": "89bf09ff-f039-4b2d-a1f9-d584b2808db2",
+        "number": 514,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000756",
+        "objectiveSetNumber": 116,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Seeds of Decay",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may place 1 focus token on a target ready unit that is committed to the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

@@ -1,0 +1,1269 @@
+[
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 745,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000961",
+        "objectiveSetNumber": 151,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "Hidden from the Empire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Jedi affilation only.\nWhile this objective is undamaged, a player cannot play units while he control more units than each opponent.",
+        "abilities": {
+            "traits": [
+                "Nar Shaddaa"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 746,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000962",
+        "objectiveSetNumber": 151,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Vima-Da-Boda",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding.\nReaction: After an opponent spends 4 or more resources to play a unit, put this unit into play from your hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an opponent spends 4 or more resources to play a unit, put this unit into play from your hand."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 747,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000963",
+        "objectiveSetNumber": 151,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Undercover Urchin",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: If you have 2 or more cards in your discard pile, focus this unit to have your opponent choose a card in your discard pile. Return that card to your hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Civilian"
+            ],
+            "keywords": null,
+            "actions": [
+                "If you have 2 or more cards in your discard pile, focus this unit to have your opponent choose a card in your discard pile. Return that card to your hand."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 748,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000964",
+        "objectiveSetNumber": 151,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Enhancement",
+        "title": "Hidden in the Shadows",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a friendly Character unit.\nEnhanced unit cannot be targeted by events.",
+        "abilities": {
+            "traits": [
+                "Skill"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 748,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000965",
+        "objectiveSetNumber": 151,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Enhancement",
+        "title": "Hidden in the Shadows",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a friendly Character unit.\nEnhanced unit cannot be targeted by events.",
+        "abilities": {
+            "traits": [
+                "Skill"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 749,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000966",
+        "objectiveSetNumber": 151,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Harassment",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an opponent's deployment phase begins, increase the cost of the first unit that opponent plays this phase by 1. (Limit 1 per phase.)",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an opponent's deployment phase begins, increase the cost of the first unit that opponent plays this phase by 1. (Limit 1 per phase.)"
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 750,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000967",
+        "objectiveSetNumber": 152,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Command and Control",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Increase your reserve value by 1 for each objective in your victory pile.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 751,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000968",
+        "objectiveSetNumber": 152,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Independence",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Shielding.\nReduce the cost to play each other friendly Capital Ship unit by 1.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 752,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000969",
+        "objectiveSetNumber": 152,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Corellian Corvette",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "After this unit enters play, each friendly player draws 1 card.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 752,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000970",
+        "objectiveSetNumber": 152,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Corellian Corvette",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "After this unit enters play, each friendly player draws 1 card.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 753,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000971",
+        "objectiveSetNumber": 152,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Resupply Depot",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nAction: Focus this enhancement and discard a card from your hand to have a target Vehicle unit gain 1 combat icon of your choice until the end of the phase.",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": null,
+            "actions": [
+                "Focus this enhancement and discard a card from your hand to have a target Vehicle unit gain 1 combat icon of your choice until the end of the phase."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 420,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000972",
+        "objectiveSetNumber": 152,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 754,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000973",
+        "objectiveSetNumber": 153,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "The Questioning",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Sith affiliation only.\nReaction: After one of your card effects discards 1 or more cards from an opponent's hand, remove 1 focus token from an objective you control.",
+        "abilities": {
+            "traits": [
+                "Prakith"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After one of your card effects discards 1 or more cards from an opponent's hand, remove 1 focus token from an objective you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 755,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000974",
+        "objectiveSetNumber": 153,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Antinnis Tremayne",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite.\nReaction: After this unit is declared as an attacker or defender, discard 1 or 2 cards at random from your opponent's hand. Then, he draws that many cards.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User",
+                "Inquisitor"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is declared as an attacker or defender, discard 1 or 2 cards at random from your opponent's hand. Then, he draws that many cards."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 756,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000975",
+        "objectiveSetNumber": 153,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Imperial Enforcers",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 756,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000976",
+        "objectiveSetNumber": 153,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Imperial Enforcers",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 757,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000977",
+        "objectiveSetNumber": 153,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Enhancement",
+        "title": "Citadel Inquisitorious",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nAction: During the Force phase, focus this enhancement to discard 1 card at random from an opponent's hand.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "During the Force phase, focus this enhancement to discard 1 card at random from an opponent's hand."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 758,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000978",
+        "objectiveSetNumber": 153,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Event",
+        "title": "Put to the Question",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When an enhancement you control or a unit you control with 1 or more enhancements on it is targeted by an effect, cancel that effect.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When an enhancement you control or a unit you control with 1 or more enhancements on it is targeted by an effect, cancel that effect."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 759,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000979",
+        "objectiveSetNumber": 154,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Training Procedures",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Imperial Navy affiliation only.\nAction: Spend 1 resource to move a friendly Pilot enhancement to another eligible Vehicle unit you control.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Spend 1 resource to move a friendly Pilot enhancement to another eligible Vehicle unit you control."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 760,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000980",
+        "objectiveSetNumber": 154,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Academy Pilot",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Pilot (0).",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Pilot"
+            ],
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 760,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000981",
+        "objectiveSetNumber": 154,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Academy Pilot",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Pilot (0).",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Pilot"
+            ],
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 761,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000982",
+        "objectiveSetNumber": 154,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "TIE Fighter Patrol",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While this unit is piloted, it gains the combat icons of its attached Pilot enhancement.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 761,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000983",
+        "objectiveSetNumber": 154,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "TIE Fighter Patrol",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While this unit is piloted, it gains the combat icons of its attached Pilot enhancement.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 762,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000984",
+        "objectiveSetNumber": 154,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Event",
+        "title": "Koiogran Turn",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able.",
+        "abilities": {
+            "traits": [
+                "Maneuver"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 763,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000985",
+        "objectiveSetNumber": 155,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "The Eater of Luck",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you lose an edge battle as the attacker, capture the top card of each opponent's deck at this objective.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you lose an edge battle as the attacker, capture the top card of each opponent's deck at this objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 764,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000986",
+        "objectiveSetNumber": 155,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Dannik Jerriko",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "text": "While this unit is attacking, resolve edge-enabled icons on friendly units as if you had the edge.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Assassin",
+                "Mercenary"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 765,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000987",
+        "objectiveSetNumber": 155,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Advozse Mercenary",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this unit is attacking, it gains [EE-UD] for each other attacking unit.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Mercenary"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 765,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000988",
+        "objectiveSetNumber": 155,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Advozse Mercenary",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this unit is attacking, it gains [EE-UD] for each other attacking unit.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Mercenary"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 766,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000989",
+        "objectiveSetNumber": 155,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Event",
+        "title": "Calculated Wager",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you lose an edge battle, return 1 card in an edge stack to its owner's hand.",
+        "abilities": {
+            "traits": [
+                "Gamble"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you lose an edge battle, return 1 card in an edge stack to its owner's hand."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Evasive Maneuvers",
+        "productOctgnId": "3c3acce7-3156-4094-a1a7-a21434ee121b",
+        "number": 433,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000990",
+        "objectiveSetNumber": 155,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

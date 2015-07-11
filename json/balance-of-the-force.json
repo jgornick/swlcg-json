@@ -1,0 +1,3862 @@
+[
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 416,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000547",
+        "objectiveSetNumber": 91,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "Watchers in the Wasteland",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.\nEach card in a light side common reserve contributes 1 Force icon to your side during the Force struggle.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 417,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000548",
+        "objectiveSetNumber": 91,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Obi-Wan Kenobi",
+        "isUnique": true,
+        "cost": 5,
+        "damageCapacity": 3,
+        "forceIcons": 4,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "text": "Elite.\nReaction: After you win a Force struggle, each friendly player may return the top card of his discard pile to his hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you win a Force struggle, each friendly player may return the top card of his discard pile to his hand."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 418,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000549",
+        "objectiveSetNumber": 91,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Shistavanen Wolfman",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Edge (1).\nReaction: After you win a Force struggle by 3 or more Force icons, put this unit into play from your discard pile.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": [
+                "Edge"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you win a Force struggle by 3 or more Force icons, put this unit into play from your discard pile."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 418,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000550",
+        "objectiveSetNumber": 91,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Shistavanen Wolfman",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Edge (1).\nReaction: After you win a Force struggle by 3 or more Force icons, put this unit into play from your discard pile.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": [
+                "Edge"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you win a Force struggle by 3 or more Force icons, put this unit into play from your discard pile."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 419,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000551",
+        "objectiveSetNumber": 91,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Enhancement",
+        "title": "Force Cleansing",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a friendly Character unit.\nReaction: After the Death Star dial increases, remove 1 focus token and 1 damage from enhanced unit.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Control"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After the Death Star dial increases, remove 1 focus token and 1 damage from enhanced unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 420,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000552",
+        "objectiveSetNumber": 91,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 421,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000553",
+        "objectiveSetNumber": 92,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Blue Squadron Support",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.\nAction: Focus this objective to have each friendly player look at the top 2 cards of his deck, add 1 of those cards to his hand, and put the other at the bottom of his deck.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Focus this objective to have each friendly player look at the top 2 cards of his deck, add 1 of those cards to his hand, and put the other at the bottom of his deck."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 422,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000554",
+        "objectiveSetNumber": 92,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Blue Leader",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike as an attacker, deal 1 damage to a target objective not currently engaged.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike as an attacker, deal 1 damage to a target objective not currently engaged."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 423,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000555",
+        "objectiveSetNumber": 92,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "B-Wing",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike, each other friendly player draws 1 card.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, each other friendly player draws 1 card."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 423,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000556",
+        "objectiveSetNumber": 92,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "B-Wing",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike, each other friendly player draws 1 card.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, each other friendly player draws 1 card."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 424,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000557",
+        "objectiveSetNumber": 92,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Rapid Fire",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only during your turn.\nAction: Target up to 2 units, each controlled by a different opponent. Deal 1 damage to each targeted unit.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Target up to 2 units, each controlled by a different opponent. Deal 1 damage to each targeted unit."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 420,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000558",
+        "objectiveSetNumber": 92,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 425,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000559",
+        "objectiveSetNumber": 93,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "Rendar's Wrath",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.\nReaction: After an opponent declares only 1 unit as a defender, deal 1 damage to that unit.",
+        "abilities": {
+            "traits": [
+                "Ord Mantell"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an opponent declares only 1 unit as a defender, deal 1 damage to that unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 426,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000560",
+        "objectiveSetNumber": 93,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Dash Rendar",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite.\nAction: During an engagement, spend 1 resource to have this unit gain a [Unit Damage] icon until the end of the engagement. Any friendly player may initiate this effect.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Smuggler",
+                "Mercenary"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": [
+                "During an engagement, spend 1 resource to have this unit gain a [Unit Damage] icon until the end of the engagement. Any friendly player may initiate this effect."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 427,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000561",
+        "objectiveSetNumber": 93,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Arcona Rumor Monger",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this unit is attacking alone, in order to declare any defenders, an opponent must declare at least 2 defenders.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 427,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000562",
+        "objectiveSetNumber": 93,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Arcona Rumor Monger",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this unit is attacking alone, in order to declare any defenders, an opponent must declare at least 2 defenders.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 428,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000563",
+        "objectiveSetNumber": 93,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Smuggling Shipment",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Target up to 2 resource generating cards, each controlled by a different friendly player. Remove 1 focus token from each targeted card.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Target up to 2 resource generating cards, each controlled by a different friendly player. Remove 1 focus token from each targeted card."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 420,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000564",
+        "objectiveSetNumber": 93,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 429,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000565",
+        "objectiveSetNumber": 94,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "The Emperor's Hand",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.\nEach card in a dark side common reserve contributes 1 Force icon to your side during the Force struggle.",
+        "abilities": {
+            "traits": [
+                "Coruscant"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 430,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000566",
+        "objectiveSetNumber": 94,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Mara Jade",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Targeted Strike.\nReaction: After your turn ends, remove 1 focus token from this unit. Then, you may give control of this unit to another friendly player.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Targeted Strike"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After your turn ends, remove 1 focus token from this unit. Then, you may give control of this unit to another friendly player."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 431,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000567",
+        "objectiveSetNumber": 94,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Agent of the Hand",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After you take control of a unit or play a card from another player's common reserve, remove 1 focus token from this unit.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you take control of a unit or play a card from another player's common reserve, remove 1 focus token from this unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 431,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000568",
+        "objectiveSetNumber": 94,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Agent of the Hand",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After you take control of a unit or play a card from another player's common reserve, remove 1 focus token from this unit.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you take control of a unit or play a card from another player's common reserve, remove 1 focus token from this unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 432,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000569",
+        "objectiveSetNumber": 94,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Event",
+        "title": "Join Me",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only during your deployment phase.\nAction: Take control of a target non-unique Character unit.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Take control of a target non-unique Character unit."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 433,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000570",
+        "objectiveSetNumber": 94,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 434,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000571",
+        "objectiveSetNumber": 95,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Repair and Refurbish",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.\nReaction: After your turn begins, each friendly player may remove 1 damage from an objective he controls.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After your turn begins, each friendly player may remove 1 damage from an objective he controls."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 435,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000572",
+        "objectiveSetNumber": 95,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Thunderflare",
+        "isUnique": true,
+        "cost": 5,
+        "damageCapacity": 4,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite.\nReaction: After this unit is focused to strike, move 1 damage from a target friendly objective to a target enemy objective.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship",
+                "Death Squadron"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, move 1 damage from a target friendly objective to a target enemy objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 436,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000573",
+        "objectiveSetNumber": 95,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Logistics Officer",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "During your deployment phase, you may play this unit under the control of another friendly player. If you do, remove 1 damage from a target friendly objective, if able.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 436,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000574",
+        "objectiveSetNumber": 95,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Logistics Officer",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "During your deployment phase, you may play this unit under the control of another friendly player. If you do, remove 1 damage from a target friendly objective, if able.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 437,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000575",
+        "objectiveSetNumber": 95,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Enhancement",
+        "title": "Weapons Upgrade",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a friendly Vehicle unit. Then, if you do not control that unit, draw 1 card.\nEnhanced unit gains [Blast Damage].",
+        "abilities": {
+            "traits": [
+                "Upgrade"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 433,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000576",
+        "objectiveSetNumber": 95,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 438,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000577",
+        "objectiveSetNumber": 96,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "Mercenary Support",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.\nAction: Focus this objective to put a Bounty Hunter or Mercenary unit into play from your hand, under a friendly player's control. If that unit is still in play at the end of the phase, discard it.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Focus this objective to put a Bounty Hunter or Mercenary unit into play from your hand, under a friendly player's control. If that unit is still in play at the end of the phase, discard it."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 439,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000578",
+        "objectiveSetNumber": 96,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Punishing One",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After your deployment phase begins, move 1 captured card from an objective to a different dark side objective.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After your deployment phase begins, move 1 captured card from an objective to a different dark side objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 440,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000579",
+        "objectiveSetNumber": 96,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Trandoshan Security Team",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "During an engagement against a dark side objective, this unit may strike in combat even if it is not participating in the engagement.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Mercenary"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 440,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000580",
+        "objectiveSetNumber": 96,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Trandoshan Security Team",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "During an engagement against a dark side objective, this unit may strike in combat even if it is not participating in the engagement.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Mercenary"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 441,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000581",
+        "objectiveSetNumber": 96,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Event",
+        "title": "A Price on Their Heads",
+        "isUnique": false,
+        "cost": 6,
+        "damageCapacity": 0,
+        "forceIcons": 4,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Target up to 2 units, each controlled by a different light side player. Capture each targeted unit.",
+        "abilities": {
+            "traits": [
+                "Bounty"
+            ],
+            "keywords": null,
+            "actions": [
+                "Target up to 2 units, each controlled by a different light side player. Capture each targeted unit."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 433,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000582",
+        "objectiveSetNumber": 96,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 455,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000583",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Death Star II",
+        "isUnique": true,
+        "cost": 22,
+        "damageCapacity": 22,
+        "forceIcons": 5,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 3,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reduce this card's cost by 1 for each point on the Death Star dial.\nAction: Pay this unit's cost to turn it over and put it into play.",
+        "abilities": {
+            "traits": [
+                "Space Station"
+            ],
+            "keywords": null,
+            "actions": [
+                "Pay this unit's cost to turn it over and put it into play."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 465,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000606",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "The Mines",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 4,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Influence.\nVehicle units cannot be declared as attackers against this objective.\nReaction: After this objective is turned faceup, discard the top card of each opponent's deck.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": [
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective is turned faceup, discard the top card of each opponent's deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 442,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000584",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Lemelisk's Ambition",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 6,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Increase your reserve value by 1 for each opponent in the game.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 466,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000607",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "The Final Ship",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Influence.\nReaction: After this objective is turned faceup, turn another facedown objective you control faceup.",
+        "abilities": {
+            "traits": [
+                "Yavin 4"
+            ],
+            "keywords": [
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective is turned faceup, turn another facedown objective you control faceup."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 443,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000585",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Along the Sanctuary Pipeline",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you refresh, remove 1 focus token from each objective you control.",
+        "abilities": {
+            "traits": [
+                "Endor"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you refresh, remove 1 focus token from each objective you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 467,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000608",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Dagobah Refuge",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Influence.\nReaction: After your turn begins, remove up to 2 damage from Luke Skywalker.",
+        "abilities": {
+            "traits": [
+                "Dagobah"
+            ],
+            "keywords": [
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After your turn begins, remove up to 2 damage from Luke Skywalker."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 444,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000586",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Heightened Security",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 12,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect objective.\nAction: During your turn, remove 1 damage from a target objective. Then, place 1 shield on that objective. (Limit once per turn.)",
+        "abilities": {
+            "traits": [],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": [
+                "During your turn, remove 1 damage from a target objective. Then, place 1 shield on that objective. (Limit once per turn.)"
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 473,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000609",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "The Coruscant Rescue",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Influence.\nReaction: After this objective is turned faceup, put 1 unit into play from your discard pile.",
+        "abilities": {
+            "traits": [
+                "Coruscant"
+            ],
+            "keywords": [
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective is turned faceup, put 1 unit into play from your discard pile."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 445,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000587",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Jerjerrod's Task",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "X is twice the number of light side players that started the game.\nAction: During your turn, spend 1 resource to put this objective into play from your hand. Then, draw 1 card. (Limit 1 per turn.)",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "During your turn, spend 1 resource to put this objective into play from your hand. Then, draw 1 card. (Limit 1 per turn.)"
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 469,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000610",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Rebel Command",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Influence.\nReaction: After this objective is turned faceup, remove all focus tokens from each unit you control.",
+        "abilities": {
+            "traits": [],
+            "keywords": [
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective is turned faceup, remove all focus tokens from each unit you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 470,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000611",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "The Ruins of Alderaan",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 4,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Influence.\nCharacter units cannot be declared as attackers against this objective.\nReaction: After this objective is turned faceup, discard the top card of each opponent's deck.",
+        "abilities": {
+            "traits": [
+                "Alderaan"
+            ],
+            "keywords": [
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective is turned faceup, discard the top card of each opponent's deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 471,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000612",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 7,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Front Line Reinforcements",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Influence.\nReaction: After this objective is turned faceup, search your deck for a unit and put it into play. Shuffle your deck.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": [
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective is turned faceup, search your deck for a unit and put it into play. Shuffle your deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 472,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000613",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 8,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Mission at Kothlis",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Influence.\nIncrease your reserve value by 1 for each opponent in the game.",
+        "abilities": {
+            "traits": [
+                "Kothlis"
+            ],
+            "keywords": [
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 468,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000614",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 9,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Return to Tatooine",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 8,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Luke Skywalker must defend this objective, if able.\nForced Reaction: After this objective is turned faceup, put Luke Skywalker into play on your side.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": [
+                "After this objective is turned faceup, put Luke Skywalker into play on your side."
+            ],
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 485,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000615",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 10,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Luke Skywalker",
+        "isUnique": true,
+        "cost": 0,
+        "damageCapacity": 20,
+        "forceIcons": 5,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 3,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite. This unit cannot be affected by enemy card effects.\nDamage that would destroy the Return to Tatooine objective is placed on this unit instead.\nIf this unit leaves play, you lose the game.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 474,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000616",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 11,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Rebel Sentry",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 446,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000588",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 12,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Construction Droid",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Focus this unit to look at the top 2 cards of your deck. Place one of those cards on the bottom of your deck, and the other on the top.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": [
+                "Focus this unit to look at the top 2 cards of your deck. Place one of those cards on the bottom of your deck, and the other on the top."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 475,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000617",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 16,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Bothan Facilitator",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After this unit is focused to strike, look at each opponent's hand and common reserve. Choose and discard 1 of those cards from each opponent.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Spy"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, look at each opponent's hand and common reserve. Choose and discard 1 of those cards from each opponent."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 447,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000589",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 18,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Death Star Guards",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Spend 1 resource to put this unit into play from your hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": [
+                "Spend 1 resource to put this unit into play from your hand."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 476,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000618",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 20,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Tatooine Sympathizer",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Action: Focus this unit to draw 1 card. If the Balance of the Force is with the light side, draw 2 cards instead.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": [
+                "Focus this unit to draw 1 card. If the Balance of the Force is with the light side, draw 2 cards instead."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 448,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000590",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 23,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "TIE Interceptor",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Edge (1). Shielding.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": [
+                "Edge",
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 477,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000619",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 23,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Rogue Squadron Backup",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike as an attacker, discard the top X cards of the defending player's deck. X is twice the number of dark side players that started the game.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike as an attacker, discard the top X cards of the defending player's deck. X is twice the number of dark side players that started the game."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 478,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000620",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 26,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "SpecForces Commando",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 3,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit damages an enemy unit, discard the top X cards of each opponent's deck. X is the amount of damage just dealt.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit damages an enemy unit, discard the top X cards of each opponent's deck. X is the amount of damage just dealt."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 449,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000591",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 28,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Destroyer Defense Fleet",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 3,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Each of your objectives gains +1 damage capacity.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 479,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000621",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 29,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Rebel Ambush Team",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an objective you control is engaged, put this unit into play from your hand as a participating unit on your side. Then, deal 2 damage to a target attacking unit.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an objective you control is engaged, put this unit into play from your hand as a participating unit on your side. Then, deal 2 damage to a target attacking unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 482,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000622",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 31,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Decoy Wing",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect unique unit. (If a unique unit you control would be damaged, you may place the damage on this unit instead.)",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 450,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000592",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 32,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Lambda-class Shuttle",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After this unit generates a resource, remove 1 focus token from another unit you control.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit generates a resource, remove 1 focus token from another unit you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 481,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000623",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 33,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "R2-D2",
+        "isUnique": true,
+        "cost": 0,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Elite. Influence.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": [
+                "Elite",
+                "Influence"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 451,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000593",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 35,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Darth Vader",
+        "isUnique": true,
+        "cost": 5,
+        "damageCapacity": 5,
+        "forceIcons": 5,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Elite. Targeted Strike.\nThis unit gains [Unit Damage] for each objective you control.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Elite",
+                "Targeted Strike"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 483,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000624",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 35,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "\"Boushh\"",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 4,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "If you control Leia Organa, discard this unit from play.\nReaction: After this unit enters play, turn 1 of your facedown objectives faceup.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Leader",
+                "Force Sensitive"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit enters play, turn 1 of your facedown objectives faceup."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 484,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000625",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 36,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Wedge Antilles",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Elite.\nReaction: After another card effect discards 1 or more cards from an opponent's deck, discard 1 additional card from that opponent's deck.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After another card effect discards 1 or more cards from an opponent's deck, discard 1 additional card from that opponent's deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 452,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000594",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 37,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Moff Jerjerrod",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may play this unit as an enhancement on an objective you control, with the text: \"Double the resource value of enhanced objective.\"",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Officer"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 453,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000595",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 38,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Admiral Piett",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After a phase begins, remove 1 focus token from this unit.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Officer"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a phase begins, remove 1 focus token from this unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 480,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000626",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 38,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Red Five",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 4,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit damages an enemy objective, discard the top X cards of each opponent's deck. X is the amount of damage just dealt.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit damages an enemy objective, discard the top X cards of each opponent's deck. X is the amount of damage just dealt."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 454,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000596",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 40,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Emperor Palpatine",
+        "isUnique": true,
+        "cost": 6,
+        "damageCapacity": 3,
+        "forceIcons": 5,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 4
+        },
+        "text": "Elite.\nReaction: After this unit enters play, choose 1 objective in the light side victory pile. Put that objective into play under your control.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit enters play, choose 1 objective in the light side victory pile. Put that objective into play under your control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 486,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000627",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 40,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Secret Hideout",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nReaction: After an enemy objective leaves play, focus this enhancement to discard the top X cards of each opponent's deck. X is the number of facedown objectives you control.",
+        "abilities": {
+            "traits": [
+                "Tatooine",
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an enemy objective leaves play, focus this enhancement to discard the top X cards of each opponent's deck. X is the number of facedown objectives you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 456,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000597",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 41,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Enhancement",
+        "title": "Orbital Construction Yard",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area. Limited.\nReaction: After you refresh, remove 1 damage from a target objective or Vehicle unit you control.",
+        "abilities": {
+            "traits": [
+                "Kuat",
+                "Location"
+            ],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you refresh, remove 1 damage from a target objective or Vehicle unit you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 487,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000628",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 42,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Command Center",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nAction: Focus this enhancement to remove up to 2 focus tokens from a target unit.",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": null,
+            "actions": [
+                "Focus this enhancement to remove up to 2 focus tokens from a target unit."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 457,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000598",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 44,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Enhancement",
+        "title": "Tactical Command Center",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nReaction: After an objective enters play, each light side player must deal 1 damage to a unit he controls, if able.",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an objective enters play, each light side player must deal 1 damage to a unit he controls, if able."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 488,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000629",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 44,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Entrenched Position",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance an objective you control. \nAction: If enhanced objective is engaged, focus it to deal 2 damage to a target attacking unit. If you have the edge, deal 3 damage instead.",
+        "abilities": {
+            "traits": [
+                "Fortification"
+            ],
+            "keywords": null,
+            "actions": [
+                "If enhanced objective is engaged, focus it to deal 2 damage to a target attacking unit. If you have the edge, deal 3 damage instead."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 458,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000599",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 46,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Enhancement",
+        "title": "Strategic Command Center",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nReaction: After an objective enters play, remove 1 damage from a target unit or objective.",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an objective enters play, remove 1 damage from a target unit or objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 489,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000630",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 46,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Rebel Honor Guard",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Character unit. Enhanced unit gains +2 damage capacity. \nInterrupt: When enhanced unit leaves play, you may enhance a different Character unit with this enhancement.",
+        "abilities": {
+            "traits": [
+                "Guardian"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When enhanced unit leaves play, you may enhance a different Character unit with this enhancement."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 490,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000631",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 47,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Rigged to Explode",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an objective you control is turned faceup during an engagement, destroy all attacking units.",
+        "abilities": {
+            "traits": [
+                "Trap"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an objective you control is turned faceup during an engagement, destroy all attacking units."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 459,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000600",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 48,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Enhancement",
+        "title": "Endor Shield Generator",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area. Discard this enhancement from play if it has 7 or more damage on it.\nForced Interrupt: When another card you control would be damaged, place that damage on this enhancement instead.",
+        "abilities": {
+            "traits": [
+                "Endor",
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": [
+                "When another card you control would be damaged, place that damage on this enhancement instead."
+            ]
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 491,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000632",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 48,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "The Force Is Strong",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Choose 1 of the following: Return 1 enemy unit to its owner's hand, discard a card at random from each opponent's hand, or discard the top 3 cards of each opponent's deck.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Control",
+                "Alter"
+            ],
+            "keywords": null,
+            "actions": [
+                "Choose 1 of the following: Return 1 enemy unit to its owner's hand, discard a card at random from each opponent's hand, or discard the top 3 cards of each opponent's deck."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 460,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000601",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 49,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Event",
+        "title": "Signal Jam",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When an Action, Reaction or Interrupt is initiated, cancel its effect. Then, you may spend 1 resource to shuffle this card into your deck.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When an Action, Reaction or Interrupt is initiated, cancel its effect. Then, you may spend 1 resource to shuffle this card into your deck."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 461,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000602",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 52,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Event",
+        "title": "We Shall Double Our Efforts",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When a card generates 1 or more resources, it generates 1 additional resource for each focus token placed on it.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When a card generates 1 or more resources, it generates 1 additional resource for each focus token placed on it."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 492,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000633",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 52,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Run Luke! Run!",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When an Action, Reaction, or Interrupt is initiated, cancel its effect. Then, you may spend 1 resource to shuffle this event card into your deck.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When an Action, Reaction, or Interrupt is initiated, cancel its effect. Then, you may spend 1 resource to shuffle this event card into your deck."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 462,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000603",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 54,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Event",
+        "title": "Fleet Ambush",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After one of your objectives is engaged, search your deck for a Vehicle unit and put it into play declared as a defender. Shuffle your deck.",
+        "abilities": {
+            "traits": [
+                "Trap"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After one of your objectives is engaged, search your deck for a Vehicle unit and put it into play declared as a defender. Shuffle your deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 493,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000634",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 55,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Premonitions of the Future",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Look at the top 3 cards of your deck and add 1 of those cards to your hand. Shuffle the other 2 cards and this event card into your deck.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Sense"
+            ],
+            "keywords": null,
+            "actions": [
+                "Look at the top 3 cards of your deck and add 1 of those cards to your hand. Shuffle the other 2 cards and this event card into your deck."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 463,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000604",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 56,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Event",
+        "title": "Fully Armed",
+        "isUnique": false,
+        "cost": 15,
+        "damageCapacity": 0,
+        "forceIcons": 5,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only if Death Star II is in play. Cannot be canceled or copied by light side card effects.\nAction: Eliminate a target player from the game and place his affiliation card under the Death Star II. (Cards he controls are discarded.)",
+        "abilities": {
+            "traits": [
+                "Superlaser"
+            ],
+            "keywords": null,
+            "actions": [
+                "Eliminate a target player from the game and place his affiliation card under the Death Star II. (Cards he controls are discarded.)"
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 494,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000635",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 57,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Evading Pursuit",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This card cannot be played during an engagement.\nAction: Switch the positions of 2 of your facedown objectives. Then, draw 1 card.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Switch the positions of 2 of your facedown objectives. Then, draw 1 card."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 464,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000605",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 58,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Change of Plan",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": 0,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Draw 1 card. Discard both edge stacks and start a new edge battle.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Balance of the Force",
+        "productOctgnId": "4cd64173-690d-496e-bf5f-7f3a488c2ee6",
+        "number": 495,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000636",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 58,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Change of Plan",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": 1,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Draw 1 card. Discard both edge stacks and start a new edge battle.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

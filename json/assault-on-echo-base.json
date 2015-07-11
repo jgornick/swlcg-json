@@ -1,0 +1,1518 @@
+[
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 252,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000319",
+        "objectiveSetNumber": 53,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "Knowledge and Defense",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, you may return friendly units destroyed during an engagement to their owner's hand instead of discarding them.",
+        "abilities": {
+            "traits": [
+                "Dagobah"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 253,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000320",
+        "objectiveSetNumber": 53,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Daughters of Allya",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After you commit this unit to the Force, remove 1 damage from each objective you control.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you commit this unit to the Force, remove 1 damage from each objective you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 253,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000321",
+        "objectiveSetNumber": 53,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Daughters of Allya",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After you commit this unit to the Force, remove 1 damage from each objective you control.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you commit this unit to the Force, remove 1 damage from each objective you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 254,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000322",
+        "objectiveSetNumber": 53,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Enhancement",
+        "title": "Yoda's Protection",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance an objective.\nReaction: After an engagement is declared against enhanced objective, place 1 shield on it.",
+        "abilities": {
+            "traits": [
+                "Condition"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an engagement is declared against enhanced objective, place 1 shield on it."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 255,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000323",
+        "objectiveSetNumber": 53,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Confronting the Terror",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When damage is dealt to a friendly unit or objective, your opponent must instead divide that damage among any number of units and objectives he controls.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Sense"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When damage is dealt to a friendly unit or objective, your opponent must instead divide that damage among any number of units and objectives he controls."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 256,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000324",
+        "objectiveSetNumber": 53,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Protection",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 3,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Place 1 shield on a target unit or objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 257,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000325",
+        "objectiveSetNumber": 54,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "Last Defense of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, it gains: \"Interrupt: When you would place a card into an edge stack, you may instead look at the top card of your deck and place it facedown in your edgestack. (Limit once per edge battle.)\"",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 258,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000326",
+        "objectiveSetNumber": 54,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Col Serra",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Edge (1). (While this unit is participating in an engagement, add 1 Force icon to your side during edge battles.)\nDuring an engagement in which you have the edge, this unit cannot be damaged or have focus tokens placed on it by enemy card effects or combat icons.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Renegade Squadron"
+            ],
+            "keywords": [
+                "Edge"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 259,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000327",
+        "objectiveSetNumber": 54,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Renegade Squadron X-Wing",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Action: Sacrifice this unit to return a target unit with printed cost 2 or lower to its owner's hand.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter",
+                "Renegade Squadron"
+            ],
+            "keywords": null,
+            "actions": [
+                "Sacrifice this unit to return a target unit with printed cost 2 or lower to its owner's hand."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 260,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000328",
+        "objectiveSetNumber": 54,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Renegade Squadron Recruit",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 1,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Renegade Squadron"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 261,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000329",
+        "objectiveSetNumber": 54,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "A Stinging Insult",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you declare a [Smugglers and Spies] Character unit as an attacker, target an enemy unit. That unit must defend this engagement, if able.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you declare a [Smugglers and Spies] Character unit as an attacker, target an enemy unit. That unit must defend this engagement, if able."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 262,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000330",
+        "objectiveSetNumber": 54,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Don't Get Cocky",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you win an edge battle by 2 or more Force icons, a target participating unit gains [Blast Damage][Blast Damage] until the end of the engagement.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you win an edge battle by 2 or more Force icons, a target participating unit gains [Blast Damage][Blast Damage] until the end of the engagement."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 263,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000331",
+        "objectiveSetNumber": 55,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Objective",
+        "title": "Frozen Refuge",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 4,
+        "forceIcons": 0,
+        "resourceValue": 3,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 264,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000332",
+        "objectiveSetNumber": 55,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "WED-15-1016",
+        "isUnique": true,
+        "cost": 1,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you refresh, remove 1 token (any type) from a target Hoth objective.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you refresh, remove 1 token (any type) from a target Hoth objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 265,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000333",
+        "objectiveSetNumber": 55,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "FX-7 Medical Assistant",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After this unit is focused to strike, remove 1 token (any type) from a target enhancement or Character unit.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, remove 1 token (any type) from a target enhancement or Character unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 216,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000334",
+        "objectiveSetNumber": 55,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Tauntaun",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Creature",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 266,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000335",
+        "objectiveSetNumber": 55,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Echo Control Center",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nEnemy events cannot target other friendly enhancements.",
+        "abilities": {
+            "traits": [
+                "Base",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 236,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000336",
+        "objectiveSetNumber": 55,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 267,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000337",
+        "objectiveSetNumber": 56,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "The General's Imperative",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, your reserve value is increased by 1.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 268,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000338",
+        "objectiveSetNumber": 56,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "General Veers",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Each Walker and each Trooper unit you control gains [Unit Damage].",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Officer"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 269,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000339",
+        "objectiveSetNumber": 56,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Blizzard Force AT-ST",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Walker"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 269,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000340",
+        "objectiveSetNumber": 56,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Blizzard Force AT-ST",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Walker"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 270,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000341",
+        "objectiveSetNumber": 56,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Turbolaser Battery",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nReaction: After an enemy objective is destroyed, sacrifice this enhancement to discard all enhancements from play.",
+        "abilities": {
+            "traits": [
+                "Weapon"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an enemy objective is destroyed, sacrifice this enhancement to discard all enhancements from play."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 202,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000342",
+        "objectiveSetNumber": 56,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 8,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 271,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000343",
+        "objectiveSetNumber": 57,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "Lucrative Contract",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Scum and Villainy affiliation only.\nReaction: After you refresh, remove 1 focus token from a target Mercenary or Bounty Hunter unit.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you refresh, remove 1 focus token from a target Mercenary or Bounty Hunter unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 272,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000344",
+        "objectiveSetNumber": 57,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Outer Rim Space Pirates",
+        "isUnique": false,
+        "cost": 5,
+        "damageCapacity": 4,
+        "forceIcons": 3,
+        "resourceValue": 3,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Mercenary",
+                "Black Sun"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 273,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000345",
+        "objectiveSetNumber": 57,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Corrupt Official",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 273,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000346",
+        "objectiveSetNumber": 57,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Corrupt Official",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 274,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000347",
+        "objectiveSetNumber": 57,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Event",
+        "title": "Explosive Charge",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Discard a target enhancement with a printed cost equal to or lower than the number of enhancements you control.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Discard a target enhancement with a printed cost equal to or lower than the number of enhancements you control."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 171,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000348",
+        "objectiveSetNumber": 57,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Twist of Fate",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": 2,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 275,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000349",
+        "objectiveSetNumber": 58,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Objective",
+        "title": "Sabotage in the Snow",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.\nReaction: After your conflict phase begins, move 1 shield from a target enemy card to a target friendly card.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After your conflict phase begins, move 1 shield from a target enemy card to a target friendly card."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 276,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000350",
+        "objectiveSetNumber": 58,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Snowtrooper",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 277,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000351",
+        "objectiveSetNumber": 58,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Snowtrooper Vanguard",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 3,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 278,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000352",
+        "objectiveSetNumber": 58,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Forward Command Post",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nEach friendly shielded unit gains [Blast Damage].",
+        "abilities": {
+            "traits": [
+                "Base",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 278,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000353",
+        "objectiveSetNumber": 58,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Forward Command Post",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nEach friendly shielded unit gains [Blast Damage].",
+        "abilities": {
+            "traits": [
+                "Base",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Assault on Echo Base",
+        "productOctgnId": "39f5ae7a-0c5e-4a32-a1a4-e72adff9f434",
+        "number": 202,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000354",
+        "objectiveSetNumber": 58,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 8,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

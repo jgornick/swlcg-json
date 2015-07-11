@@ -1,0 +1,1270 @@
+[
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 611,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000787",
+        "objectiveSetNumber": 122,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "A Deep Commitment",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "each of your shielded units gains +1 Force icon during the Force struggle.",
+        "abilities": {
+            "traits": [
+                "Coruscant"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 612,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000788",
+        "objectiveSetNumber": 122,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Ferus Olin",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Shielding.\nInterrupt: When an event card is played, remove a shield from this unit to cancel its effects.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When an event card is played, remove a shield from this unit to cancel its effects."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 613,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000789",
+        "objectiveSetNumber": 122,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "ET-74 Communications Droid",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you remove or discard a shield from a unit, focus this unit to place that shield on a different target friendly unit.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you remove or discard a shield from a unit, focus this unit to place that shield on a different target friendly unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 613,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000790",
+        "objectiveSetNumber": 122,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "ET-74 Communications Droid",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you remove or discard a shield from a unit, focus this unit to place that shield on a different target friendly unit.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you remove or discard a shield from a unit, focus this unit to place that shield on a different target friendly unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 614,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000791",
+        "objectiveSetNumber": 122,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Asteroid Base",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance you play area. \nAction: Remove a shield from a unit you control to give that unit [Unit Damage] or [Blast Damage] until the end of the phase.",
+        "abilities": {
+            "traits": [
+                "Bellassa",
+                "Location"
+            ],
+            "keywords": null,
+            "actions": [
+                "Remove a shield from a unit you control to give that unit [Unit Damage] or [Blast Damage] until the end of the phase."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 615,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000792",
+        "objectiveSetNumber": 122,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Force Barrier",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Place 1 shield on each of your unshielded units and objectives.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Control",
+                "Alter"
+            ],
+            "keywords": null,
+            "actions": [
+                "Place 1 shield on each of your unshielded units and objectives."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 616,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000793",
+        "objectiveSetNumber": 123,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "Impersonating a Deity",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this objective enters play, focus it to search your deck for an Ewok unit of printed cost 3 or lower and put it into play. Shuffle your deck.",
+        "abilities": {
+            "traits": [
+                "Endor"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective enters play, focus it to search your deck for an Ewok unit of printed cost 3 or lower and put it into play. Shuffle your deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 617,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000794",
+        "objectiveSetNumber": 123,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "C-3PO",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After you win an edge battle, draw 1 card.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you win an edge battle, draw 1 card."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 618,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000795",
+        "objectiveSetNumber": 123,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Ewok Lookout",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While the Balance of the Force is with the light side, this unit gains:\"Reaction: After an opponent places a card into an edge stack, focus this unit to discard that card.\" ",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Ewok"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 618,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000796",
+        "objectiveSetNumber": 123,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Ewok Lookout",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While the Balance of the Force is with the light side, this unit gains:\"Reaction: After an opponent places a card into an edge stack, focus this unit to discard that card.\" ",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Ewok"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 619,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000797",
+        "objectiveSetNumber": 123,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Rash Action",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an opponent plays a unit, that opponent must either spend 2 additional resources, or place 1 focus token on that unit.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an opponent plays a unit, that opponent must either spend 2 additional resources, or place 1 focus token on that unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 523,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000798",
+        "objectiveSetNumber": 123,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Seeds of Decay",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may place 1 focus token on a target ready unit that is committed to the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 620,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000799",
+        "objectiveSetNumber": 124,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "The Call of the Cult",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this objective enters play, set the Balance of the Force to the dark side.",
+        "abilities": {
+            "traits": [
+                "Almas"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective enters play, set the Balance of the Force to the dark side."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 621,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000800",
+        "objectiveSetNumber": 124,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Cularin Cultist",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit resolves a strike, move an enhancement from one unit to another eligible unit controlled by the same player.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force Sensitive"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit resolves a strike, move an enhancement from one unit to another eligible unit controlled by the same player."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 622,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000801",
+        "objectiveSetNumber": 124,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Believer Initiate",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Sacrifice this unit if the Balance of the Force is with the light side.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 622,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000802",
+        "objectiveSetNumber": 124,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Believer Initiate",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Sacrifice this unit if the Balance of the Force is with the light side.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 623,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000803",
+        "objectiveSetNumber": 124,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Enhancement",
+        "title": "Hate",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Character unit.\nTreat enhanced unit as if its printed text were blank (except for Traits).",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 623,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000804",
+        "objectiveSetNumber": 124,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Enhancement",
+        "title": "Hate",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Character unit.\nTreat enhanced unit as if its printed text were blank (except for Traits).",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 625,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000805",
+        "objectiveSetNumber": 125,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Superior Numbers",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Imperial Navy affiliation only.\nReaction: After this objective enters play, search your deck for a Fighter unit of printed cost 2 or lower and put it into play. Shuffle your deck.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective enters play, search your deck for a Fighter unit of printed cost 2 or lower and put it into play. Shuffle your deck."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 626,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000806",
+        "objectiveSetNumber": 125,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Escort Carrier",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 2,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Focus this unit to put a Fighter unit or a Precision Flying enhancement into play from your hand or discard pile.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": null,
+            "actions": [
+                "Focus this unit to put a Fighter unit or a Precision Flying enhancement into play from your hand or discard pile."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 627,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000807",
+        "objectiveSetNumber": 125,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "TIE Scout",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike, remove a shield from a target unit or objective.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, remove a shield from a target unit or objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 627,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000808",
+        "objectiveSetNumber": 125,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "TIE Scout",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike, remove a shield from a target unit or objective.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, remove a shield from a target unit or objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 628,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000809",
+        "objectiveSetNumber": 125,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Precision Flying",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Fighter unit.\nEnhanced unit gains edge (2).",
+        "abilities": {
+            "traits": [
+                "Skill"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 628,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000810",
+        "objectiveSetNumber": 125,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Precision Flying",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Fighter unit.\nEnhanced unit gains edge (2).",
+        "abilities": {
+            "traits": [
+                "Skill"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 629,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000811",
+        "objectiveSetNumber": 126,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "The Slimiest Scheme",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Scum and Villainy affiliation only.\nAction: Focus this objective to return a target [Scum and Villainy] unit to its owner's hand.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": [
+                "Focus this objective to return a target [Scum and Villainy] unit to its owner's hand."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 630,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000812",
+        "objectiveSetNumber": 126,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Salacious B. Crumb",
+        "isUnique": true,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After this unit enters play, remove 1 focus token from a target Character unit you control. If the unit is Jabba the Hutt, remove up to 2 focus tokens instead.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit enters play, remove 1 focus token from a target Character unit you control. If the unit is Jabba the Hutt, remove up to 2 focus tokens instead."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 631,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000813",
+        "objectiveSetNumber": 126,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Palace Security",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit enters play, remove 1 damage from a target [Scum and Villainy] objective.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit enters play, remove 1 damage from a target [Scum and Villainy] objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 631,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000814",
+        "objectiveSetNumber": 126,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Palace Security",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit enters play, remove 1 damage from a target [Scum and Villainy] objective.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit enters play, remove 1 damage from a target [Scum and Villainy] objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 378,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000815",
+        "objectiveSetNumber": 126,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Prized Possession",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card per turn.)",
+        "abilities": {
+            "traits": [],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Darkness and Light",
+        "productOctgnId": "14e52f83-352e-44ab-9505-8c996d66addc",
+        "number": 632,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000816",
+        "objectiveSetNumber": 126,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Chain Reaction",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After a Reaction ability resolves, resolve its effect again as if you control the effect, ignoring any costs and trigger conditions. You may choose new target(s), if applicable.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a Reaction ability resolves, resolve its effect again as if you control the effect, ignoring any costs and trigger conditions. You may choose new target(s), if applicable."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

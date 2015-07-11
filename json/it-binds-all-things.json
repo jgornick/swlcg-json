@@ -1,0 +1,1250 @@
+[
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 589,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000757",
+        "objectiveSetNumber": 117,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "Ties of Blood",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an opponent's conflict phase ends, deal 1 damage to a target enemy objective if that opponent has not declared at least 1 engagement this turn.",
+        "abilities": {
+            "traits": [
+                "Endor"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an opponent's conflict phase ends, deal 1 damage to a target enemy objective if that opponent has not declared at least 1 engagement this turn."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 590,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000758",
+        "objectiveSetNumber": 117,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Leia Organa",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an opponent's conflict phase ends, deal 1 damage to a target ready unit. If the Balance of the Force is with the light side, deal 2 damage instead.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force Sensitive"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an opponent's conflict phase ends, deal 1 damage to a target ready unit. If the Balance of the Force is with the light side, deal 2 damage instead."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 591,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000759",
+        "objectiveSetNumber": 117,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Ewok Companion",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Ewok"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 592,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000760",
+        "objectiveSetNumber": 117,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Enhancement",
+        "title": "Native Support",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nAction: Remove a shield from a card you control to remove 1 focus token rfom this enhancement or from a friendly Ewok unit.",
+        "abilities": {
+            "traits": [
+                "Endor"
+            ],
+            "keywords": null,
+            "actions": [
+                "Remove a shield from a card you control to remove 1 focus token rfom this enhancement or from a friendly Ewok unit."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 593,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000761",
+        "objectiveSetNumber": 117,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Leia's Command",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an opponent's conflict phase ends, deal 1 damage to each ready unit and objective controlled by that player. This damage cannot be prevented by shields.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an opponent's conflict phase ends, deal 1 damage to each ready unit and objective controlled by that player. This damage cannot be prevented by shields."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 256,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000762",
+        "objectiveSetNumber": 117,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Protection",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 3,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Place 1 shield on a target unit or objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 594,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000763",
+        "objectiveSetNumber": 118,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Green Squadron Deployment",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Double the Force icons on all friendly Vehicle units that are committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Liberty"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 595,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000764",
+        "objectiveSetNumber": 118,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Liberty",
+        "isUnique": false,
+        "cost": 5,
+        "damageCapacity": 4,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While this unit is committed to the Force it gains: \"Reaction: After this unit is focused to strike, return a target enemy unit of printed cost 4 or higher to its owner's hand.\"",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 596,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000765",
+        "objectiveSetNumber": 118,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Green Squadron A-Wing",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Interrupt: When this unit leave play, shuffle an event card from your discard pile back into your deck.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When this unit leave play, shuffle an event card from your discard pile back into your deck."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 597,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000766",
+        "objectiveSetNumber": 118,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Rebel Fighter Bay",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance you play area.\nResources generated by this enhancement can only be used to play Vehicle units.",
+        "abilities": {
+            "traits": [
+                "Location."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 598,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000767",
+        "objectiveSetNumber": 118,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Evasive Maneuvers",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When a Vehicle unit leaves play, return it to its owner's hand.",
+        "abilities": {
+            "traits": [
+                "Maneuver"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When a Vehicle unit leaves play, return it to its owner's hand."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 500,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000768",
+        "objectiveSetNumber": 118,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Echoes of the Force",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 5,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may commit a target unit to or remove a target unit from the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 599,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000769",
+        "objectiveSetNumber": 119,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "A Wookiee's Journey",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Smugglers and Spies affiliation only.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 600,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000770",
+        "objectiveSetNumber": 119,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Lowhhrick",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 3,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite.\nEach Wookiee unit you control gains [Blast Damage].",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Wookiee"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 601,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000771",
+        "objectiveSetNumber": 119,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Loyal Wookiee",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After a unique Character unit you control leaves play, put this unit into play from your hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Wookiee"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a unique Character unit you control leaves play, put this unit into play from your hand."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 602,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000772",
+        "objectiveSetNumber": 119,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Enhancement",
+        "title": "Heart of a Wookiee",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Wookiee unit.\nEnhanced unit gains +3 damage capacity.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 603,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000773",
+        "objectiveSetNumber": 119,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Faithful Companion",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nLimited.\nEach Wookiee unit committed to the Force gains +1 Force icon.",
+        "abilities": {
+            "traits": [],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 500,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000774",
+        "objectiveSetNumber": 119,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Echoes of the Force",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 5,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may commit a target unit to or remove a target unit from the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 604,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000775",
+        "objectiveSetNumber": 120,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "The Admiral's Assault",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this objective enters play, return the topmost fate card in your discard pile to your hand.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this objective enters play, return the topmost fate card in your discard pile to your hand."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 605,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000776",
+        "objectiveSetNumber": 120,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Admiral Piett",
+        "isUnique": false,
+        "cost": 5,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this unit is attacking, during the edge battle, resolve the effects and count the Force icons of each attached fate card as if it were in your edge stack.\nReaction: After you discard a Fate card not named Twist of Fate from your edge stack, attach it to this unit.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Officer"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you discard a Fate card not named Twist of Fate from your edge stack, attach it to this unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 606,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000777",
+        "objectiveSetNumber": 120,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Hoth Reinforcements",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After a Battle of Hoth fate card resolves, put this unit into play from your discard pile.",
+        "abilities": {
+            "traits": [
+                "Character. Trooper."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a Battle of Hoth fate card resolves, put this unit into play from your discard pile."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 169,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000778",
+        "objectiveSetNumber": 120,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Heat of Battle",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Deal 1 damage to a target participating enemy unit.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 202,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000779",
+        "objectiveSetNumber": 120,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 8,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 514,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000780",
+        "objectiveSetNumber": 120,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Seeds of Decay",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may place 1 focus token on a target ready unit that is committed to the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 607,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000781",
+        "objectiveSetNumber": 121,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "The Droid's Task",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After your draw phase begins, reduce your reserve value by 1 (until the end of the phase) to deal 1 damage to a target unit that is committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After your draw phase begins, reduce your reserve value by 1 (until the end of the phase) to deal 1 damage to a target unit that is committed to the Force."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 608,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000782",
+        "objectiveSetNumber": 121,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "IG-88",
+        "isUnique": false,
+        "cost": 5,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Elite.\nThis unit gains [Unit Damage][Tactics] while there are fewer than 3 enemy units committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Droid",
+                "Bounty Hunter"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 609,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000783",
+        "objectiveSetNumber": 121,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Reprogrammed DRK-1 Droid",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gains targeted strike while there are no enemy units committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 609,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000784",
+        "objectiveSetNumber": 121,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Reprogrammed DRK-1 Droid",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gains targeted strike while there are no enemy units committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 610,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000785",
+        "objectiveSetNumber": 121,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Event",
+        "title": "Sonic Detonation",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Capture one of your opponent's Force cards from his supply at an objective of your choice. (Treat it as a captured card. If it ceases to be captured, it is returned to his supply.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Capture one of your opponent's Force cards from his supply at an objective of your choice. (Treat it as a captured card. If it ceases to be captured, it is returned to his supply."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "It Binds All Things",
+        "productOctgnId": "e0e7fd0e-0f3b-4dd8-b24c-6f123485bf23",
+        "number": 536,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000786",
+        "objectiveSetNumber": 121,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Echoes of the Force",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 4,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may commit a target unit to or remove a target unit from the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

@@ -1,0 +1,1265 @@
+[
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 722,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000931",
+        "objectiveSetNumber": 146,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "The Survivors",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When a unique [Jedi] Character unit is dealt damage, prevent 1 point of that damage. (Limit once per turn.)",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When a unique [Jedi] Character unit is dealt damage, prevent 1 point of that damage. (Limit once per turn.)"
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 723,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000932",
+        "objectiveSetNumber": 146,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Qu Rahn",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Character.\nReaction: After this unit takes damage using protect, deal an equal amount of damage to a target enemy objective.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit takes damage using protect, deal an equal amount of damage to a target enemy objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 724,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000933",
+        "objectiveSetNumber": 146,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Sulon Sympathizer",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Civilian"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 725,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000934",
+        "objectiveSetNumber": 146,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Enhancement",
+        "title": "Shien Training",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Force User unit.\nInterrupt: When enhanced unit would be dealt damage, focus this enhancement to deal that damage to another target unit instead.",
+        "abilities": {
+            "traits": [
+                "Skill",
+                "Lightsaber Form"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When enhanced unit would be dealt damage, focus this enhancement to deal that damage to another target unit instead."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 61,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000935",
+        "objectiveSetNumber": 146,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Force Rejuvenation",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Discard any number of tokens and enhancements from a target friendly Character unit.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Control"
+            ],
+            "keywords": null,
+            "actions": [
+                "Discard any number of tokens and enhancements from a target friendly Character unit."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 256,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000936",
+        "objectiveSetNumber": 146,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Protection",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 3,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Place 1 shield on a target unit or objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 726,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000937",
+        "objectiveSetNumber": 147,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Called to Arms",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After a piloted Vehicle unit resolves a strike that destroys an enemy objective, destroy a target enemy unit that is committed to the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a piloted Vehicle unit resolves a strike that destroys an enemy objective, destroy a target enemy unit that is committed to the Force."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 727,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000938",
+        "objectiveSetNumber": 147,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Gray Squadron Gunner",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Pilot (1) (Enhanced unit gains [Unit Damage] for each [Blast Damage] and [Edge Enabled Blast Damage] it has.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Pilot",
+                "Gunner"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 728,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000939",
+        "objectiveSetNumber": 147,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Gray Squadron Y-Wing",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit cannot be affected by events.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 729,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000940",
+        "objectiveSetNumber": 147,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Advanced Proton Torpedoes",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a friendly Fighter unit.\nEnhanced unit gains [Blast Damage] for each attacker you control.",
+        "abilities": {
+            "traits": [
+                "Weapon"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 730,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000941",
+        "objectiveSetNumber": 147,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Desperation",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only if the Death Star dial is 8 or higher\nAction: Destroy each unit without an enhancement on it.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Destroy each unit without an enhancement on it."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 133,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000942",
+        "objectiveSetNumber": 147,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Target of Opportunity",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 9,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 731,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000943",
+        "objectiveSetNumber": 148,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "The Daring Escape",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 732,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000944",
+        "objectiveSetNumber": 148,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "LE-B02D9",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Pilot (2). (Reaction: After enhanced unit resolves a strike, remove it from the engagement.)",
+        "abilities": {
+            "traits": [
+                "Droid",
+                "Pilot"
+            ],
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 733,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000945",
+        "objectiveSetNumber": 148,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Outrider",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Action: During an engagement, focus a Pilot card attached to this unit to have this unit participate in the engagement on your side.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "keywords": null,
+            "actions": [
+                "During an engagement, focus a Pilot card attached to this unit to have this unit participate in the engagement on your side."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 734,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000946",
+        "objectiveSetNumber": 148,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Enhancement",
+        "title": "Spacer Cantina",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
+        "abilities": {
+            "traits": [
+                "Tatooine",
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 735,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000947",
+        "objectiveSetNumber": 148,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Punch It",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 702,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000948",
+        "objectiveSetNumber": 148,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Stay on Target",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 736,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000949",
+        "objectiveSetNumber": 149,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "The Emperor's Sword",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 737,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000950",
+        "objectiveSetNumber": 149,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Maarek Stele",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Pilot (2). (Enhanced unit deals double damage to exhausted units and objectives.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User",
+                "Pilot"
+            ],
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 738,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000951",
+        "objectiveSetNumber": 149,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Delta One",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding.\nReaction: After this unit is focused to strike, place 1 focus token on each participating unpiloted enemy Vehicle unit.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, place 1 focus token on each participating unpiloted enemy Vehicle unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 739,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000952",
+        "objectiveSetNumber": 149,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Advanced Concussion Missiles",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Fighter unit you control.\nEnhanced unit gains [Unit Damage] for each participating enemy unit.",
+        "abilities": {
+            "traits": [
+                "Weapon"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 740,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000953",
+        "objectiveSetNumber": 149,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Event",
+        "title": "Hand of the Emperor",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reduce the cost to play this event by 1 if the Death Star dial is 4 or lower.\nReaction: After an enemy unit is declared as an attacker or defender, place 1 focus token on it.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an enemy unit is declared as an attacker or defender, place 1 focus token on it."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 169,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000954",
+        "objectiveSetNumber": 149,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Heat of Battle",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Deal 1 damage to a target participating enemy unit.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 741,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000955",
+        "objectiveSetNumber": 150,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Guarding the Wing",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Each of your Black Squadron cards gains 1 resource value. These resources may only be spent on Black Squadron cards.",
+        "abilities": {
+            "traits": [
+                "Death Star"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 742,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000956",
+        "objectiveSetNumber": 150,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "DS-61-3",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Pilot (1).\nAction: During an engagement, pay this card's pilot cost to put it into play from your hand as an enhancement on a participating friendly Fighter unit.\nReaction: After this card enters play during an engagement, deal 2 damage to a target participating unit.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Pilot",
+                "Black Squadron"
+            ],
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": [
+                "During an engagement, pay this card's pilot cost to put it into play from your hand as an enhancement on a participating friendly Fighter unit."
+            ],
+            "forcedActions": null,
+            "reactions": [
+                "After this card enters play during an engagement, deal 2 damage to a target participating unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 743,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000957",
+        "objectiveSetNumber": 150,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Black Squadron Fighter",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter",
+                "Black Squadron"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 743,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000958",
+        "objectiveSetNumber": 150,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Black Squadron Fighter",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter",
+                "Black Squadron"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 744,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000959",
+        "objectiveSetNumber": 150,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Enhancement",
+        "title": "Elite Pilot Training",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area. Limited.\nReaction: After you play a Black Squadron card, reduce the cost of the next Black Squadron card you play this turn by 1.",
+        "abilities": {
+            "traits": [],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you play a Black Squadron card, reduce the cost of the next Black Squadron card you play this turn by 1."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Draw Their Fire",
+        "productOctgnId": "423f4f92-c760-4c2a-9d9c-4aa07afc13e6",
+        "number": 170,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000960",
+        "objectiveSetNumber": 150,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Target of Opportunity",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 10,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

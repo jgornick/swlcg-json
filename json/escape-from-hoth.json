@@ -1,0 +1,1258 @@
+[
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 300,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000517",
+        "objectiveSetNumber": 64,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "A Hero's Resolve",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, each card in your edge stack gains 1 Force icon when resolving an edge battle.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 301,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000518",
+        "objectiveSetNumber": 64,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Luke Skywalker",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reduce the cost to play this card by 2 if it is played as an enhancement.\nYou may play this card on a friendly Speeder or Fighter unit as an enhancement with the text: \"Enhanced unit gains [Unit Damage][Tactics]. If enhanced unit leaves play, put this card into play as a unit.\"",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User",
+                "Pilot"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 185,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000519",
+        "objectiveSetNumber": 64,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Snowspeeder",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 216,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000520",
+        "objectiveSetNumber": 64,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Tauntaun",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Creature",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 236,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000521",
+        "objectiveSetNumber": 64,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 65,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000522",
+        "objectiveSetNumber": 64,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Heat of Battle",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 5,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Deal 1 damage to a target participating enemy unit.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 302,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000523",
+        "objectiveSetNumber": 65,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Evacuation Procedure",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After your opponent’s turn begins, sacrifice a unit to remove all focus tokens from a target enhancement or Hoth objective.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After your opponent’s turn begins, sacrifice a unit to remove all focus tokens from a target enhancement or Hoth objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 303,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000524",
+        "objectiveSetNumber": 65,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Han Solo",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 2,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite. (Remove 1 additional focus token from this unit when you refresh.)\nInterrupt: When this unit leaves play, search your deck for a [Rebel Alliance] card, reveal it, and add it to your hand. Shuffle your deck.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Rogue",
+                "Scoundrel"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When this unit leaves play, search your deck for a [Rebel Alliance] card, reveal it, and add it to your hand. Shuffle your deck."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 304,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000525",
+        "objectiveSetNumber": 65,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Toryn Farr",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nInterrupt: When this unit leaves play, place 1 focus token on a target enemy enhancement.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When this unit leaves play, place 1 focus token on a target enemy enhancement."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 305,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000526",
+        "objectiveSetNumber": 65,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Bright Hope",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After a friendly unit leaves play, remove 1 token (any type) from this unit.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a friendly unit leaves play, remove 1 token (any type) from this unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 306,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000527",
+        "objectiveSetNumber": 65,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Buried Outpost",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nForced Reaction: After this enhancement enters play, sacrifice a unit or place 1 focus token on this enhancement.",
+        "abilities": {
+            "traits": [
+                "Hoth",
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": [
+                "After this enhancement enters play, sacrifice a unit or place 1 focus token on this enhancement."
+            ],
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 236,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000528",
+        "objectiveSetNumber": 65,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 307,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000529",
+        "objectiveSetNumber": 66,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "The Executor Arrives",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 308,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000530",
+        "objectiveSetNumber": 66,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Executor",
+        "isUnique": true,
+        "cost": 8,
+        "damageCapacity": 10,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 3,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 3,
+            "tactics": 0
+        },
+        "text": "While this unit is undamaged, it cannot be targeted by enemy card effects.\nReaction: After a card is sacrificed, deal 1 damage to a target enemy unit or objective.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a card is sacrificed, deal 1 damage to a target enemy unit or objective."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 309,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000531",
+        "objectiveSetNumber": 66,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "ISB Liaison",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": [
+                "Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 309,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000532",
+        "objectiveSetNumber": 66,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "ISB Liaison",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": [
+                "Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 310,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000533",
+        "objectiveSetNumber": 66,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Enhancement",
+        "title": "Sith Holocron",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area. Limited. Action: Sacrifice this enhancement to reduce the cost of the next [Sith] card you play this phase by 3.",
+        "abilities": {
+            "traits": [
+                "Item"
+            ],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 311,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000534",
+        "objectiveSetNumber": 66,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Event",
+        "title": "Aggression",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only during your turn.\nAction: Each player must sacrifice a unit, if able.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Each player must sacrifice a unit, if able."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 312,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000535",
+        "objectiveSetNumber": 67,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "Hunt Them Down",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This objective gains +1 resource value for each captured card here.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 313,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000536",
+        "objectiveSetNumber": 67,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Dengar",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may attach units captured from play to this unit facedown.\nReaction: After this unit is focused to strike, it gains 1 combat icon of your choice for each captured card on it until the end of this strike.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Bounty Hunter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, it gains 1 combat icon of your choice for each captured card on it until the end of this strike."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 314,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000537",
+        "objectiveSetNumber": 67,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Kihraxz-class Assault Fighter",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike, capture a target enemy unit with printed cost 1 or lower if you have the edge.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, capture a target enemy unit with printed cost 1 or lower if you have the edge."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 314,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000538",
+        "objectiveSetNumber": 67,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Kihraxz-class Assault Fighter",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike, capture a target enemy unit with printed cost 1 or lower if you have the edge.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, capture a target enemy unit with printed cost 1 or lower if you have the edge."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 315,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000539",
+        "objectiveSetNumber": 67,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Remote Hideout",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nThe first unit you play each turn enters play with 1 focus token on it.",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 170,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000540",
+        "objectiveSetNumber": 67,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Target of Opportunity",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 10,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 316,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000541",
+        "objectiveSetNumber": 68,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Objective",
+        "title": "Endless Reserves",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, each event card in your edge stack gains 1 Force icon when resolving an edge battle.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 317,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000542",
+        "objectiveSetNumber": 68,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Vast Resources",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Reduce the cost of the next card you play this phase by 1.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Reduce the cost of the next card you play this phase by 1."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 317,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000543",
+        "objectiveSetNumber": 68,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Vast Resources",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Reduce the cost of the next card you play this phase by 1.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Reduce the cost of the next card you play this phase by 1."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 317,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000544",
+        "objectiveSetNumber": 68,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Vast Resources",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Reduce the cost of the next card you play this phase by 1.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Reduce the cost of the next card you play this phase by 1."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 317,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000545",
+        "objectiveSetNumber": 68,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Vast Resources",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Reduce the cost of the next card you play this phase by 1.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Reduce the cost of the next card you play this phase by 1."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Escape from Hoth",
+        "productOctgnId": "7577ea06-155b-4bf1-ac0f-81022cfce03d",
+        "number": 317,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000546",
+        "objectiveSetNumber": 68,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Vast Resources",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Reduce the cost of the next card you play this phase by 1.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Reduce the cost of the next card you play this phase by 1."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

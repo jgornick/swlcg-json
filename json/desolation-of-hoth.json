@@ -1,0 +1,1507 @@
+[
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 178,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000223",
+        "objectiveSetNumber": 37,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "A Message from Beyond",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you refresh, damage this objective to return the topmost enhancement from your discard pile to your hand.",
+        "abilities": {
+            "traits": [
+                "Dagobah"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you refresh, damage this objective to return the topmost enhancement from your discard pile to your hand."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 179,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000224",
+        "objectiveSetNumber": 37,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Enhancement",
+        "title": "Old Ben's Spirit",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Character unit.\nInterrupt: When enhanced unit would be destroyed, instead discard this enhancement and remove all damage from that unit.",
+        "abilities": {
+            "traits": [
+                "Force Spirit"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When enhanced unit would be destroyed, instead discard this enhancement and remove all damage from that unit."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 179,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000225",
+        "objectiveSetNumber": 37,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Enhancement",
+        "title": "Old Ben's Spirit",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Character unit.\nInterrupt: When enhanced unit would be destroyed, instead discard this enhancement and remove all damage from that unit.",
+        "abilities": {
+            "traits": [
+                "Force Spirit"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When enhanced unit would be destroyed, instead discard this enhancement and remove all damage from that unit."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 180,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000226",
+        "objectiveSetNumber": 37,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Weapon Mastery",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: A target Character unit gains [Unit Damage] for each enhancement on it until the end of the phase.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "A target Character unit gains [Unit Damage] for each enhancement on it until the end of the phase."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 181,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000227",
+        "objectiveSetNumber": 37,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Calm",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only during an opponent's turn.\nAction: Remove all focus tokens from a target Character unit with 2 or more enhancements on it.",
+        "abilities": {
+            "traits": [
+                "Force",
+                "Control"
+            ],
+            "keywords": null,
+            "actions": [
+                "Remove all focus tokens from a target Character unit with 2 or more enhancements on it."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 65,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000228",
+        "objectiveSetNumber": 37,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Heat of Battle",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 5,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Deal 1 damage to a target participating enemy unit.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 182,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000235",
+        "objectiveSetNumber": 38,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Hoth Operations",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While you control more Hoth objectives than your opponent, each of your Speeder units gains edge (1).",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 183,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000236",
+        "objectiveSetNumber": 38,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Wedge Antilles",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "You may play this card on a friendly Speeder or Fighter unit as an enhancement with the text: \"Action: Focus this enhancement to remove 1 focus token from enhanced unit.\"",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Pilot"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 184,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000237",
+        "objectiveSetNumber": 38,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Rogue Three",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gains [Unit Damage] [Blast Damage] for each enhancement on it.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 185,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000238",
+        "objectiveSetNumber": 38,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Snowspeeder",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 186,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000239",
+        "objectiveSetNumber": 38,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Enhancement",
+        "title": "Hoth Survival Gear",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Character unit.\nEnhanced unit gains +1 damage capacity for each Hoth objective you control.",
+        "abilities": {
+            "traits": [
+                "Item"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 133,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000240",
+        "objectiveSetNumber": 38,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Target of Opportunity",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 9,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 187,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000229",
+        "objectiveSetNumber": 39,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Objective",
+        "title": "Echo Base Defense",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.\nWhile you control more Hoth objectives than your opponent, your Hoth objectives cannot suffer unopposed damage.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 188,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000230",
+        "objectiveSetNumber": 39,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Wilderness Fighters",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "This unit gains [Unit Damage] for each Hoth objective you control.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 188,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000231",
+        "objectiveSetNumber": 39,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Wilderness Fighters",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "This unit gains [Unit Damage] for each Hoth objective you control.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 188,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000232",
+        "objectiveSetNumber": 39,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Wilderness Fighters",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "This unit gains [Unit Damage] for each Hoth objective you control.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 189,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000233",
+        "objectiveSetNumber": 39,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Subzero Defenses",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nDestroy the first enemy unit to strike against a friendly Hoth objective each turn, after its strike resolves.",
+        "abilities": {
+            "traits": [
+                "Condition"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 189,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000234",
+        "objectiveSetNumber": 39,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Subzero Defenses",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nDestroy the first enemy unit to strike against a friendly Hoth objective each turn, after its strike resolves.",
+        "abilities": {
+            "traits": [
+                "Condition"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 190,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000241",
+        "objectiveSetNumber": 40,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "The Killing Cold",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Sacrifice a unit you control to remove 1 damage from a friendly Hoth objective.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": [
+                "Sacrifice a unit you control to remove 1 damage from a friendly Hoth objective."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 191,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000242",
+        "objectiveSetNumber": 40,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Icetromper",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Sacrifice this unit to remove a target attacking non-Vehicle unit from an engagement. Then, deal 1 damage to that unit.",
+        "abilities": {
+            "traits": [
+                "Creature",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": [
+                "Sacrifice this unit to remove a target attacking non-Vehicle unit from an engagement. Then, deal 1 damage to that unit."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 191,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000243",
+        "objectiveSetNumber": 40,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Icetromper",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Sacrifice this unit to remove a target attacking non-Vehicle unit from an engagement. Then, deal 1 damage to that unit.",
+        "abilities": {
+            "traits": [
+                "Creature",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": [
+                "Sacrifice this unit to remove a target attacking non-Vehicle unit from an engagement. Then, deal 1 damage to that unit."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 192,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000244",
+        "objectiveSetNumber": 40,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Enhancement",
+        "title": "Fear",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance an enemy Character unit. Remove enhanced unit from the Force struggle, if able.\nEnhanced unit cannot commit to the Force.",
+        "abilities": {
+            "traits": [
+                "Condition"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 193,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000245",
+        "objectiveSetNumber": 40,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Event",
+        "title": "The Desolation of Hoth",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only during your turn.\nAction: Move any amount of damage from a Hoth objective you control to a target enemy unit or Hoth objective.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": [
+                "Move any amount of damage from a Hoth objective you control to a target enemy unit or Hoth objective."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 171,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000246",
+        "objectiveSetNumber": 40,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Twist of Fate",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 0,
+        "resourceValue": 0,
+        "edgePriorityNumber": 2,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 194,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000247",
+        "objectiveSetNumber": 41,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Lord Vader's Command",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, increase the cost of each event card played by an opponent by 1.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 195,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000248",
+        "objectiveSetNumber": 41,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Darth Vader",
+        "isUnique": true,
+        "cost": 5,
+        "damageCapacity": 4,
+        "forceIcons": 4,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Elite. (Remove 1 additional focus token from this unit when you refresh.)\nWhile this unit is attacking, each of your attacking units gains [Blast Damage]",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 196,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000249",
+        "objectiveSetNumber": 41,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Communications Officer",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Officer"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 197,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000250",
+        "objectiveSetNumber": 41,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Probe Droid",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When this unit leaves play, deal 1 damage to a target enemy objective.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When this unit leaves play, deal 1 damage to a target enemy objective."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 197,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000251",
+        "objectiveSetNumber": 41,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Probe Droid",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When this unit leaves play, deal 1 damage to a target enemy objective.",
+        "abilities": {
+            "traits": [
+                "Droid"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When this unit leaves play, deal 1 damage to a target enemy objective."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 198,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000252",
+        "objectiveSetNumber": 41,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Event",
+        "title": "Imperial Suppression",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When an event card is played, cancel its effects and place it on top of its owner's deck.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When an event card is played, cancel its effects and place it on top of its owner's deck."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 199,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000253",
+        "objectiveSetNumber": 42,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Objective",
+        "title": "Shadows on the Ice",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limit 1 per objective deck.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 200,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000254",
+        "objectiveSetNumber": 42,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Wampa",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reduce the cost to play this unit by 2 for each Hoth objective in play.",
+        "abilities": {
+            "traits": [
+                "Creature",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 200,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000255",
+        "objectiveSetNumber": 42,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Wampa",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reduce the cost to play this unit by 2 for each Hoth objective in play.",
+        "abilities": {
+            "traits": [
+                "Creature",
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 201,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000256",
+        "objectiveSetNumber": 42,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Succumb to the Cold!",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only if you control at least 1 Hoth objective.\nReaction: After a focus token is removed from an enemy unit, place 1 focus token on that unit.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a focus token is removed from an enemy unit, place 1 focus token on that unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 201,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000257",
+        "objectiveSetNumber": 42,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Succumb to the Cold!",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only if you control at least 1 Hoth objective.\nReaction: After a focus token is removed from an enemy unit, place 1 focus token on that unit.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a focus token is removed from an enemy unit, place 1 focus token on that unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Desolation of Hoth",
+        "productOctgnId": "70668020-cc7b-4e3d-b79b-e8933b59d3e5",
+        "number": 202,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000258",
+        "objectiveSetNumber": 42,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 8,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

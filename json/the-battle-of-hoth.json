@@ -1,0 +1,1269 @@
+[
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 279,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000487",
+        "objectiveSetNumber": 59,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Attack Pattern Delta",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: If you control more Hoth objectives than your opponent, look at the top card of your deck. If it is a Vehicle unit with cost 2 or lower, put it into play. (Limit once per turn.)",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": [
+                "If you control more Hoth objectives than your opponent, look at the top card of your deck. If it is a Vehicle unit with cost 2 or lower, put it into play. (Limit once per turn.)"
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 280,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000488",
+        "objectiveSetNumber": 59,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Rogue Leader",
+        "isUnique": true,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While you control Rogue Two, this unit gains [Tactics].",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 281,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000489",
+        "objectiveSetNumber": 59,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Rogue Two",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gains [Edge-enabled Blast Damage] for each attacking Speeder unit you control.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 185,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000490",
+        "objectiveSetNumber": 59,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Snowspeeder",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 282,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000491",
+        "objectiveSetNumber": 59,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Affiliation",
+        "title": "Snowspeeder Launch Bay",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nReaction: After you strike with a Speeder unit, deal 1 damage to a target enemy Vehicle unit. If the target is a Walker unit, also place 1 focus token on it. (Limit once per phase.)",
+        "abilities": {
+            "traits": [
+                "Hoth",
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you strike with a Speeder unit, deal 1 damage to a target enemy Vehicle unit. If the target is a Walker unit, also place 1 focus token on it. (Limit once per phase.)"
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 236,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000492",
+        "objectiveSetNumber": 59,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 283,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000493",
+        "objectiveSetNumber": 60,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "Undercover Dealings",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After your opponent refreshes, draw to your reserve value if you control fewer units than your opponent.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After your opponent refreshes, draw to your reserve value if you control fewer units than your opponent."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 284,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000494",
+        "objectiveSetNumber": 60,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Shadow Operative",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Action: Return this unit to your hand.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": [
+                "Return this unit to your hand."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 284,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000495",
+        "objectiveSetNumber": 60,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Shadow Operative",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Action: Return this unit to your hand.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": [
+                "Return this unit to your hand."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 285,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000496",
+        "objectiveSetNumber": 60,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Hold-out Blaster",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a [Smugglers and Spies] Character unit.\nLimit 1 per unit.\nWhile you control fewer units than your opponent, double enhanced unit's combat icons.",
+        "abilities": {
+            "traits": [
+                "Weapon"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 286,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000497",
+        "objectiveSetNumber": 60,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Narrow Escape",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When your opponent chooses a single target for a non-capturing card effect, choose a new target for that effect. The new target is chosen as if you executed the effect.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When your opponent chooses a single target for a non-capturing card effect, choose a new target for that effect. The new target is chosen as if you executed the effect."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 287,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000498",
+        "objectiveSetNumber": 60,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Tactical Retreat",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Return any number of units you control to their owners' hands.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Return any number of units you control to their owners' hands."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 288,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000499",
+        "objectiveSetNumber": 61,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Objective",
+        "title": "Hold the Line!",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 4,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 289,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000500",
+        "objectiveSetNumber": 61,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Hoth Rearguard",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Hoth. (If a Hoth card you control would be damaged, you may place the damage on this unit instead.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 289,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000501",
+        "objectiveSetNumber": 61,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Hoth Rearguard",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Hoth. (If a Hoth card you control would be damaged, you may place the damage on this unit instead.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 289,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000502",
+        "objectiveSetNumber": 61,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Hoth Rearguard",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Hoth. (If a Hoth card you control would be damaged, you may place the damage on this unit instead.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 290,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000503",
+        "objectiveSetNumber": 61,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Coordinated Strike",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you resolve a strike, immediately strike again with another ready participating unit you control.",
+        "abilities": {
+            "traits": [
+                "Maneuver"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you resolve a strike, immediately strike again with another ready participating unit you control."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 236,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000504",
+        "objectiveSetNumber": 61,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 291,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000505",
+        "objectiveSetNumber": 62,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "Vader's Fist",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, reduce each opponent's reserve value by 1.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 292,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000506",
+        "objectiveSetNumber": 62,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "501st Trooper",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "This unit gains [Blast Damage] while it is attacking a Hoth objective.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 292,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000507",
+        "objectiveSetNumber": 62,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "501st Trooper",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "This unit gains [Blast Damage] while it is attacking a Hoth objective.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 293,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000508",
+        "objectiveSetNumber": 62,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "501st Legion",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 4,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 4,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 294,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000509",
+        "objectiveSetNumber": 62,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "E-Web Heavy Repeating Blaster",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nAction: Focus this enhancement to have a target Trooper unit gain [Blast Damage] until the end of the phase.",
+        "abilities": {
+            "traits": [
+                "Weapon"
+            ],
+            "keywords": null,
+            "actions": [
+                "Focus this enhancement to have a target Trooper unit gain [Blast Damage] until the end of the phase."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 202,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000510",
+        "objectiveSetNumber": 62,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Battle of Hoth",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": 8,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 295,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000511",
+        "objectiveSetNumber": 63,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Unstoppable Advance",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Imperial Navy affiliation only.",
+        "abilities": {
+            "traits": [
+                "Hoth"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 296,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000512",
+        "objectiveSetNumber": 63,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "AT-AT",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nReaction: After this unit is focused to strike, instead of resolving its combat icons, discard a target non-limited enhancement from play.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Walker"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, instead of resolving its combat icons, discard a target non-limited enhancement from play."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 296,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000513",
+        "objectiveSetNumber": 63,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "AT-AT",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nReaction: After this unit is focused to strike, instead of resolving its combat icons, discard a target non-limited enhancement from play.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Walker"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, instead of resolving its combat icons, discard a target non-limited enhancement from play."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 297,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000514",
+        "objectiveSetNumber": 63,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "AT-AT Assault Formation",
+        "isUnique": false,
+        "cost": 6,
+        "damageCapacity": 4,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 3,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nInterrupt: When this unit is focused to strike, deal 1 damage to each enemy Hoth objective.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Walker"
+            ],
+            "keywords": [
+                "Shielding"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": [
+                "When this unit is focused to strike, deal 1 damage to each enemy Hoth objective."
+            ],
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 298,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000515",
+        "objectiveSetNumber": 63,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Enhancement",
+        "title": "Orbital Resupply Station",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nReduce the cost to play each [Imperial Navy] Vehicle unit with a printed cost of 4 or higher by 1.",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "The Battle of Hoth",
+        "productOctgnId": "a8f76f31-55b0-4c14-9b64-4e141ab1c486",
+        "number": 299,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000516",
+        "objectiveSetNumber": 63,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Event",
+        "title": "Aggressive Assault",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only if you control at least 1 Hoth objective.\nAction: Deal 1 damage to each enemy objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": [
+                "Deal 1 damage to each enemy objective."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]

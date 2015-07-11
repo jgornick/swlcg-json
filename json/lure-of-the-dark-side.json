@@ -1,0 +1,1270 @@
+[
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 519,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000667",
+        "objectiveSetNumber": 102,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Commando Operations",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, enemy fate card effects do not resolve. (Force icons on these cards still count towards the edge battle.)",
+        "abilities": {
+            "traits": [
+                "Endor."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 520,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000668",
+        "objectiveSetNumber": 102,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "General Crix Madine",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 3,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After a fate card is revealed in an edge stack, remove 1 focus token from this unit.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Leader"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a fate card is revealed in an edge stack, remove 1 focus token from this unit."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 521,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000669",
+        "objectiveSetNumber": 102,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Rebel Commando",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an enemy fate card resolves, put this unit into play from your hand as a participating unit on your side.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an enemy fate card resolves, put this unit into play from your hand as a participating unit on your side."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 521,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000670",
+        "objectiveSetNumber": 102,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Unit",
+        "title": "Rebel Commando",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an enemy fate card resolves, put this unit into play from your hand as a participating unit on your side.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After an enemy fate card resolves, put this unit into play from your hand as a participating unit on your side."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 522,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000671",
+        "objectiveSetNumber": 102,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Event",
+        "title": "Adaptive Strategy",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After a fate card effect resolves, resolve that effect again as if that card were in your edge stack.",
+        "abilities": {
+            "traits": [
+                "Tactic."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a fate card effect resolves, resolve that effect again as if that card were in your edge stack."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 523,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000672",
+        "objectiveSetNumber": 102,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Seeds of Decay",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may place 1 focus token on a target ready unit that is commmitted to the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 524,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000673",
+        "objectiveSetNumber": 103,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "Against All Odds",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Each unit you control gains [blast damage] while attacking an opponent who has more cards in hand than you.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 525,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000674",
+        "objectiveSetNumber": 103,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Dash Rendar",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite.\nWhile this unit is attacking alone, it gains [blast damage] for each card in the defending player's hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Smuggler",
+                "Mercenary"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 526,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000675",
+        "objectiveSetNumber": 103,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Shifty Lookout",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this unit is ready, each opponent is considered to have 1 additional card in his hand.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 527,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000676",
+        "objectiveSetNumber": 103,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Holding All the Cards",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Each player draws 2 cards.",
+        "abilities": {
+            "traits": [
+                "Gamble."
+            ],
+            "keywords": null,
+            "actions": [
+                "Each player draws 2 cards."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 527,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000677",
+        "objectiveSetNumber": 103,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Holding All the Cards",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Each player draws 2 cards.",
+        "abilities": {
+            "traits": [
+                "Gamble."
+            ],
+            "keywords": null,
+            "actions": [
+                "Each player draws 2 cards."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 133,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000678",
+        "objectiveSetNumber": 103,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Target of Opportunity",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 9,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 528,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000679",
+        "objectiveSetNumber": 104,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "Agent of the Emperor",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, it gains: \"Reaction: After you commit a [Sith] unit to the Force, place 1 focus token on a target enemy unit.\"",
+        "abilities": {
+            "traits": [
+                "Shelkonwa."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 529,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000680",
+        "objectiveSetNumber": 104,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Mara Jade",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "This unit gains targeted strike, shielding, and elite while it is committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 530,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000681",
+        "objectiveSetNumber": 104,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Imperial Shadow Guard",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect unit that is committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Force Sensitive"
+            ],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 531,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000682",
+        "objectiveSetNumber": 104,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Enhancement",
+        "title": "Mara Jade's Lightsaber",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance a Force User or Force Sensitive unit.\nEnhanced unit gains [unit damage].\nIf enhanced unit is Mara Jade, she is considered committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Weapon."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 72,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000683",
+        "objectiveSetNumber": 104,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Sith Library",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card each turn.)",
+        "abilities": {
+            "traits": [
+                "Coruscant. Location."
+            ],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 532,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000684",
+        "objectiveSetNumber": 104,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Event",
+        "title": "Rage",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Play only if the Balance of the Force is with the dark side.\nAction: Remove up to 2 focus tokens from a target unit that is committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Force. Control."
+            ],
+            "keywords": null,
+            "actions": [
+                "Remove up to 2 focus tokens from a target unit that is committed to the Force."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 533,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000685",
+        "objectiveSetNumber": 105,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Victory or Death",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this objective is undamaged, players cannot commit non-Vehicle units to the Force during the Force phase.",
+        "abilities": {
+            "traits": [
+                "Coruscant."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 534,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000686",
+        "objectiveSetNumber": 105,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Victory-class Star Destroyer",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gains [blast damage] [blast damage] while the Balance of the Force is with the dark side.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 534,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000687",
+        "objectiveSetNumber": 105,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Victory-class Star Destroyer",
+        "isUnique": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gains [blast damage] [blast damage] while the Balance of the Force is with the dark side.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 535,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000688",
+        "objectiveSetNumber": 105,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Political Reliability Observer",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Reaction: After this unit enters play, a target unit you control is committed to or removed from the Force.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit enters play, a target unit you control is committed to or removed from the Force."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 24,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000689",
+        "objectiveSetNumber": 105,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Enhancement",
+        "title": "Control Room",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card per turn.)",
+        "abilities": {
+            "traits": [
+                "Location"
+            ],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 536,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000690",
+        "objectiveSetNumber": 105,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Echoes of the Force",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": 4,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "You may commit a target unit to or remove a target unit from the Force.",
+        "abilities": {
+            "traits": [],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 537,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000691",
+        "objectiveSetNumber": 106,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "The Findsman's Intuition",
+        "isUnique": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This objective contributes X Force icons to your side during the Force struggle. X is the number of captured cards here.",
+        "abilities": {
+            "traits": [
+                "Nar Shaddaa"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 538,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000692",
+        "objectiveSetNumber": 106,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Zuckuss",
+        "isUnique": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "text": "Reaction: After this unit is focused to strike, look at the top 3 cards of an opponent's deck. Capture 1 of those cards, and return the other cards to the top of the deck in any order. (Limit once per engagement.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Bounty Hunter",
+                "Force Sensitive"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After this unit is focused to strike, look at the top 3 cards of an opponent's deck. Capture 1 of those cards, and return the other cards to the top of the deck in any order. (Limit once per engagement.)"
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 539,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000693",
+        "objectiveSetNumber": 106,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "4-LOM",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After a captured card is rescued, put this unit into play from your discard pile.",
+        "abilities": {
+            "traits": [
+                "Droid",
+                "Bounty Hunter"
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After a captured card is rescued, put this unit into play from your discard pile."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 540,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000694",
+        "objectiveSetNumber": 106,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Containment Field",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Enhance an enemy unit.\nEnhanced unit loses all Force icons.",
+        "abilities": {
+            "traits": [
+                "Item."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 541,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000695",
+        "objectiveSetNumber": 106,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Event",
+        "title": "Springing the Ambush",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you win a Force struggle, capture a target enemy unit committed to the Force.",
+        "abilities": {
+            "traits": [
+                "Trap."
+            ],
+            "keywords": null,
+            "actions": null,
+            "forcedActions": null,
+            "reactions": [
+                "After you win a Force struggle, capture a target enemy unit committed to the Force."
+            ],
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    },
+    {
+        "product": "Lure of the Dark Side",
+        "productOctgnId": "922e111f-2281-4b20-b98a-249ad7bf5938",
+        "number": 542,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000000696",
+        "objectiveSetNumber": 106,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Event",
+        "title": "Pay Out",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limited.\nAction: Remove 1 focus token from each [Scum and Villainy] objective you control.",
+        "abilities": {
+            "traits": [
+                "Bounty."
+            ],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": [
+                "Remove 1 focus token from each [Scum and Villainy] objective you control."
+            ],
+            "forcedActions": null,
+            "reactions": null,
+            "forcedReactions": null,
+            "interrupts": null,
+            "forcedInterrupts": null
+        }
+    }
+]
