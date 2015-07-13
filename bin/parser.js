@@ -35,26 +35,69 @@ const OMIT_TRAITS = [
 ];
 
 const CARD_TEXT_FIX = [
-    // Add space between Pilot and it's cost as enhancement
-    [/^Pilot(\(\d+\))\.?/gm, 'Pilot $1.'],
-    // Add space between Edge and it's number of icons
-    [/^Edge(\(\d+\))\.?/gm, 'Edge $1.'],
-
-    // Ensure other keywords end with periods
-    [/^Elite\.?/gm, 'Elite.'],
-    [/^Influence\.?/gm, 'Influence.'],
-    [/^Limited\.?/gm, 'Limited.'],
-    [/^No enhancements\.?/gm, 'No enhancements.'],
-    [/^Shielding\.?/gm, 'Shielding.'],
-    [/^Targeted Strike\.?/gm, 'Targeted Strike.'],
-
-    // Add space between edge and it's number of icons
-    [/edge(\(\d+\))/gm, 'edge $1'],
     // Fix keyword followed by keyword text (e.g. Pilot)
     [/(\r\n)+\(/gm, ' ('],
     // Replace all CRLF with LF
     [/\r?\n|\r/gm, '\n'],
-    [/\n+/gm, '\n']
+    [/\n+/gm, '\n'],
+
+    // Trim any extra spaces
+    [/^\s*/gm, ''],
+    [/^\s*\n/gm, '\n'],
+    [/^\n\s*/gm, '\n'],
+    [/^\s*$/gm, '\n'],
+
+    // Each line should start with an upper case letter (when found)
+    [/^([a-z])/gm, (v) => v.toUpperCase()],
+    [/\n([a-z])/gm, (v) => v.toUpperCase()],
+
+    // Add space between Pilot and it's cost as enhancement
+    [/Pilot\s*(\(\d+\))\.?(\s*\(.*\))?\s*\n*/gm, 'Pilot $1.$2\n'],
+    // Add space between Edge and it's number of icons
+    [/Edge\s*(\(\d+\))\.?(\s*\(.*\))?\s*\n*/gm, 'Edge $1.$2\n'],
+
+    // Ensure keywords end with periods
+    [/Elite\.?(\s*\(.*\))?\s*\n?/gm, 'Elite.$1\n'],
+    [/Influence\.?(\s*\(.*\))?\s*\n?/gm, 'Influence.$1\n'],
+    [/Limited\.?(\s*\(.*\))?\s*\n*/gm, 'Limited.$1\n'],
+    [/No enhancements\.?(\s*\(.*\))?\s*\n?/gm, 'No enhancements.$1\n'],
+    [/Shielding\.?(\s*\(.*\))?\s*\n?/gm, 'Shielding.$1\n'],
+    [/Targeted Strike\.?(\s*\(.*\))?\s*\n?/gm, 'Targeted Strike.$1\n'],
+
+    // Add space between edge and it's number of icons
+    [/edge(\(\d+\))/gm, 'edge $1'],
+
+    // Remove any trailing new lines
+    [/\n$/gm, ''],
+
+    // Fix spelling errors
+    [/\bcommmitted\b/gm, 'committed'],
+    [/\brfom\b/gm, 'from'],
+    [/\baffilation\b/gm, 'affiliation'],
+    [/\bdamge\b/gm, 'damage'],
+    [/\bgainst\b/gm, 'against'],
+    [/\bnonfate\b/gm, 'non-fate'],
+    [/\bpalyed\b/gm, 'played'],
+    [/\bedgestack\b/gm, 'edge stack'],
+
+    // Add spaces between textual icons in card text
+    [/(\[.*?\])(?=\[)/gm, '$1 '],
+
+    [/\[Blast Damage\]/gmi, '[Blast Damage]'],
+    [/\[Unit Damage\]/gmi, '[Unit Damage]'],
+    [/\[Tactics\]/gmi, '[Tactics]'],
+
+    [/\[Edge[\s\-]Enabled Blast Damage\]/gmi, '[Edge-Enabled Blast Damage]'],
+    [/\[Edge[\s\-]Enabled Unit Damage\]/gmi, '[Edge-Enabled Unit Damage]'],
+    [/\[EE[\s\-]UD\]/gm, '[Edge-Enabled Unit Damage]'],
+    [/\[EE[\s\-]Tactics\]/gmi, '[Edge-Enabled Tactics]'],
+
+    [/\[Imperial Navy\]/gmi, '[Imperial Navy]'],
+    [/\[Jedi\]/gmi, '[Jedi]'],
+    [/\[Rebel Alliance\]/gmi, '[Rebel Alliance]'],
+    [/\[Scum and Villainy\]/gmi, '[Scum and Villainy]'],
+    [/\[Sith\]/gmi, '[Sith]'],
+    [/\[Smugglers and Spies\]/gmi, '[Smugglers and Spies]']
 ];
 
 const CARD_ABILITIES = [
@@ -249,7 +292,7 @@ when.all(_.map(files, (file) => {
                         damageCapacity: 0,
                         forceIcons: 0,
                         resourceValue: 0,
-                        edgePriorityNumber: 0,
+                        edgePriorityNumber: null,
                         normalCombatIcons: {
                             unitDamage: 0,
                             blastDamage: 0,
@@ -262,14 +305,14 @@ when.all(_.map(files, (file) => {
                         },
                         text: null,
                         abilities: {
-                            traits: null,
-                            keywords: null,
-                            actions: null,
-                            forcedActions: null,
-                            reactions: null,
-                            forcedReactions: null,
-                            interrupts: null,
-                            forcedInterrupts: null
+                            traits: [],
+                            keywords: [],
+                            actions: [],
+                            forcedActions: [],
+                            reactions: [],
+                            forcedReactions: [],
+                            interrupts: [],
+                            forcedInterrupts: []
                         }
                     }
                 ));
