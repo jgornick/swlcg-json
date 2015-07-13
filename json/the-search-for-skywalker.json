@@ -31,13 +31,13 @@
             "traits": [
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -73,13 +73,13 @@
                 "Character",
                 "Trooper"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -115,13 +115,13 @@
                 "Character",
                 "Trooper"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -157,13 +157,13 @@
                 "Base",
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -199,15 +199,15 @@
                 "Hoth",
                 "Location"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Place 1 damage on this enhancement to place 1 shield on a target unit or Hoth objective. Then, if this enhancement has 3 or more damage on it, return it to your hand. (Limit once per turn.)"
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -243,13 +243,13 @@
                 "Upgrade",
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -284,15 +284,15 @@
             "traits": [
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an enemy unit leaves play, draw 1 card."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -331,14 +331,14 @@
             "keywords": [
                 "Elite"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike as an attacker, damage it to rescue 1 card captured at the engaged objective."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -374,13 +374,13 @@
                 "Character",
                 "Renegade Squadron"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -416,15 +416,15 @@
                 "Character",
                 "Renegade Squadron"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Focus this unit to have a target unit gain [Unit Damage] until the end of the phase."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -460,15 +460,15 @@
                 "Base",
                 "Hoth"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Focus this enhancement to target 2 units that share a Trait. Until the end of the phase, one of those units loses a combat icon of your choice, and the other gains that combat icon."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -501,13 +501,13 @@
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -542,13 +542,13 @@
             "traits": [
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -583,15 +583,15 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Sacrifice this unit to place 1 shield on a target unit or objective."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -630,12 +630,12 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -674,12 +674,12 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -715,13 +715,13 @@
                 "Creature",
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -754,15 +754,15 @@
         "text": "Play only if there is a Hoth objective in play.\nAction: Place 1 shield on a target friendly Character unit. Until the end of the phase, that unit cannot be targeted by enemy card effects and cannot be damaged.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Place 1 shield on a target friendly Character unit. Until the end of the phase, that unit cannot be targeted by enemy card effects and cannot be damaged."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -795,15 +795,15 @@
         "text": "Action: Damage this objective to reduce the cost of the next Capital Ship unit you play this phase by 1.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Damage this objective to reduce the cost of the next Capital Ship unit you play this phase by 1."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -843,12 +843,12 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -888,12 +888,12 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -929,13 +929,13 @@
                 "Character",
                 "Officer"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -970,15 +970,15 @@
             "traits": [
                 "Base"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an objective is destroyed, remove 1 focus token from this enhancement."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1011,15 +1011,15 @@
         "text": "Action: Reduce the cost of the next Capital Ship unit you play this phase by 2.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Reduce the cost of the next Capital Ship unit you play this phase by 2."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1054,15 +1054,15 @@
             "traits": [
                 "Tatooine"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this objective enters play, look at an opponent's hand."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1098,13 +1098,13 @@
                 "Character",
                 "Mercenary"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1140,13 +1140,13 @@
                 "Character",
                 "Mercenary"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1181,13 +1181,13 @@
             "traits": [
                 "Vehicle"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1223,13 +1223,13 @@
                 "Base",
                 "Tatooine"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1262,15 +1262,15 @@
         "text": "Play only during your turn.\nAction: Name a unit, then reveal an opponent's hand. Capture all copies of the named unit in that hand.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Name a unit, then reveal an opponent's hand. Capture all copies of the named unit in that hand."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     }
 ]

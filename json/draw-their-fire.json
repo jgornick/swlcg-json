@@ -29,15 +29,15 @@
         "text": "Interrupt: When a unique [Jedi] Character unit is dealt damage, prevent 1 point of that damage. (Limit once per turn.)",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When a unique [Jedi] Character unit is dealt damage, prevent 1 point of that damage. (Limit once per turn.)"
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -76,14 +76,14 @@
             "keywords": [
                 "Protect"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit takes damage using protect, deal an equal amount of damage to a target enemy objective."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -119,13 +119,13 @@
                 "Character",
                 "Civilian"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -161,15 +161,15 @@
                 "Skill",
                 "Lightsaber Form"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When enhanced unit would be dealt damage, focus this enhancement to deal that damage to another target unit instead."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -205,15 +205,15 @@
                 "Force",
                 "Control"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Discard any number of tokens and enhancements from a target friendly Character unit."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -246,13 +246,13 @@
         "text": "Place 1 shield on a target unit or objective.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -285,15 +285,15 @@
         "text": "Reaction: After a piloted Vehicle unit resolves a strike that destroys an enemy objective, destroy a target enemy unit that is committed to the Force.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After a piloted Vehicle unit resolves a strike that destroys an enemy objective, destroy a target enemy unit that is committed to the Force."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -323,20 +323,22 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Pilot (1) (Enhanced unit gains [Unit Damage] for each [Blast Damage] and [Edge Enabled Blast Damage] it has.)",
+        "text": "Pilot (1). (Enhanced unit gains [Unit Damage] for each [Blast Damage] and [Edge-Enabled Blast Damage] it has.)",
         "abilities": {
             "traits": [
                 "Character",
                 "Pilot",
                 "Gunner"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -372,13 +374,13 @@
                 "Vehicle",
                 "Fighter"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -413,13 +415,13 @@
             "traits": [
                 "Weapon"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -452,15 +454,15 @@
         "text": "Play only if the Death Star dial is 8 or higher\nAction: Destroy each unit without an enhancement on it.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Destroy each unit without an enhancement on it."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -493,13 +495,13 @@
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -534,13 +536,13 @@
             "traits": [
                 "Tatooine"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -579,12 +581,12 @@
             "keywords": [
                 "Pilot"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -620,15 +622,15 @@
                 "Vehicle",
                 "Transport"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "During an engagement, focus a Pilot card attached to this unit to have this unit participate in the engagement on your side."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -664,13 +666,13 @@
                 "Tatooine",
                 "Location"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -703,15 +705,15 @@
         "text": "Interrupt: When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -744,13 +746,13 @@
         "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -783,13 +785,13 @@
         "text": "",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -829,12 +831,12 @@
             "keywords": [
                 "Pilot"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -873,14 +875,14 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike, place 1 focus token on each participating unpiloted enemy Vehicle unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -915,13 +917,13 @@
             "traits": [
                 "Weapon"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -954,15 +956,15 @@
         "text": "Reduce the cost to play this event by 1 if the Death Star dial is 4 or lower.\nReaction: After an enemy unit is declared as an attacker or defender, place 1 focus token on it.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an enemy unit is declared as an attacker or defender, place 1 focus token on it."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -995,13 +997,13 @@
         "text": "Deal 1 damage to a target participating enemy unit.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1036,13 +1038,13 @@
             "traits": [
                 "Death Star"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1085,13 +1087,13 @@
             "actions": [
                 "During an engagement, pay this card's pilot cost to put it into play from your hand as an enhancement on a participating friendly Fighter unit."
             ],
-            "forcedActions": null,
+            "forcedActions": [],
             "reactions": [
                 "After this card enters play during an engagement, deal 2 damage to a target participating unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1128,13 +1130,13 @@
                 "Fighter",
                 "Black Squadron"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1171,13 +1173,13 @@
                 "Fighter",
                 "Black Squadron"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1213,14 +1215,14 @@
             "keywords": [
                 "Limited"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you play a Black Squadron card, reduce the cost of the next Black Squadron card you play this turn by 1."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1253,13 +1255,13 @@
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     }
 ]

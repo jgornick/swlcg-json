@@ -31,13 +31,13 @@
             "traits": [
                 "Dagobah"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -73,15 +73,15 @@
                 "Character",
                 "Force User"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you commit this unit to the Force, remove 1 damage from each objective you control."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -117,15 +117,15 @@
                 "Character",
                 "Force User"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you commit this unit to the Force, remove 1 damage from each objective you control."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -160,15 +160,15 @@
             "traits": [
                 "Condition"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an engagement is declared against enhanced objective, place 1 shield on it."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -204,15 +204,15 @@
                 "Force",
                 "Sense"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When damage is dealt to a friendly unit or objective, your opponent must instead divide that damage among any number of units and objectives he controls."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -245,13 +245,13 @@
         "text": "Place 1 shield on a target unit or objective.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -281,18 +281,18 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "While this objective is undamaged, it gains: \"Interrupt: When you would place a card into an edge stack, you may instead look at the top card of your deck and place it facedown in your edgestack. (Limit once per edge battle.)\"",
+        "text": "While this objective is undamaged, it gains: \"Interrupt: When you would place a card into an edge stack, you may instead look at the top card of your deck and place it facedown in your edge stack. (Limit once per edge battle.)\"",
         "abilities": {
             "traits": [
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -331,12 +331,12 @@
             "keywords": [
                 "Edge"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -373,15 +373,15 @@
                 "Fighter",
                 "Renegade Squadron"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Sacrifice this unit to return a target unit with printed cost 2 or lower to its owner's hand."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -417,13 +417,13 @@
                 "Character",
                 "Renegade Squadron"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -456,15 +456,15 @@
         "text": "Reaction: After you declare a [Smugglers and Spies] Character unit as an attacker, target an enemy unit. That unit must defend this engagement, if able.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you declare a [Smugglers and Spies] Character unit as an attacker, target an enemy unit. That unit must defend this engagement, if able."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -494,18 +494,18 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Reaction: After you win an edge battle by 2 or more Force icons, a target participating unit gains [Blast Damage][Blast Damage] until the end of the engagement.",
+        "text": "Reaction: After you win an edge battle by 2 or more Force icons, a target participating unit gains [Blast Damage] [Blast Damage] until the end of the engagement.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
-                "After you win an edge battle by 2 or more Force icons, a target participating unit gains [Blast Damage][Blast Damage] until the end of the engagement."
+                "After you win an edge battle by 2 or more Force icons, a target participating unit gains [Blast Damage] [Blast Damage] until the end of the engagement."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -540,13 +540,13 @@
             "traits": [
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -581,15 +581,15 @@
             "traits": [
                 "Droid"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you refresh, remove 1 token (any type) from a target Hoth objective."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -624,15 +624,15 @@
             "traits": [
                 "Droid"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike, remove 1 token (any type) from a target enhancement or Character unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -668,13 +668,13 @@
                 "Creature",
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -710,13 +710,13 @@
                 "Base",
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -749,13 +749,13 @@
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -790,13 +790,13 @@
             "traits": [
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -832,13 +832,13 @@
                 "Character",
                 "Officer"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -877,12 +877,12 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -921,12 +921,12 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -961,15 +961,15 @@
             "traits": [
                 "Weapon"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an enemy objective is destroyed, sacrifice this enhancement to discard all enhancements from play."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1002,13 +1002,13 @@
         "text": "You may deal 1 damage or remove 1 damage from a target Hoth objective.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1043,15 +1043,15 @@
             "traits": [
                 "Tatooine"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you refresh, remove 1 focus token from a target Mercenary or Bounty Hunter unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1088,13 +1088,13 @@
                 "Mercenary",
                 "Black Sun"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1129,15 +1129,15 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -1172,15 +1172,15 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -1213,15 +1213,15 @@
         "text": "Action: Discard a target enhancement with a printed cost equal to or lower than the number of enhancements you control.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Discard a target enhancement with a printed cost equal to or lower than the number of enhancements you control."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1254,13 +1254,13 @@
         "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1295,15 +1295,15 @@
             "traits": [
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After your conflict phase begins, move 1 shield from a target enemy card to a target friendly card."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1339,13 +1339,13 @@
                 "Character",
                 "Trooper"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1384,12 +1384,12 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1425,13 +1425,13 @@
                 "Base",
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1467,13 +1467,13 @@
                 "Base",
                 "Hoth"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1506,13 +1506,13 @@
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     }
 ]

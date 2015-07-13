@@ -31,13 +31,13 @@
             "traits": [
                 "Tatooine"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -76,14 +76,14 @@
             "keywords": [
                 "Elite"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you win a Force struggle, each friendly player may return the top card of his discard pile to his hand."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -121,14 +121,14 @@
             "keywords": [
                 "Edge"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you win a Force struggle by 3 or more Force icons, put this unit into play from your discard pile."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -166,14 +166,14 @@
             "keywords": [
                 "Edge"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you win a Force struggle by 3 or more Force icons, put this unit into play from your discard pile."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -209,15 +209,15 @@
                 "Force",
                 "Control"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After the Death Star dial increases, remove 1 focus token and 1 damage from enhanced unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -250,13 +250,13 @@
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -289,15 +289,15 @@
         "text": "Limit 1 per objective deck.\nAction: Focus this objective to have each friendly player look at the top 2 cards of his deck, add 1 of those cards to his hand, and put the other at the bottom of his deck.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Focus this objective to have each friendly player look at the top 2 cards of his deck, add 1 of those cards to his hand, and put the other at the bottom of his deck."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -333,15 +333,15 @@
                 "Vehicle",
                 "Fighter"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike as an attacker, deal 1 damage to a target objective not currently engaged."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -377,15 +377,15 @@
                 "Vehicle",
                 "Fighter"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike, each other friendly player draws 1 card."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -421,15 +421,15 @@
                 "Vehicle",
                 "Fighter"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike, each other friendly player draws 1 card."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -462,15 +462,15 @@
         "text": "Play only during your turn.\nAction: Target up to 2 units, each controlled by a different opponent. Deal 1 damage to each targeted unit.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Target up to 2 units, each controlled by a different opponent. Deal 1 damage to each targeted unit."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -503,13 +503,13 @@
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -544,15 +544,15 @@
             "traits": [
                 "Ord Mantell"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an opponent declares only 1 unit as a defender, deal 1 damage to that unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -595,11 +595,11 @@
             "actions": [
                 "During an engagement, spend 1 resource to have this unit gain a [Unit Damage] icon until the end of the engagement. Any friendly player may initiate this effect."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -634,13 +634,13 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -675,13 +675,13 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -714,15 +714,15 @@
         "text": "Action: Target up to 2 resource generating cards, each controlled by a different friendly player. Remove 1 focus token from each targeted card.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Target up to 2 resource generating cards, each controlled by a different friendly player. Remove 1 focus token from each targeted card."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -755,13 +755,13 @@
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -796,13 +796,13 @@
             "traits": [
                 "Coruscant"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -841,14 +841,14 @@
             "keywords": [
                 "Targeted Strike"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After your turn ends, remove 1 focus token from this unit. Then, you may give control of this unit to another friendly player."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -883,15 +883,15 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you take control of a unit or play a card from another player's common reserve, remove 1 focus token from this unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -926,15 +926,15 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you take control of a unit or play a card from another player's common reserve, remove 1 focus token from this unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -967,15 +967,15 @@
         "text": "Play only during your deployment phase.\nAction: Take control of a target non-unique Character unit.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Take control of a target non-unique Character unit."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1008,13 +1008,13 @@
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1047,15 +1047,15 @@
         "text": "Limit 1 per objective deck.\nReaction: After your turn begins, each friendly player may remove 1 damage from an objective he controls.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After your turn begins, each friendly player may remove 1 damage from an objective he controls."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1095,14 +1095,14 @@
             "keywords": [
                 "Elite"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike, move 1 damage from a target friendly objective to a target enemy objective."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1137,13 +1137,13 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1178,13 +1178,13 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1219,13 +1219,13 @@
             "traits": [
                 "Upgrade"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1258,13 +1258,13 @@
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1297,15 +1297,15 @@
         "text": "Limit 1 per objective deck.\nAction: Focus this objective to put a Bounty Hunter or Mercenary unit into play from your hand, under a friendly player's control. If that unit is still in play at the end of the phase, discard it.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Focus this objective to put a Bounty Hunter or Mercenary unit into play from your hand, under a friendly player's control. If that unit is still in play at the end of the phase, discard it."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1341,15 +1341,15 @@
                 "Vehicle",
                 "Transport"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After your deployment phase begins, move 1 captured card from an objective to a different dark side objective."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1385,13 +1385,13 @@
                 "Character",
                 "Mercenary"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1427,13 +1427,13 @@
                 "Character",
                 "Mercenary"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1468,15 +1468,15 @@
             "traits": [
                 "Bounty"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Target up to 2 units, each controlled by a different light side player. Capture each targeted unit."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1509,13 +1509,13 @@
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1550,15 +1550,15 @@
             "traits": [
                 "Space Station"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Pay this unit's cost to turn it over and put it into play."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1596,14 +1596,14 @@
             "keywords": [
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this objective is turned faceup, discard the top card of each opponent's deck."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1636,13 +1636,13 @@
         "text": "Increase your reserve value by 1 for each opponent in the game.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1680,14 +1680,14 @@
             "keywords": [
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this objective is turned faceup, turn another facedown objective you control faceup."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1722,15 +1722,15 @@
             "traits": [
                 "Endor"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you refresh, remove 1 focus token from each objective you control."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1768,14 +1768,14 @@
             "keywords": [
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After your turn begins, remove up to 2 damage from Luke Skywalker."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1814,11 +1814,11 @@
             "actions": [
                 "During your turn, remove 1 damage from a target objective. Then, place 1 shield on that objective. (Limit once per turn.)"
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1856,14 +1856,14 @@
             "keywords": [
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this objective is turned faceup, put 1 unit into play from your discard pile."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1896,15 +1896,15 @@
         "text": "X is twice the number of light side players that started the game.\nAction: During your turn, spend 1 resource to put this objective into play from your hand. Then, draw 1 card. (Limit 1 per turn.)",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "During your turn, spend 1 resource to put this objective into play from your hand. Then, draw 1 card. (Limit 1 per turn.)"
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1940,14 +1940,14 @@
             "keywords": [
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this objective is turned faceup, remove all focus tokens from each unit you control."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -1985,14 +1985,14 @@
             "keywords": [
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this objective is turned faceup, discard the top card of each opponent's deck."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2030,14 +2030,14 @@
             "keywords": [
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this objective is turned faceup, search your deck for a unit and put it into play. Shuffle your deck."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2075,12 +2075,12 @@
             "keywords": [
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2115,15 +2115,15 @@
             "traits": [
                 "Tatooine"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
             "forcedReactions": [
                 "After this objective is turned faceup, put Luke Skywalker into play on your side."
             ],
-            "interrupts": null,
-            "forcedInterrupts": null
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2153,7 +2153,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Elite. This unit cannot be affected by enemy card effects.\nDamage that would destroy the Return to Tatooine objective is placed on this unit instead.\nIf this unit leaves play, you lose the game.",
+        "text": "Elite.\nThis unit cannot be affected by enemy card effects.\nDamage that would destroy the Return to Tatooine objective is placed on this unit instead.\nIf this unit leaves play, you lose the game.",
         "abilities": {
             "traits": [
                 "Character",
@@ -2162,12 +2162,12 @@
             "keywords": [
                 "Elite"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2206,12 +2206,12 @@
             "keywords": [
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2246,15 +2246,15 @@
             "traits": [
                 "Droid"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Focus this unit to look at the top 2 cards of your deck. Place one of those cards on the bottom of your deck, and the other on the top."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2290,15 +2290,15 @@
                 "Character",
                 "Spy"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike, look at each opponent's hand and common reserve. Choose and discard 1 of those cards from each opponent."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2334,15 +2334,15 @@
                 "Character",
                 "Trooper"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Spend 1 resource to put this unit into play from your hand."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2377,15 +2377,15 @@
             "traits": [
                 "Character"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Focus this unit to draw 1 card. If the Balance of the Force is with the light side, draw 2 cards instead."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2415,7 +2415,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Edge (1). Shielding.",
+        "text": "Edge (1).\nShielding.",
         "abilities": {
             "traits": [
                 "Vehicle",
@@ -2425,12 +2425,12 @@
                 "Edge",
                 "Shielding"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2466,15 +2466,15 @@
                 "Vehicle",
                 "Fighter"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit is focused to strike as an attacker, discard the top X cards of the defending player's deck. X is twice the number of dark side players that started the game."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2510,15 +2510,15 @@
                 "Character",
                 "Trooper"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit damages an enemy unit, discard the top X cards of each opponent's deck. X is the amount of damage just dealt."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2554,13 +2554,13 @@
                 "Vehicle",
                 "Capital Ship"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2596,15 +2596,15 @@
                 "Character",
                 "Trooper"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an objective you control is engaged, put this unit into play from your hand as a participating unit on your side. Then, deal 2 damage to a target attacking unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2643,12 +2643,12 @@
             "keywords": [
                 "Protect"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2684,15 +2684,15 @@
                 "Vehicle",
                 "Transport"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit generates a resource, remove 1 focus token from another unit you control."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2722,7 +2722,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "Elite. Influence.",
+        "text": "Elite.\nInfluence.",
         "abilities": {
             "traits": [
                 "Droid"
@@ -2731,12 +2731,12 @@
                 "Elite",
                 "Influence"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2766,7 +2766,7 @@
             "blastDamage": 2,
             "tactics": 0
         },
-        "text": "Elite. Targeted Strike.\nThis unit gains [Unit Damage] for each objective you control.",
+        "text": "Elite.\nTargeted Strike.\nThis unit gains [Unit Damage] for each objective you control.",
         "abilities": {
             "traits": [
                 "Character",
@@ -2776,12 +2776,12 @@
                 "Elite",
                 "Targeted Strike"
             ],
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2818,15 +2818,15 @@
                 "Leader",
                 "Force Sensitive"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit enters play, turn 1 of your facedown objectives faceup."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2864,14 +2864,14 @@
             "keywords": [
                 "Elite"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After another card effect discards 1 or more cards from an opponent's deck, discard 1 additional card from that opponent's deck."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2907,13 +2907,13 @@
                 "Character",
                 "Officer"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2949,15 +2949,15 @@
                 "Character",
                 "Officer"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After a phase begins, remove 1 focus token from this unit."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -2993,15 +2993,15 @@
                 "Vehicle",
                 "Fighter"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit damages an enemy objective, discard the top X cards of each opponent's deck. X is the amount of damage just dealt."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3040,14 +3040,14 @@
             "keywords": [
                 "Elite"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After this unit enters play, choose 1 objective in the light side victory pile. Put that objective into play under your control."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3083,15 +3083,15 @@
                 "Tatooine",
                 "Location"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an enemy objective leaves play, focus this enhancement to discard the top X cards of each opponent's deck. X is the number of facedown objectives you control."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3130,14 +3130,14 @@
             "keywords": [
                 "Limited"
             ],
-            "actions": null,
-            "forcedActions": null,
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After you refresh, remove 1 damage from a target objective or Vehicle unit you control."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3172,15 +3172,15 @@
             "traits": [
                 "Location"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Focus this enhancement to remove up to 2 focus tokens from a target unit."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3215,15 +3215,15 @@
             "traits": [
                 "Location"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an objective enters play, each light side player must deal 1 damage to a unit he controls, if able."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3258,15 +3258,15 @@
             "traits": [
                 "Fortification"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "If enhanced objective is engaged, focus it to deal 2 damage to a target attacking unit. If you have the edge, deal 3 damage instead."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3301,15 +3301,15 @@
             "traits": [
                 "Location"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an objective enters play, remove 1 damage from a target unit or objective."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3344,15 +3344,15 @@
             "traits": [
                 "Guardian"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When enhanced unit leaves play, you may enhance a different Character unit with this enhancement."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -3387,15 +3387,15 @@
             "traits": [
                 "Trap"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After an objective you control is turned faceup during an engagement, destroy all attacking units."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3431,12 +3431,12 @@
                 "Endor",
                 "Location"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
             "forcedInterrupts": [
                 "When another card you control would be damaged, place that damage on this enhancement instead."
             ]
@@ -3476,15 +3476,15 @@
                 "Control",
                 "Alter"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Choose 1 of the following: Return 1 enemy unit to its owner's hand, discard a card at random from each opponent's hand, or discard the top 3 cards of each opponent's deck."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3517,15 +3517,15 @@
         "text": "Interrupt: When an Action, Reaction or Interrupt is initiated, cancel its effect. Then, you may spend 1 resource to shuffle this card into your deck.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When an Action, Reaction or Interrupt is initiated, cancel its effect. Then, you may spend 1 resource to shuffle this card into your deck."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -3558,15 +3558,15 @@
         "text": "Interrupt: When a card generates 1 or more resources, it generates 1 additional resource for each focus token placed on it.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When a card generates 1 or more resources, it generates 1 additional resource for each focus token placed on it."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -3599,15 +3599,15 @@
         "text": "Interrupt: When an Action, Reaction, or Interrupt is initiated, cancel its effect. Then, you may spend 1 resource to shuffle this event card into your deck.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
             "interrupts": [
                 "When an Action, Reaction, or Interrupt is initiated, cancel its effect. Then, you may spend 1 resource to shuffle this event card into your deck."
             ],
-            "forcedInterrupts": null
+            "forcedInterrupts": []
         }
     },
     {
@@ -3642,15 +3642,15 @@
             "traits": [
                 "Trap"
             ],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
             "reactions": [
                 "After one of your objectives is engaged, search your deck for a Vehicle unit and put it into play declared as a defender. Shuffle your deck."
             ],
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3686,15 +3686,15 @@
                 "Force",
                 "Sense"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Look at the top 3 cards of your deck and add 1 of those cards to your hand. Shuffle the other 2 cards and this event card into your deck."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3729,15 +3729,15 @@
             "traits": [
                 "Superlaser"
             ],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Eliminate a target player from the game and place his affiliation card under the Death Star II. (Cards he controls are discarded.)"
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3770,15 +3770,15 @@
         "text": "This card cannot be played during an engagement.\nAction: Switch the positions of 2 of your facedown objectives. Then, draw 1 card.",
         "abilities": {
             "traits": [],
-            "keywords": null,
+            "keywords": [],
             "actions": [
                 "Switch the positions of 2 of your facedown objectives. Then, draw 1 card."
             ],
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3811,13 +3811,13 @@
         "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Draw 1 card. Discard both edge stacks and start a new edge battle.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     },
     {
@@ -3850,13 +3850,13 @@
         "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Draw 1 card. Discard both edge stacks and start a new edge battle.",
         "abilities": {
             "traits": [],
-            "keywords": null,
-            "actions": null,
-            "forcedActions": null,
-            "reactions": null,
-            "forcedReactions": null,
-            "interrupts": null,
-            "forcedInterrupts": null
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
         }
     }
 ]
