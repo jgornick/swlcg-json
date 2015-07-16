@@ -29,7 +29,7 @@
         "text": "While this objective is undamaged, enemy fate card effects do not resolve. (Force icons on these cards still count towards the edge battle.)",
         "abilities": {
             "traits": [
-                "Endor."
+                "Endor"
             ],
             "keywords": [],
             "actions": [],
@@ -202,7 +202,7 @@
         "text": "Reaction: After a fate card effect resolves, resolve that effect again as if that card were in your edge stack.",
         "abilities": {
             "traits": [
-                "Tactic."
+                "Tactic"
             ],
             "keywords": [],
             "actions": [],
@@ -409,7 +409,7 @@
         "text": "Action: Each player draws 2 cards.",
         "abilities": {
             "traits": [
-                "Gamble."
+                "Gamble"
             ],
             "keywords": [],
             "actions": [
@@ -452,7 +452,7 @@
         "text": "Action: Each player draws 2 cards.",
         "abilities": {
             "traits": [
-                "Gamble."
+                "Gamble"
             ],
             "keywords": [],
             "actions": [
@@ -534,7 +534,7 @@
         "text": "While this objective is undamaged, it gains: \"Reaction: After you commit a [Sith] unit to the Force, place 1 focus token on a target enemy unit.\"",
         "abilities": {
             "traits": [
-                "Shelkonwa."
+                "Shelkonwa"
             ],
             "keywords": [],
             "actions": [],
@@ -661,7 +661,7 @@
         "text": "Enhance a Force User or Force Sensitive unit.\nEnhanced unit gains [Unit Damage].\nIf enhanced unit is Mara Jade, she is considered committed to the Force.",
         "abilities": {
             "traits": [
-                "Weapon."
+                "Weapon"
             ],
             "keywords": [],
             "actions": [],
@@ -702,7 +702,8 @@
         "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card each turn.)",
         "abilities": {
             "traits": [
-                "Coruscant. Location."
+                "Coruscant",
+                "Location"
             ],
             "keywords": [
                 "Limited"
@@ -745,7 +746,8 @@
         "text": "Play only if the Balance of the Force is with the dark side.\nAction: Remove up to 2 focus tokens from a target unit that is committed to the Force.",
         "abilities": {
             "traits": [
-                "Force. Control."
+                "Force",
+                "Control"
             ],
             "keywords": [],
             "actions": [
@@ -788,7 +790,7 @@
         "text": "While this objective is undamaged, players cannot commit non-Vehicle units to the Force during the Force phase.",
         "abilities": {
             "traits": [
-                "Coruscant."
+                "Coruscant"
             ],
             "keywords": [],
             "actions": [],
@@ -1168,7 +1170,7 @@
         "text": "Enhance an enemy unit.\nEnhanced unit loses all Force icons.",
         "abilities": {
             "traits": [
-                "Item."
+                "Item"
             ],
             "keywords": [],
             "actions": [],
@@ -1209,7 +1211,7 @@
         "text": "Reaction: After you win a Force struggle, capture a target enemy unit committed to the Force.",
         "abilities": {
             "traits": [
-                "Trap."
+                "Trap"
             ],
             "keywords": [],
             "actions": [],
@@ -1252,7 +1254,7 @@
         "text": "Limited.\nAction: Remove 1 focus token from each [Scum and Villainy] objective you control.",
         "abilities": {
             "traits": [
-                "Bounty."
+                "Bounty"
             ],
             "keywords": [
                 "Limited"

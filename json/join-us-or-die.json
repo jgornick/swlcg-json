@@ -372,7 +372,7 @@
         "text": "Reaction: After this unit enters play, remove 1 focus token from a target unit committed to the Force.",
         "abilities": {
             "traits": [
-                "Character."
+                "Character"
             ],
             "keywords": [],
             "actions": [],

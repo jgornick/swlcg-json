@@ -29,7 +29,7 @@
         "text": "Jedi affiliation only.\nEach unique Jedi unit gains edge (1) while it is attacking.",
         "abilities": {
             "traits": [
-                "Ruusan."
+                "Ruusan"
             ],
             "keywords": [],
             "actions": [],
@@ -70,7 +70,8 @@
         "text": "Elite.\nEach enemy unit loses all instances of protect and shielding.",
         "abilities": {
             "traits": [
-                "Vehicle. Transport."
+                "Vehicle",
+                "Transport"
             ],
             "keywords": [
                 "Elite"
@@ -113,7 +114,8 @@
         "text": "While this unit is committed to the Force, it contributes its Force Icons to your side during edge battles in which you are the attacking or defending player.",
         "abilities": {
             "traits": [
-                "Character. Civilian."
+                "Character",
+                "Civilian"
             ],
             "keywords": [],
             "actions": [],
@@ -154,7 +156,8 @@
         "text": "While this unit is committed to the Force, it contributes its Force Icons to your side during edge battles in which you are the attacking or defending player.",
         "abilities": {
             "traits": [
-                "Character. Civilian."
+                "Character",
+                "Civilian"
             ],
             "keywords": [],
             "actions": [],
@@ -195,7 +198,8 @@
         "text": "Enhance your play area.\nLimited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement",
         "abilities": {
             "traits": [
-                "Ruusan. Location"
+                "Ruusan",
+                "Location"
             ],
             "keywords": [
                 "Limited"
@@ -240,7 +244,7 @@
         "text": "Reaction: After you win a Force struggle, destroy all units not committed to the Force.",
         "abilities": {
             "traits": [
-                "Force."
+                "Force"
             ],
             "keywords": [],
             "actions": [],
@@ -283,7 +287,7 @@
         "text": "Each of your undamaged Hoth objectives contributes 1 Force icon to your side during the Force struggle.",
         "abilities": {
             "traits": [
-                "Hoth."
+                "Hoth"
             ],
             "keywords": [],
             "actions": [],
@@ -324,7 +328,8 @@
         "text": "Shielding.\nAfter you refresh, remove 1 damage from a target Hoth objective.",
         "abilities": {
             "traits": [
-                "Character. Leader."
+                "Character",
+                "Leader"
             ],
             "keywords": [
                 "Shielding"
@@ -367,7 +372,8 @@
         "text": "Action: Put this unit into play from your hand to target a damaged Hoth objective. Remove 1 damage from that objective.",
         "abilities": {
             "traits": [
-                "Character. Engineer"
+                "Character",
+                "Engineer"
             ],
             "keywords": [],
             "actions": [
@@ -410,7 +416,8 @@
         "text": "",
         "abilities": {
             "traits": [
-                "Creature. Hoth."
+                "Creature",
+                "Hoth"
             ],
             "keywords": [],
             "actions": [],
@@ -451,7 +458,7 @@
         "text": "Action: Deal 1 damage to each of your Hoth objectives to deal X damage to a target enemy unit. X is the number of Hoth objectives you control.",
         "abilities": {
             "traits": [
-                "Maneuver."
+                "Maneuver"
             ],
             "keywords": [],
             "actions": [
@@ -533,7 +540,7 @@
         "text": "Reaction: After the Force phase begins, reveal the top card of your deck. That card counts its Force icons for your side during the Force struggle this turn. If you win the Force struggle, add that card to your hand. Otherwise, discard it.",
         "abilities": {
             "traits": [
-                "Gamor."
+                "Gamor"
             ],
             "keywords": [],
             "actions": [],
@@ -576,7 +583,8 @@
         "text": "While this unit is committed to the Force, it gains:\"Reaction: after you win a Force struggle, put a unit of printed cost 1 or lower into play from your hand or discard pile.\"",
         "abilities": {
             "traits": [
-                "Vehicle. Transport."
+                "Vehicle",
+                "Transport"
             ],
             "keywords": [],
             "actions": [],
@@ -617,7 +625,7 @@
         "text": "Forced Reaction: After you lose a Force struggle, destroy this unit.",
         "abilities": {
             "traits": [
-                "Character."
+                "Character"
             ],
             "keywords": [],
             "actions": [],
@@ -660,7 +668,7 @@
         "text": "Forced Reaction: After you lose a Force struggle, destroy this unit.",
         "abilities": {
             "traits": [
-                "Character."
+                "Character"
             ],
             "keywords": [],
             "actions": [],
@@ -703,7 +711,8 @@
         "text": "Enhance your play area.\nLimited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement.",
         "abilities": {
             "traits": [
-                "Deneba. Location."
+                "Deneba",
+                "Location"
             ],
             "keywords": [
                 "Limited"
@@ -748,7 +757,7 @@
         "text": "Interrupt: When a Force struggle begins, target a friendly unit committed to the Force. Until the end of the phase, that unit gains 3 Force icons.",
         "abilities": {
             "traits": [
-                "Gamble."
+                "Gamble"
             ],
             "keywords": [],
             "actions": [],
@@ -791,7 +800,7 @@
         "text": "Each enemy unit committed to the Force loses 1 Force icon. ",
         "abilities": {
             "traits": [
-                "Dromund Kaas."
+                "Dromund Kaas"
             ],
             "keywords": [],
             "actions": [],
@@ -832,7 +841,8 @@
         "text": "Elite.\nReaction: After this unit is committed to the Force, commit a target enemy unit to the Force, if able.",
         "abilities": {
             "traits": [
-                "Character. Force User."
+                "Character",
+                "Force User"
             ],
             "keywords": [
                 "Elite"
@@ -877,7 +887,8 @@
         "text": "While this unit is attacking, enemy units with fewer Force icons than this unit cannot be declared as defenders.",
         "abilities": {
             "traits": [
-                "Character. Force Sensitive."
+                "Character",
+                "Force Sensitive"
             ],
             "keywords": [],
             "actions": [],
@@ -918,7 +929,8 @@
         "text": "Limited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement.",
         "abilities": {
             "traits": [
-                "Dromund Kaas. Location."
+                "Dromund Kaas",
+                "Location"
             ],
             "keywords": [
                 "Limited"
@@ -963,7 +975,9 @@
         "text": "Reaction: After a phase begins, until the end of the phase a target unit loses 2 Force icons and is destroyed if it has no Force icons. ",
         "abilities": {
             "traits": [
-                "Force. Control. Alter."
+                "Force",
+                "Control",
+                "Alter"
             ],
             "keywords": [],
             "actions": [],
@@ -1045,7 +1059,7 @@
         "text": "Reaction: After you win a Force struggle, capture the top card of an opponent's deck at this objective, if able.\nForced Reaction: After you loose a Force struggle, 1 random card is rescued from this objective, if able. ",
         "abilities": {
             "traits": [
-                "Tatooine."
+                "Tatooine"
             ],
             "keywords": [],
             "actions": [],
@@ -1090,7 +1104,8 @@
         "text": "Action: Return a card captured at one of your objectives to it's owner hand to draw 2 cards. (Limit once per turn.)",
         "abilities": {
             "traits": [
-                "Character. Slaver."
+                "Character",
+                "Slaver"
             ],
             "keywords": [],
             "actions": [
@@ -1133,7 +1148,8 @@
         "text": "Forced Reaction: After you lose a Force struggle, deal 1 damage to this unit.",
         "abilities": {
             "traits": [
-                "Character. Scum."
+                "Character",
+                "Scum"
             ],
             "keywords": [],
             "actions": [],
@@ -1176,7 +1192,8 @@
         "text": "Forced Reaction: After you lose a Force struggle, deal 1 damage to this unit.",
         "abilities": {
             "traits": [
-                "Character. Scum."
+                "Character",
+                "Scum"
             ],
             "keywords": [],
             "actions": [],
@@ -1219,7 +1236,7 @@
         "text": "Limited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement.",
         "abilities": {
             "traits": [
-                "Location."
+                "Location"
             ],
             "keywords": [
                 "Limited"
@@ -1264,7 +1281,7 @@
         "text": "Action: Reveal a captured card. Then, search an opponent's deck for a copy of that card, reveal it, and capture it. Shuffle the searched deck. ",
         "abilities": {
             "traits": [
-                "Bounty."
+                "Bounty"
             ],
             "keywords": [],
             "actions": [

@@ -215,7 +215,7 @@ when.all(_.map(files, (file) => {
                             );
                         } else if (propertyName == 'traits') {
                             let
-                                traits = _.invoke(_.compact(propertyValue.split('-')), String.prototype.trim);
+                                traits = _.invoke(_.compact(propertyValue.split(/[\-\.]/)), String.prototype.trim);
 
                             if (_.includes(traits, 'Unique')) {
                                 result.isUnique = true;
