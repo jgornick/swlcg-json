@@ -1,0 +1,1282 @@
+[
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 793,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001021",
+        "objectiveSetNumber": 161,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Objective",
+        "title": "A Hero's Beginning",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack , he may choose one of these cards and place it in the edge stack instead.",
+        "abilities": {
+            "traits": [
+                "Tatooine"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [
+                "After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack , he may choose one of these cards and place it in the edge stack instead."
+            ],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 794,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001022",
+        "objectiveSetNumber": 161,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Luke's X-34 Landspeeder",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "text": "While this unit is attacking, it gains: \"Reaction: After defenders are declared, resolve this engagement against a different eligible target enemy objective instead.\"",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 796,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001024",
+        "objectiveSetNumber": 161,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Enhancement",
+        "title": "Moisture Vaporator",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Focus this enhancement to have each player draw 1 card.",
+        "abilities": {
+            "traits": [
+                "Item"
+            ],
+            "keywords": [],
+            "actions": [
+                "Focus this enhancement to have each player draw 1 card."
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 797,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001025",
+        "objectiveSetNumber": 161,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Event",
+        "title": "Unfinished Business",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Put a unit from a friendly player's discard pile into play under your control. If that unit is still in play at the end of the phase, discard it.",
+        "abilities": {
+            "traits": [],
+            "keywords": [],
+            "actions": [
+                "Put a unit from a friendly player's discard pile into play under your control. If that unit is still in play at the end of the phase, discard it."
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 420,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001026",
+        "objectiveSetNumber": 161,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 798,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001027",
+        "objectiveSetNumber": 162,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "Breaking the Blockade",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Focus this objective to remove a focus token from a target piloted Vehicle unit with printed cost 2 or lower.",
+        "abilities": {
+            "traits": [],
+            "keywords": [],
+            "actions": [
+                "Focus this objective to remove a focus token from a target piloted Vehicle unit with printed cost 2 or lower."
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 799,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001028",
+        "objectiveSetNumber": 162,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Smuggling Freighter",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While this unit is piloted, damage dealt by it cannot be prevented by shields.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 799,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001029",
+        "objectiveSetNumber": 162,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Unit",
+        "title": "Smuggling Freighter",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While this unit is piloted, damage dealt by it cannot be prevented by shields.",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 800,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001030",
+        "objectiveSetNumber": 162,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Duros Smuggler",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Pilot (0).",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Smuggler",
+                "Pilot"
+            ],
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 800,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001031",
+        "objectiveSetNumber": 162,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Duros Smuggler",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Pilot (0).",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Smuggler",
+                "Pilot"
+            ],
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 801,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001032",
+        "objectiveSetNumber": 162,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Event",
+        "title": "Surprising Maneuver",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Focus 2 piloted Vehicle units to destroy all defenders.",
+        "abilities": {
+            "traits": [
+                "Maneuver",
+                "Trap"
+            ],
+            "keywords": [],
+            "actions": [
+                "Focus 2 piloted Vehicle units to destroy all defenders."
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 802,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001033",
+        "objectiveSetNumber": 163,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Objective",
+        "title": "The Imperial Bureaucracy",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack , he may choose one of these cards and place it in the edge stack instead.",
+        "abilities": {
+            "traits": [
+                "Coruscant"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [
+                "After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack , he may choose one of these cards and place it in the edge stack instead."
+            ],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 803,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001034",
+        "objectiveSetNumber": 163,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Sate Pestage",
+        "isUnique": true,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit enters play, return a non-enhancement card from your discard pile to your hand.\nInterrupt: When this unit leaves play, return a non-enhancement card from your discard pile to your hand.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Grand Vizier"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [
+                "After this unit enters play, return a non-enhancement card from your discard pile to your hand."
+            ],
+            "forcedReactions": [],
+            "interrupts": [
+                "When this unit leaves play, return a non-enhancement card from your discard pile to your hand."
+            ],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 9,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001035",
+        "objectiveSetNumber": 163,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Unit",
+        "title": "Advisor to the Emperor",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 1,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 804,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001036",
+        "objectiveSetNumber": 163,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Quarren Bureaucrat",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Interrupt: When an enhancement's ability is triggered, sacrifice this unit to cancel its effect.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [
+                "When an enhancement's ability is triggered, sacrifice this unit to cancel its effect."
+            ],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 805,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001037",
+        "objectiveSetNumber": 163,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "type": "Event",
+        "title": "Endless Bureaucracy",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Shuffle the top card of a target friendly players discard pile back into your deck.\nReaction: After an objective leaves play, return this card from your discard pile to your hand.",
+        "abilities": {
+            "traits": [],
+            "keywords": [],
+            "actions": [
+                "Shuffle the top card of a target friendly players discard pile back into your deck."
+            ],
+            "forcedActions": [],
+            "reactions": [
+                "After an objective leaves play, return this card from your discard pile to your hand."
+            ],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 433,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001038",
+        "objectiveSetNumber": 163,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 806,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001039",
+        "objectiveSetNumber": 164,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "The Last Grand Admiral",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Coruscant"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 807,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001040",
+        "objectiveSetNumber": 164,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Unit",
+        "title": "Grand Admiral Thrawn",
+        "isUnique": true,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 2
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Elite.\nAction: During an engagement, focus this unit to place 1 focus token on a target participating enemy unit. (Limit once per turn.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Officer",
+                "Tactician"
+            ],
+            "keywords": [
+                "Elite"
+            ],
+            "actions": [
+                "During an engagement, focus this unit to place 1 focus token on a target participating enemy unit. (Limit once per turn.)"
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 808,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001041",
+        "objectiveSetNumber": 164,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Noghri Bodyguard",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Officer.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 808,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001042",
+        "objectiveSetNumber": 164,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Noghri Bodyguard",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Officer.",
+        "abilities": {
+            "traits": [
+                "Character"
+            ],
+            "keywords": [
+                "Protect"
+            ],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 809,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001043",
+        "objectiveSetNumber": 164,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Event",
+        "title": "Chain of Command",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Target up to 2 [Imperial Navy] Officer units, each controlled by a different friendly player. Remove 1 focus from each targeted unit.",
+        "abilities": {
+            "traits": [
+                "Tactic"
+            ],
+            "keywords": [],
+            "actions": [
+                "Target up to 2 [Imperial Navy] Officer units, each controlled by a different friendly player. Remove 1 focus from each targeted unit."
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 433,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001044",
+        "objectiveSetNumber": 164,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Fate",
+        "title": "Supporting Fire",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
+        "abilities": {
+            "traits": [],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 810,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001045",
+        "objectiveSetNumber": 165,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Objective",
+        "title": "Nar Shaddaa Drift",
+        "isUnique": false,
+        "cost": 0,
+        "damageCapacity": 5,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you refresh, remove 1 focus token from a Vehicle unit you control.",
+        "abilities": {
+            "traits": [
+                "Nar Shaddaa"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [
+                "After you refresh, remove 1 focus token from a Vehicle unit you control."
+            ],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 811,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001046",
+        "objectiveSetNumber": 165,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Unit",
+        "title": "Race Circuit Champion",
+        "isUnique": true,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Pilot (1). (Reaction: After enhanced unit readies, deal 1 damage to a target vehicle unit.)",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Pilot"
+            ],
+            "keywords": [
+                "Pilot"
+            ],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 812,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001047",
+        "objectiveSetNumber": 165,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Racing Swoop",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 812,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001048",
+        "objectiveSetNumber": 165,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "type": "Unit",
+        "title": "Racing Swoop",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "",
+        "abilities": {
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 813,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001049",
+        "objectiveSetNumber": 165,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Enhancement",
+        "title": "Black Market Exchange",
+        "isUnique": false,
+        "cost": 2,
+        "damageCapacity": 0,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Focus this enhancement and sacrifice a Vehicle or Droid unit to remove 1 or 2 focus tokens from a unit with 1 or more enhancements on it.",
+        "abilities": {
+            "traits": [
+                "Nar Shaddaa",
+                "Location"
+            ],
+            "keywords": [],
+            "actions": [
+                "Focus this enhancement and sacrifice a Vehicle or Droid unit to remove 1 or 2 focus tokens from a unit with 1 or more enhancements on it."
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 814,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001050",
+        "objectiveSetNumber": 165,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "type": "Event",
+        "title": "Cut Off",
+        "isUnique": false,
+        "cost": 1,
+        "damageCapacity": 0,
+        "forceIcons": 2,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After a vehicle unit you control readies, place 1 focus token on a target unit.",
+        "abilities": {
+            "traits": [
+                "Maneuver"
+            ],
+            "keywords": [],
+            "actions": [],
+            "forcedActions": [],
+            "reactions": [
+                "After a vehicle unit you control readies, place 1 focus token on a target unit."
+            ],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 795,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001023",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Owen Lars",
+        "isUnique": true,
+        "cost": 0,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Shuffle this unit back into your deck to reduce the cost of the next Jedi card you play this phase by 3.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Civilian"
+            ],
+            "keywords": [],
+            "actions": [
+                "Shuffle this unit back into your deck to reduce the cost of the next Jedi card you play this phase by 3."
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    }
+]
