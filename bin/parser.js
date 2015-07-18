@@ -20,7 +20,8 @@ const INTEGER_PROPERTIES = [
 ];
 
 const IGNORE_PRODUCTS = [
-    'Markers'
+    'Markers',
+    'Affiliation'
 ];
 
 const IGNORE_PROPERTIES = [
