@@ -1,6 +1,7 @@
 [
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 203,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000259",
@@ -41,7 +42,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 204,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000260",
@@ -83,7 +85,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 204,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000261",
@@ -125,7 +128,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 205,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000262",
@@ -167,7 +171,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 206,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000263",
@@ -211,7 +216,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 207,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000264",
@@ -253,7 +259,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 208,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000265",
@@ -296,7 +303,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 209,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000266",
@@ -342,7 +350,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 210,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000267",
@@ -384,7 +393,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 211,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000268",
@@ -428,7 +438,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 212,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000269",
@@ -472,7 +483,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 133,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000270",
@@ -511,7 +523,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 213,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000277",
@@ -552,7 +565,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 214,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000278",
@@ -595,7 +609,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 215,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000279",
@@ -639,7 +654,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 215,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000280",
@@ -683,7 +699,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 216,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000281",
@@ -725,7 +742,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 217,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000282",
@@ -766,7 +784,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 218,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000283",
@@ -807,7 +826,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 219,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000284",
@@ -852,7 +872,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 219,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000285",
@@ -897,7 +918,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 220,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000286",
@@ -939,7 +961,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 221,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000287",
@@ -982,7 +1005,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 222,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000288",
@@ -1023,7 +1047,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 223,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000271",
@@ -1066,7 +1091,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 224,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000272",
@@ -1108,7 +1134,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 224,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000273",
@@ -1150,7 +1177,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 225,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000274",
@@ -1191,7 +1219,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 226,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000275",
@@ -1233,7 +1262,8 @@
         }
     },
     {
-        "product": "The Search For Skywalker",
+        "product": "The Search for Skywalker",
+        "productCycle": "The Hoth Cycle",
         "productOctgnId": "4fb88357-5f6f-4a8c-a7b4-6b51ed7c9554",
         "number": 227,
         "octgnId": "ff4fb461-8060-457a-9c16-000000000276",

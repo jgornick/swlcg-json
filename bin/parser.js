@@ -8,6 +8,41 @@ import xml2js from 'xml2js';
 import glob from 'glob';
 import pluralize from 'pluralize';
 
+const CYCLES_MAP = {
+    'Core Set': ['Core Set'],
+    'The Hoth Cycle': [
+        'The Desolation of Hoth',
+        'The Search for Skywalker',
+        'A Dark Time',
+        'Assault on Echo Base',
+        'The Battle of Hoth',
+        'Escape from Hoth'
+    ],
+    'Edge of Darkness': ['Edge of Darkness'],
+    'Balance of the Force': ['Balance of the Force'],
+    'Echoes of the Force Cycle': [
+        'Heroes and Legends',
+        'Lure of the Dark Side',
+        'Knowledge and Defense',
+        'Join Us or Die',
+        'It Binds All Things',
+        'Darkness and Light'
+    ],
+    'Rogue Squadron Cycle': [
+        'Ready for Takeoff',
+        'Draw Their Fire',
+        'Evasive Maneuvers',
+        'Attack Run',
+        'Chain of Command',
+        'Jump to Lightspeed'
+    ],
+    'Between the Shadows': ['Between the Shadows'],
+    'Imperial Entanglements': ['Imperial Entanglements'],
+    'Endor Cycle': [
+        `Solo's Command`
+    ]
+};
+
 const INTEGER_PROPERTIES = [
     'cost',
     'force',
@@ -33,6 +68,11 @@ const IGNORE_PROPERTIES = [
 
 const OMIT_TRAITS = [
     'Unique'
+];
+
+const PRODUCT_FIX = [
+    [/Desolation of Hoth/, 'The Desolation of Hoth'],
+    [/The Search For Skywalker/, 'The Search for Skywalker']
 ];
 
 const CARD_TEXT_FIX = [
@@ -155,6 +195,10 @@ when.all(_.map(files, (file) => {
                 productName = product.name,
                 productOctgnId = product.id,
                 productCards = result.set.cards[0].card;
+
+            _.forEach(PRODUCT_FIX, ([search, replace]) => {
+                productName = productName.replace(search, replace, 'gm');
+            });
 
             if (_.includes(IGNORE_PRODUCTS, productName)) {
                 return resolve();
@@ -279,6 +323,10 @@ when.all(_.map(files, (file) => {
                     },
                     {
                         product: productName,
+                        productCycle: _.findKey(
+                            CYCLES_MAP,
+                            (products, cycle) => _.includes(products, productName)
+                        ),
                         productOctgnId: productOctgnId,
                         number: null,
                         octgnId: cardOctgnId,
