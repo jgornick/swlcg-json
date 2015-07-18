@@ -13,6 +13,12 @@
       "description": "The product matches the name of the core set or any Force Pack or Deluxe Expansion (e.g. A Dark Time, Core Set, Edge of Darkness)",
       "name": "product"
     },
+    "productCycle": {
+      "id": "productCycle",
+      "type": "string",
+      "title": "The name of the cycle for the product.",
+      "name": "productCycle"
+    },
     "productOctgnId": {
       "id": "productOctgnId",
       "type": "string",
