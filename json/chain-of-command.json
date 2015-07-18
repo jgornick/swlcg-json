@@ -26,7 +26,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Reaction: After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack , he may choose one of these cards and place it in the edge stack instead.",
+        "text": "Reaction: After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack, he may choose one of these cards and place it in the edge stack instead.",
         "abilities": {
             "traits": [
                 "Tatooine"
@@ -35,7 +35,7 @@
             "actions": [],
             "forcedActions": [],
             "reactions": [
-                "After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack , he may choose one of these cards and place it in the edge stack instead."
+                "After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack, he may choose one of these cards and place it in the edge stack instead."
             ],
             "forcedReactions": [],
             "interrupts": [],
@@ -87,6 +87,52 @@
     {
         "product": "Chain of Command",
         "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
+        "number": 795,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001023",
+        "objectiveSetNumber": 161,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "type": "Unit",
+        "title": "Owen Lars",
+        "isUnique": true,
+        "cost": 0,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": 0,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limited.\nAction: Shuffle this unit back into your deck to reduce the cost of the next Jedi card you play this phase by 3.",
+        "abilities": {
+            "traits": [
+                "Character",
+                "Civilian"
+            ],
+            "keywords": [
+                "Limited"
+            ],
+            "actions": [
+                "Shuffle this unit back into your deck to reduce the cost of the next Jedi card you play this phase by 3."
+            ],
+            "forcedActions": [],
+            "reactions": [],
+            "forcedReactions": [],
+            "interrupts": [],
+            "forcedInterrupts": []
+        }
+    },
+    {
+        "product": "Chain of Command",
+        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
         "number": 796,
         "octgnId": "ff4fb461-8060-457a-9c16-000000001024",
         "objectiveSetNumber": 161,
@@ -111,7 +157,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Action: Focus this enhancement to have each player draw 1 card.",
+        "text": "Enhance your play area.\nAction: Focus this enhancement to have each player draw 1 card.",
         "abilities": {
             "traits": [
                 "Item"
@@ -493,7 +539,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Reaction: After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack , he may choose one of these cards and place it in the edge stack instead.",
+        "text": "Reaction: After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack, he may choose one of these cards and place it in the edge stack instead.",
         "abilities": {
             "traits": [
                 "Coruscant"
@@ -502,7 +548,7 @@
             "actions": [],
             "forcedActions": [],
             "reactions": [
-                "After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack , he may choose one of these cards and place it in the edge stack instead."
+                "After this objective enters play, look at and place the top 3 cards of your deck facedown here. When a friendly player would place a card in an edge stack, he may choose one of these cards and place it in the edge stack instead."
             ],
             "forcedReactions": [],
             "interrupts": [],
@@ -666,12 +712,12 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Action: Shuffle the top card of a target friendly players discard pile back into your deck.\nReaction: After an objective leaves play, return this card from your discard pile to your hand.",
+        "text": "Action: Shuffle the top card of a target friendly player's discard pile back into your deck.\nReaction: After an objective leaves play, return this card from your discard pile to your hand.",
         "abilities": {
             "traits": [],
             "keywords": [],
             "actions": [
-                "Shuffle the top card of a target friendly players discard pile back into your deck."
+                "Shuffle the top card of a target friendly player's discard pile back into your deck."
             ],
             "forcedActions": [],
             "reactions": [
@@ -1219,7 +1265,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Reaction: After a vehicle unit you control readies, place 1 focus token on a target unit.",
+        "text": "Reaction: After a Vehicle unit you control readies, place 1 focus token on a target unit.",
         "abilities": {
             "traits": [
                 "Maneuver"
@@ -1228,52 +1274,8 @@
             "actions": [],
             "forcedActions": [],
             "reactions": [
-                "After a vehicle unit you control readies, place 1 focus token on a target unit."
+                "After a Vehicle unit you control readies, place 1 focus token on a target unit."
             ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": []
-        }
-    },
-    {
-        "product": "Chain of Command",
-        "productOctgnId": "8b99d22b-b694-4e61-853b-47e4396ef02e",
-        "number": 795,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001023",
-        "objectiveSetNumber": null,
-        "objectiveSetSequence": 3,
-        "side": "Light",
-        "affiliation": "Jedi",
-        "type": "Unit",
-        "title": "Owen Lars",
-        "isUnique": true,
-        "cost": 0,
-        "damageCapacity": 2,
-        "forceIcons": 1,
-        "resourceValue": 0,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "Action: Shuffle this unit back into your deck to reduce the cost of the next Jedi card you play this phase by 3.",
-        "abilities": {
-            "traits": [
-                "Character",
-                "Civilian"
-            ],
-            "keywords": [],
-            "actions": [
-                "Shuffle this unit back into your deck to reduce the cost of the next Jedi card you play this phase by 3."
-            ],
-            "forcedActions": [],
-            "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": []
