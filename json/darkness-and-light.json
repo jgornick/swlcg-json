@@ -12,25 +12,20 @@
         "type": "Objective",
         "title": "A Deep Commitment",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Each of your shielded units gains +1 Force icon during the Force struggle.",
         "abilities": {
             "traits": [
                 "Coruscant"
+            ],
+            "referencedTraits": [
+                "Force"
             ],
             "keywords": [],
             "actions": [],
@@ -38,7 +33,217 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 10,
+                    "average": 2.5,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 11,
+                    "average": 2.2,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 8,
+                    "average": 1.6,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 6,
+                        "average": 2,
+                        "max": 4,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                }
+            }
         }
     },
     {
@@ -57,7 +262,7 @@
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -75,8 +280,11 @@
                 "Character",
                 "Force User"
             ],
+            "referencedTraits": [],
             "keywords": [
-                "Shielding"
+                {
+                    "keyword": "Shielding"
+                }
             ],
             "actions": [],
             "forcedActions": [],
@@ -85,8 +293,10 @@
             "interrupts": [
                 "When an event card is played, remove a shield from this unit to cancel its effects."
             ],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -104,7 +314,7 @@
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -121,6 +331,7 @@
             "traits": [
                 "Droid"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -129,8 +340,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -148,7 +361,7 @@
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -165,6 +378,7 @@
             "traits": [
                 "Droid"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -173,8 +387,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -190,26 +406,19 @@
         "title": "Asteroid Base",
         "isUnique": false,
         "cost": 2,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "Enhance you play area. \nAction: Remove a shield from a unit you control to give that unit [Unit Damage] or [Blast Damage] until the end of the phase.",
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area. \nAction: Remove a shield from a unit you control to give that unit [Unit Damage] or [Blast Damage] until the end of the phase.",
         "abilities": {
             "traits": [
                 "Bellassa",
                 "Location"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Remove a shield from a unit you control to give that unit [Unit Damage] or [Blast Damage] until the end of the phase."
@@ -218,8 +427,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -235,20 +446,12 @@
         "title": "Force Barrier",
         "isUnique": false,
         "cost": 3,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Place 1 shield on each of your unshielded units and objectives.",
         "abilities": {
             "traits": [
@@ -256,6 +459,7 @@
                 "Control",
                 "Alter"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Place 1 shield on each of your unshielded units and objectives."
@@ -264,8 +468,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -280,25 +486,20 @@
         "type": "Objective",
         "title": "Impersonating a Deity",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this objective enters play, focus it to search your deck for an Ewok unit of printed cost 3 or lower and put it into play. Shuffle your deck.",
         "abilities": {
             "traits": [
                 "Endor"
+            ],
+            "referencedTraits": [
+                "Ewok"
             ],
             "keywords": [],
             "actions": [],
@@ -308,7 +509,217 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 8,
+                    "average": 2,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 5,
+                    "average": 1.3,
+                    "max": 2,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 7,
+                    "average": 1.4,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
+                    }
+                }
+            }
         }
     },
     {
@@ -344,6 +755,7 @@
             "traits": [
                 "Droid"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -352,8 +764,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -371,7 +785,7 @@
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -389,14 +803,19 @@
                 "Character",
                 "Ewok"
             ],
+            "referencedTraits": [
+                "Force"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -414,7 +833,7 @@
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -432,14 +851,19 @@
                 "Character",
                 "Ewok"
             ],
+            "referencedTraits": [
+                "Force"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -455,23 +879,16 @@
         "title": "Rash Action",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After an opponent plays a unit, that opponent must either spend 2 additional resources, or place 1 focus token on that unit.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -480,8 +897,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -496,32 +915,29 @@
         "type": "Fate",
         "title": "Seeds of Decay",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 7,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "You may place 1 focus token on a target ready unit that is committed to the Force.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Force"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -536,25 +952,20 @@
         "type": "Objective",
         "title": "The Call of the Cult",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this objective enters play, set the Balance of the Force to the dark side.",
         "abilities": {
             "traits": [
                 "Almas"
+            ],
+            "referencedTraits": [
+                "Force"
             ],
             "keywords": [],
             "actions": [],
@@ -564,7 +975,200 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 14,
+                    "average": 3.5,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 10,
+                    "average": 2,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 7,
+                    "average": 1.4,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 8,
+                        "average": 2.7,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 9,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                }
+            }
         }
     },
     {
@@ -583,7 +1187,7 @@
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -601,6 +1205,7 @@
                 "Character",
                 "Force Sensitive"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -609,8 +1214,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -628,7 +1235,7 @@
         "cost": 2,
         "damageCapacity": 3,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -645,14 +1252,19 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [
+                "Force"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -670,7 +1282,7 @@
         "cost": 2,
         "damageCapacity": 3,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -687,14 +1299,19 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [
+                "Force"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -710,31 +1327,28 @@
         "title": "Hate",
         "isUnique": false,
         "cost": 1,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance a Character unit.\nTreat enhanced unit as if its printed text were blank (except for Traits).",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Character"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -750,31 +1364,28 @@
         "title": "Hate",
         "isUnique": false,
         "cost": 1,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance a Character unit.\nTreat enhanced unit as if its printed text were blank (except for Traits).",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Character"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -789,24 +1400,19 @@
         "type": "Objective",
         "title": "Superior Numbers",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Imperial Navy affiliation only.\nReaction: After this objective enters play, search your deck for a Fighter unit of printed cost 2 or lower and put it into play. Shuffle your deck.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Fighter"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -815,7 +1421,200 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 9,
+                    "average": 2.3,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 6,
+                    "average": 1.2,
+                    "max": 4,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 4,
+                    "average": 1.3,
+                    "max": 2,
+                    "min": 1
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 6,
+                        "average": 2,
+                        "max": 4,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                }
+            }
         }
     },
     {
@@ -852,6 +1651,9 @@
                 "Vehicle",
                 "Capital Ship"
             ],
+            "referencedTraits": [
+                "Fighter"
+            ],
             "keywords": [],
             "actions": [
                 "Focus this unit to put a Fighter unit or a Precision Flying enhancement into play from your hand or discard pile."
@@ -860,8 +1662,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -879,7 +1683,7 @@
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 0,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -897,6 +1701,7 @@
                 "Vehicle",
                 "Fighter"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -905,8 +1710,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -924,7 +1731,7 @@
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 0,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -942,6 +1749,7 @@
                 "Vehicle",
                 "Fighter"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -950,8 +1758,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -967,24 +1777,19 @@
         "title": "Precision Flying",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 0,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance a Fighter unit.\nEnhanced unit gains edge (2).",
         "abilities": {
             "traits": [
                 "Skill"
+            ],
+            "referencedTraits": [
+                "Fighter"
             ],
             "keywords": [],
             "actions": [],
@@ -992,8 +1797,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -1009,24 +1816,19 @@
         "title": "Precision Flying",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 0,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance a Fighter unit.\nEnhanced unit gains edge (2).",
         "abilities": {
             "traits": [
                 "Skill"
+            ],
+            "referencedTraits": [
+                "Fighter"
             ],
             "keywords": [],
             "actions": [],
@@ -1034,8 +1836,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -1050,25 +1854,20 @@
         "type": "Objective",
         "title": "The Slimiest Scheme",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Scum and Villainy affiliation only.\nAction: Focus this objective to return a target [Scum and Villainy] unit to its owner's hand.",
         "abilities": {
             "traits": [
                 "Tatooine"
+            ],
+            "referencedTraits": [
+                "Scum"
             ],
             "keywords": [],
             "actions": [
@@ -1078,7 +1877,217 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 12,
+                    "average": 3,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 9,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 8,
+                    "average": 1.6,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 7,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 7,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    }
+                }
+            }
         }
     },
     {
@@ -1097,7 +2106,7 @@
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -1114,6 +2123,10 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [
+                "Character",
+                "Hutt"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1122,8 +2135,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -1141,7 +2156,7 @@
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -1158,6 +2173,9 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [
+                "Scum"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1166,8 +2184,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -1185,7 +2205,7 @@
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -1202,6 +2222,9 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [
+                "Scum"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1210,8 +2233,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -1227,33 +2252,31 @@
         "title": "Prized Possession",
         "isUnique": false,
         "cost": 1,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 0,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card per turn.)",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [
-                "Limited"
+                {
+                    "keyword": "Limited",
+                    "text": "You cannot play more than one limited card per turn."
+                }
             ],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Darkness and Light",
@@ -1269,23 +2292,16 @@
         "title": "Chain Reaction",
         "isUnique": false,
         "cost": 1,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a Reaction ability resolves, resolve its effect again as if you control the effect, ignoring any costs and trigger conditions. You may choose new target(s), if applicable.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1294,7 +2310,9 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     }
 ]

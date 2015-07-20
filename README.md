@@ -12,10 +12,31 @@ In the mean time, view the ```/json``` directory.
 
 ## TODO
 
-* Parse any keyword reminder text and associate with that keyword. An examle would be a Pilot keyword that has text to define it's abilities when played as a Pilot.
-* Add illustrator field.
-* Flag cards as enhancement when the card type is an enhancement, keyword of Pilot, or the text states the card can be played as enhancement.
-* Add aggregated objective set metrics to each objective card.
+* Add isAffiliationLocked flag to an objective card based on the card text.
+
+## Text Scenarios
+
+```
+Deal damage
+    \bdeals? (\d+|a) damage\b
+Reduce cost
+    \breduce(.*?)cost\b
+Place token
+    \bplace (\d+|a) focus token\b
+Remove token
+    \bremove (\d+|a) focus token\b
+Move token
+    \bmove (\d+|a) focus token\b
+Draw card
+    \bdraw (\d+|a) card\b
+Put into play
+    \bput(.*?)into play\b
+Gains edge
+    \bgains([^\.\n]*?)edge\s\(\d+\)
+Gains combat icon(s)
+    todo
+
+```
 
 ## License and Copyright
 

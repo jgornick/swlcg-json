@@ -12,25 +12,20 @@
         "type": "Objective",
         "title": "A Hero's Resolve",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, each card in your edge stack gains 1 Force icon when resolving an edge battle.",
         "abilities": {
             "traits": [
                 "Hoth"
+            ],
+            "referencedTraits": [
+                "Force"
             ],
             "keywords": [],
             "actions": [],
@@ -38,7 +33,200 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 10,
+                    "average": 2.5,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 3,
+                    "total": 7,
+                    "average": 2.3,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 10,
+                    "average": 2,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 2,
+                    "total": 12,
+                    "average": 6,
+                    "max": 7,
+                    "min": 5
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 7,
+                        "average": 2.3,
+                        "max": 4,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Fate": {
+                    "count": 2,
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 5,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 2,
+                        "total": 12,
+                        "average": 6,
+                        "max": 7,
+                        "min": 5
+                    }
+                }
+            }
         }
     },
     {
@@ -57,7 +245,7 @@
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -76,14 +264,20 @@
                 "Force User",
                 "Pilot"
             ],
+            "referencedTraits": [
+                "Fighter",
+                "Speeder"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -101,7 +295,7 @@
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -113,20 +307,23 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "",
+        "text": null,
         "abilities": {
             "traits": [
                 "Vehicle",
                 "Speeder"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -156,20 +353,23 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "",
+        "text": null,
         "abilities": {
             "traits": [
                 "Creature",
                 "Hoth"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -184,32 +384,29 @@
         "type": "Fate",
         "title": "Battle of Hoth",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 7,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Hoth"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -224,32 +421,27 @@
         "type": "Fate",
         "title": "Heat of Battle",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 5,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Deal 1 damage to a target participating enemy unit.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -264,24 +456,19 @@
         "type": "Objective",
         "title": "Evacuation Procedure",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After your opponent’s turn begins, sacrifice a unit to remove all focus tokens from a target enhancement or Hoth objective.",
         "abilities": {
             "traits": [
+                "Hoth"
+            ],
+            "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
@@ -292,7 +479,224 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 11,
+                    "average": 2.8,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 9,
+                    "average": 2.3,
+                    "max": 4,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 9,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 9,
+                        "average": 3,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 6,
+                        "average": 2,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
+                    }
+                }
+            }
         }
     },
     {
@@ -311,7 +715,7 @@
         "cost": 4,
         "damageCapacity": 2,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 2,
@@ -330,8 +734,12 @@
                 "Rogue",
                 "Scoundrel"
             ],
+            "referencedTraits": [],
             "keywords": [
-                "Elite"
+                {
+                    "keyword": "Elite",
+                    "text": "Remove 1 additional focus token from this unit when you refresh."
+                }
             ],
             "actions": [],
             "forcedActions": [],
@@ -340,8 +748,10 @@
             "interrupts": [
                 "When this unit leaves play, search your deck for a [Rebel Alliance] card, reveal it, and add it to your hand. Shuffle your deck."
             ],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -359,7 +769,7 @@
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -376,8 +786,12 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [],
             "keywords": [
-                "Shielding"
+                {
+                    "keyword": "Shielding",
+                    "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
+                }
             ],
             "actions": [],
             "forcedActions": [],
@@ -386,8 +800,10 @@
             "interrupts": [
                 "When this unit leaves play, place 1 focus token on a target enemy enhancement."
             ],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -405,7 +821,7 @@
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -423,6 +839,7 @@
                 "Vehicle",
                 "Transport"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -431,8 +848,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -448,26 +867,19 @@
         "title": "Buried Outpost",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nForced Reaction: After this enhancement enters play, sacrifice a unit or place 1 focus token on this enhancement.",
         "abilities": {
             "traits": [
                 "Hoth",
                 "Location"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -476,8 +888,10 @@
                 "After this enhancement enters play, sacrifice a unit or place 1 focus token on this enhancement."
             ],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -492,32 +906,29 @@
         "type": "Fate",
         "title": "Battle of Hoth",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 7,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Hoth"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -532,31 +943,234 @@
         "type": "Objective",
         "title": "The Executor Arrives",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 2,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "",
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": null,
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 17,
+                    "average": 4.3,
+                    "max": 10,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 2,
+                    "average": 2,
+                    "max": 2,
+                    "min": 2
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 11,
+                    "average": 2.2,
+                    "max": 8,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 8,
+                    "average": 1.6,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 5,
+                    "average": 1.7,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 3,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 10,
+                        "average": 3.3,
+                        "max": 8,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 12,
+                        "average": 4,
+                        "max": 10,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 3,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                }
+            }
         }
     },
     {
@@ -575,7 +1189,7 @@
         "cost": 8,
         "damageCapacity": 10,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 3,
@@ -593,6 +1207,7 @@
                 "Vehicle",
                 "Capital Ship"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -601,8 +1216,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -620,7 +1237,7 @@
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -637,6 +1254,7 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card."
@@ -645,8 +1263,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -664,7 +1284,7 @@
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -681,6 +1301,7 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card."
@@ -689,8 +1310,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -706,27 +1329,22 @@
         "title": "Sith Holocron",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area. Limited.\nAction: Sacrifice this enhancement to reduce the cost of the next [Sith] card you play this phase by 3.",
         "abilities": {
             "traits": [
                 "Item"
             ],
+            "referencedTraits": [],
             "keywords": [
-                "Limited"
+                {
+                    "keyword": "Limited"
+                }
             ],
             "actions": [
                 "Sacrifice this enhancement to reduce the cost of the next [Sith] card you play this phase by 3."
@@ -735,8 +1353,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -752,23 +1372,16 @@
         "title": "Aggression",
         "isUnique": false,
         "cost": 1,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Play only during your turn.\nAction: Each player must sacrifice a unit, if able.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Each player must sacrifice a unit, if able."
@@ -777,8 +1390,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -793,31 +1408,241 @@
         "type": "Objective",
         "title": "Hunt Them Down",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "This objective gains +1 resource value for each captured card here.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 12,
+                    "average": 3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 3,
+                    "average": 1.5,
+                    "max": 2,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 10,
+                    "average": 2.5,
+                    "max": 4,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 6,
+                    "average": 1.2,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 10,
+                    "average": 10,
+                    "max": 10,
+                    "min": 10
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 10,
+                        "average": 3.3,
+                        "max": 4,
+                        "min": 3
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 7,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 10,
+                        "average": 10,
+                        "max": 10,
+                        "min": 10
+                    }
+                }
+            }
         }
     },
     {
@@ -836,7 +1661,7 @@
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 2,
@@ -854,6 +1679,7 @@
                 "Character",
                 "Bounty Hunter"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -862,8 +1688,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -881,7 +1709,7 @@
         "cost": 3,
         "damageCapacity": 2,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -899,6 +1727,7 @@
                 "Vehicle",
                 "Fighter"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -907,8 +1736,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -926,7 +1757,7 @@
         "cost": 3,
         "damageCapacity": 2,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -944,6 +1775,7 @@
                 "Vehicle",
                 "Fighter"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -952,8 +1784,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -969,33 +1803,28 @@
         "title": "Remote Hideout",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 0,
         "resourceValue": 2,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nThe first unit you play each turn enters play with 1 focus token on it.",
         "abilities": {
             "traits": [
                 "Location"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -1010,32 +1839,27 @@
         "type": "Fate",
         "title": "Target of Opportunity",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 10,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -1050,31 +1874,97 @@
         "type": "Objective",
         "title": "Endless Reserves",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, each event card in your edge stack gains 1 Force icon when resolving an edge battle.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Force"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 1,
+                    "total": 5,
+                    "average": 5,
+                    "max": 5,
+                    "min": 5
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 5,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 5,
+                    "cost": {
+                        "count": 5,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 5,
+                        "total": 5,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                }
+            }
         }
     },
     {
@@ -1091,23 +1981,16 @@
         "title": "Vast Resources",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Reduce the cost of the next card you play this phase by 1."
@@ -1116,8 +1999,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -1133,23 +2018,16 @@
         "title": "Vast Resources",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Reduce the cost of the next card you play this phase by 1."
@@ -1158,8 +2036,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -1175,23 +2055,16 @@
         "title": "Vast Resources",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Reduce the cost of the next card you play this phase by 1."
@@ -1200,8 +2073,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -1217,23 +2092,16 @@
         "title": "Vast Resources",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Reduce the cost of the next card you play this phase by 1."
@@ -1242,8 +2110,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Escape from Hoth",
@@ -1259,23 +2129,16 @@
         "title": "Vast Resources",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Reduce the cost of the next card you play this phase by 1."
@@ -1284,7 +2147,9 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     }
 ]

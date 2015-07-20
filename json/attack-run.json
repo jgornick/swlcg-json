@@ -12,33 +12,260 @@
         "type": "Objective",
         "title": "The Secret of Shantipole",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 2,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "",
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": null,
         "abilities": {
             "traits": [
                 "Roche"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "total": 10,
+                    "average": 3.3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 3,
+                    "average": 1.5,
+                    "max": 2,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 8,
+                    "average": 2,
+                    "max": 3,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 9,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "total": 5,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 5,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
+                    }
+                }
+            }
         }
     },
     {
@@ -57,7 +284,7 @@
         "cost": 3,
         "damageCapacity": 2,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 2,
@@ -76,16 +303,25 @@
                 "Force User",
                 "Pilot"
             ],
-            "keywords": [
+            "referencedTraits": [
                 "Pilot"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Pilot",
+                    "cost": 2,
+                    "text": "While enhanced unit is participating in an engagement and ready, this card gains:\"Action:Focus this enhancement to have enhanced unit strike immediately.\""
+                }
             ],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -103,7 +339,7 @@
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -121,8 +357,13 @@
                 "Vehicle",
                 "Fighter"
             ],
+            "referencedTraits": [
+                "Pilot"
+            ],
             "keywords": [
-                "Elite"
+                {
+                    "keyword": "Elite"
+                }
             ],
             "actions": [],
             "forcedActions": [],
@@ -131,8 +372,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -148,25 +391,20 @@
         "title": "Temple Hangar",
         "isUnique": false,
         "cost": 2,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 0,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReduce the cost and the pilot cost of the first Pilot card you play each turn by 1.",
         "abilities": {
             "traits": [
                 "Yavin 4",
                 "Location"
+            ],
+            "referencedTraits": [
+                "Pilot"
             ],
             "keywords": [],
             "actions": [],
@@ -174,8 +412,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -191,23 +431,16 @@
         "title": "Reassignment",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Move an enhancement on a unit to another eligible unit controlled by the same player.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Move an enhancement on a unit to another eligible unit controlled by the same player."
@@ -216,8 +449,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -232,32 +467,30 @@
         "type": "Fate",
         "title": "Stay on Target",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 7,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Pilot",
+                "Vehicle"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -272,31 +505,258 @@
         "type": "Objective",
         "title": "Running the Trench",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 2,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Rebel Alliance affiliation only.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "total": 11,
+                    "average": 3.7,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 2,
+                    "average": 2,
+                    "max": 2,
+                    "min": 2
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 8,
+                    "average": 2,
+                    "max": 4,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 8,
+                    "average": 1.6,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "total": 3,
+                    "average": 1.5,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "total": 3,
+                    "average": 1.5,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 9,
+                    "average": 9,
+                    "max": 9,
+                    "min": 9
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 7,
+                        "average": 3.5,
+                        "max": 4,
+                        "min": 3
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "total": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "total": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 9,
+                        "average": 9,
+                        "max": 9,
+                        "min": 9
+                    }
+                }
+            }
         }
     },
     {
@@ -315,7 +775,7 @@
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 2,
@@ -334,16 +794,26 @@
                 "Force User",
                 "Pilot"
             ],
-            "keywords": [
+            "referencedTraits": [
+                "Force",
                 "Pilot"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Pilot",
+                    "cost": 3,
+                    "text": "Interrupt: When an enhanced unit is focused to strike as an attacker, discard the top card of an opponent's deck and deal X damage to the engaged objective. X is the number of printed Force icons on the discarded card. (Limit once per turn."
+                }
             ],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -361,7 +831,7 @@
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -379,6 +849,7 @@
                 "Vehicle",
                 "Fighter"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -387,8 +858,10 @@
             "interrupts": [
                 "When this unit is focused to strike, it may assign it's [Blast Damage] to a target participating enemy unit instead of the engaged objective."
             ],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -404,24 +877,19 @@
         "title": "R2-D2",
         "isUnique": true,
         "cost": 1,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 0,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance a friendly Vehicle unit.\nEnhanced unit gains shielding. While it is piloted, it also gains:\"Reaction: After you refresh, remove 1 damage from this unit.\" ",
         "abilities": {
             "traits": [
                 "Upgrade"
+            ],
+            "referencedTraits": [
+                "Vehicle"
             ],
             "keywords": [],
             "actions": [],
@@ -429,8 +897,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -446,26 +916,19 @@
         "title": "Use the Force, Luke",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Look at the top card of an objective deck or command deck. You may place that card on the bottom of its deck.",
         "abilities": {
             "traits": [
                 "Force",
                 "Sense"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Look at the top card of an objective deck or command deck. You may place that card on the bottom of its deck."
@@ -474,8 +937,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -490,32 +955,27 @@
         "type": "Fate",
         "title": "I Have You Now",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 9,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "If you win this edge battle, destroy a target participating enemy unit.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -530,31 +990,258 @@
         "type": "Objective",
         "title": "The Smuggler's Gambit",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Each opponent's reserve value cannot be increased by card effects.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "total": 8,
+                    "average": 2.7,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 8,
+                    "average": 2,
+                    "max": 2,
+                    "min": 2
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 8,
+                    "average": 1.6,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 4,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "total": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
+                    }
+                }
+            }
         }
     },
     {
@@ -573,7 +1260,7 @@
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -591,8 +1278,11 @@
                 "Character",
                 "Smuggler"
             ],
+            "referencedTraits": [],
             "keywords": [
-                "Shielding"
+                {
+                    "keyword": "Shielding"
+                }
             ],
             "actions": [],
             "forcedActions": [],
@@ -601,8 +1291,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -620,7 +1312,7 @@
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 0,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -637,6 +1329,9 @@
             "traits": [
                 "Character"
             ],
+            "referencedTraits": [
+                "Force"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -645,8 +1340,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -662,33 +1359,28 @@
         "title": "Smuggler's Handbook",
         "isUnique": false,
         "cost": 2,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nIncrease each friendly player's reserve value by 1",
         "abilities": {
             "traits": [
                 "Item"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -704,23 +1396,16 @@
         "title": "Evading Authority",
         "isUnique": false,
         "cost": 2,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Action: Name a card type. Each opponent must discard 2 cards from his hand, if able. Draw 1 card for each discarded card that matches the named card type.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Name a card type. Each opponent must discard 2 cards from his hand, if able. Draw 1 card for each discarded card that matches the named card type."
@@ -729,8 +1414,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -745,32 +1432,27 @@
         "type": "Fate",
         "title": "Supporting Fire",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 7,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -785,33 +1467,243 @@
         "type": "Objective",
         "title": "Defending the Trench",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 10,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 2,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "While this objective is in a victory pile, it contributes 2 objectives.",
         "abilities": {
             "traits": [
                 "Death Star"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 19,
+                    "average": 4.8,
+                    "max": 10,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 2,
+                    "average": 2,
+                    "max": 2,
+                    "min": 2
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 10,
+                    "average": 2.5,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 8,
+                    "average": 1.6,
+                    "max": 4,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 10,
+                    "average": 10,
+                    "max": 10,
+                    "min": 10
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 10,
+                        "average": 10,
+                        "max": 10,
+                        "min": 10
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 9,
+                        "average": 3,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 9,
+                        "average": 3,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 7,
+                        "average": 2.3,
+                        "max": 4,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 10,
+                        "average": 10,
+                        "max": 10,
+                        "min": 10
+                    }
+                }
+            }
         }
     },
     {
@@ -830,7 +1722,7 @@
         "cost": 4,
         "damageCapacity": 4,
         "forceIcons": 4,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 2,
@@ -849,17 +1741,28 @@
                 "Force User",
                 "Pilot"
             ],
-            "keywords": [
-                "Elite",
+            "referencedTraits": [
                 "Pilot"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                },
+                {
+                    "keyword": "Pilot",
+                    "cost": 2,
+                    "text": "While enhanced unit is participating in an engagement, opponent cannot initiate card effects."
+                }
             ],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -877,7 +1780,7 @@
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -896,6 +1799,9 @@
                 "Fighter",
                 "Black Squadron"
             ],
+            "referencedTraits": [
+                "Squadron"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -904,8 +1810,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -923,7 +1831,7 @@
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
@@ -935,21 +1843,24 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "",
+        "text": null,
         "abilities": {
             "traits": [
                 "Vehicle",
                 "Fighter",
                 "Black Squadron"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -965,25 +1876,20 @@
         "title": "Closed Formation",
         "isUnique": false,
         "cost": 1,
-        "damageCapacity": 2,
+        "damageCapacity": null,
         "forceIcons": 0,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReaction: After a Fighter unit enters play, place 1 shield on that unit.",
         "abilities": {
             "traits": [
                 "Formation",
                 "Black Squadron"
+            ],
+            "referencedTraits": [
+                "Fighter"
             ],
             "keywords": [],
             "actions": [],
@@ -993,8 +1899,10 @@
             ],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -1009,32 +1917,27 @@
         "type": "Fate",
         "title": "I Have You Now",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 10,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "If you win this edge battle, destroy a target participating enemy unit.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -1049,33 +1952,260 @@
         "type": "Objective",
         "title": "The Hunter's Flight",
         "isUnique": false,
-        "cost": 0,
+        "cost": null,
         "damageCapacity": 5,
-        "forceIcons": 0,
+        "forceIcons": null,
         "resourceValue": 2,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "",
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": null,
         "abilities": {
             "traits": [
                 "Tatooine"
             ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "total": 11,
+                    "average": 3.7,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 3,
+                    "average": 1.5,
+                    "max": 2,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 10,
+                    "average": 2.5,
+                    "max": 4,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 9,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "total": 3,
+                    "average": 1.5,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "total": 3,
+                    "average": 1.5,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 8,
+                    "average": 8,
+                    "max": 8,
+                    "min": 8
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 8,
+                        "average": 4,
+                        "max": 4,
+                        "min": 4
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "total": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "total": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 8,
+                        "average": 8,
+                        "max": 8,
+                        "min": 8
+                    }
+                }
+            }
         }
     },
     {
@@ -1094,7 +2224,7 @@
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 1,
@@ -1113,17 +2243,28 @@
                 "Bounty Hunter",
                 "Pilot"
             ],
-            "keywords": [
-                "Elite",
+            "referencedTraits": [
                 "Pilot"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                },
+                {
+                    "keyword": "Pilot",
+                    "cost": 2,
+                    "text": "Reaction: After this card is attached as a pilot, capture a target unit with printed cost 4 or lower and without an enhancement on it."
+                }
             ],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -1141,7 +2282,7 @@
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 2,
@@ -1159,6 +2300,9 @@
                 "Vehicle",
                 "Transport"
             ],
+            "referencedTraits": [
+                "Pilot"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1167,8 +2311,10 @@
             "interrupts": [
                 "When a Pilot card you control leaves play, return it to its owner's hand instead. (Limit once per turn.)"
             ],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -1184,24 +2330,19 @@
         "title": "Den of Thieves",
         "isUnique": false,
         "cost": 2,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 0,
         "resourceValue": 1,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "Enhance you play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
         "abilities": {
             "traits": [
                 "Location"
+            ],
+            "referencedTraits": [
+                "Pilot"
             ],
             "keywords": [],
             "actions": [],
@@ -1209,8 +2350,10 @@
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -1226,23 +2369,19 @@
         "title": "Bail Out",
         "isUnique": false,
         "cost": 0,
-        "damageCapacity": 0,
+        "damageCapacity": null,
         "forceIcons": 1,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a piloted Vehicle unit you control leaves play, put its attached Pilot card into play as a unit under your control.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Pilot",
+                "Vehicle"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1251,8 +2390,10 @@
             "interrupts": [
                 "When a piloted Vehicle unit you control leaves play, put its attached Pilot card into play as a unit under your control."
             ],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     },
     {
         "product": "Attack Run",
@@ -1267,31 +2408,29 @@
         "type": "Fate",
         "title": "Stay on Target",
         "isUnique": false,
-        "cost": 0,
-        "damageCapacity": 0,
+        "cost": null,
+        "damageCapacity": null,
         "forceIcons": 2,
-        "resourceValue": 0,
+        "resourceValue": null,
         "edgePriorityNumber": 8,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
         "abilities": {
             "traits": [],
+            "referencedTraits": [
+                "Pilot",
+                "Vehicle"
+            ],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
-            "forcedInterrupts": []
-        }
+            "forcedInterrupts": [],
+            "scenarios": []
+        },
+        "illustrator": null
     }
 ]
