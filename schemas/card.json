@@ -223,13 +223,99 @@
           "name": "traits",
           "default": []
         },
+        "referencedTraits": {
+          "id": "referencedTraits",
+          "type": "array",
+          "title": "The trait(s) found in the text of the card.",
+          "name": "referencedTraits",
+          "default": []
+        },
         "keywords": {
           "id": "keywords",
           "type": "array",
-          "title": "The keyword(s) for the card.",
+          "title": "An array of objects containing the keyword(s) for the card and parsed fields for each keyword.",
           "description": "Unlike a trait, which has no inherent abilities, a keyword is an attribute which conveys specific rules to its card.",
           "name": "keywords",
-          "default": []
+          "default": [],
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "keyword": {
+                    "type": "string",
+                    "enum": ["Edge"],
+                    "title": "The keyword for the card."
+                  },
+                  "forceIcons": {
+                    "type": "integer",
+                    "title": "The number of force icons added by the Edge keyword."
+                  },
+                  "text": {
+                    "type": "string",
+                    "title": "The keyword text that follows the keyword. This is either reminder text or text that defines abilities based on the keyword."
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "keyword": {
+                    "type": "string",
+                    "enum": ["Pilot"],
+                    "title": "The keyword for the card."
+                  },
+                  "cost": {
+                    "type": "integer",
+                    "title": "The resource cost to play the card as a Pilot."
+                  },
+                  "text": {
+                    "type": "string",
+                    "title": "The keyword text that follows the keyword. This is either reminder text or text that defines abilities based on the keyword."
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "keyword": {
+                    "type": "string",
+                    "enum": ["Protect"],
+                    "title": "The keyword for the card."
+                  },
+                  "trait": {
+                    "type": "string",
+                    "title": "The targeted trait for the Protect keyword."
+                  },
+                  "text": {
+                    "type": "string",
+                    "title": "The keyword text that follows the keyword. This is either reminder text or text that defines abilities based on the keyword."
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "keyword": {
+                    "type": "string",
+                    "enum": [
+                      "Elite",
+                      "Influence",
+                      "Limited",
+                      "No enhancements",
+                      "Shielding",
+                      "Targeted Strike"
+                    ],
+                    "title": "The keyword for the card."
+                  },
+                  "text": {
+                    "type": "string",
+                    "title": "The keyword text that follows the keyword. This is either reminder text or text that defines abilities based on the keyword."
+                  }
+                }
+              }
+            ]
+          }
         },
         "actions": {
           "id": "actions",
@@ -278,8 +364,29 @@
           "description": "This list is parsed from the card text for each \"Forced Interrupt:\" found.",
           "name": "forcedInterrupts",
           "default": []
+        },
+        "scenarios": {
+          "id": "scenarios",
+          "type": "array",
+          "title": "Custom scenarios parsed from the card text.",
+          "name": "scenarios",
+          "default": []
         }
       }
+    },
+    "illustrator": {
+      "id": "illustrator",
+      "type": "string",
+      "title": "The illustrator for the card's artwork.",
+      "name": "illustrator",
+      "default": null
+    },
+    "stats": {
+      "id": "stats",
+      "type": "object",
+      "title": "An object that is added only to Objective cards that contains stats for the objective and by card type.",
+      "name": "stats",
+      "default": null
     }
   }
 }

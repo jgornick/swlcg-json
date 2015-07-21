@@ -12,9 +12,12 @@ In the mean time, view the ```/json``` directory.
 
 ## TODO
 
-* Add isAffiliationLocked flag to an objective card based on the card text.
+* Add isAffiliationLocked flag to an objective card based on the card text: ```/(.*?) affiliation only\./```
+* Add isLimitedToObjectiveDeck flag to an objective card based on the card text: ```Limit 1 per objective deck.```
+* Add scenarios which allow one to query cards (objective sets) based on thier abilities in the text of the card.
+* Add enhancement target aspect field which is a standard set of targeted aspected the card enhances.
 
-## Text Scenarios
+### Card Text Scenarios
 
 ```
 Deal damage
@@ -35,7 +38,16 @@ Gains edge
     \bgains([^\.\n]*?)edge\s\(\d+\)
 Gains combat icon(s)
     todo
+Gains shielding
+    todo
+Contributes Force
+    \bcontributes (.*?) Force\b
+```
 
+### Enhancement Parser
+
+```
+/Enhance (?:your|a|an|the) (.*?)\./
 ```
 
 ## License and Copyright

@@ -198,6 +198,7 @@ const CARD_TEXT_FIX = [
     // Add spaces between textual icons in card text
     [/(\[.*?\])(?=\[)/gm, '$1 '],
 
+    // Normalize icon text
     [/\[Blast Damage\]/gmi, '[Blast Damage]'],
     [/\[Unit Damage\]/gmi, '[Unit Damage]'],
     [/\[Tactics\]/gmi, '[Tactics]'],
