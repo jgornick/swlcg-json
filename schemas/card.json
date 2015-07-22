@@ -5,66 +5,82 @@
   "title": "Card schema.",
   "description": "This schema represents a single card in Star Wars: The Card Game LCG from Fantasy Flight Games.",
   "name": "/",
+  "definitions": {
+    "fieldMetric": {
+      "type": "object",
+      "title": "A field metric contains statistics for the field (i.e. cost, damageCapacity, forceIcons).",
+      "description": "The field metric is used in the entire objective stats and by card type stats.",
+      "properties": {
+        "count": {
+          "type": "number",
+          "title": "The count of cards that have the field defined.",
+          "default": 0
+        },
+        "total": {
+          "type": "number",
+          "title": "The sum of the field value for all cards.",
+          "default": 0
+        },
+        "average": {
+          "type": "number",
+          "title": "The average of the field value for all cards based on field count.",
+          "default": 0
+        },
+        "max": {
+          "type": "number",
+          "title": "The maximum field value for all cards.",
+          "default": null
+        },
+        "min": {
+          "type": "number",
+          "title": "The minimum field value for all cards.",
+          "default": null
+        }
+      }
+    }
+  },
   "properties": {
     "product": {
-      "id": "product",
       "type": "string",
       "title": "The name of the product the card was released with.",
-      "description": "The product matches the name of the core set or any Force Pack or Deluxe Expansion (e.g. A Dark Time, Core Set, Edge of Darkness)",
-      "name": "product"
+      "description": "The product matches the name of the core set or any Force Pack or Deluxe Expansion (e.g. A Dark Time, Core Set, Edge of Darkness)"
     },
     "productCycle": {
-      "id": "productCycle",
       "type": "string",
-      "title": "The name of the cycle for the product.",
-      "name": "productCycle"
+      "title": "The name of the cycle for the product."
     },
     "productOctgnId": {
-      "id": "productOctgnId",
       "type": "string",
-      "title": "The OCTGN GUID for the specified product.",
-      "name": "productOctgnId"
+      "title": "The OCTGN GUID for the specified product."
     },
     "number": {
-      "id": "number",
-      "type": "integer",
-      "title": "The unique card number.",
-      "name": "number"
+      "type": "number",
+      "title": "The unique card number."
     },
     "octgnId": {
-      "id": "octgnId",
       "type": "string",
-      "title": "The OCTGN GUID for the card.",
-      "name": "octgnId"
+      "title": "The OCTGN GUID for the card."
     },
     "objectiveSetNumber": {
-      "id": "objectiveSetNumber",
-      "type": "integer",
-      "title": "The objective set number the card is assigned to.",
-      "name": "objectiveSetNumber"
+      "type": "number",
+      "title": "The objective set number the card is assigned to."
     },
     "objectiveSetSequence": {
-      "id": "objectiveSetSequence",
-      "type": "integer",
-      "title": "The sequential number of the card in the objective set.",
-      "name": "objectiveSetSequence"
+      "type": "number",
+      "title": "The sequential number of the card in the objective set."
     },
     "side": {
-      "id": "side",
       "type": "string",
       "title": "The side of the Force the card is assigned to.",
-      "name": "side",
       "enum": [
         "Light",
         "Dark"
       ]
     },
     "affiliation": {
-      "id": "affiliation",
       "type": "string",
       "title": "The side of the Force affiliation.",
       "description": "Each side of the Force recruits its allies from three different affiliations (for a total of six affiliations).",
-      "name": "affiliation",
       "enum": [
         "Jedi",
         "Rebel Alliance",
@@ -75,12 +91,24 @@
         "Neutral"
       ]
     },
+    "affiliationLock": {
+      "type": "string",
+      "title": "The affiliation the card is restricted to.",
+      "description": "The affiliation lock is only applied to the Objective card for an objective set.",
+      "default": null,
+      "enum": [
+        "Jedi",
+        "Rebel Alliance",
+        "Smugglers and Spies",
+        "Sith",
+        "Imperial Navy",
+        "Scum and Villainy"
+      ]
+    },
     "type": {
-      "id": "type",
       "type": "string",
       "title": "The type of card.",
       "description": "An objective set’s five other cards are a combination of Unit, Event, Fate, or Enhancement cards (some objective sets include multiple copies of the same card).",
-      "name": "type",
       "enum": [
         "Affiliation",
         "Objective",
@@ -91,151 +119,117 @@
       ]
     },
     "title": {
-      "id": "title",
       "type": "string",
-      "title": "The card title.",
-      "name": "title"
+      "title": "The card title."
     },
     "isUnique": {
-      "id": "isUnique",
       "type": "boolean",
       "title": "Flag if the card is unique.",
       "description": "Some cards feature the diamond symbol before their card title. This indicates the character, location, or equipment represented by the card is Unique.",
-      "name": "isUnique",
+      "default": false
+    },
+    "isLimitedToObjectiveDeck": {
+      "type": "boolean",
+      "title": "Flag if the card is limited to only one per objective deck.",
+      "description": "The limited to an objective deck is only applied to the Objective card for an objective set.",
       "default": false
     },
     "cost": {
-      "id": "cost",
-      "type": "integer",
+      "type": "number",
       "title": "The resource cost to play the card.",
-      "name": "cost",
       "default": 0
     },
     "damageCapacity": {
-      "id": "damageCapacity",
-      "type": "integer",
+      "type": "number",
       "title": "The amount of damage that can be dealt before the card is destroyed.",
       "description": "When a card has a number of damage tokens with value equal to or greater than its damage capacity, it is immediately destroyed. Damage in excess of its damage capacity is ignored.",
-      "name": "damageCapacity",
       "default": 0
     },
     "forceIcons": {
-      "id": "forceIcons",
-      "type": "integer",
+      "type": "number",
       "title": "The amount of force the card has.",
-      "name": "forceIcons",
       "default": 0
     },
     "resourceValue": {
-      "id": "resourceValue",
-      "type": "integer",
+      "type": "number",
       "title": "The amount of resources the card can generate.",
       "description": "A ready card with a resource value can generate resources up to that value to help pay a resource cost.",
-      "name": "resourceValue",
       "default": 0
     },
     "edgePriorityNumber": {
-      "id": "edgePriorityNumber",
-      "type": "integer",
+      "type": "number",
       "title": "The priority in which the Fate card is resolved during an edge battle.",
       "description": "In ascending order (from lowest to highest) of priority number, each player resolves the effects of fate cards placed in his edge stack.",
-      "name": "edgePriorityNumber",
       "default": null,
       "minimum": 0,
       "maximum": 10
     },
     "normalCombatIcons": {
-      "id": "normalCombatIcons",
       "type": "object",
       "title": "Object with the values for normal combat icons.",
-      "name": "normalCombatIcons",
       "properties": {
         "unitDamage": {
-          "id": "unitDamage",
-          "type": "integer",
+          "type": "number",
           "title": "The amount of damage to deal to a participating enemy unit.",
-          "name": "unitDamage",
           "default": 0
         },
         "blastDamage": {
-          "id": "blastDamage",
-          "type": "integer",
+          "type": "number",
           "title": "The amount of damage to deal to the engaged enemy objective.",
-          "name": "blastDamage",
           "default": 0
         },
         "tactics": {
-          "id": "tactics",
-          "type": "integer",
+          "type": "number",
           "title": "The amount of focus to deal to any enemy unit.",
-          "name": "tactics",
           "default": 0
         }
       }
     },
     "edgeEnabledCombatIcons": {
-      "id": "edgeEnabledCombatIcons",
       "type": "object",
       "title": "Object with the values for edge-enabled combat icons.",
-      "name": "edgeEnabledCombatIcons",
       "properties": {
         "unitDamage": {
-          "id": "unitDamage",
-          "type": "integer",
+          "type": "number",
           "title": "The amount of damage to deal to a participating enemy unit.",
-          "name": "unitDamage",
           "default": 0
         },
         "blastDamage": {
-          "id": "blastDamage",
-          "type": "integer",
+          "type": "number",
           "title": "The amount of damage to deal to the engaged enemy objective.",
-          "name": "blastDamage",
           "default": 0
         },
         "tactics": {
-          "id": "tactics",
-          "type": "integer",
+          "type": "number",
           "title": "The amount of focus to deal to any enemy unit.",
-          "name": "tactics",
           "default": 0
         }
       }
     },
     "text": {
-      "id": "text",
       "type": "string",
       "title": "The card text.",
-      "name": "text",
       "default": null
     },
     "abilities": {
-      "id": "abilities",
       "type": "object",
       "title": "Object that defines the abilities and effects of the card.",
-      "name": "abilities",
       "properties": {
         "traits": {
-          "id": "traits",
           "type": "array",
           "title": "The trait(s) (i.e. attribute(s)) for the card.",
           "description": "A trait (always represented at the top of the text box and printed in italics) has no inherent effect. Instead, a trait grants its card an attribute that may be referenced by other effects.",
-          "name": "traits",
           "default": []
         },
         "referencedTraits": {
-          "id": "referencedTraits",
           "type": "array",
           "title": "The trait(s) found in the text of the card.",
-          "name": "referencedTraits",
           "default": []
         },
         "keywords": {
-          "id": "keywords",
           "type": "array",
           "title": "An array of objects containing the keyword(s) for the card and parsed fields for each keyword.",
           "description": "Unlike a trait, which has no inherent abilities, a keyword is an attribute which conveys specific rules to its card.",
-          "name": "keywords",
           "default": [],
           "items": {
             "oneOf": [
@@ -248,7 +242,7 @@
                     "title": "The keyword for the card."
                   },
                   "forceIcons": {
-                    "type": "integer",
+                    "type": "number",
                     "title": "The number of force icons added by the Edge keyword."
                   },
                   "text": {
@@ -266,7 +260,7 @@
                     "title": "The keyword for the card."
                   },
                   "cost": {
-                    "type": "integer",
+                    "type": "number",
                     "title": "The resource cost to play the card as a Pilot."
                   },
                   "text": {
@@ -318,75 +312,92 @@
           }
         },
         "actions": {
-          "id": "actions",
           "type": "array",
           "title": "The default action(s) parsed from the card text for the card.",
           "description": "This list is parsed from the card text for each \"Action:\" found.",
-          "name": "actions",
           "default": []
         },
         "forcedActions": {
-          "id": "forcedActions",
           "type": "array",
           "title": "The default forced action(s) parsed from the card text for the card.",
           "description": "This list is parsed from the card text for each \"Forced Action:\" found.",
-          "name": "forcedActions",
           "default": []
         },
         "reactions": {
-          "id": "reactions",
           "type": "array",
           "title": "The default reaction(s) parsed from the card text for the card.",
           "description": "This list is parsed from the card text for each \"Reaction:\" found.",
-          "name": "reactions",
           "default": []
         },
         "forcedReactions": {
-          "id": "forcedReactions",
           "type": "array",
           "title": "The default forced reaction(s) parsed from the card text for the card.",
           "description": "This list is parsed from the card text for each \"Forced Reaction:\" found.",
-          "name": "forcedReactions",
           "default": []
         },
         "interrupts": {
-          "id": "interrupts",
           "type": "array",
           "title": "The default interrupt(s) parsed from the card text for the card.",
           "description": "This list is parsed from the card text for each \"Interrupt:\" found.",
-          "name": "interrupts",
           "default": []
         },
         "forcedInterrupts": {
-          "id": "forcedInterrupts",
           "type": "array",
           "title": "The default forced interrupt(s) parsed from the card text for the card.",
           "description": "This list is parsed from the card text for each \"Forced Interrupt:\" found.",
-          "name": "forcedInterrupts",
           "default": []
         },
         "scenarios": {
-          "id": "scenarios",
           "type": "array",
           "title": "Custom scenarios parsed from the card text.",
-          "name": "scenarios",
-          "default": []
+          "default": [],
+          "items": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "Deals Damage",
+                  "Reduces Cost",
+                  "Places Token",
+                  "Removes Token",
+                  "Moves Token",
+                  "Draws Card",
+                  "Puts Into Play",
+                  "Gains Combat Icon",
+                  "Gains Damage Capacity",
+                  "Gains Resource Value",
+                  "Gains Edge",
+                  "Gains Shielding",
+                  "Gains Target Strike",
+                  "Gains Elite",
+                  "Gains Force Icon",
+                  "Contributes Force Icon"
+                ]
+              }
+            ]
+          }
         }
       }
     },
     "illustrator": {
-      "id": "illustrator",
       "type": "string",
       "title": "The illustrator for the card's artwork.",
-      "name": "illustrator",
       "default": null
     },
     "stats": {
-      "id": "stats",
       "type": "object",
       "title": "An object that is added only to Objective cards that contains stats for the objective and by card type.",
-      "name": "stats",
-      "default": null
+      "default": null,
+      "properties": {
+        "objective": {
+          "type": "object",
+          "title": "Stats for the entire objective set."
+        },
+        "type": {
+          "type": "object",
+          "title": "Stats by card type in the objective set."
+        }
+      }
     }
   }
 }

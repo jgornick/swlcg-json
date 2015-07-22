@@ -9,9 +9,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "A Hero's Trial",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -263,9 +265,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Luke Skywalker",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 4,
@@ -303,7 +307,10 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token",
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -317,9 +324,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Speeder Bike",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 0,
@@ -370,9 +379,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Luke's Lightsaber",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -380,13 +391,14 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance a Force User or Force Sensitive unit.\nEnhanced unit gains [Unit Damage] [EE Unit Damage].\nAction: Spend 1 [Jedi] resource to attach this enhancement to Luke Skywalker from your discard pile.",
+        "text": "Enhance a Force User or Force Sensitive unit.\nEnhanced unit gains [Unit Damage] [Edge-Enabled Unit Damage].\nAction: Spend 1 [Jedi] resource to attach this enhancement to Luke Skywalker from your discard pile.",
         "abilities": {
             "traits": [
                 "Weapon"
             ],
             "referencedTraits": [
-                "Force"
+                "Force Sensitive",
+                "Force User"
             ],
             "keywords": [],
             "actions": [
@@ -411,9 +423,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "I Am a Jedi",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -427,7 +441,7 @@
                 "Title"
             ],
             "referencedTraits": [
-                "Force"
+                "Force User"
             ],
             "keywords": [],
             "actions": [],
@@ -450,9 +464,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Heat of Battle",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -485,9 +501,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "The Master's Domain",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 4,
         "forceIcons": null,
@@ -754,9 +772,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Yoda",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 5,
@@ -804,9 +824,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Bogwing",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 0,
@@ -850,9 +872,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Yoda's Hut",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -876,7 +900,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Contributes Force Icon"
+            ]
         },
         "illustrator": null
     },
@@ -890,9 +916,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Lightsaber Deflection",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -915,7 +943,9 @@
                 "When damage is dealt to a friendly non-Vehicle unit, deal 1 point of that damage to another target unit instead."
             ],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -929,9 +959,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "The Jedi's Resolve",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -966,9 +998,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Following Fate",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -1233,9 +1267,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Obi-Wan Kenobi",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 5,
         "damageCapacity": 3,
         "forceIcons": 4,
@@ -1258,7 +1294,7 @@
                 "Force User"
             ],
             "referencedTraits": [
-                "Force"
+                "Force User"
             ],
             "keywords": [
                 {
@@ -1287,9 +1323,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "R2-D2",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": 1,
         "forceIcons": 0,
@@ -1332,9 +1370,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Obi-Wan's Lightsaber",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -1348,7 +1388,7 @@
                 "Weapon"
             ],
             "referencedTraits": [
-                "Force"
+                "Force User"
             ],
             "keywords": [],
             "actions": [],
@@ -1357,7 +1397,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Shielding"
+            ]
         },
         "illustrator": null
     },
@@ -1371,9 +1413,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Noble Sacrifice",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -1385,7 +1429,7 @@
         "abilities": {
             "traits": [],
             "referencedTraits": [
-                "Force"
+                "Force User"
             ],
             "keywords": [],
             "actions": [
@@ -1396,7 +1440,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Places Token"
+            ]
         },
         "illustrator": null
     },
@@ -1410,9 +1456,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Target of Opportunity",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -1431,7 +1479,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -1445,9 +1495,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Journey Through the Swamp",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -1472,7 +1524,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Puts Into Play"
+            ]
         },
         "illustrator": null,
         "stats": {
@@ -1694,9 +1748,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Jubba Bird",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 2,
@@ -1712,7 +1768,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "No enhancements.\nAction:Sacrifice this unit to target a Character or Creature unit and choose a combat icon type. Until the end of the phase, that unit loses all combat icons of the chosen type and cannot gain combat icons.",
+        "text": "No enhancements.\nAction: acrifice this unit to target a Character or Creature unit and choose a combat icon type. Until the end of the phase, that unit loses all combat icons of the chosen type and cannot gain combat icons.",
         "abilities": {
             "traits": [
                 "Creature",
@@ -1729,14 +1785,16 @@
                 }
             ],
             "actions": [
-                "Sacrifice this unit to target a Character or Creature unit and choose a combat icon type. Until the end of the phase, that unit loses all combat icons of the chosen type and cannot gain combat icons."
+                "acrifice this unit to target a Character or Creature unit and choose a combat icon type. Until the end of the phase, that unit loses all combat icons of the chosen type and cannot gain combat icons."
             ],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Combat Icon"
+            ]
         },
         "illustrator": null
     },
@@ -1750,9 +1808,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Jubba Bird",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 2,
@@ -1768,7 +1828,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "No enhancements.\nAction:Sacrifice this unit to target a Character or Creature unit and choose a combat icon type. Until the end of the phase, that unit loses all combat icons of the chosen type and cannot gain combat icons.",
+        "text": "No enhancements.\nAction: acrifice this unit to target a Character or Creature unit and choose a combat icon type. Until the end of the phase, that unit loses all combat icons of the chosen type and cannot gain combat icons.",
         "abilities": {
             "traits": [
                 "Creature",
@@ -1785,14 +1845,16 @@
                 }
             ],
             "actions": [
-                "Sacrifice this unit to target a Character or Creature unit and choose a combat icon type. Until the end of the phase, that unit loses all combat icons of the chosen type and cannot gain combat icons."
+                "acrifice this unit to target a Character or Creature unit and choose a combat icon type. Until the end of the phase, that unit loses all combat icons of the chosen type and cannot gain combat icons."
             ],
             "forcedActions": [],
             "reactions": [],
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Combat Icon"
+            ]
         },
         "illustrator": null
     },
@@ -1806,9 +1868,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Knobby White Spider",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 0,
@@ -1847,9 +1911,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Life Creates It",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -1874,7 +1940,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Puts Into Play"
+            ]
         },
         "illustrator": null
     },
@@ -1888,9 +1956,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Size Matters Not",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -1925,9 +1995,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Sacrifice at Endor",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -1951,7 +2023,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Contributes Force Icon"
+            ]
         },
         "illustrator": null,
         "stats": {
@@ -2173,9 +2247,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Ewok Hunter",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -2209,7 +2285,10 @@
                 "When this unit leaves play, draw 1 card."
             ],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Draws Card",
+                "Draws Card"
+            ]
         },
         "illustrator": null
     },
@@ -2223,9 +2302,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Ewok Hunter",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -2259,7 +2340,10 @@
                 "When this unit leaves play, draw 1 card."
             ],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Draws Card",
+                "Draws Card"
+            ]
         },
         "illustrator": null
     },
@@ -2273,9 +2357,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Funeral Pyre",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 4,
@@ -2299,7 +2385,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Places Token"
+            ]
         },
         "illustrator": null
     },
@@ -2313,9 +2401,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Unexpected Assistance",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -2352,9 +2442,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Retreat to the Forest",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -2391,9 +2483,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Commando Raid",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": true,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -2619,9 +2713,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Lieutenant Judder Page",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 2,
         "forceIcons": 2,
@@ -2652,7 +2748,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Edge"
+            ]
         },
         "illustrator": null
     },
@@ -2666,9 +2764,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Page's Commandos",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -2714,9 +2814,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Page's Commandos",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -2762,9 +2864,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Heat of Battle",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -2797,9 +2901,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Target of Opportunity",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -2818,7 +2924,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -2832,9 +2940,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Calling in Favors",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -3077,9 +3187,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Talon Karrde",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
@@ -3114,7 +3226,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token"
+            ]
         },
         "illustrator": null
     },
@@ -3128,9 +3242,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Skipray Blastboat",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -3162,7 +3278,9 @@
             ],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Places Token"
+            ]
         },
         "illustrator": null
     },
@@ -3176,9 +3294,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Skipray Blastboat",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -3210,7 +3330,9 @@
             ],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Places Token"
+            ]
         },
         "illustrator": null
     },
@@ -3224,9 +3346,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Dirty Secrets",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -3261,9 +3385,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Clever Ruse",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -3298,9 +3424,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "\"No Disintegrations\"",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -3313,6 +3441,7 @@
             "traits": [],
             "referencedTraits": [
                 "Bounty",
+                "Bounty Hunter",
                 "Mercenary"
             ],
             "keywords": [],
@@ -3544,9 +3673,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Boba Fett",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
@@ -3582,7 +3713,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token"
+            ]
         },
         "illustrator": null
     },
@@ -3596,9 +3729,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Freelance Hunter",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -3643,9 +3778,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Flamethrower",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -3671,7 +3808,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -3685,9 +3824,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Prized Possesion",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 0,
@@ -3728,9 +3869,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Entangled",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -3751,7 +3894,9 @@
                 "When an opponent chooses a unit to strike, he must choose a different eligible unit to strike instead, if able. Then, draw 1 card."
             ],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Draws Card"
+            ]
         },
         "illustrator": null
     },
@@ -3765,9 +3910,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": "Scum and Villainy",
         "type": "Objective",
         "title": "Masterful Manipulation",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 4,
         "forceIcons": null,
@@ -3790,7 +3937,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Draws Card"
+            ]
         },
         "illustrator": null,
         "stats": {
@@ -4012,9 +4161,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Prince Xizor",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 5,
         "damageCapacity": 3,
         "forceIcons": 3,
@@ -4064,9 +4215,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Black Sun Headhunter",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 4,
         "forceIcons": 1,
@@ -4120,9 +4273,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Debt Collector",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -4166,9 +4321,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Shadows of the Empire",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -4203,9 +4360,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "The Prince's Scheme",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -4240,9 +4399,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "All Out Brawl",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -4485,9 +4646,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Zekka Thyne",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 1,
@@ -4533,9 +4696,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Debt Collector",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -4579,9 +4744,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Armed to the Teeth",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -4616,9 +4783,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Entangled",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -4639,7 +4808,9 @@
                 "When an opponent chooses a unit to strike, he must choose a different eligible unit to strike instead, if able. Then, draw 1 card."
             ],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Draws Card"
+            ]
         },
         "illustrator": null
     },
@@ -4653,9 +4824,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Heat of Battle",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -4688,9 +4861,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "The Best That Credits Can Buy",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -4933,9 +5108,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Virago",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 3,
@@ -4984,9 +5161,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Black Sun Headhunter",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 4,
         "forceIcons": 1,
@@ -5040,9 +5219,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Rise of the Black Sun",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -5055,7 +5236,9 @@
             "traits": [
                 "Black Sun"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Black Sun"
+            ],
             "keywords": [],
             "actions": [
                 "Remove 1 focus token from a target Black Sun unit."
@@ -5079,9 +5262,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Warning Shot",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -5118,9 +5303,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Target of Opportunity",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -5139,7 +5326,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -5153,9 +5342,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "The Hunters",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -5374,9 +5565,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Boushh",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 2,
@@ -5400,6 +5593,7 @@
                 "Bounty Hunter"
             ],
             "referencedTraits": [
+                "Death Star",
                 "Scum"
             ],
             "keywords": [],
@@ -5425,9 +5619,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Snoova",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 2,
         "forceIcons": 2,
@@ -5449,7 +5645,7 @@
                 "Character",
                 "Black Sun",
                 "Bounty Hunter",
-                "Wookie"
+                "Wookiee"
             ],
             "referencedTraits": [],
             "keywords": [],
@@ -5475,9 +5671,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "A Better Offer",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -5514,9 +5712,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Pay Out",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -5559,9 +5759,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Show of Force",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 5,
         "damageCapacity": null,
         "forceIcons": 3,
@@ -5574,7 +5776,9 @@
             "traits": [
                 "Black Sun"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Black Sun"
+            ],
             "keywords": [],
             "actions": [
                 "Put each Black Sun unit from your discard into play, if able. At the end of the phase, discard each Black Sun unit you control."
@@ -5598,9 +5802,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "The Investigation",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": true,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -5845,9 +6051,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Ysanne Isard",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
@@ -5893,9 +6101,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Imperial Intelligence Officer",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 1,
@@ -5941,9 +6151,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Imperial Intelligence Officer",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 1,
@@ -5989,9 +6201,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Confiscate",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -6028,9 +6242,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Official Inquiry",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -6065,9 +6281,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Family Connections",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -6314,9 +6532,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "General Tagge",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 2,
@@ -6364,9 +6584,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Security Task Force",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -6417,9 +6639,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Security Task Force",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -6470,9 +6694,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Imperial Discipline",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -6497,7 +6723,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -6511,9 +6739,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Precision Fire",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -6536,7 +6766,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Target Strike"
+            ]
         },
         "illustrator": null
     }

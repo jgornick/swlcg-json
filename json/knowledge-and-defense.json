@@ -9,9 +9,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": "Jedi",
         "type": "Objective",
         "title": "The Flight of the Crow",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -32,7 +34,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Edge"
+            ]
         },
         "illustrator": null,
         "stats": {
@@ -254,9 +258,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Moldy Crow",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 2,
@@ -304,9 +310,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Ruusan Colonist",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -352,9 +360,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Ruusan Colonist",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -400,9 +410,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Valley of the Jedi",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -432,7 +444,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token"
+            ]
         },
         "illustrator": null
     },
@@ -446,9 +460,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Jedi",
+        "affiliationLock": null,
         "type": "Event",
         "title": "My Ally Is the Force",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": null,
         "forceIcons": 3,
@@ -487,9 +503,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "The Hoth Gambit",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -513,7 +531,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Contributes Force Icon"
+            ]
         },
         "illustrator": null,
         "stats": {
@@ -735,9 +755,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "General Carlist Rieekan",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 2,
@@ -787,9 +809,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Echo Base Technician",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -837,9 +861,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Tauntaun",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": 1,
         "forceIcons": 1,
@@ -883,9 +909,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Snowspeeder Counterattack",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -910,7 +938,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -924,9 +954,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Battle of Hoth",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 3,
@@ -947,7 +979,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -961,9 +995,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Along the Gamor Run",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -1210,9 +1246,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Hyperspace Marauder",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
@@ -1228,7 +1266,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "While this unit is committed to the Force, it gains:\"Reaction: after you win a Force struggle, put a unit of printed cost 1 or lower into play from your hand or discard pile.\"",
+        "text": "While this unit is committed to the Force, it gains: Reaction: after you win a Force struggle, put a unit of printed cost 1 or lower into play from your hand or discard pile.\"",
         "abilities": {
             "traits": [
                 "Vehicle",
@@ -1244,7 +1282,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Puts Into Play"
+            ]
         },
         "illustrator": null
     },
@@ -1258,9 +1298,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Hired Hands",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": 3,
         "forceIcons": 1,
@@ -1307,9 +1349,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Hired Hands",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": 3,
         "forceIcons": 1,
@@ -1356,9 +1400,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Deneba Refueling Station",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -1388,7 +1434,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token"
+            ]
         },
         "illustrator": null
     },
@@ -1402,9 +1450,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Make Your Own Luck",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -1429,7 +1479,9 @@
                 "When a Force struggle begins, target a friendly unit committed to the Force. Until the end of the phase, that unit gains 3 Force icons."
             ],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Force Icon"
+            ]
         },
         "illustrator": null
     },
@@ -1443,9 +1495,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "The Plan of the Prophetess",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -1453,7 +1507,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Each enemy unit committed to the Force loses 1 Force icon. ",
+        "text": "Each enemy unit committed to the Force loses 1 Force icon.",
         "abilities": {
             "traits": [
                 "Dromund Kaas"
@@ -1714,9 +1768,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Sariss",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 2,
         "forceIcons": 2,
@@ -1768,9 +1824,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Servant of the Dark Side",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 2,
@@ -1792,9 +1850,7 @@
                 "Character",
                 "Force Sensitive"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1816,9 +1872,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Dark Temple",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -1848,7 +1906,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token"
+            ]
         },
         "illustrator": null
     },
@@ -1862,9 +1922,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Deadly Sight",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -1872,21 +1934,19 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Reaction: After a phase begins, until the end of the phase a target unit loses 2 Force icons and is destroyed if it has no Force icons. ",
+        "text": "Reaction: After a phase begins, until the end of the phase a target unit loses 2 Force icons and is destroyed if it has no Force icons.",
         "abilities": {
             "traits": [
                 "Force",
                 "Control",
                 "Alter"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
             "reactions": [
-                "After a phase begins, until the end of the phase a target unit loses 2 Force icons and is destroyed if it has no Force icons. "
+                "After a phase begins, until the end of the phase a target unit loses 2 Force icons and is destroyed if it has no Force icons."
             ],
             "forcedReactions": [],
             "interrupts": [],
@@ -1905,9 +1965,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Seeds of Decay",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -1928,7 +1990,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Places Token"
+            ]
         },
         "illustrator": null
     },
@@ -1942,9 +2006,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "The Slave Trade",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 6,
         "forceIcons": null,
@@ -1952,7 +2018,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Reaction: After you win a Force struggle, capture the top card of an opponent's deck at this objective, if able.\nForced Reaction: After you loose a Force struggle, 1 random card is rescued from this objective, if able. ",
+        "text": "Reaction: After you win a Force struggle, capture the top card of an opponent's deck at this objective, if able.\nForced Reaction: After you loose a Force struggle, 1 random card is rescued from this objective, if able.",
         "abilities": {
             "traits": [
                 "Tatooine"
@@ -1967,7 +2033,7 @@
                 "After you win a Force struggle, capture the top card of an opponent's deck at this objective, if able."
             ],
             "forcedReactions": [
-                "After you loose a Force struggle, 1 random card is rescued from this objective, if able. "
+                "After you loose a Force struggle, 1 random card is rescued from this objective, if able."
             ],
             "interrupts": [],
             "forcedInterrupts": [],
@@ -2193,9 +2259,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Zygerrian Slaver",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 2,
         "forceIcons": 2,
@@ -2227,7 +2295,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Draws Card"
+            ]
         },
         "illustrator": null
     },
@@ -2241,9 +2311,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Galactic Scum",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": 3,
         "forceIcons": 1,
@@ -2277,7 +2349,9 @@
             ],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -2291,9 +2365,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Galactic Scum",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": 3,
         "forceIcons": 1,
@@ -2327,7 +2403,9 @@
             ],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -2341,9 +2419,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Slaver Holding Cells",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -2372,7 +2452,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token"
+            ]
         },
         "illustrator": null
     },
@@ -2386,9 +2468,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Relentless Pursuit",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 3,
@@ -2396,7 +2480,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Action: Reveal a captured card. Then, search an opponent's deck for a copy of that card, reveal it, and capture it. Shuffle the searched deck. ",
+        "text": "Action: Reveal a captured card. Then, search an opponent's deck for a copy of that card, reveal it, and capture it. Shuffle the searched deck.",
         "abilities": {
             "traits": [
                 "Bounty"
@@ -2404,7 +2488,7 @@
             "referencedTraits": [],
             "keywords": [],
             "actions": [
-                "Reveal a captured card. Then, search an opponent's deck for a copy of that card, reveal it, and capture it. Shuffle the searched deck. "
+                "Reveal a captured card. Then, search an opponent's deck for a copy of that card, reveal it, and capture it. Shuffle the searched deck."
             ],
             "forcedActions": [],
             "reactions": [],

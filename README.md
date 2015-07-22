@@ -8,41 +8,11 @@ The initial creation of this database is from the Star Wars LCG OCTGN sets catal
 
 More to come...
 
-In the mean time, view the ```/json``` directory.
+In the mean time, view the ```/json``` directory and ```schema/card.json```.
 
 ## TODO
 
-* Add isAffiliationLocked flag to an objective card based on the card text: ```/(.*?) affiliation only\./```
-* Add isLimitedToObjectiveDeck flag to an objective card based on the card text: ```Limit 1 per objective deck.```
-* Add scenarios which allow one to query cards (objective sets) based on thier abilities in the text of the card.
 * Add enhancement target aspect field which is a standard set of targeted aspected the card enhances.
-
-### Card Text Scenarios
-
-```
-Deal damage
-    \bdeals? (\d+|a) damage\b
-Reduce cost
-    \breduce(.*?)cost\b
-Place token
-    \bplace (\d+|a) focus token\b
-Remove token
-    \bremove (\d+|a) focus token\b
-Move token
-    \bmove (\d+|a) focus token\b
-Draw card
-    \bdraw (\d+|a) card\b
-Put into play
-    \bput(.*?)into play\b
-Gains edge
-    \bgains([^\.\n]*?)edge\s\(\d+\)
-Gains combat icon(s)
-    todo
-Gains shielding
-    todo
-Contributes Force
-    \bcontributes (.*?) Force\b
-```
 
 ### Enhancement Parser
 

@@ -144,6 +144,11 @@ const CARD_PROPERTY_MAP = {
     }
 };
 
+const CARD_TRAITS_FIX = [
+    [/\bFIghter\b/, 'Fighter'],
+    [/\bWookie\b/, 'Wookiee']
+];
+
 const OMIT_TRAITS = [
     'Unique'
 ];
@@ -155,11 +160,18 @@ const CARD_TEXT_FIX = [
     [/\r?\n|\r/gm, '\n'],
     [/\n+/gm, '\n'],
 
-    // Trim any extra spaces
-    [/^\s*/gm, ''],
-    [/^\s*\n/gm, '\n'],
-    [/^\n\s*/gm, '\n'],
-    [/^\s*$/gm, '\n'],
+    // Trim spaces at the beginning of the text
+    [/^\s+/gm, ''],
+    // Trim spaces at the end of the text
+    [/\s+$/gm, ''],
+    // Trim spaces before a new line
+    [/\s+\n/gm, '\n'],
+    // Trim spaces after a new line
+    [/\n\s+/gm, '\n'],
+    // Trim spaces on an empty line
+    [/^\s+$/gm, '\n'],
+    // Trim spaces on an empty line between new lines
+    [/\n\s+\n/gm, '\n'],
 
     // Each line should start with an upper case letter (when found)
     [/^([a-z])/gm, (v) => v.toUpperCase()],
@@ -181,6 +193,9 @@ const CARD_TEXT_FIX = [
     // Add space between edge and it's number of icons
     [/edge(\(\d+\))/gm, 'edge $1'],
 
+    // Add space between : and next character
+    [/\:[^\s]/gm, ': '],
+
     // Remove any trailing new lines
     [/\n$/gm, ''],
 
@@ -193,7 +208,7 @@ const CARD_TEXT_FIX = [
     [/\bnonfate\b/gm, 'non-fate'],
     [/\bpalyed\b/gm, 'played'],
     [/\bedgestack\b/gm, 'edge stack'],
-    [/Enhance you play area/, 'Enhance your play area'],
+    [/Enhance you play area/gm, 'Enhance your play area'],
 
     // Add spaces between textual icons in card text
     [/(\[.*?\])(?=\[)/gm, '$1 '],
@@ -203,8 +218,8 @@ const CARD_TEXT_FIX = [
     [/\[Unit Damage\]/gmi, '[Unit Damage]'],
     [/\[Tactics\]/gmi, '[Tactics]'],
 
-    [/\[Edge[\s\-]Enabled Blast Damage\]/gmi, '[Edge-Enabled Blast Damage]'],
-    [/\[Edge[\s\-]Enabled Unit Damage\]/gmi, '[Edge-Enabled Unit Damage]'],
+    [/\[(Edge[\s\-]Enabled|EE) Blast Damage\]/gmi, '[Edge-Enabled Blast Damage]'],
+    [/\[(Edge[\s\-]Enabled|EE) Unit Damage\]/gmi, '[Edge-Enabled Unit Damage]'],
     [/\[EE[\s\-]UD\]/gm, '[Edge-Enabled Unit Damage]'],
     [/\[EE[\s\-]Tactics\]/gmi, '[Edge-Enabled Tactics]'],
 
@@ -215,6 +230,9 @@ const CARD_TEXT_FIX = [
     [/\[Sith\]/gmi, '[Sith]'],
     [/\[Smugglers and Spies\]/gmi, '[Smugglers and Spies]']
 ];
+
+const CARD_AFFILIATION_LOCK_RE = /(.*?) affiliation only\./;
+const CARD_OBJECTIVE_DECK_LIMIT_RE = /Limit 1 per objective deck\./
 
 const CARD_ABILITIES = [
     /^((Forced\s)?(Action))\:\s?(.*)/,
@@ -280,6 +298,25 @@ const COMBAT_ICON_PROPERTY_MAP = {
     'UD': 'unitDamage',
     'BD': 'blastDamage',
     'T': 'tactics'
+};
+
+const CARD_SCENARIOS_MAP = {
+    'Deals Damage': (text) => !!text.match(/\bdeals?\b(?:.*?)damage/gm),
+    'Reduces Cost': (text) => !!text.match(/\breduces?\b(?:.*?)cost/gm),
+    'Places Token': (text) => !!text.match(/\bplaces?\b(?:.*?)focus token/gm),
+    'Removes Token': (text) => !!text.match(/\bremoves?\b(?:.*?)focus token/gm),
+    'Moves Token': (text) => !!text.match(/\bmoves?\b(?:.*?)focus token/gm),
+    'Draws Card': (text) => !!text.match(/\bdraws?\b(?!phase)(?:.*?)card/gm),
+    'Puts Into Play': (text) => !!text.match(/\bputs?\b(?:.*?)into play\b/gm),
+    'Gains Combat Icon': (text) => !!text.match(/\bgains?\b(?:.*?)(combat icon)(?:.*?)\./gm),
+    'Gains Damage Capacity': (text) => !!text.match(/\bgains?\b(?:.*?)(damage capacity)(?:.*?)\./gm),
+    'Gains Resource Value': (text) => !!text.match(/\bgains?\b(?:.*?)(resource value)(?:.*?)\./gm),
+    'Gains Edge': (text) => !!text.match(/\bgains?\b(?:.*?)(edge)(?:.*?)\./gm),
+    'Gains Shielding': (text) => !!text.match(/\bgains?\b(?:.*?)(shielding)(?:.*?)\./gm),
+    'Gains Target Strike': (text) => !!text.match(/\bgains?\b(?:.*?)(targeted strike)(?:.*?)\./gm),
+    'Gains Elite': (text) => !!text.match(/\bgains?\b(?:.*?)(elite)(?:.*?)\./gm),
+    'Gains Force Icon': (text) => !!text.match(/\bgains?\b(?:.*?)(Force icon)(?:.*?)\./gm),
+    'Contributes Force Icon': (text) => !!text.match(/\bcontributes?\b(?:.*?)(Force icon)(?:.*?)\./gm)
 };
 
 const STATS_FIELD_MAP = {
@@ -424,6 +461,10 @@ when.all(_.map(files, (file) => {
                                 }
                             );
                         } else if (propertyName == 'traits') {
+                            _.forEach(CARD_TRAITS_FIX, ([search, replace]) => {
+                                propertyValue = propertyValue.replace(search, replace, 'gm');
+                            });
+
                             let
                                 traits = _.invoke(_.compact(propertyValue.split(/[\-\.]/)), String.prototype.trim);
 
@@ -440,9 +481,20 @@ when.all(_.map(files, (file) => {
                             });
 
                             let
-                                textLines = _.compact(propertyValue.split('\n'));
+                                textLines = _.compact(propertyValue.split('\n')),
+                                affiliationLockMatch;
 
                             _.forEach(textLines, (line) => {
+                                affiliationLockMatch = line.match(CARD_AFFILIATION_LOCK_RE);
+
+                                if (affiliationLockMatch) {
+                                    result.affiliationLock = affiliationLockMatch[1];
+                                }
+
+                                if (line.match(CARD_OBJECTIVE_DECK_LIMIT_RE)) {
+                                    result.isLimitedToObjectiveDeck = true;
+                                }
+
                                 _.forEach(CARD_KEYWORDS, (keyword) => {
                                     let
                                         match = line.match(keyword);
@@ -481,6 +533,12 @@ when.all(_.map(files, (file) => {
                                         result.abilities[key].push(match[4]);
                                     }
                                 });
+
+                                _.forEach(CARD_SCENARIOS_MAP, (test, scenario) => {
+                                    if (test(line)) {
+                                        result.abilities.scenarios.push(scenario);
+                                    }
+                                });
                             });
 
                             result.text = _.trim(propertyValue) == '' ? null : propertyValue;
@@ -506,9 +564,11 @@ when.all(_.map(files, (file) => {
                         objectiveSetSequence: null,
                         side: null,
                         affiliation: null,
+                        affiliationLock: null,
                         type: null,
                         title: null,
                         isUnique: false,
+                        isLimitedToObjectiveDeck: false,
                         cost: null,
                         damageCapacity: null,
                         forceIcons: null,
@@ -540,12 +600,34 @@ when.all(_.map(files, (file) => {
 }))
     .then(() => {
         let
-            traits = _.sortBy(_.uniq(_.flatten(_.pluck(cards, 'abilities.traits'))));
+            traits = _.sortBy(_.uniq(_.flatten(_.pluck(cards, 'abilities.traits')))),
+            traitsRegExp = _.map(
+                traits,
+                (trait) => {
+                    let
+                        lookahead = '';
+
+                    if (trait == 'Force') {
+                        lookahead = '(?!\\s(?:icon|Sensitive|Spirit|User))';
+                    }
+
+                    return {
+                        regex: new RegExp(`\\b${trait}\\b${lookahead}`, 'gm'),
+                        trait
+                    };
+                }
+            );
 
         _.forEach(cards, (card) => {
-            card.abilities.referencedTraits = _.intersection(
-                traits,
-                _.words(card.text)
+            card.abilities.referencedTraits = _.reduce(
+                traitsRegExp,
+                (result, search) => {
+                    if (card.text && card.text.match(search.regex)) {
+                        result.push(search.trait);
+                    }
+                    return result;
+                },
+                []
             );
         });
 

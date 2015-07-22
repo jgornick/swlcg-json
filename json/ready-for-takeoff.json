@@ -9,9 +9,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Rogue Squadron Assault",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -35,7 +37,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Draws Card"
+            ]
         },
         "illustrator": null,
         "stats": {
@@ -264,9 +268,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Derek \"Hobbie\" Klivian",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 3,
@@ -319,9 +325,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Rogue Squadron X-Wing",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 3,
         "forceIcons": 0,
@@ -353,7 +361,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token"
+            ]
         },
         "illustrator": null
     },
@@ -367,9 +377,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Rogue Squadron X-Wing",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 3,
         "forceIcons": 0,
@@ -401,7 +413,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes Token"
+            ]
         },
         "illustrator": null
     },
@@ -415,9 +429,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Pilot Ready Room",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 0,
@@ -454,9 +470,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Stay on Target",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -478,7 +496,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Puts Into Play"
+            ]
         },
         "illustrator": null
     },
@@ -492,9 +512,11 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Memories of Taanab",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -519,7 +541,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Places Token"
+            ]
         },
         "illustrator": null,
         "stats": {
@@ -741,9 +765,11 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Lando Calrissian",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 2,
         "forceIcons": 2,
@@ -796,9 +822,11 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "System Patrol Craft",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -847,9 +875,11 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "System Patrol Craft",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -898,9 +928,11 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Conner Net",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -937,9 +969,11 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
         "type": "Event",
         "title": "A Little Maneuver",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -976,9 +1010,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "Black Squadron Formation",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -992,6 +1028,7 @@
                 "Death Star"
             ],
             "referencedTraits": [
+                "Black Squadron",
                 "Squadron"
             ],
             "keywords": [],
@@ -1232,9 +1269,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "\"Mauler\" Mithel",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 2,
         "forceIcons": 2,
@@ -1288,9 +1327,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Black Two",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 2,
@@ -1342,9 +1383,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "TIE Advanced",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 1,
@@ -1377,7 +1420,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Deals Damage"
+            ]
         },
         "illustrator": null
     },
@@ -1391,9 +1436,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Sith",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Death Star Ready Room",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 0,
@@ -1431,9 +1478,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Stay on Target",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -1455,7 +1504,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Puts Into Play"
+            ]
         },
         "illustrator": null
     },
@@ -1469,9 +1520,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Objective",
         "title": "The Empire's Elite",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -1724,9 +1777,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Baron Fel",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 4,
         "damageCapacity": 3,
         "forceIcons": 3,
@@ -1765,7 +1820,10 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Edge",
+                "Gains Elite"
+            ]
         },
         "illustrator": null
     },
@@ -1779,9 +1837,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "181st TIE Interceptor",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 3,
         "forceIcons": 1,
@@ -1814,7 +1874,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Contributes Force Icon"
+            ]
         },
         "illustrator": null
     },
@@ -1828,9 +1890,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "181st TIE Interceptor",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 3,
         "forceIcons": 1,
@@ -1863,7 +1927,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Contributes Force Icon"
+            ]
         },
         "illustrator": null
     },
@@ -1877,9 +1943,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Imperial Navy",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Flight Academy",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 0,
@@ -1917,9 +1985,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Fate",
         "title": "Stay on Target",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -1941,7 +2011,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Puts Into Play"
+            ]
         },
         "illustrator": null
     },
@@ -1955,9 +2027,11 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": "Scum and Villainy",
         "type": "Objective",
         "title": "The Grand Heist",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": 5,
         "forceIcons": null,
@@ -2201,9 +2275,11 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Niles Ferrier",
         "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
         "forceIcons": 2,
@@ -2258,9 +2334,11 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Novice Starship Thief",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 1,
@@ -2308,9 +2386,11 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Neutral",
+        "affiliationLock": null,
         "type": "Unit",
         "title": "Novice Starship Thief",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 1,
         "forceIcons": 1,
@@ -2358,9 +2438,11 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Enhancement",
         "title": "Pirate Hideout",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
         "forceIcons": 1,
@@ -2397,9 +2479,11 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
         "type": "Event",
         "title": "Salvage Operation",
         "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": null,
         "forceIcons": 2,
@@ -2422,7 +2506,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Puts Into Play"
+            ]
         },
         "illustrator": null
     }
