@@ -797,9 +797,7 @@
                 "Character",
                 "Spy"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],

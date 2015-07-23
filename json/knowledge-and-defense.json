@@ -428,9 +428,7 @@
                 "Ruusan",
                 "Location"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Limited"
@@ -521,7 +519,6 @@
                 "Hoth"
             ],
             "referencedTraits": [
-                "Force",
                 "Hoth"
             ],
             "keywords": [],
@@ -1012,9 +1009,7 @@
             "traits": [
                 "Gamor"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1323,9 +1318,7 @@
             "traits": [
                 "Character"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1374,9 +1367,7 @@
             "traits": [
                 "Character"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1418,9 +1409,7 @@
                 "Deneba",
                 "Location"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Limited"
@@ -1890,9 +1879,7 @@
                 "Dromund Kaas",
                 "Location"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Limited"
@@ -2023,9 +2010,7 @@
             "traits": [
                 "Tatooine"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -2337,9 +2322,7 @@
                 "Character",
                 "Scum"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -2391,9 +2374,7 @@
                 "Character",
                 "Scum"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -2436,9 +2417,7 @@
             "traits": [
                 "Location"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Limited"

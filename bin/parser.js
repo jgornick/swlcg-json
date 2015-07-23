@@ -204,11 +204,13 @@ const CARD_TEXT_FIX = [
     [/\brfom\b/gm, 'from'],
     [/\baffilation\b/gm, 'affiliation'],
     [/\bdamge\b/gm, 'damage'],
-    [/\bgainst\b/gm, 'against'],
+    [/\bgainst\b/gm, 'gains'],
     [/\bnonfate\b/gm, 'non-fate'],
     [/\bpalyed\b/gm, 'played'],
     [/\bedgestack\b/gm, 'edge stack'],
     [/Enhance you play area/gm, 'Enhance your play area'],
+    [/\bteh\b/gm, 'the'],
+    [/\bforce\b/gm, 'Force'],
 
     // Add spaces between textual icons in card text
     [/(\[.*?\])(?=\[)/gm, '$1 '],
@@ -608,7 +610,15 @@ when.all(_.map(files, (file) => {
                         lookahead = '';
 
                     if (trait == 'Force') {
-                        lookahead = '(?!\\s(?:icon|Sensitive|Spirit|User))';
+                        // TODO: Negative Lookbehind for:
+                        // Balance of the Force
+                        // commit.*Force
+                        // removed from the
+                        // remove a target unit from the
+                        //
+                        // Reverse the string and use the following PCRE regex.
+                        // (?<!resU\s|elggurts\s|tiripS\s|evitisneS\s|esahp\s|noci\s|drac\s)\becroF\b(?!\s(?:eht fo ecnalaB|.*?timmoc|eht morf devomer|eht morf tinu tegrat a evomer))
+                        lookahead = '(?!\\s(?:card|icon|phase|Sensitive|Spirit|struggle|User))';
                     }
 
                     return {

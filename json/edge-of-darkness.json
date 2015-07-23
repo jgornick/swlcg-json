@@ -8727,9 +8727,7 @@
             "traits": [
                 "Malachor V"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -8981,7 +8979,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "While this unit is committed to the Force, its Force icons count toward teh Force struggle even if it is exhausted.",
+        "text": "While this unit is committed to the Force, its Force icons count toward the Force struggle even if it is exhausted.",
         "abilities": {
             "traits": [
                 "Character",
@@ -9031,7 +9029,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "While this unit is committed to the Force, its Force icons count toward teh Force struggle even if it is exhausted.",
+        "text": "While this unit is committed to the Force, its Force icons count toward the Force struggle even if it is exhausted.",
         "abilities": {
             "traits": [
                 "Character",

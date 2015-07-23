@@ -2875,7 +2875,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "This objective contributes 1 Force icon to your side during the force struggle.",
+        "text": "This objective contributes 1 Force icon to your side during the Force struggle.",
         "abilities": {
             "traits": [],
             "referencedTraits": [],
@@ -3223,9 +3223,7 @@
             "traits": [
                 "Location"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -10536,9 +10534,7 @@
         "text": "Play only during any player's Force phase.\nAction: Return all units in play to the bottom of their owners' decks in random order.",
         "abilities": {
             "traits": [],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Return all units in play to the bottom of their owners' decks in random order."

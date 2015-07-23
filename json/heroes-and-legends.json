@@ -951,9 +951,7 @@
             "traits": [
                 "Location"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Limited"
@@ -2427,9 +2425,7 @@
                 "Arc Hammer",
                 "Location"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Limited"

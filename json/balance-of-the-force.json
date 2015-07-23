@@ -26,9 +26,7 @@
             "traits": [
                 "Tatooine"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -293,9 +291,7 @@
                 "Character",
                 "Force User"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Elite"
@@ -348,9 +344,7 @@
             "traits": [
                 "Character"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Edge",
@@ -406,9 +400,7 @@
             "traits": [
                 "Character"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [
                 {
                     "keyword": "Edge",
@@ -1495,9 +1487,7 @@
             "traits": [
                 "Coruscant"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],

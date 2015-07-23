@@ -24,9 +24,7 @@
         "text": "Each unit you control gains 1 Force icon during the Force struggle.",
         "abilities": {
             "traits": [],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1024,9 +1022,7 @@
             "traits": [
                 "Coruscant"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -1432,8 +1428,7 @@
                 "Condition"
             ],
             "referencedTraits": [
-                "Character",
-                "Force"
+                "Character"
             ],
             "keywords": [],
             "actions": [],

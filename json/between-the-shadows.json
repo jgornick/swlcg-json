@@ -890,9 +890,7 @@
                 "Location",
                 "Dagobah"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],
@@ -2013,8 +2011,7 @@
                 "Endor"
             ],
             "referencedTraits": [
-                "Ewok",
-                "Force"
+                "Ewok"
             ],
             "keywords": [],
             "actions": [],
@@ -5354,7 +5351,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Each objective you control against +1 damage capacity while you control 3 or more [Scum and Villainy] objectives.",
+        "text": "Each objective you control gains +1 damage capacity while you control 3 or more [Scum and Villainy] objectives.",
         "abilities": {
             "traits": [],
             "referencedTraits": [
@@ -5367,7 +5364,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Gains Damage Capacity"
+            ]
         },
         "illustrator": null,
         "stats": {

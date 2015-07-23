@@ -26,9 +26,7 @@
             "traits": [
                 "Coruscant"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],

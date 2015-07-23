@@ -1964,9 +1964,7 @@
             "traits": [
                 "Nar Shaddaa"
             ],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [],
             "forcedActions": [],

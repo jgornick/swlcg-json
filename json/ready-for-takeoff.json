@@ -1864,7 +1864,6 @@
                 "Fighter"
             ],
             "referencedTraits": [
-                "Force",
                 "Pilot"
             ],
             "keywords": [],
@@ -1917,7 +1916,6 @@
                 "Fighter"
             ],
             "referencedTraits": [
-                "Force",
                 "Pilot"
             ],
             "keywords": [],
