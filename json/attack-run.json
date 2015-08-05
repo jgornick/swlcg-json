@@ -300,7 +300,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "Pilot (2). (While enhanced unit is participating in an engagement and ready, this card gains: Action: ocus this enhancement to have enhanced unit strike immediately.\")",
+        "text": "Pilot (2). (While enhanced unit is participating in an engagement and ready, this card gains: \"Action: Focus this enhancement to have enhanced unit strike immediately.\")",
         "abilities": {
             "traits": [
                 "Character",
@@ -314,7 +314,7 @@
                 {
                     "keyword": "Pilot",
                     "cost": 2,
-                    "text": "While enhanced unit is participating in an engagement and ready, this card gains: Action: ocus this enhancement to have enhanced unit strike immediately.\""
+                    "text": "While enhanced unit is participating in an engagement and ready, this card gains: \"Action: Focus this enhancement to have enhanced unit strike immediately.\""
                 }
             ],
             "actions": [],
@@ -380,7 +380,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -908,7 +908,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance a friendly Vehicle unit.\nEnhanced unit gains shielding. While it is piloted, it also gains: Reaction: After you refresh, remove 1 damage from this unit.\"",
+        "text": "Enhance a friendly Vehicle unit.\nEnhanced unit gains shielding. While it is piloted, it also gains: \"Reaction: After you refresh, remove 1 damage from this unit.\"",
         "abilities": {
             "traits": [
                 "Upgrade"

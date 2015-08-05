@@ -39,7 +39,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null,
@@ -509,7 +509,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -859,7 +859,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -1984,7 +1984,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes from Force"
+            ]
         },
         "illustrator": null
     },
@@ -2285,7 +2287,9 @@
             ],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes from Force"
+            ]
         },
         "illustrator": null
     },
@@ -2468,7 +2472,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null

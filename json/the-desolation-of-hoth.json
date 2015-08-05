@@ -672,7 +672,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -2675,7 +2675,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -2720,7 +2720,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null

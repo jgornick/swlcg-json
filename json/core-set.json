@@ -281,7 +281,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -415,7 +415,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -1340,7 +1340,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -1859,7 +1859,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -3282,7 +3282,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -3628,7 +3628,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -4162,7 +4162,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -4618,7 +4618,7 @@
             ],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -5805,7 +5805,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null,
@@ -8046,7 +8046,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -8991,7 +8991,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Gains Target Strike"
+                "Gains Targeted Strike"
             ]
         },
         "illustrator": null
@@ -9613,7 +9613,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null,
@@ -11479,7 +11479,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -11973,7 +11973,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -12296,7 +12296,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -14215,7 +14215,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Gains Target Strike"
+                "Gains Targeted Strike"
             ]
         },
         "illustrator": null
@@ -14429,7 +14429,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null,
@@ -15372,7 +15372,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null,
@@ -15733,7 +15733,7 @@
             "forcedInterrupts": [],
             "scenarios": [
                 "Gains Damage Capacity",
-                "Gains Target Strike"
+                "Gains Targeted Strike"
             ]
         },
         "illustrator": null
@@ -15817,7 +15817,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -17173,7 +17173,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Phase Sequence: alance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
+        "text": "Phase Sequence: Balance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
         "abilities": {
             "traits": [],
             "referencedTraits": [
@@ -17212,7 +17212,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Phase Sequence: alance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
+        "text": "Phase Sequence: Balance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
         "abilities": {
             "traits": [],
             "referencedTraits": [
@@ -17251,7 +17251,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Phase Sequence: alance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
+        "text": "Phase Sequence: Balance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
         "abilities": {
             "traits": [],
             "referencedTraits": [
@@ -17290,7 +17290,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Phase Sequence: alance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
+        "text": "Phase Sequence: Balance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
         "abilities": {
             "traits": [],
             "referencedTraits": [
@@ -17329,7 +17329,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Phase Sequence: alance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
+        "text": "Phase Sequence: Balance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
         "abilities": {
             "traits": [],
             "referencedTraits": [
@@ -17368,7 +17368,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Phase Sequence: alance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
+        "text": "Phase Sequence: Balance | Refresh | Draw | Deployment | Conflict | Force\nStarting Reserve: 6",
         "abilities": {
             "traits": [],
             "referencedTraits": [

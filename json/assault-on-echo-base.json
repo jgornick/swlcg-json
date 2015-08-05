@@ -529,9 +529,7 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": [
-                "Gains Edge"
-            ]
+            "scenarios": []
         },
         "illustrator": null,
         "stats": {
@@ -1973,7 +1971,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null,

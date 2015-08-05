@@ -819,7 +819,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "While the Balance of the Force is with the light side, this unit gains: Reaction: After an opponent places a card into an edge stack, focus this unit to discard that card.\"",
+        "text": "While the Balance of the Force is with the light side, this unit gains: \"Reaction: After an opponent places a card into an edge stack, focus this unit to discard that card.\"",
         "abilities": {
             "traits": [
                 "Character",
@@ -835,9 +835,7 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": [
-                "Gains Edge"
-            ]
+            "scenarios": []
         },
         "illustrator": null
     },
@@ -871,7 +869,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "While the Balance of the Force is with the light side, this unit gains: Reaction: After an opponent places a card into an edge stack, focus this unit to discard that card.\"",
+        "text": "While the Balance of the Force is with the light side, this unit gains: \"Reaction: After an opponent places a card into an edge stack, focus this unit to discard that card.\"",
         "abilities": {
             "traits": [
                 "Character",
@@ -887,9 +885,7 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": [
-                "Gains Edge"
-            ]
+            "scenarios": []
         },
         "illustrator": null
     },
@@ -929,7 +925,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -970,7 +966,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -2209,7 +2205,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null

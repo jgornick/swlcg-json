@@ -825,7 +825,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Moves Token"
+                "Moves Focus Token"
             ]
         },
         "illustrator": null
@@ -1851,7 +1851,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Moves Token"
+                "Moves Focus Token"
             ]
         },
         "illustrator": null
@@ -3759,7 +3759,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Gains Target Strike"
+                "Gains Targeted Strike"
             ]
         },
         "illustrator": null
@@ -5735,7 +5735,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Loses Force Icon"
+            ]
         },
         "illustrator": null
     },
@@ -6130,7 +6132,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Moves Token"
+                "Moves Focus Token"
             ]
         },
         "illustrator": null
@@ -6669,7 +6671,7 @@
                 "When this unit leaves play, place 1 focus token on each character and each Droid unit."
             ],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -6788,7 +6790,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null,
@@ -7048,7 +7050,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -8173,7 +8175,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Loses Force Icon"
+            ]
         },
         "illustrator": null
     },
@@ -8695,7 +8699,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -9591,7 +9595,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -9677,7 +9681,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null,

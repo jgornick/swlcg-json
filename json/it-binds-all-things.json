@@ -420,7 +420,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Removes Token"
+                "Removes Focus Token"
             ]
         },
         "illustrator": null
@@ -996,7 +996,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes from Force"
+            ]
         },
         "illustrator": null
     },
@@ -1484,7 +1486,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes from Force"
+            ]
         },
         "illustrator": null
     },
@@ -1938,7 +1942,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
@@ -2296,7 +2300,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Gains Target Strike"
+                "Gains Targeted Strike"
             ]
         },
         "illustrator": null
@@ -2347,7 +2351,7 @@
             "interrupts": [],
             "forcedInterrupts": [],
             "scenarios": [
-                "Gains Target Strike"
+                "Gains Targeted Strike"
             ]
         },
         "illustrator": null
@@ -2377,9 +2381,7 @@
         "text": "Action: Capture one of your opponent's Force cards from his supply at an objective of your choice. (Treat it as a captured card. If it ceases to be captured, it is returned to his supply.",
         "abilities": {
             "traits": [],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
             "actions": [
                 "Capture one of your opponent's Force cards from his supply at an objective of your choice. (Treat it as a captured card. If it ceases to be captured, it is returned to his supply."
@@ -2428,7 +2430,9 @@
             "forcedReactions": [],
             "interrupts": [],
             "forcedInterrupts": [],
-            "scenarios": []
+            "scenarios": [
+                "Removes from Force"
+            ]
         },
         "illustrator": null
     }

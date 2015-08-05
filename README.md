@@ -13,6 +13,12 @@ In the mean time, view the ```/json``` directory and ```schema/card.json```.
 ## TODO
 
 * Add enhancement target aspect field which is a standard set of targeted aspected the card enhances.
+* Improve referenced traits parsing for the "Force" trait.
+
+    ```
+    (?!\s(?:eht fo ecnalaB|.*?timmoc|eht morf devomer|eht morf tinu tegrat a evomer)
+    (?<!(?:Balance of the|commit?*.|removed from the|remove a target unit from the)\\s?)
+    ```
 
 ### Enhancement Parser
 

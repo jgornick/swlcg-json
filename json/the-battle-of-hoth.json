@@ -452,7 +452,7 @@
             "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage",
-                "Places Token"
+                "Places Focus Token"
             ]
         },
         "illustrator": null
