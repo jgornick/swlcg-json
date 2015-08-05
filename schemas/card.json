@@ -358,20 +358,26 @@
                 "enum": [
                   "Deals Damage",
                   "Reduces Cost",
-                  "Places Token",
-                  "Removes Token",
-                  "Moves Token",
+                  "Places Focus Token",
+                  "Removes Focus Token",
+                  "Moves Focus Token",
                   "Draws Card",
                   "Puts Into Play",
+                  "Puts Into Play From Discard Pile",
+                  "Puts Into Play From Hand",
                   "Gains Combat Icon",
                   "Gains Damage Capacity",
                   "Gains Resource Value",
                   "Gains Edge",
                   "Gains Shielding",
-                  "Gains Target Strike",
+                  "Gains Targeted Strike",
                   "Gains Elite",
                   "Gains Force Icon",
-                  "Contributes Force Icon"
+                  "Contributes Force Icon",
+                  "Captures Card",
+                  "Removes from Force",
+                  "Commits to Force",
+                  "Adds Force Icons to Force Struggle"
                 ]
               }
             ]

@@ -194,7 +194,7 @@ const CARD_TEXT_FIX = [
     [/edge(\(\d+\))/gm, 'edge $1'],
 
     // Add space between : and next character
-    [/\:[^\s]/gm, ': '],
+    [/\:([^\s])/gm, ': $1'],
 
     // Remove any trailing new lines
     [/\n$/gm, ''],
@@ -303,22 +303,30 @@ const COMBAT_ICON_PROPERTY_MAP = {
 };
 
 const CARD_SCENARIOS_MAP = {
-    'Deals Damage': (text) => !!text.match(/\bdeals?\b(?:.*?)damage/gm),
-    'Reduces Cost': (text) => !!text.match(/\breduces?\b(?:.*?)cost/gm),
-    'Places Token': (text) => !!text.match(/\bplaces?\b(?:.*?)focus token/gm),
-    'Removes Token': (text) => !!text.match(/\bremoves?\b(?:.*?)focus token/gm),
-    'Moves Token': (text) => !!text.match(/\bmoves?\b(?:.*?)focus token/gm),
-    'Draws Card': (text) => !!text.match(/\bdraws?\b(?!phase)(?:.*?)card/gm),
-    'Puts Into Play': (text) => !!text.match(/\bputs?\b(?:.*?)into play\b/gm),
-    'Gains Combat Icon': (text) => !!text.match(/\bgains?\b(?:.*?)(combat icon)(?:.*?)\./gm),
-    'Gains Damage Capacity': (text) => !!text.match(/\bgains?\b(?:.*?)(damage capacity)(?:.*?)\./gm),
-    'Gains Resource Value': (text) => !!text.match(/\bgains?\b(?:.*?)(resource value)(?:.*?)\./gm),
-    'Gains Edge': (text) => !!text.match(/\bgains?\b(?:.*?)(edge)(?:.*?)\./gm),
-    'Gains Shielding': (text) => !!text.match(/\bgains?\b(?:.*?)(shielding)(?:.*?)\./gm),
-    'Gains Target Strike': (text) => !!text.match(/\bgains?\b(?:.*?)(targeted strike)(?:.*?)\./gm),
-    'Gains Elite': (text) => !!text.match(/\bgains?\b(?:.*?)(elite)(?:.*?)\./gm),
-    'Gains Force Icon': (text) => !!text.match(/\bgains?\b(?:.*?)(Force icon)(?:.*?)\./gm),
-    'Contributes Force Icon': (text) => !!text.match(/\bcontributes?\b(?:.*?)(Force icon)(?:.*?)\./gm)
+    'Deals Damage': (text) => !!text.match(/\bdeals?\b(?:[^\:\n\.]*?)damage/gm),
+    'Reduces Cost': (text) => !!text.match(/\breduces?\b(?:[^\:\n\.]*?)cost/gm),
+    'Places Focus Token': (text) => !!text.match(/\bplaces?\b(?:[^\:\n\.]*?)focus token/gm),
+    'Removes Focus Token': (text) => !!text.match(/\bremoves?\b(?:[^\:\n\.]*?)focus token/gm),
+    'Moves Focus Token': (text) => !!text.match(/\bmoves?\b(?:[^\:\n\.]*?)focus token/gm),
+    'Draws Card': (text) => !!text.match(/\bdraws?\b(?!phase)(?:[^\:\n\.]*?)card/gm),
+    'Puts Into Play': (text) => !!text.match(/\bputs?\b(?:[^\:\n\.]*?)into play\b/gm),
+    'Puts Into Play From Discard Pile': (text) => !!text.match(/\bputs?\b(?:[^\:\n\.]*?)into play (?:.*?) discard pile\\b/gm),
+    'Puts Into Play From Hand': (text) => !!text.match(/\bputs?\b(?:[^\:\n\.]*?)into play (?:.*?) hand\\b/gm),
+    'Gains Combat Icon': (text) => !!text.match(/\bgains?\b(?:[^\:\n\.]*?)(combat icon)(?:.*?)\./gm),
+    'Gains Damage Capacity': (text) => !!text.match(/\bgains?\b(?:[^\:\n\.]*?)(damage capacity)(?:.*?)\./gm),
+    'Gains Resource Value': (text) => !!text.match(/\bgains?\b(?:[^\:\n\.]*?)(resource value)(?:.*?)\./gm),
+    'Gains Edge': (text) => !!text.match(/\bgains?\b(?:[^\:\n\.]*?)(edge)(?:.*?)\./gm),
+    'Gains Shielding': (text) => !!text.match(/\bgains?\b(?:[^\:\n\.]*?)(shielding)(?:.*?)\./gm),
+    'Gains Targeted Strike': (text) => !!text.match(/\bgains?\b(?:[^\:\n\.]*?)(targeted strike)(?:.*?)\./gm),
+    'Gains Elite': (text) => !!text.match(/\bgains?\b(?:[^\:\n\.]*?)(elite)(?:.*?)\./gm),
+    'Gains Force Icon': (text) => !!text.match(/\bgains?\b(?:[^\:\n\.]*?)(Force icon)(?:.*?)\./gm),
+    'Loses Force Icon': (text) => !!text.match(/\bloses?\b(?:[^\:\n\.]*?)(Force icon)(?:.*?)\./gm),
+    'Contributes Force Icon': (text) => !!text.match(/\bcontributes?\b(?:[^\:\n\.]*?)(Force icon)(?:.*?)\./gm),
+    // 'Captures Card': (text) => !!text.match(/(?<!After you\s)\bcapture\b/gm),
+    'Removes from Force': (text) => !!text.match(/\b[Rr]emoves?\b(?:.*?) from the Force(?!\sstruggle)\b/gm),
+    // 'Commits to Force': (text) => !!text.match(/(?<!After you\s|cannot\s)\b[Cc]ommits?\b(?:.*?)\bto\b(?:.*?)\bthe Force\b/gm),
+    // 'Adds Force Icons to Force Struggle': (text) => !!text.match(/(?:(?<=[Dd]ouble the|gain|gains|contribute|contributes|counts)\b(?:[^\:\[\n]*?)\sForce icons?|(?<=its)\b(?:[^\:\[\n]*?)\sForce icons? count towards?)/gm)
+
 };
 
 const STATS_FIELD_MAP = {
@@ -618,6 +626,7 @@ when.all(_.map(files, (file) => {
                         //
                         // Reverse the string and use the following PCRE regex.
                         // (?<!resU\s|elggurts\s|tiripS\s|evitisneS\s|esahp\s|noci\s|drac\s)\becroF\b(?!\s(?:eht fo ecnalaB|.*?timmoc|eht morf devomer|eht morf tinu tegrat a evomer))
+                        // https://regex101.com/r/bP1fC7/1
                         lookahead = '(?!\\s(?:card|icon|phase|Sensitive|Spirit|struggle|User))';
                     }
 
