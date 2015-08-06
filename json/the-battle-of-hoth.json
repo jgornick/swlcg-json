@@ -23,6 +23,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: If you control more Hoth objectives than your opponent, look at the top card of your deck. If it is a Vehicle unit with cost 2 or lower, put it into play. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -31,14 +35,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "If you control more Hoth objectives than your opponent, look at the top card of your deck. If it is a Vehicle unit with cost 2 or lower, put it into play. (Limit once per turn.)"
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -292,6 +288,9 @@
         },
         "text": "While you control Rogue Two, this unit gains [Tactics].",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Speeder"
@@ -300,12 +299,6 @@
                 "Rogue"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -342,6 +335,9 @@
         },
         "text": "This unit gains [Edge-Enabled Blast Damage] for each attacking Speeder unit you control.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Speeder"
@@ -350,12 +346,6 @@
                 "Speeder"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -392,18 +382,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Speeder"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -432,6 +419,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReaction: After you strike with a Speeder unit, deal 1 damage to a target enemy Vehicle unit. If the target is a Walker unit, also place 1 focus token on it. (Limit once per phase.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Hoth",
                 "Location"
@@ -442,14 +433,6 @@
                 "Walker"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you strike with a Speeder unit, deal 1 damage to a target enemy Vehicle unit. If the target is a Walker unit, also place 1 focus token on it. (Limit once per phase.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage",
                 "Places Focus Token"
@@ -481,17 +464,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -522,17 +500,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After your opponent refreshes, draw to your reserve value if you control fewer units than your opponent.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After your opponent refreshes, draw to your reserve value if you control fewer units than your opponent."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -777,19 +750,15 @@
         },
         "text": "Action: Return this unit to your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Return this unit to your hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -826,19 +795,15 @@
         },
         "text": "Action: Return this unit to your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Return this unit to your hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -867,6 +832,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a [Smugglers and Spies] Character unit.\nLimit 1 per unit.\nWhile you control fewer units than your opponent, double enhanced unit's combat icons.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Weapon"
             ],
@@ -874,12 +842,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -908,17 +870,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When your opponent chooses a single target for a non-capturing card effect, choose a new target for that effect. The new target is chosen as if you executed the effect.",
         "abilities": {
+            "types": [
+                "Interrupt"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When your opponent chooses a single target for a non-capturing card effect, choose a new target for that effect. The new target is chosen as if you executed the effect."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -947,17 +904,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Return any number of units you control to their owners' hands.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Return any number of units you control to their owners' hands."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -986,17 +938,14 @@
         "edgeEnabledCombatIcons": null,
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1241,6 +1190,10 @@
         },
         "text": "Protect Hoth. (If a Hoth card you control would be damaged, you may place the damage on this unit instead.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1251,16 +1204,10 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "Hoth",
+                    "descriptor": "Hoth",
                     "text": "If a Hoth card you control would be damaged, you may place the damage on this unit instead."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1297,6 +1244,10 @@
         },
         "text": "Protect Hoth. (If a Hoth card you control would be damaged, you may place the damage on this unit instead.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1307,16 +1258,10 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "Hoth",
+                    "descriptor": "Hoth",
                     "text": "If a Hoth card you control would be damaged, you may place the damage on this unit instead."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1353,6 +1298,10 @@
         },
         "text": "Protect Hoth. (If a Hoth card you control would be damaged, you may place the damage on this unit instead.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1363,16 +1312,10 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "Hoth",
+                    "descriptor": "Hoth",
                     "text": "If a Hoth card you control would be damaged, you may place the damage on this unit instead."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1401,19 +1344,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you resolve a strike, immediately strike again with another ready participating unit you control.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Maneuver"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you resolve a strike, immediately strike again with another ready participating unit you control."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1442,17 +1381,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1483,17 +1417,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, reduce each opponent's reserve value by 1.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1745,6 +1676,9 @@
         },
         "text": "This unit gains [Blast Damage] while it is attacking a Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1753,12 +1687,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1795,6 +1723,9 @@
         },
         "text": "This unit gains [Blast Damage] while it is attacking a Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1803,12 +1734,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1845,18 +1770,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1885,6 +1807,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: Focus this enhancement to have a target Trooper unit gain [Blast Damage] until the end of the phase.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Weapon"
             ],
@@ -1892,14 +1818,6 @@
                 "Trooper"
             ],
             "keywords": [],
-            "actions": [
-                "Focus this enhancement to have a target Trooper unit gain [Blast Damage] until the end of the phase."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1928,17 +1846,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1955,7 +1868,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "affiliationLock": "Imperial Navy",
         "type": "Objective",
         "title": "Unstoppable Advance",
         "isUnique": false,
@@ -1969,17 +1881,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Imperial Navy affiliation only.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2224,6 +2133,11 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nReaction: After this unit is focused to strike, instead of resolving its combat icons, discard a target non-limited enhancement from play.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Walker"
@@ -2235,14 +2149,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, instead of resolving its combat icons, discard a target non-limited enhancement from play."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2279,6 +2185,11 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nReaction: After this unit is focused to strike, instead of resolving its combat icons, discard a target non-limited enhancement from play.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Walker"
@@ -2290,14 +2201,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, instead of resolving its combat icons, discard a target non-limited enhancement from play."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2334,6 +2237,11 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nInterrupt: When this unit is focused to strike, deal 1 damage to each enemy Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
             "traits": [
                 "Vehicle",
                 "Walker"
@@ -2347,14 +2255,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit is focused to strike, deal 1 damage to each enemy Hoth objective."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -2385,6 +2285,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReduce the cost to play each [Imperial Navy] Vehicle unit with a printed cost of 4 or higher by 1.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Location"
             ],
@@ -2392,12 +2295,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2426,19 +2323,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only if you control at least 1 Hoth objective.\nAction: Deal 1 damage to each enemy objective.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [
-                "Deal 1 damage to each enemy objective."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null

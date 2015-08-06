@@ -23,6 +23,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you commit a unit to the Force, remove all focus tokens from that unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Dagobah"
             ],
@@ -30,14 +34,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you commit a unit to the Force, remove all focus tokens from that unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -308,6 +304,10 @@
         },
         "text": "Elite.\nThis unit gains [Unit Damage] for each point on the Death Star dial.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -320,12 +320,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -362,6 +356,11 @@
         },
         "text": "Reaction: After this unit enters play decrease the Death Star dial by 1.\nForced Interrupt: When this unit leaves play increase the Death Star dial by 1.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction",
+                "Forced Interrupt"
+            ],
             "traits": [
                 "Creature"
             ],
@@ -369,16 +368,6 @@
                 "Death Star"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play decrease the Death Star dial by 1."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [
-                "When this unit leaves play increase the Death Star dial by 1."
-            ],
             "scenarios": []
         },
         "illustrator": null
@@ -407,6 +396,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card each turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Dagobah",
                 "Location"
@@ -418,12 +411,6 @@
                     "text": "You cannot play more than one limited card each turn."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -452,6 +439,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Increase the Death Star dial by 1 to search your deck for Yoda, and put him into play, if able.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Force"
             ],
@@ -459,14 +450,6 @@
                 "Death Star"
             ],
             "keywords": [],
-            "actions": [
-                "Increase the Death Star dial by 1 to search your deck for Yoda, and put him into play, if able."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -497,17 +480,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may place 1 focus token on a target ready unit that is committed to the Force.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -538,17 +516,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After an objective enters play, look at the top card of an opponent's objective or command deck. You may move that card to the bottom of its deck.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an objective enters play, look at the top card of an opponent's objective or command deck. You may move that card to the bottom of its deck."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -793,20 +766,16 @@
         },
         "text": "Reaction: After you win a Force struggle, return a target enemy enhancement to the top of its owner's deck.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Spy"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, return a target enemy enhancement to the top of its owner's deck."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -843,6 +812,10 @@
         },
         "text": "Reaction: After this unit enters play, remove 1 focus token from a target unit committed to the Force.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character"
             ],
@@ -850,14 +823,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, remove 1 focus token from a target unit committed to the Force."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -888,19 +853,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: Focus this enhancement to look at the top card of each player's deck. Then you may discard 1 of those cards.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Location"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Focus this enhancement to look at the top card of each player's deck. Then you may discard 1 of those cards."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -929,6 +890,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Location"
             ],
@@ -939,12 +904,6 @@
                     "text": "You cannot play more than one limited card per turn."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -973,19 +932,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: During an engagement, put a Character unit into play from your hand as a participating unit on your side. If that unit is still in play at the end of the phase, return it to your hand.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Character"
             ],
             "keywords": [],
-            "actions": [
-                "During an engagement, put a Character unit into play from your hand as a participating unit on your side. If that unit is still in play at the end of the phase, return it to your hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -1002,7 +956,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Sith",
-        "affiliationLock": "Sith",
         "type": "Objective",
         "title": "The Second Phase",
         "isUnique": false,
@@ -1016,19 +969,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Sith affiliation only.\nAction: Damage this objective to reduce the cost of the next [Sith] unit you play this phase by 1. (Limit once per phase.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Arc Hammer"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Damage this objective to reduce the cost of the next [Sith] unit you play this phase by 1. (Limit once per phase.)"
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Reduces Cost"
             ]
@@ -1275,20 +1224,16 @@
         },
         "text": "Interrupt: When you play this unit from your hand, deal 1 damage each to any number of your objectives to reduce the cost of this unit by 1 for each damage dealt.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Droid",
                 "Trooper"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When you play this unit from your hand, deal 1 damage each to any number of your objectives to reduce the cost of this unit by 1 for each damage dealt."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage",
                 "Reduces Cost"
@@ -1328,20 +1273,16 @@
         },
         "text": "Interrupt: When you play this unit from your hand, deal 1 damage each to any number of your objectives to reduce the cost of this unit by 1 for each damage dealt.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Droid",
                 "Trooper"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When you play this unit from your hand, deal 1 damage each to any number of your objectives to reduce the cost of this unit by 1 for each damage dealt."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage",
                 "Reduces Cost"
@@ -1373,6 +1314,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a [Sith] objective.\nInterrupt: When enhanced objective is destroyed, draw 2 cards. If the Balance of the Force is with the dark side, draw 3 cards instead.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Force",
                 "Control",
@@ -1382,14 +1327,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When enhanced objective is destroyed, draw 2 cards. If the Balance of the Force is with the dark side, draw 3 cards instead."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1420,17 +1357,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a [Sith] objective is dealt damage, remove 1 damage from that objective. Then, place 1 shield on that objective.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a [Sith] objective is dealt damage, remove 1 damage from that objective. Then, place 1 shield on that objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1459,6 +1391,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only in the Balance of the Force is with the dark side.\nAction: Remove up to 1 damage from each objective you control.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Force",
                 "Alter"
@@ -1467,14 +1403,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [
-                "Remove up to 1 damage from each objective you control."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1503,6 +1431,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this objective enters play, put the topmost [Imperial Navy] unit in your discard pile into play, committed to the Force. (If that unit cannot be committed to the Force, this effect cannot initiate.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Carida"
             ],
@@ -1510,14 +1442,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this objective enters play, put the topmost [Imperial Navy] unit in your discard pile into play, committed to the Force. (If that unit cannot be committed to the Force, this effect cannot initiate.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -1788,6 +1712,10 @@
         },
         "text": "Targeted Strike.\nThis unit cannot be declared as an attacker or defender unless it is committed to the Force.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1800,12 +1728,6 @@
                     "keyword": "Targeted Strike"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1842,6 +1764,10 @@
         },
         "text": "Targeted Strike.\nThis unit cannot be declared as an attacker or defender unless it is committed to the Force.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1854,12 +1780,6 @@
                     "keyword": "Targeted Strike"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1888,6 +1808,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nEach unit you control that is committed to the Force gains edge (1).",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Location"
             ],
@@ -1895,12 +1818,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Edge"
             ]
@@ -1931,20 +1848,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only if you have at least 1 Force card in your supply.\nAction: Put an [Imperial Navy] Character unit into play from your hand. Then, commit that unit to the Force.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Character",
                 "Force"
             ],
             "keywords": [],
-            "actions": [
-                "Put an [Imperial Navy] Character unit into play from your hand. Then, commit that unit to the Force."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1973,17 +1885,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may commit a target unit to or remove a target unit from the Force.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes from Force"
             ]
@@ -2014,19 +1921,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this objective enters play, destroy all units in play.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Tatooine"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this objective enters play, destroy all units in play."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2271,6 +2174,10 @@
         },
         "text": "While this unit is committed to the Force, it cannot be damaged or destroyed.\nForced Reaction: After you lose a Force struggle, remove this unit from the Force, if able.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Character",
                 "Scavenger"
@@ -2279,14 +2186,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [
-                "After you lose a Force struggle, remove this unit from the Force, if able."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes from Force"
             ]
@@ -2325,20 +2224,16 @@
         },
         "text": "Reaction: After a friendly unit is destroyed, put this unit into play from your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Scavenger"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a friendly unit is destroyed, put this unit into play from your hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -2377,20 +2272,16 @@
         },
         "text": "Reaction: After a friendly unit is destroyed, put this unit into play from your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Scavenger"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a friendly unit is destroyed, put this unit into play from your hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -2421,17 +2312,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Look at the top 2 cards of an objective deck. You may move 1 of those cards to the bottom of its deck. Return the other cards to the top of the deck in any order.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Look at the top 2 cards of an objective deck. You may move 1 of those cards to the bottom of its deck. Return the other cards to the top of the deck in any order."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2460,17 +2346,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may place 1 focus token on a target ready unit that is committed to the Force.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]

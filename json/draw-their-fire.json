@@ -23,19 +23,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a unique [Jedi] Character unit is dealt damage, prevent 1 point of that damage. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Interrupt"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a unique [Jedi] Character unit is dealt damage, prevent 1 point of that damage. (Limit once per turn.)"
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -304,6 +299,11 @@
         },
         "text": "Protect Character.\nReaction: After this unit takes damage using protect, deal an equal amount of damage to a target enemy objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -314,17 +314,9 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "Character"
+                    "descriptor": "Character"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit takes damage using protect, deal an equal amount of damage to a target enemy objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -363,18 +355,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Civilian"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -403,6 +392,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Force User unit.\nInterrupt: When enhanced unit would be dealt damage, focus this enhancement to deal that damage to another target unit instead.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Skill",
                 "Lightsaber Form"
@@ -411,14 +404,6 @@
                 "Force User"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When enhanced unit would be dealt damage, focus this enhancement to deal that damage to another target unit instead."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -449,6 +434,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Discard any number of tokens and enhancements from a target friendly Character unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Force",
                 "Control"
@@ -457,14 +446,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [
-                "Discard any number of tokens and enhancements from a target friendly Character unit."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -493,15 +474,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Place 1 shield on a target unit or objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -530,20 +506,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a piloted Vehicle unit resolves a strike that destroys an enemy objective, destroy a target enemy unit that is committed to the Force.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Force",
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a piloted Vehicle unit resolves a strike that destroys an enemy objective, destroy a target enemy unit that is committed to the Force."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -812,6 +783,10 @@
         },
         "text": "Pilot (1). (Enhanced unit gains [Unit Damage] for each [Blast Damage] and [Edge-Enabled Blast Damage] it has.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Pilot",
@@ -827,12 +802,6 @@
                     "text": "Enhanced unit gains [Unit Damage] for each [Blast Damage] and [Edge-Enabled Blast Damage] it has."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -869,18 +838,15 @@
         },
         "text": "This unit cannot be affected by events.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -909,6 +875,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a friendly Fighter unit.\nEnhanced unit gains [Blast Damage] for each attacker you control.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Weapon"
             ],
@@ -916,12 +885,6 @@
                 "Fighter"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -950,19 +913,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only if the Death Star dial is 8 or higher\nAction: Destroy each unit without an enhancement on it.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Death Star"
             ],
             "keywords": [],
-            "actions": [
-                "Destroy each unit without an enhancement on it."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -991,15 +949,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1030,17 +983,14 @@
         "edgeEnabledCombatIcons": null,
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Tatooine"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1309,6 +1259,11 @@
         },
         "text": "Pilot (2). (Reaction: After enhanced unit resolves a strike, remove it from the engagement.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Droid",
                 "Pilot"
@@ -1323,12 +1278,6 @@
                     "text": "Reaction: After enhanced unit resolves a strike, remove it from the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1365,6 +1314,10 @@
         },
         "text": "Action: During an engagement, focus a Pilot card attached to this unit to have this unit participate in the engagement on your side.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
@@ -1373,14 +1326,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [
-                "During an engagement, focus a Pilot card attached to this unit to have this unit participate in the engagement on your side."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1409,6 +1354,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Tatooine",
                 "Location"
@@ -1417,12 +1365,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1451,19 +1393,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able.",
         "abilities": {
+            "types": [
+                "Interrupt"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1492,18 +1429,13 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Pilot",
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -1534,15 +1466,10 @@
         "edgeEnabledCombatIcons": null,
         "text": null,
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1811,6 +1738,10 @@
         },
         "text": "Pilot (2). (Enhanced unit deals double damage to exhausted units and objectives.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Force User",
@@ -1826,12 +1757,6 @@
                     "text": "Enhanced unit deals double damage to exhausted units and objectives."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1870,6 +1795,11 @@
         },
         "text": "Shielding.\nReaction: After this unit is focused to strike, place 1 focus token on each participating unpiloted enemy Vehicle unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
@@ -1882,14 +1812,6 @@
                     "keyword": "Shielding"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, place 1 focus token on each participating unpiloted enemy Vehicle unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -1920,6 +1842,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Fighter unit you control.\nEnhanced unit gains [Unit Damage] for each participating enemy unit.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Weapon"
             ],
@@ -1927,12 +1852,6 @@
                 "Fighter"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1961,19 +1880,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reduce the cost to play this event by 1 if the Death Star dial is 4 or lower.\nReaction: After an enemy unit is declared as an attacker or defender, place 1 focus token on it.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Death Star"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an enemy unit is declared as an attacker or defender, place 1 focus token on it."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -2004,15 +1918,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Deal 1 damage to a target participating enemy unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2041,6 +1950,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Each of your Black Squadron cards gains 1 resource value. These resources may only be spent on Black Squadron cards.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Death Star"
             ],
@@ -2049,12 +1961,6 @@
                 "Squadron"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Resource Value"
             ]
@@ -2308,6 +2214,12 @@
         },
         "text": "Pilot (1).\nAction: During an engagement, pay this card's pilot cost to put it into play from your hand as an enhancement on a participating friendly Fighter unit.\nReaction: After this card enters play during an engagement, deal 2 damage to a target participating unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Action",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Pilot",
@@ -2323,16 +2235,6 @@
                     "cost": 1
                 }
             ],
-            "actions": [
-                "During an engagement, pay this card's pilot cost to put it into play from your hand as an enhancement on a participating friendly Fighter unit."
-            ],
-            "forcedActions": [],
-            "reactions": [
-                "After this card enters play during an engagement, deal 2 damage to a target participating unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play",
                 "Deals Damage"
@@ -2372,6 +2274,9 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter",
@@ -2379,12 +2284,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2421,6 +2320,9 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter",
@@ -2428,12 +2330,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2462,6 +2358,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area. Limited.\nReaction: After you play a Black Squadron card, reduce the cost of the next Black Squadron card you play this turn by 1.",
         "abilities": {
+            "types": [
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Black Squadron",
@@ -2472,14 +2372,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you play a Black Squadron card, reduce the cost of the next Black Squadron card you play this turn by 1."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Reduces Cost"
             ]
@@ -2510,15 +2402,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]

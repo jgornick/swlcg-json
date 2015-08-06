@@ -23,20 +23,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a Fighter or Pilot card you control enters play, draw 1 card. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Fighter",
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a Fighter or Pilot card you control enters play, draw 1 card. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -290,6 +285,11 @@
         },
         "text": "Pilot (1).\nInterrupt: When this card leaves play, return it to your hand instead.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
             "traits": [
                 "Character",
                 "Pilot"
@@ -303,14 +303,6 @@
                     "cost": 1
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this card leaves play, return it to your hand instead."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -347,20 +339,16 @@
         },
         "text": "Action: Discard attached pilot enhancement to remove all damage and focus tokens from this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Discard attached pilot enhancement to remove all damage and focus tokens from this unit."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -399,20 +387,16 @@
         },
         "text": "Action: Discard attached pilot enhancement to remove all damage and focus tokens from this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Discard attached pilot enhancement to remove all damage and focus tokens from this unit."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -443,6 +427,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Location"
             ],
@@ -450,12 +437,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -484,18 +465,13 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Pilot",
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -526,6 +502,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a target enemy unit with 1 or more edge enabled combat icons is focused to strike, focus a Pilot card to place 1 focus token on the striking unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Taanab"
             ],
@@ -533,14 +513,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a target enemy unit with 1 or more edge enabled combat icons is focused to strike, focus a Pilot card to place 1 focus token on the striking unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -787,6 +759,10 @@
         },
         "text": "Pilot (2). (While enhanced unit is participating in an engagement and you have the edge, each enemy unit loses all combat icons.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Scoundrel",
@@ -802,12 +778,6 @@
                     "text": "While enhanced unit is participating in an engagement and you have the edge, each enemy unit loses all combat icons."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -844,6 +814,10 @@
         },
         "text": "Protect [Smugglers and Spies] objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
@@ -852,15 +826,9 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "[Smugglers and Spies] objective"
+                    "descriptor": "[Smugglers and Spies] objective"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -897,6 +865,10 @@
         },
         "text": "Protect [Smugglers and Spies] objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
@@ -905,15 +877,9 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "[Smugglers and Spies] objective"
+                    "descriptor": "[Smugglers and Spies] objective"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -942,6 +908,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance an enemy Vehicle unit.\nTreat enhanced units combat icons as if they are edge-enabled.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Weapon"
             ],
@@ -949,12 +918,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -983,19 +946,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you lose an edge battle, end the engagement without further resolution. Discard all cards in edge stacks.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Maneuver"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you lose an edge battle, end the engagement without further resolution. Discard all cards in edge stacks."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1024,6 +983,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Focus this objective to return a target Black Squadron card from your discard pile to your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Death Star"
             ],
@@ -1032,14 +995,6 @@
                 "Squadron"
             ],
             "keywords": [],
-            "actions": [
-                "Focus this objective to return a target Black Squadron card from your discard pile to your hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1291,6 +1246,11 @@
         },
         "text": "Pilot (1). (Action: Focus this enhancement to remove a target friendly Fighter unit from the engagement.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Pilot",
@@ -1307,12 +1267,6 @@
                     "text": "Action: Focus this enhancement to remove a target friendly Fighter unit from the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1349,6 +1303,10 @@
         },
         "text": "Protect Vehicle.\nWhile this unit is piloted, prevent the first point of damage this unit would take each phase.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter",
@@ -1360,15 +1318,9 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "Vehicle"
+                    "descriptor": "Vehicle"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1405,6 +1357,10 @@
         },
         "text": "Reaction: After this unit survives an unopposed engagement as an attacker, deal 1 damage to the engaged objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter",
@@ -1412,14 +1368,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit survives an unopposed engagement as an attacker, deal 1 damage to the engaged objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1450,6 +1398,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Death Star",
                 "Location"
@@ -1458,12 +1409,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1492,18 +1437,13 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Pilot",
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -1534,20 +1474,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a piloted Fighter unit you control leaves play, return it and the attached Pilot enhancement to your hand. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Interrupt"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Fighter",
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a piloted Fighter unit you control leaves play, return it and the attached Pilot enhancement to your hand. (Limit once per turn.)"
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1799,6 +1734,10 @@
         },
         "text": "Pilot (2). (While this card is piloting a Fighter unit, each friendly Fighter unit gains elite and edge (1).)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Pilot"
@@ -1814,12 +1753,6 @@
                     "text": "While this card is piloting a Fighter unit, each friendly Fighter unit gains elite and edge (1"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Edge",
                 "Gains Elite"
@@ -1859,6 +1792,9 @@
         },
         "text": "While this unit piloted, its Pilot enhancement contributes its Force icons to your side during the Force struggle.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
@@ -1867,12 +1803,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Contributes Force Icon"
             ]
@@ -1911,6 +1841,9 @@
         },
         "text": "While this unit piloted, its Pilot enhancement contributes its Force icons to your side during the Force struggle.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
@@ -1919,12 +1852,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Contributes Force Icon"
             ]
@@ -1955,6 +1882,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Prefsbelt",
                 "Location"
@@ -1963,12 +1893,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1997,18 +1921,13 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Pilot",
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -2025,7 +1944,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
-        "affiliationLock": "Scum and Villainy",
         "type": "Objective",
         "title": "The Grand Heist",
         "isUnique": false,
@@ -2039,18 +1957,13 @@
         "edgeEnabledCombatIcons": null,
         "text": "Scum and Villainy affiliation only.\nEach light side Vehicle unit you control gains [Tactics].",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Scum",
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2295,6 +2208,10 @@
         },
         "text": "Pilot (3). (You may play this card as a Pilot enhancement on an unpiloted enemy Fighter or Transport unit. Take control of enhanced unit while piloted by this card.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Pilot",
@@ -2312,12 +2229,6 @@
                     "text": "You may play this card as a Pilot enhancement on an unpiloted enemy Fighter or Transport unit. Take control of enhanced unit while piloted by this card."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2354,6 +2265,10 @@
         },
         "text": "Reaction: After this unit enters play, destroy a target unpiloted Vehicle unit with printed cost 2 or lower.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Thief"
@@ -2362,14 +2277,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, destroy a target unpiloted Vehicle unit with printed cost 2 or lower."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2406,6 +2313,10 @@
         },
         "text": "Reaction: After this unit enters play, destroy a target unpiloted Vehicle unit with printed cost 2 or lower.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Thief"
@@ -2414,14 +2325,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, destroy a target unpiloted Vehicle unit with printed cost 2 or lower."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2450,19 +2353,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nInterrupt: When a Vehicle unit is dealt damage, place 1 of that damage on this enhancement. Then, if this enhancement has 4 or more damage on it, discard it.",
         "abilities": {
+            "types": [
+                "Interrupt"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a Vehicle unit is dealt damage, place 1 of that damage on this enhancement. Then, if this enhancement has 4 or more damage on it, discard it."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2491,19 +2389,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a Vehicle unit is destroyed or captured, put that unit into play (from its owners discard pile or from its captured state) under your control.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a Vehicle unit is destroyed or captured, put that unit into play (from its owners discard pile or from its captured state) under your control."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]

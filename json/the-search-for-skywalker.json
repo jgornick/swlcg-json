@@ -23,6 +23,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "While you control more Hoth objectives than your opponent, that opponent must place his first card in each edge battle faceup.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -30,12 +33,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -263,6 +260,9 @@
         },
         "text": "This unit gains [Edge-Enabled Unit Damage] for each Hoth objective you control.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -271,12 +271,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -313,6 +307,9 @@
         },
         "text": "This unit gains [Edge-Enabled Unit Damage] for each Hoth objective you control.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -321,12 +318,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -355,6 +346,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nEach of your Hoth objectives gains +1 damage capacity.\nYou are considered to control 1 additional Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Base",
                 "Hoth"
@@ -363,12 +357,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Damage Capacity"
             ]
@@ -399,6 +387,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: Place 1 damage on this enhancement to place 1 shield on a target unit or Hoth objective. Then, if this enhancement has 3 or more damage on it, return it to your hand. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Hoth",
                 "Location"
@@ -407,14 +399,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [
-                "Place 1 damage on this enhancement to place 1 shield on a target unit or Hoth objective. Then, if this enhancement has 3 or more damage on it, return it to your hand. (Limit once per turn.)"
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -443,6 +427,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Hoth objective.\nEnhanced objective cannot be damaged by Vehicle units.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Upgrade",
                 "Hoth"
@@ -452,12 +439,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -486,19 +467,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After an enemy unit leaves play, draw 1 card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an enemy unit leaves play, draw 1 card."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -752,6 +729,11 @@
         },
         "text": "Elite. (Remove 1 additional focus token from this unit when you refresh.)\nReaction: After this unit is focused to strike as an attacker, damage it to rescue 1 card captured at the engaged objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Renegade Squadron"
@@ -763,14 +745,6 @@
                     "text": "Remove 1 additional focus token from this unit when you refresh."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike as an attacker, damage it to rescue 1 card captured at the engaged objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -807,18 +781,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Renegade Squadron"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -855,20 +826,16 @@
         },
         "text": "Action: Focus this unit to have a target unit gain [Unit Damage] until the end of the phase.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Renegade Squadron"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Focus this unit to have a target unit gain [Unit Damage] until the end of the phase."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -897,20 +864,16 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: Focus this enhancement to target 2 units that share a Trait. Until the end of the phase, one of those units loses a combat icon of your choice, and the other gains that combat icon.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Base",
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Focus this enhancement to target 2 units that share a Trait. Until the end of the phase, one of those units loses a combat icon of your choice, and the other gains that combat icon."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Combat Icon"
             ]
@@ -941,15 +904,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -980,6 +938,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Your shielded units cannot be damaged while the Death Star dial is 4 or lower.\nYour shielded units gain [Blast Damage] while the Death Star dial is 8 or higher.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -987,12 +948,6 @@
                 "Death Star"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1213,19 +1168,15 @@
         },
         "text": "Action: Sacrifice this unit to place 1 shield on a target unit or objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Sacrifice this unit to place 1 shield on a target unit or objective."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1262,6 +1213,10 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Speeder"
@@ -1273,12 +1228,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1315,6 +1264,10 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Speeder"
@@ -1326,12 +1279,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1368,18 +1315,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Creature",
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1408,20 +1352,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only if there is a Hoth objective in play.\nAction: Place 1 shield on a target friendly Character unit. Until the end of the phase, that unit cannot be targeted by enemy card effects and cannot be damaged.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Character",
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [
-                "Place 1 shield on a target friendly Character unit. Until the end of the phase, that unit cannot be targeted by enemy card effects and cannot be damaged."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1450,19 +1389,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Damage this objective to reduce the cost of the next Capital Ship unit you play this phase by 1.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Capital Ship"
             ],
             "keywords": [],
-            "actions": [
-                "Damage this objective to reduce the cost of the next Capital Ship unit you play this phase by 1."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Reduces Cost"
             ]
@@ -1709,6 +1643,10 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nThis unit cannot be targeted by enemy events.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship",
@@ -1721,12 +1659,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1763,6 +1695,10 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nThis unit cannot be targeted by enemy events.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship",
@@ -1775,12 +1711,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1817,18 +1747,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Officer"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1857,19 +1784,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReaction: After an objective is destroyed, remove 1 focus token from this enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Base"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an objective is destroyed, remove 1 focus token from this enhancement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -1900,19 +1823,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next Capital Ship unit you play this phase by 2.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Capital Ship"
             ],
             "keywords": [],
-            "actions": [
-                "Reduce the cost of the next Capital Ship unit you play this phase by 2."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1941,19 +1859,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this objective enters play, look at an opponent's hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Tatooine"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this objective enters play, look at an opponent's hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2198,18 +2112,15 @@
         },
         "text": "Reduce the cost to play this unit by 2 if there is at least 1 card captured at any of your objectives.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Mercenary"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2246,18 +2157,15 @@
         },
         "text": "Reduce the cost to play this unit by 2 if there is at least 1 card captured at any of your objectives.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Mercenary"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2294,6 +2202,9 @@
         },
         "text": "Resources generated by this unit can only be used to play Vehicle or Droid units.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle"
             ],
@@ -2302,12 +2213,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2336,18 +2241,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nEach of your objectives gains +1 damage capacity.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Base",
                 "Tatooine"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Damage Capacity"
             ]
@@ -2378,17 +2280,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only during your turn.\nAction: Name a unit, then reveal an opponent's hand. Capture all copies of the named unit in that hand.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Name a unit, then reveal an opponent's hand. Capture all copies of the named unit in that hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null

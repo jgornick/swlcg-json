@@ -9,7 +9,6 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
-        "affiliationLock": "Jedi",
         "type": "Objective",
         "title": "The Flight of the Crow",
         "isUnique": false,
@@ -23,17 +22,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Jedi affiliation only.\nEach unique Jedi unit gains edge (1) while it is attacking.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Ruusan"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Edge"
             ]
@@ -280,6 +276,10 @@
         },
         "text": "Elite.\nEach enemy unit loses all instances of protect and shielding.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
@@ -290,12 +290,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -332,6 +326,9 @@
         },
         "text": "While this unit is committed to the Force, it contributes its Force Icons to your side during edge battles in which you are the attacking or defending player.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Civilian"
@@ -340,12 +337,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -382,6 +373,9 @@
         },
         "text": "While this unit is committed to the Force, it contributes its Force Icons to your side during edge battles in which you are the attacking or defending player.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Civilian"
@@ -390,12 +384,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -424,6 +412,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Ruusan",
                 "Location"
@@ -434,14 +427,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, remove 1 focus token from this enhancement"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -472,6 +457,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you win a Force struggle, destroy all units not committed to the Force.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Force"
             ],
@@ -479,14 +468,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, destroy all units not committed to the Force."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -515,6 +496,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Each of your undamaged Hoth objectives contributes 1 Force icon to your side during the Force struggle.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -522,12 +506,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Contributes Force Icon"
             ]
@@ -774,6 +752,10 @@
         },
         "text": "Shielding.\nAfter you refresh, remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Leader"
@@ -786,12 +768,6 @@
                     "keyword": "Shielding"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -828,6 +804,10 @@
         },
         "text": "Action: Put this unit into play from your hand to target a damaged Hoth objective. Remove 1 damage from that objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Engineer"
@@ -836,14 +816,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [
-                "Put this unit into play from your hand to target a damaged Hoth objective. Remove 1 damage from that objective."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -880,18 +852,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Creature",
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -920,6 +889,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Deal 1 damage to each of your Hoth objectives to deal X damage to a target enemy unit. X is the number of Hoth objectives you control.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Maneuver"
             ],
@@ -927,14 +900,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [
-                "Deal 1 damage to each of your Hoth objectives to deal X damage to a target enemy unit. X is the number of Hoth objectives you control."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -965,17 +930,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1006,19 +966,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After the Force phase begins, reveal the top card of your deck. That card counts its Force icons for your side during the Force struggle this turn. If you win the Force struggle, add that card to your hand. Otherwise, discard it.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Gamor"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After the Force phase begins, reveal the top card of your deck. That card counts its Force icons for your side during the Force struggle this turn. If you win the Force struggle, add that card to your hand. Otherwise, discard it."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1263,6 +1219,10 @@
         },
         "text": "While this unit is committed to the Force, it gains: \"Reaction: after you win a Force struggle, put a unit of printed cost 1 or lower into play from your hand or discard pile.\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
@@ -1271,12 +1231,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -1315,19 +1269,15 @@
         },
         "text": "Forced Reaction: After you lose a Force struggle, destroy this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Character"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [
-                "After you lose a Force struggle, destroy this unit."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1364,19 +1314,15 @@
         },
         "text": "Forced Reaction: After you lose a Force struggle, destroy this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Character"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [
-                "After you lose a Force struggle, destroy this unit."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1405,6 +1351,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Deneba",
                 "Location"
@@ -1415,14 +1366,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, remove 1 focus token from this enhancement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -1453,6 +1396,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a Force struggle begins, target a friendly unit committed to the Force. Until the end of the phase, that unit gains 3 Force icons.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Gamble"
             ],
@@ -1460,14 +1407,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a Force struggle begins, target a friendly unit committed to the Force. Until the end of the phase, that unit gains 3 Force icons."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Force Icon"
             ]
@@ -1498,6 +1437,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Each enemy unit committed to the Force loses 1 Force icon.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Dromund Kaas"
             ],
@@ -1505,12 +1447,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Loses Force Icon"
             ]
@@ -1781,6 +1717,11 @@
         },
         "text": "Elite.\nReaction: After this unit is committed to the Force, commit a target enemy unit to the Force, if able.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -1793,14 +1734,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is committed to the Force, commit a target enemy unit to the Force, if able."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1837,18 +1770,15 @@
         },
         "text": "While this unit is attacking, enemy units with fewer Force icons than this unit cannot be declared as defenders.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Force Sensitive"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1877,6 +1807,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Limited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Dromund Kaas",
                 "Location"
@@ -1887,14 +1822,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, remove 1 focus token from this enhancement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -1925,6 +1852,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a phase begins, until the end of the phase a target unit loses 2 Force icons and is destroyed if it has no Force icons.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Force",
                 "Control",
@@ -1932,14 +1863,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a phase begins, until the end of the phase a target unit loses 2 Force icons and is destroyed if it has no Force icons."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Loses Force Icon"
             ]
@@ -1970,17 +1893,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may place 1 focus token on a target ready unit that is committed to the Force.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -2011,21 +1929,16 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you win a Force struggle, capture the top card of an opponent's deck at this objective, if able.\nForced Reaction: After you loose a Force struggle, 1 random card is rescued from this objective, if able.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Tatooine"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, capture the top card of an opponent's deck at this objective, if able."
-            ],
-            "forcedReactions": [
-                "After you loose a Force struggle, 1 random card is rescued from this objective, if able."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2270,20 +2183,16 @@
         },
         "text": "Action: Return a card captured at one of your objectives to it's owner hand to draw 2 cards. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Slaver"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Return a card captured at one of your objectives to it's owner hand to draw 2 cards. (Limit once per turn.)"
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -2322,20 +2231,16 @@
         },
         "text": "Forced Reaction: After you lose a Force struggle, deal 1 damage to this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Character",
                 "Scum"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [
-                "After you lose a Force struggle, deal 1 damage to this unit."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -2374,20 +2279,16 @@
         },
         "text": "Forced Reaction: After you lose a Force struggle, deal 1 damage to this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Character",
                 "Scum"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [
-                "After you lose a Force struggle, deal 1 damage to this unit."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -2418,6 +2319,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Limited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Location"
             ],
@@ -2427,14 +2333,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, remove 1 focus token from this enhancement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -2465,19 +2363,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Reveal a captured card. Then, search an opponent's deck for a copy of that card, reveal it, and capture it. Shuffle the searched deck.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Bounty"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Reveal a captured card. Then, search an opponent's deck for a copy of that card, reveal it, and capture it. Shuffle the searched deck."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null

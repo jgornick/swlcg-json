@@ -23,19 +23,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you refresh, damage this objective to return the topmost enhancement from your discard pile to your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Dagobah"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you refresh, damage this objective to return the topmost enhancement from your discard pile to your hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -181,6 +177,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Character unit.\nInterrupt: When enhanced unit would be destroyed, instead discard this enhancement and remove all damage from that unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Force Spirit"
             ],
@@ -188,14 +188,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When enhanced unit would be destroyed, instead discard this enhancement and remove all damage from that unit."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -224,6 +216,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Character unit.\nInterrupt: When enhanced unit would be destroyed, instead discard this enhancement and remove all damage from that unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Force Spirit"
             ],
@@ -231,14 +227,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When enhanced unit would be destroyed, instead discard this enhancement and remove all damage from that unit."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -267,19 +255,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: A target Character unit gains [Unit Damage] for each enhancement on it until the end of the phase.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Character"
             ],
             "keywords": [],
-            "actions": [
-                "A target Character unit gains [Unit Damage] for each enhancement on it until the end of the phase."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -308,6 +291,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only during an opponent's turn.\nAction: Remove all focus tokens from a target Character unit with 2 or more enhancements on it.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Force",
                 "Control"
@@ -316,14 +303,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [
-                "Remove all focus tokens from a target Character unit with 2 or more enhancements on it."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -352,15 +331,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Deal 1 damage to a target participating enemy unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -389,6 +363,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "While you control more Hoth objectives than your opponent, each of your Speeder units gains edge (1).",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -397,12 +374,6 @@
                 "Speeder"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Edge"
             ]
@@ -656,6 +627,10 @@
         },
         "text": "You may play this card on a friendly Speeder or Fighter unit as an enhancement with the text: \"Action: Focus this enhancement to remove 1 focus token from enhanced unit.\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Pilot"
@@ -665,12 +640,6 @@
                 "Speeder"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -709,18 +678,15 @@
         },
         "text": "This unit gains [Unit Damage] [Blast Damage] for each enhancement on it.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Speeder"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -757,18 +723,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Speeder"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -797,6 +760,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Character unit.\nEnhanced unit gains +1 damage capacity for each Hoth objective you control.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Item"
             ],
@@ -805,12 +771,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Damage Capacity"
             ]
@@ -841,15 +801,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -880,6 +835,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Limit 1 per objective deck.\nWhile you control more Hoth objectives than your opponent, your Hoth objectives cannot suffer unopposed damage.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -887,12 +845,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1120,6 +1072,9 @@
         },
         "text": "This unit gains [Unit Damage] for each Hoth objective you control.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1128,12 +1083,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1170,6 +1119,9 @@
         },
         "text": "This unit gains [Unit Damage] for each Hoth objective you control.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1178,12 +1130,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1220,6 +1166,9 @@
         },
         "text": "This unit gains [Unit Damage] for each Hoth objective you control.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -1228,12 +1177,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1262,6 +1205,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nDestroy the first enemy unit to strike against a friendly Hoth objective each turn, after its strike resolves.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Condition"
             ],
@@ -1269,12 +1215,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1303,6 +1243,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nDestroy the first enemy unit to strike against a friendly Hoth objective each turn, after its strike resolves.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Condition"
             ],
@@ -1310,12 +1253,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1344,6 +1281,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Sacrifice a unit you control to remove 1 damage from a friendly Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -1351,14 +1292,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [
-                "Sacrifice a unit you control to remove 1 damage from a friendly Hoth objective."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1627,6 +1560,10 @@
         },
         "text": "Action: Sacrifice this unit to remove a target attacking non-Vehicle unit from an engagement. Then, deal 1 damage to that unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Creature",
                 "Hoth"
@@ -1635,14 +1572,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "Sacrifice this unit to remove a target attacking non-Vehicle unit from an engagement. Then, deal 1 damage to that unit."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1681,6 +1610,10 @@
         },
         "text": "Action: Sacrifice this unit to remove a target attacking non-Vehicle unit from an engagement. Then, deal 1 damage to that unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Creature",
                 "Hoth"
@@ -1689,14 +1622,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "Sacrifice this unit to remove a target attacking non-Vehicle unit from an engagement. Then, deal 1 damage to that unit."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1727,6 +1652,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance an enemy Character unit. Remove enhanced unit from the Force struggle, if able.\nEnhanced unit cannot commit to the Force.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Condition"
             ],
@@ -1735,12 +1663,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1769,6 +1691,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only during your turn.\nAction: Move any amount of damage from a Hoth objective you control to a target enemy unit or Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -1776,14 +1702,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [
-                "Move any amount of damage from a Hoth objective you control to a target enemy unit or Hoth objective."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1812,15 +1730,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1849,15 +1762,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, increase the cost of each event card played by an opponent by 1.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2078,6 +1986,10 @@
         },
         "text": "Elite. (Remove 1 additional focus token from this unit when you refresh.)\nWhile this unit is attacking, each of your attacking units gains [Blast Damage]",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -2089,12 +2001,6 @@
                     "text": "Remove 1 additional focus token from this unit when you refresh."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2131,18 +2037,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Officer"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2179,19 +2082,15 @@
         },
         "text": "Interrupt: When this unit leaves play, deal 1 damage to a target enemy objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Droid"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit leaves play, deal 1 damage to a target enemy objective."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -2230,19 +2129,15 @@
         },
         "text": "Interrupt: When this unit leaves play, deal 1 damage to a target enemy objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Droid"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit leaves play, deal 1 damage to a target enemy objective."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -2273,17 +2168,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When an event card is played, cancel its effects and place it on top of its owner's deck.",
         "abilities": {
+            "types": [
+                "Interrupt"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When an event card is played, cancel its effects and place it on top of its owner's deck."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2312,17 +2202,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Limit 1 per objective deck.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2567,6 +2454,9 @@
         },
         "text": "Reduce the cost to play this unit by 2 for each Hoth objective in play.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Creature",
                 "Hoth"
@@ -2575,12 +2465,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2617,6 +2501,9 @@
         },
         "text": "Reduce the cost to play this unit by 2 for each Hoth objective in play.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Creature",
                 "Hoth"
@@ -2625,12 +2512,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2659,6 +2540,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only if you control at least 1 Hoth objective.\nReaction: After a focus token is removed from an enemy unit, place 1 focus token on that unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -2666,14 +2551,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a focus token is removed from an enemy unit, place 1 focus token on that unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -2704,6 +2581,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only if you control at least 1 Hoth objective.\nReaction: After a focus token is removed from an enemy unit, place 1 focus token on that unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -2711,14 +2592,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a focus token is removed from an enemy unit, place 1 focus token on that unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -2749,17 +2622,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]

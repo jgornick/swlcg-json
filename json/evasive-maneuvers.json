@@ -9,7 +9,6 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
-        "affiliationLock": "Jedi",
         "type": "Objective",
         "title": "Hidden from the Empire",
         "isUnique": false,
@@ -23,17 +22,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Jedi affiliation only.\nWhile this objective is undamaged, a player cannot play units while he control more units than each opponent.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Nar Shaddaa"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -278,6 +274,11 @@
         },
         "text": "Shielding.\nReaction: After an opponent spends 4 or more resources to play a unit, put this unit into play from your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -288,14 +289,6 @@
                     "keyword": "Shielding"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an opponent spends 4 or more resources to play a unit, put this unit into play from your hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -334,20 +327,16 @@
         },
         "text": "Action: If you have 2 or more cards in your discard pile, focus this unit to have your opponent choose a card in your discard pile. Return that card to your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Civilian"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "If you have 2 or more cards in your discard pile, focus this unit to have your opponent choose a card in your discard pile. Return that card to your hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -376,6 +365,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a friendly Character unit.\nEnhanced unit cannot be targeted by events.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Skill"
             ],
@@ -383,12 +375,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -417,6 +403,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a friendly Character unit.\nEnhanced unit cannot be targeted by events.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Skill"
             ],
@@ -424,12 +413,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -458,17 +441,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After an opponent's deployment phase begins, increase the cost of the first unit that opponent plays this phase by 1. (Limit 1 per phase.)",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an opponent's deployment phase begins, increase the cost of the first unit that opponent plays this phase by 1. (Limit 1 per phase.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -497,15 +475,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Increase your reserve value by 1 for each objective in your victory pile.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -757,6 +730,10 @@
         },
         "text": "Shielding.\nReduce the cost to play each other friendly Capital Ship unit by 1.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship"
@@ -769,12 +746,6 @@
                     "keyword": "Shielding"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -811,18 +782,15 @@
         },
         "text": "After this unit enters play, each friendly player draws 1 card.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -861,18 +829,15 @@
         },
         "text": "After this unit enters play, each friendly player draws 1 card.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -903,6 +868,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: Focus this enhancement and discard a card from your hand to have a target Vehicle unit gain 1 combat icon of your choice until the end of the phase.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Location"
             ],
@@ -910,14 +879,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "Focus this enhancement and discard a card from your hand to have a target Vehicle unit gain 1 combat icon of your choice until the end of the phase."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Combat Icon"
             ]
@@ -948,15 +909,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -971,7 +927,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Sith",
-        "affiliationLock": "Sith",
         "type": "Objective",
         "title": "The Questioning",
         "isUnique": false,
@@ -985,19 +940,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Sith affiliation only.\nReaction: After one of your card effects discards 1 or more cards from an opponent's hand, remove 1 focus token from an objective you control.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Prakith"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After one of your card effects discards 1 or more cards from an opponent's hand, remove 1 focus token from an objective you control."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -1244,6 +1195,11 @@
         },
         "text": "Elite.\nReaction: After this unit is declared as an attacker or defender, discard 1 or 2 cards at random from your opponent's hand. Then, he draws that many cards.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User",
@@ -1255,14 +1211,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is declared as an attacker or defender, discard 1 or 2 cards at random from your opponent's hand. Then, he draws that many cards."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1301,18 +1249,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1349,18 +1294,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1389,17 +1331,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: During the Force phase, focus this enhancement to discard 1 card at random from an opponent's hand.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "During the Force phase, focus this enhancement to discard 1 card at random from an opponent's hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1428,17 +1365,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When an enhancement you control or a unit you control with 1 or more enhancements on it is targeted by an effect, cancel that effect.",
         "abilities": {
+            "types": [
+                "Interrupt"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When an enhancement you control or a unit you control with 1 or more enhancements on it is targeted by an effect, cancel that effect."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1453,7 +1385,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "affiliationLock": "Imperial Navy",
         "type": "Objective",
         "title": "Training Procedures",
         "isUnique": false,
@@ -1467,20 +1398,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Imperial Navy affiliation only.\nAction: Spend 1 resource to move a friendly Pilot enhancement to another eligible Vehicle unit you control.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Pilot",
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "Spend 1 resource to move a friendly Pilot enhancement to another eligible Vehicle unit you control."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1701,6 +1627,10 @@
         },
         "text": "Pilot (0).",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Pilot"
@@ -1714,12 +1644,6 @@
                     "cost": 0
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1756,6 +1680,10 @@
         },
         "text": "Pilot (0).",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Pilot"
@@ -1769,12 +1697,6 @@
                     "cost": 0
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1811,6 +1733,9 @@
         },
         "text": "While this unit is piloted, it gains the combat icons of its attached Pilot enhancement.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
@@ -1819,12 +1744,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Combat Icon"
             ]
@@ -1863,6 +1782,9 @@
         },
         "text": "While this unit is piloted, it gains the combat icons of its attached Pilot enhancement.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
@@ -1871,12 +1793,6 @@
                 "Pilot"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Combat Icon"
             ]
@@ -1907,6 +1823,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Maneuver"
             ],
@@ -1914,14 +1834,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a friendly Vehicle unit is targeted by an enemy card effect, your opponent must choose a different eligible target instead, if able."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1950,19 +1862,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you lose an edge battle as the attacker, capture the top card of each opponent's deck at this objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Tatooine"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you lose an edge battle as the attacker, capture the top card of each opponent's deck at this objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2207,6 +2115,9 @@
         },
         "text": "While this unit is attacking, resolve edge-enabled icons on friendly units as if you had the edge.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Assassin",
@@ -2214,12 +2125,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2256,18 +2161,15 @@
         },
         "text": "While this unit is attacking, it gains [Edge-Enabled Unit Damage] for each other attacking unit.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Mercenary"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2304,18 +2206,15 @@
         },
         "text": "While this unit is attacking, it gains [Edge-Enabled Unit Damage] for each other attacking unit.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Mercenary"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2344,19 +2243,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you lose an edge battle, return 1 card in an edge stack to its owner's hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Gamble"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you lose an edge battle, return 1 card in an edge stack to its owner's hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2385,15 +2280,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Target friendly player may place 1 non-fate card from his hand into your edge stack.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null

@@ -23,17 +23,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, it gains: \"Interrupt: When an opponent would choose a card from his hand to place in an edge stack, he must choose that card at random instead. (Limit once per turn.)\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Cloud City"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -302,6 +300,10 @@
         },
         "text": "Action: If you and your opponent each have 1 or more cards in hand, each chooses 1 card from hand. Reveal those cards simultaneously. The player that revealed more printed Force icons may remove a focus token from a card he controls. Discard both revealed cards. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Gambler",
@@ -309,14 +311,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "If you and your opponent each have 1 or more cards in hand, each chooses 1 card from hand. Reveal those cards simultaneously. The player that revealed more printed Force icons may remove a focus token from a card he controls. Discard both revealed cards. (Limit once per turn.)"
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -355,20 +349,16 @@
         },
         "text": "Reaction: After this unit enters play, name a card. Your opponent must reveal his hand and discard all copies of that card frmo his hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Gambler"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, name a card. Your opponent must reveal his hand and discard all copies of that card frmo his hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -397,6 +387,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card each turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Cloud City",
                 "Location"
@@ -408,12 +402,6 @@
                     "text": "You cannot play more than one limited card each turn."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -442,17 +430,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only during your turn.\nAction: Your opponent shuffles his hand back into his deck and draws X cards. X is the number of cards he shuffled into his deck.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Your opponent shuffles his hand back into his deck and draws X cards. X is the number of cards he shuffled into his deck."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -483,15 +466,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "If you control a participating unique [Smugglers and Spies] unit, cancel the card effects of all enemy fate cards with priority 4 or higher revealed during this edge battle.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -520,19 +498,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a Wookie unit you control is sacrificed or destroyed, shuffle it back into it's owner's deck from the discard pile. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Kashyyyk"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a Wookie unit you control is sacrificed or destroyed, shuffle it back into it's owner's deck from the discard pile. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -801,20 +775,16 @@
         },
         "text": "Action: If you control fewer units than each opponent, target up to 2 friendly units. Place 1 shield on each targeted unit. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Wookiee"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "If you control fewer units than each opponent, target up to 2 friendly units. Place 1 shield on each targeted unit. (Limit once per turn.)"
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -851,18 +821,15 @@
         },
         "text": "This unit gains [Unit Damage] while it is shielded.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Wookiee"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -891,20 +858,16 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: If you control fewer units than each opponent, focus this enhancement to place 2 shields on a target unit you control, even if that unit is already shielded.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Kashyyyk",
                 "Location"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "If you control fewer units than each opponent, focus this enhancement to place 2 shields on a target unit you control, even if that unit is already shielded."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -933,17 +896,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: During an engagement, sacrifice a participating Wookie unit to deal X damage divided among participating enemy units. X is the remaining damage capacity of the sacrificed unit.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "During an engagement, sacrifice a participating Wookie unit to deal X damage divided among participating enemy units. X is the remaining damage capacity of the sacrificed unit."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -974,15 +932,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Place 1 shield on a target unit or objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1011,17 +964,14 @@
         "edgeEnabledCombatIcons": null,
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Cloud City"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1273,20 +1223,16 @@
         },
         "text": "Reaction: After this unit is focused to strike, reveal the top 3 cards of your deck. Discard one of those cards, place one on the bottom of your deck, and place on into your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, reveal the top 3 cards of your deck. Discard one of those cards, place one on the bottom of your deck, and place on into your hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1323,20 +1269,16 @@
         },
         "text": "Reaction: After this unit enters your discard pile, draw 1 card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Engineer"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters your discard pile, draw 1 card."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1375,20 +1317,16 @@
         },
         "text": "Reaction: After this unit enters your discard pile, draw 1 card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Engineer"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters your discard pile, draw 1 card."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1419,6 +1357,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited.\nInterrupt: When you would draw a card, draw the bottom card of your deck instead.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
             "traits": [
                 "Cloud City",
                 "Item"
@@ -1429,14 +1372,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When you would draw a card, draw the bottom card of your deck instead."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1467,15 +1402,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1506,19 +1436,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After an opponent plays an event card, remove 1 focus token from this objective. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Corellia"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an opponent plays an event card, remove 1 focus token from this objective. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -1741,18 +1667,15 @@
         },
         "text": "Reduce the cost of the first event card you play each turn by 1.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Rogue"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1789,18 +1712,15 @@
         },
         "text": "This unit cannot be targeted by enemy events.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Rogue"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1837,18 +1757,15 @@
         },
         "text": "This unit cannot be targeted by enemy events.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Rogue"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1877,17 +1794,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Sacrifice a unit to reduce the cost of the next card you play this phase by the sacrificed card's printed cost.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Sacrifice a unit to reduce the cost of the next card you play this phase by the sacrificed card's printed cost."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Reduces Cost"
             ]
@@ -1918,19 +1830,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a unit you control leaves play, place 1 focus token on a target unit with equal or lower printed cost.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Maneuver"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a unit you control leaves play, place 1 focus token on a target unit with equal or lower printed cost."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -1961,6 +1869,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After the first Renegade Squadron unit you control is focused to strike this turn, it gains [Edge-Enabled Tactics] until the end of the strike.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Boz Pity"
             ],
@@ -1969,14 +1881,6 @@
                 "Squadron"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After the first Renegade Squadron unit you control is focused to strike this turn, it gains [Edge-Enabled Tactics] until the end of the strike."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2221,20 +2125,16 @@
         },
         "text": "Reaction: After this unit is focused to strike, this unit gains 1 combat icon that another participating unit has, until the end of the phase.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Renegade Squadron"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, this unit gains 1 combat icon that another participating unit has, until the end of the phase."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Combat Icon"
             ]
@@ -2273,18 +2173,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Renegade Squadron"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2313,15 +2210,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nWhile you are the defending player and have no ready defenders, this enhancement gains: \"Action: Focus this enhancement to have a ready target unit you control participate on your side.\"",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2350,19 +2244,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When you would choose a unit to strike during an engagement, choose a target ready unit you control not participating in the engagement instead. That unit strikes as if it were participating.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Tactic"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When you would choose a unit to strike during an engagement, choose a target ready unit you control not participating in the engagement instead. That unit strikes as if it were participating."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2391,6 +2281,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you declare defenders, search your deck for a non-Vehicle unit and put it into play as a participating unit on your side. Shuffle your deck. If that unit is still in play at the end of the engagement, place it on the bottom of your deck.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Tactic"
             ],
@@ -2398,14 +2292,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you declare defenders, search your deck for a non-Vehicle unit and put it into play as a participating unit on your side. Shuffle your deck. If that unit is still in play at the end of the engagement, place it on the bottom of your deck."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -2436,19 +2322,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Limit 1 per objective deck.\nAction: Move 1 focus token from this objective to a [Jedi] unit you control. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Spintir"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Move 1 focus token from this objective to a [Jedi] unit you control. (Limit once per turn.)"
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2693,20 +2575,16 @@
         },
         "text": "Reaction: After a focus token is placed on a friendly unit by an enemy card effect or combat icon, move that focus to this unit. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a focus token is placed on a friendly unit by an enemy card effect or combat icon, move that focus to this unit. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2743,20 +2621,16 @@
         },
         "text": "Reaction: After a focus token is placed on a friendly unit by an enemy card effect or combat icon, move that focus to this unit. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a focus token is placed on a friendly unit by an enemy card effect or combat icon, move that focus to this unit. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2785,6 +2659,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Force User or Force Sensitive unit.\nEnhanced unit gains elite.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Skill",
                 "Light Saber Form"
@@ -2794,12 +2671,6 @@
                 "Force User"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Elite"
             ]
@@ -2830,6 +2701,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Force User or Force Sensitive unit.\nEnhanced unit gains elite.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Skill",
                 "Light Saber Form"
@@ -2839,12 +2713,6 @@
                 "Force User"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Elite"
             ]
@@ -2875,6 +2743,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you declare a lone attacker, target up to X ready enemy units. X is the number of focus tokens on a Force User unit you control. Targeted units cannot be declared as defenders at this engagement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Force",
                 "Sense",
@@ -2884,14 +2756,6 @@
                 "Force User"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you declare a lone attacker, target up to X ready enemy units. X is the number of focus tokens on a Force User unit you control. Targeted units cannot be declared as defenders at this engagement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2920,19 +2784,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Forced Reaction: After this objective enters play, reveal the top X cards of your deck. X is the number of objectives your opponent has in play. Then, place each revealed card at an enemy objective as a captured card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Quanton"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [
-                "After this objective enters play, reveal the top X cards of your deck. X is the number of objectives your opponent has in play. Then, place each revealed card at an enemy objective as a captured card."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -3177,6 +3037,10 @@
         },
         "text": "While this unit is attacking, it gains [Edge-Enabled Blast Damage] for each captured card at the engaged objective and: \"Reaction: After a unit or enhancement is rescued from the engaged objective, put it into play. (Limit once per turn.)\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Leader",
@@ -3184,12 +3048,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -3228,20 +3086,16 @@
         },
         "text": "Reaction: After this unit enters play, move 1 target captured card to a different enemy objective. Then, draw 1 card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Spy"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, move 1 target captured card to a different enemy objective. Then, draw 1 card."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -3272,19 +3126,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: If it is not the conflict phase, focus this enhancement to place a card from your hand at an enemy objective as a captured card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Classified"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "If it is not the conflict phase, focus this enhancement to place a card from your hand at an enemy objective as a captured card."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -3313,19 +3163,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Target up to 2 cards in your discard pile. Shuffle the targeted cards back into your deck. Then place this card at an enemy objective as a captured card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Mission"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Target up to 2 cards in your discard pile. Shuffle the targeted cards back into your deck. Then place this card at an enemy objective as a captured card."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -3354,17 +3200,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Rescue 1 captured card. If it is a unit, you may put it into play under its owner's control.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Rescue 1 captured card. If it is a unit, you may put it into play under its owner's control."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -3381,7 +3222,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "affiliationLock": "Imperial Navy",
         "type": "Objective",
         "title": "The Tarkin Doctrine",
         "isUnique": false,
@@ -3395,17 +3235,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Imperial Navy affiliation only.\nWhile you control 3 or more [Imperial Navy] objectives, this objective gains: \"Reaction: After an opponent declares attackers, he must either spend 2 resources or end the engagement without further resolution. (Limit once per turn.)\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Eriadu"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -3674,6 +3512,11 @@
         },
         "text": "Elite.\nReaction: After a phase beings, spend 1 [Imperial Navy] resource to tread a target card's printed text box as if it were blank (except for Traits) until the end of the phase. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Officer"
@@ -3684,14 +3527,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a phase beings, spend 1 [Imperial Navy] resource to tread a target card's printed text box as if it were blank (except for Traits) until the end of the phase. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -3728,6 +3563,10 @@
         },
         "text": "Targeted Strike.\n\"This unit gains [Edge-Enabled Unit Damage] for each [Imperial Navy] objective you control.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -3738,12 +3577,6 @@
                     "keyword": "Targeted Strike"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -3772,19 +3605,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReaction: After an enemy unit enters play, sacrifice this enhancement to return that unit to its owner's hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Doctrine"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an enemy unit enters play, sacrifice this enhancement to return that unit to its owner's hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -3813,17 +3642,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only during your turn.\nAction: Destroy each unit with printed cost 2 or lower.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Destroy each unit with printed cost 2 or lower."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -3852,15 +3676,10 @@
         "edgeEnabledCombatIcons": null,
         "text": null,
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -3889,6 +3708,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Each Capital Ship unit you control gains elite.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Ralltiir"
             ],
@@ -3896,12 +3718,6 @@
                 "Capital Ship"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Elite"
             ]
@@ -4148,6 +3964,11 @@
         },
         "text": "Elite.\nReaction: After this unit is focused to strike, it gains [Unit Damage] or [Blast Damage] until the end of the phase.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship",
@@ -4159,14 +3980,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, it gains [Unit Damage] or [Blast Damage] until the end of the phase."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4203,6 +4016,11 @@
         },
         "text": "Shielding.\nReaction: After this unit is declared as an attacker or defender, place 1 shield on a target unit or objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship"
@@ -4213,14 +4031,6 @@
                     "keyword": "Shielding"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is declared as an attacker or defender, place 1 shield on a target unit or objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4249,6 +4059,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited.\nResources generated by this enhancement can only be used to play [Imperial Navy] cards with printed cost 3 or higher.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Location"
             ],
@@ -4258,12 +4072,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4292,19 +4100,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Move 1 focus token from a Vehicle unit you control to a target Vehicle unit with lower printed cost.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "Move 1 focus token from a Vehicle unit you control to a target Vehicle unit with lower printed cost."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4333,19 +4136,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After an enemy objective is destroyed, increase the Death Star dial by 1.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Death Star"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an enemy objective is destroyed, increase the Death Star dial by 1."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4374,17 +4172,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After an opponent's turn ends, if this objective is undamaged, deal 1 damage to each enemy objective. (Limit 1 per turn.)",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an opponent's turn ends, if this objective is undamaged, deal 1 damage to each enemy objective. (Limit 1 per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -4638,20 +4431,16 @@
         },
         "text": "Reaction: After this unit enters play, move up to 2 damage from an objective you control to a target enemy objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Officer"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, move up to 2 damage from an objective you control to a target enemy objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4688,6 +4477,10 @@
         },
         "text": "While this unit is defending, it gains: \"Reaction: After the first enemy Vehicle unit is focused to strike this engagement, it loses [Blast Damage] and [Edge-Enabled Blast Damage] for that strike.\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Officer"
@@ -4696,12 +4489,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4738,17 +4525,12 @@
         },
         "text": "Action: During the deployment phase, focus this unit to draw 1 card. Any opponent may focus a unit he controls to cancel this effect.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "During the deployment phase, focus this unit to draw 1 card. Any opponent may focus a unit he controls to cancel this effect."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -4779,6 +4561,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card each turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Location"
             ],
@@ -4789,12 +4575,6 @@
                     "text": "You cannot play more than one limited card each turn."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4823,15 +4603,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "If you control a participating unique [Imperial Navy] unit, move up to 2 damage from a target friendly objective to a target enemy objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -4860,17 +4635,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "The first unit you focus to strike each engagement gains [Unit Damage] until the end of the engagement.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Outer Rim"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -5098,6 +4870,11 @@
         },
         "text": "Shielding.\nReaction: After you lose an edge battle as the defender, declare this unit as a participating unit on your side. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship"
@@ -5108,14 +4885,6 @@
                     "keyword": "Shielding"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you lose an edge battle as the defender, declare this unit as a participating unit on your side. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5152,18 +4921,15 @@
         },
         "text": "While this unit is defending alone, you strike first this engagement.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5200,18 +4966,15 @@
         },
         "text": "While this unit is defending alone, you strike first this engagement.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5240,19 +5003,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nForced Interrupt: When the first enemy event card is played this turn, focus this enhancement with 2 focus tokens to cancel its effects.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Interrupt"
+            ],
             "traits": [
                 "Outer Rim"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [
-                "When the first enemy event card is played this turn, focus this enhancement with 2 focus tokens to cancel its effects."
-            ],
             "scenarios": []
         },
         "illustrator": null
@@ -5281,18 +5040,13 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Capital Ship or Transport unit.\nEnhanced unit gains [Tactics]",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Capital Ship",
                 "Transport"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5321,6 +5075,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you declare 2 or more Fighter units as attackers or defenders, place 1 shield on one of those units.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Imdaar Alpha"
             ],
@@ -5328,14 +5086,6 @@
                 "Fighter"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you declare 2 or more Fighter units as attackers or defenders, place 1 shield on one of those units."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -5604,18 +5354,15 @@
         },
         "text": "While this unit is ready and participating in an engagement, it cannot be targeted by enemy card effects or affected by enemy combat icons.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5652,18 +5399,15 @@
         },
         "text": "While this unit is ready and participating in an engagement, it cannot be targeted by enemy card effects or affected by enemy combat icons.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5692,6 +5436,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Fighter unit.\nEnhanced unit gains [Unit Damage].\nDamage dealt by enhanced unit cannot be prevented by shields.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Weapon"
             ],
@@ -5699,12 +5446,6 @@
                 "Fighter"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5733,6 +5474,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: During an engagement, a target non-participating ready Fighter unit you control is now participating on your side.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Maneuver"
             ],
@@ -5740,14 +5485,6 @@
                 "Fighter"
             ],
             "keywords": [],
-            "actions": [
-                "During an engagement, a target non-participating ready Fighter unit you control is now participating on your side."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5776,15 +5513,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Deal 1 damage to a target participating enemy unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -5799,7 +5531,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Sith",
-        "affiliationLock": "Sith",
         "type": "Objective",
         "title": "Brothers of the Sith",
         "isUnique": false,
@@ -5813,6 +5544,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Sith affiliation only.\nAction: Focus this objective to search the top 5 cards of your deck for any number of Sithspawn cards, reveal them, and add them to your hand. Shuffle the remaining cards back into your deck.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Sulon Star"
             ],
@@ -5820,14 +5555,6 @@
                 "Sithspawn"
             ],
             "keywords": [],
-            "actions": [
-                "Focus this objective to search the top 5 cards of your deck for any number of Sithspawn cards, reveal them, and add them to your hand. Shuffle the remaining cards back into your deck."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -6072,6 +5799,11 @@
         },
         "text": "Elite.\nProtect Pic.\nReaction: After this unit takes damage, return Pic to your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User",
@@ -6084,17 +5816,9 @@
                 },
                 {
                     "keyword": "Protect",
-                    "trait": "Pic"
+                    "descriptor": "Pic"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit takes damage, return Pic to your hand."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -6131,6 +5855,10 @@
         },
         "text": "Action: During an engagement in which Gorc is participating, put this unit into play as a participating unit on your side.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character",
                 "Force User",
@@ -6138,14 +5866,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "During an engagement in which Gorc is participating, put this unit into play as a participating unit on your side."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -6176,17 +5896,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nPic gains targeted strike.\nGorc gains: \"Reaction: After this unit is declared as an attacker, target an enemy unit. That unit must defend this engagement, if able.\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Sithspawn"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Targeted Strike"
             ]
@@ -6217,6 +5935,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Target an enemy Character or Creature unit. That unit cannot be declared as an attacker or defender until the end of the phase.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Force",
                 "Control",
@@ -6227,14 +5949,6 @@
                 "Creature"
             ],
             "keywords": [],
-            "actions": [
-                "Target an enemy Character or Creature unit. That unit cannot be declared as an attacker or defender until the end of the phase."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -6263,20 +5977,16 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After an enemy unit is focused to strike, target a [Sith] unit you control. The targeted unit cannot be affected by enemy combat icons this strike.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Force",
                 "Control"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an enemy unit is focused to strike, target a [Sith] unit you control. The targeted unit cannot be affected by enemy combat icons this strike."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -6305,6 +6015,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Limit 1 per objective deck.\nAction: Focus this objective to return a Creature unit from your discard pile to your hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Tatooine"
             ],
@@ -6312,14 +6026,6 @@
                 "Creature"
             ],
             "keywords": [],
-            "actions": [
-                "Focus this objective to return a Creature unit from your discard pile to your hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -6564,6 +6270,10 @@
         },
         "text": "Reaction: After this unit enters play, search your deck for a Creature unit, reveal it, and add it to your hand. Shuffle your deck.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character"
             ],
@@ -6571,14 +6281,6 @@
                 "Creature"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, search your deck for a Creature unit, reveal it, and add it to your hand. Shuffle your deck."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -6615,6 +6317,11 @@
         },
         "text": "No enhancements.\nReaction: After you win an edge battle, if this unit is participating in the engagement, destroy 1 target participating enemy non-Vehicle unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Creature"
             ],
@@ -6626,14 +6333,6 @@
                     "keyword": "No enhancements"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win an edge battle, if this unit is participating in the engagement, destroy 1 target participating enemy non-Vehicle unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -6670,6 +6369,10 @@
         },
         "text": "No enhancements.\nProtect [Scum and Villainy] unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Creature"
             ],
@@ -6682,15 +6385,9 @@
                 },
                 {
                     "keyword": "Protect",
-                    "trait": "[Scum and Villainy] unit"
+                    "descriptor": "[Scum and Villainy] unit"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -6719,6 +6416,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nAction: Shuffle this enhnacement into its owner's deck to remove a target enemy non-Vehicle unit from an engagement. Then, deal that unit 1 damage.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Trap"
             ],
@@ -6726,14 +6427,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "Shuffle this enhnacement into its owner's deck to remove a target enemy non-Vehicle unit from an engagement. Then, deal that unit 1 damage."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -6764,6 +6457,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Search your deck for a Bounty Hunter or Mercenary unit, reveal it, and add it to your hand. Shuffle your deck.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Bounty",
@@ -6771,14 +6467,6 @@
                 "Mercenary"
             ],
             "keywords": [],
-            "actions": [
-                "Search your deck for a Bounty Hunter or Mercenary unit, reveal it, and add it to your hand. Shuffle your deck."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null

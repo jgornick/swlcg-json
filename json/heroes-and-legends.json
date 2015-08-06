@@ -23,6 +23,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Focus this objective and reveal a unique Character unit from your hand to return a target unit you control with the same name to your hand. Then, put the revealed unit into play.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Ruusan"
             ],
@@ -30,14 +34,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [
-                "Focus this objective and reveal a unique Character unit from your hand to return a target unit you control with the same name to your hand. Then, put the revealed unit into play."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -308,6 +304,10 @@
         },
         "text": "Reaction: After this unit enters play, place 1 focus token on or remove 1 focus token from a target unit that is committed to the Force.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -316,14 +316,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, place 1 focus token on or remove 1 focus token from a target unit that is committed to the Force."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token",
                 "Removes Focus Token"
@@ -363,6 +355,10 @@
         },
         "text": "Reaction: After this unit enters play, place 1 focus token on or remove 1 focus token from a target unit that is committed to the Force.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -371,14 +367,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, place 1 focus token on or remove 1 focus token from a target unit that is committed to the Force."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token",
                 "Removes Focus Token"
@@ -410,6 +398,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Force User unit.\nWhile enhanced unit is participating in an engagement, it gains: \"Reaction: After you win an edge battle by 2 or more Force icons, destroy a target participating enemy unit.\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Skill",
                 "Lightsaber Form"
@@ -418,12 +410,6 @@
                 "Force User"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -452,20 +438,16 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Search the top 5 cards of your deck for a [Jedi] unit, reveal it, and add it to your hand. Return the other cards to the top of your deck in any order.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Force",
                 "Sense"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Search the top 5 cards of your deck for a [Jedi] unit, reveal it, and add it to your hand. Return the other cards to the top of your deck in any order."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -494,17 +476,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may commit a target unit to or remove a target unit from the Force.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes from Force"
             ]
@@ -535,17 +512,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After a friendly attacking unit leaves play, deal 1 damage to a target defending unit.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a friendly attacking unit leaves play, deal 1 damage to a target defending unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -799,20 +771,16 @@
         },
         "text": "Reaction: After this unit is focused to strike, return another target friendly unit to its owner's hand. Then, remove 1 focus token from this unit. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Spy"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, return another target friendly unit to its owner's hand. Then, remove 1 focus token from this unit. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -851,20 +819,16 @@
         },
         "text": "Interrupt: When this unit leaves play, draw 1 card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Character",
                 "Spy"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit leaves play, draw 1 card."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -903,20 +867,16 @@
         },
         "text": "Interrupt: When this unit leaves play, draw 1 card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Character",
                 "Spy"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit leaves play, draw 1 card."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -947,6 +907,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Location"
             ],
@@ -956,14 +921,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, remove 1 focus token from this enhancement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -994,15 +951,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1017,7 +969,6 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
-        "affiliationLock": "Smugglers and Spies",
         "type": "Objective",
         "title": "The False Report",
         "isUnique": false,
@@ -1031,19 +982,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Smugglers and Spies affiliation only.\nReaction: After this objective enters play, return all units to their owners' hands.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Aquaris"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this objective enters play, return all units to their owners' hands."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1288,6 +1235,10 @@
         },
         "text": "Elite.\nReduce the cost to play this unit by 1 for each card in your opponent's hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Smuggler"
@@ -1298,12 +1249,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1340,6 +1285,10 @@
         },
         "text": "Elite.\nReduce the cost to play this unit by 1 for each card in your opponent's hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Smuggler"
@@ -1350,12 +1299,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1384,6 +1327,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area. Limited.\nReaction: After an opponent resolves a card effect that draws 1 or more cards, remove 1 focus token from this enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Aquaris",
                 "Location"
@@ -1394,14 +1342,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an opponent resolves a card effect that draws 1 or more cards, remove 1 focus token from this enhancement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token",
                 "Draws Card"
@@ -1433,19 +1373,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Return a [Smugglers and Spies] unit you control to its owner’s hand to return a target enemy unit with lower printed cost to its owner's hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Maneuver"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Return a [Smugglers and Spies] unit you control to its owner’s hand to return a target enemy unit with lower printed cost to its owner's hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1474,17 +1410,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Look at the top 2 cards of an objective deck. You may move 1 of those cards to the bottom of its deck. Return the other cards to top of the deck in any order.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Look at the top 2 cards of an objective deck. You may move 1 of those cards to the bottom of its deck. Return the other cards to top of the deck in any order."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1499,7 +1430,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Sith",
-        "affiliationLock": "Sith",
         "type": "Objective",
         "title": "Scouring the Empire",
         "isUnique": false,
@@ -1513,17 +1443,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Sith affiliation only.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Coruscant"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1768,6 +1695,11 @@
         },
         "text": "Elite.\nReaction: After this unit is focused to strike, remove a target unit from the Force.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User",
@@ -1781,14 +1713,6 @@
                     "keyword": "Elite"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, remove a target unit from the Force."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes from Force"
             ]
@@ -1827,6 +1751,10 @@
         },
         "text": "Reaction: After an enemy unit is removed from the Force by a card effect, remove 1 focus token from this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force Sensitive",
@@ -1836,14 +1764,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an enemy unit is removed from the Force by a card effect, remove 1 focus token from this unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -1882,6 +1802,10 @@
         },
         "text": "Reaction: After an enemy unit is removed from the Force by a card effect, remove 1 focus token from this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force Sensitive",
@@ -1891,14 +1815,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an enemy unit is removed from the Force by a card effect, remove 1 focus token from this unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -1929,6 +1845,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only if the Balance of the Force is with the dark side.\nAction: Deal 2 damage to each unit that is not committed to the Force.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Force",
                 "Control",
@@ -1938,14 +1858,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [
-                "Deal 2 damage to each unit that is not committed to the Force."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1974,17 +1886,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may commit a target unit to or remove a target unit from the Force.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes from Force"
             ]
@@ -2015,6 +1922,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Each friendly unit committed to the Force gains elite.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Arc Hammer"
             ],
@@ -2022,12 +1932,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Elite"
             ]
@@ -2281,6 +2185,9 @@
         },
         "text": "Each friendly unit committed to the Force gains [Blast Damage].",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Officer",
@@ -2290,12 +2197,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2332,6 +2233,9 @@
         },
         "text": "This unit is considered committed to the Force.  (This commitment does not cost a Force card.)",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Droid",
                 "Trooper"
@@ -2340,12 +2244,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2382,6 +2280,9 @@
         },
         "text": "This unit is considered committed to the Force.  (This commitment does not cost a Force card.)",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Droid",
                 "Trooper"
@@ -2390,12 +2291,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2424,6 +2319,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nLimited.\nReaction: After you win a Force struggle, remove 1 focus token from this enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
             "traits": [
                 "Arc Hammer",
                 "Location"
@@ -2434,14 +2334,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win a Force struggle, remove 1 focus token from this enhancement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -2472,15 +2364,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Deal 1 damage to a target participating enemy unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null

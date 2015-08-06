@@ -23,17 +23,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, you may return friendly units destroyed during an engagement to their owner's hand instead of discarding them.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Dagobah"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -302,6 +299,10 @@
         },
         "text": "Reaction: After you commit this unit to the Force, remove 1 damage from each objective you control.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -310,14 +311,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you commit this unit to the Force, remove 1 damage from each objective you control."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -354,6 +347,10 @@
         },
         "text": "Reaction: After you commit this unit to the Force, remove 1 damage from each objective you control.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -362,14 +359,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you commit this unit to the Force, remove 1 damage from each objective you control."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -398,19 +387,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance an objective.\nReaction: After an engagement is declared against enhanced objective, place 1 shield on it.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Condition"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an engagement is declared against enhanced objective, place 1 shield on it."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -439,20 +424,16 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When damage is dealt to a friendly unit or objective, your opponent must instead divide that damage among any number of units and objectives he controls.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Force",
                 "Sense"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When damage is dealt to a friendly unit or objective, your opponent must instead divide that damage among any number of units and objectives he controls."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -481,15 +462,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Place 1 shield on a target unit or objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -518,17 +494,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, it gains: \"Interrupt: When you would place a card into an edge stack, you may instead look at the top card of your deck and place it facedown in your edge stack. (Limit once per edge battle.)\"",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -749,6 +723,10 @@
         },
         "text": "Edge (1). (While this unit is participating in an engagement, add 1 Force icon to your side during edge battles.)\nDuring an engagement in which you have the edge, this unit cannot be damaged or have focus tokens placed on it by enemy card effects or combat icons.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Renegade Squadron"
@@ -761,12 +739,6 @@
                     "text": "While this unit is participating in an engagement, add 1 Force icon to your side during edge battles."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -803,6 +775,10 @@
         },
         "text": "Action: Sacrifice this unit to return a target unit with printed cost 2 or lower to its owner's hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter",
@@ -810,14 +786,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Sacrifice this unit to return a target unit with printed cost 2 or lower to its owner's hand."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -854,18 +822,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Renegade Squadron"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -894,19 +859,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you declare a [Smugglers and Spies] Character unit as an attacker, target an enemy unit. That unit must defend this engagement, if able.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you declare a [Smugglers and Spies] Character unit as an attacker, target an enemy unit. That unit must defend this engagement, if able."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -935,17 +895,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you win an edge battle by 2 or more Force icons, a target participating unit gains [Blast Damage] [Blast Damage] until the end of the engagement.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you win an edge battle by 2 or more Force icons, a target participating unit gains [Blast Damage] [Blast Damage] until the end of the engagement."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -974,17 +929,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Limit 1 per objective deck.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1236,6 +1188,10 @@
         },
         "text": "Reaction: After you refresh, remove 1 token (any type) from a target Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Droid"
             ],
@@ -1243,14 +1199,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you refresh, remove 1 token (any type) from a target Hoth objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1287,6 +1235,10 @@
         },
         "text": "Reaction: After this unit is focused to strike, remove 1 token (any type) from a target enhancement or Character unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Droid"
             ],
@@ -1294,14 +1246,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, remove 1 token (any type) from a target enhancement or Character unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1338,18 +1282,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Creature",
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1378,18 +1319,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nEnemy events cannot target other friendly enhancements.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Base",
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1418,17 +1356,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1459,17 +1392,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, your reserve value is increased by 1.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1721,6 +1651,9 @@
         },
         "text": "Each Walker and each Trooper unit you control gains [Unit Damage].",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Officer"
@@ -1730,12 +1663,6 @@
                 "Walker"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1772,6 +1699,10 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Walker"
@@ -1783,12 +1714,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1825,6 +1750,10 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Walker"
@@ -1836,12 +1765,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1870,19 +1793,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReaction: After an enemy objective is destroyed, sacrifice this enhancement to discard all enhancements from play.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Weapon"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After an enemy objective is destroyed, sacrifice this enhancement to discard all enhancements from play."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1911,17 +1830,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1938,7 +1852,6 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
-        "affiliationLock": "Scum and Villainy",
         "type": "Objective",
         "title": "Lucrative Contract",
         "isUnique": false,
@@ -1952,6 +1865,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Scum and Villainy affiliation only.\nReaction: After you refresh, remove 1 focus token from a target Mercenary or Bounty Hunter unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Tatooine"
             ],
@@ -1962,14 +1879,6 @@
                 "Scum"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you refresh, remove 1 focus token from a target Mercenary or Bounty Hunter unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -2216,6 +2125,9 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Mercenary",
@@ -2223,12 +2135,6 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2265,6 +2171,10 @@
         },
         "text": "Interrupt: When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Character"
             ],
@@ -2272,14 +2182,6 @@
                 "Scum"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2316,6 +2218,10 @@
         },
         "text": "Interrupt: When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Character"
             ],
@@ -2323,14 +2229,6 @@
                 "Scum"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a [Scum and Villainy] objective would be damaged, discard this unit from your hand to cancel any amount of that damage."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2359,17 +2257,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Discard a target enhancement with a printed cost equal to or lower than the number of enhancements you control.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Discard a target enhancement with a printed cost equal to or lower than the number of enhancements you control."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2398,15 +2291,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2435,19 +2323,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Limit 1 per objective deck.\nReaction: After your conflict phase begins, move 1 shield from a target enemy card to a target friendly card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After your conflict phase begins, move 1 shield from a target enemy card to a target friendly card."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -2699,18 +2583,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2747,6 +2628,10 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Character",
                 "Trooper"
@@ -2758,12 +2643,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2792,18 +2671,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nEach friendly shielded unit gains [Blast Damage].",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Base",
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2832,18 +2708,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nEach friendly shielded unit gains [Blast Damage].",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Base",
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2872,17 +2745,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]

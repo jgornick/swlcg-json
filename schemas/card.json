@@ -215,6 +215,29 @@
       "type": "object",
       "title": "Object that defines the abilities and effects of the card.",
       "properties": {
+        "types": {
+          "type": "array",
+          "title": "The different types of abilities for the card.",
+          "description": "All card abilities fall into one of the following types: CONSTANT EFFECTS, ACTIONS, TRAITS, INTERRUPTS, REACTIONS, and KEYWORDS. Some reaction and interrupt effects may also be FORCED, making the execution of such an ability mandatory.",
+          "default": [],
+          "items": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "Trait",
+                  "Keyword",
+                  "Action",
+                  "Forced Action",
+                  "Reaction",
+                  "Forced Reaction",
+                  "Interrupt",
+                  "Forced Interrupt"
+                ]
+              }
+            ]
+          }
+        },
         "traits": {
           "type": "array",
           "title": "The trait(s) (i.e. attribute(s)) for the card.",
@@ -277,9 +300,10 @@
                     "enum": ["Protect"],
                     "title": "The keyword for the card."
                   },
-                  "trait": {
+                  "descriptor": {
                     "type": "string",
-                    "title": "The targeted trait for the Protect keyword."
+                    "title": "The descriptor for the Protect keyword.",
+                    "description": "Some cards have the ‘Protect’ keyword followed by a descriptor other than a Trait (e.g. a card type, specific card name, etc.). A card with such a keyword (e.g. ‘Protect objective’) may take damage instead of any friendly card that matches the specified descriptor."
                   },
                   "text": {
                     "type": "string",
@@ -310,42 +334,6 @@
               }
             ]
           }
-        },
-        "actions": {
-          "type": "array",
-          "title": "The default action(s) parsed from the card text for the card.",
-          "description": "This list is parsed from the card text for each \"Action:\" found.",
-          "default": []
-        },
-        "forcedActions": {
-          "type": "array",
-          "title": "The default forced action(s) parsed from the card text for the card.",
-          "description": "This list is parsed from the card text for each \"Forced Action:\" found.",
-          "default": []
-        },
-        "reactions": {
-          "type": "array",
-          "title": "The default reaction(s) parsed from the card text for the card.",
-          "description": "This list is parsed from the card text for each \"Reaction:\" found.",
-          "default": []
-        },
-        "forcedReactions": {
-          "type": "array",
-          "title": "The default forced reaction(s) parsed from the card text for the card.",
-          "description": "This list is parsed from the card text for each \"Forced Reaction:\" found.",
-          "default": []
-        },
-        "interrupts": {
-          "type": "array",
-          "title": "The default interrupt(s) parsed from the card text for the card.",
-          "description": "This list is parsed from the card text for each \"Interrupt:\" found.",
-          "default": []
-        },
-        "forcedInterrupts": {
-          "type": "array",
-          "title": "The default forced interrupt(s) parsed from the card text for the card.",
-          "description": "This list is parsed from the card text for each \"Forced Interrupt:\" found.",
-          "default": []
         },
         "scenarios": {
           "type": "array",

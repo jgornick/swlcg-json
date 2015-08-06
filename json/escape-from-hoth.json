@@ -23,17 +23,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, each card in your edge stack gains 1 Force icon when resolving an edge battle.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Edge",
                 "Gains Force Icon"
@@ -264,6 +261,9 @@
         },
         "text": "Reduce the cost to play this card by 2 if it is played as an enhancement.\nYou may play this card on a friendly Speeder or Fighter unit as an enhancement with the text: \"Enhanced unit gains [Unit Damage] [Tactics]. If enhanced unit leaves play, put this card into play as a unit.\"",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Force User",
@@ -274,12 +274,6 @@
                 "Speeder"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -318,18 +312,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle",
                 "Speeder"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -366,18 +357,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Creature",
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -406,17 +394,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -447,15 +430,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Deal 1 damage to a target participating enemy unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -484,6 +462,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After your opponent’s turn begins, sacrifice a unit to remove all focus tokens from a target enhancement or Hoth objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -491,14 +473,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After your opponent’s turn begins, sacrifice a unit to remove all focus tokens from a target enhancement or Hoth objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -752,6 +726,11 @@
         },
         "text": "Elite. (Remove 1 additional focus token from this unit when you refresh.)\nInterrupt: When this unit leaves play, search your deck for a [Rebel Alliance] card, reveal it, and add it to your hand. Shuffle your deck.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
             "traits": [
                 "Character",
                 "Rogue",
@@ -764,14 +743,6 @@
                     "text": "Remove 1 additional focus token from this unit when you refresh."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit leaves play, search your deck for a [Rebel Alliance] card, reveal it, and add it to your hand. Shuffle your deck."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -808,6 +779,11 @@
         },
         "text": "Shielding. (When this unit enters an engagement, place 1 shield on any unit or objective in the engagement.)\nInterrupt: When this unit leaves play, place 1 focus token on a target enemy enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
             "traits": [
                 "Character"
             ],
@@ -818,14 +794,6 @@
                     "text": "When this unit enters an engagement, place 1 shield on any unit or objective in the engagement."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit leaves play, place 1 focus token on a target enemy enhancement."
-            ],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -864,20 +832,16 @@
         },
         "text": "Reaction: After a friendly unit leaves play, remove 1 token (any type) from this unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a friendly unit leaves play, remove 1 token (any type) from this unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -906,20 +870,16 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nForced Reaction: After this enhancement enters play, sacrifice a unit or place 1 focus token on this enhancement.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Hoth",
                 "Location"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [
-                "After this enhancement enters play, sacrifice a unit or place 1 focus token on this enhancement."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Places Focus Token"
             ]
@@ -950,17 +910,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -991,15 +946,10 @@
         "edgeEnabledCombatIcons": null,
         "text": null,
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -1244,20 +1194,16 @@
         },
         "text": "While this unit is undamaged, it cannot be targeted by enemy card effects.\nReaction: After a card is sacrificed, deal 1 damage to a target enemy unit or objective.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Capital Ship"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a card is sacrificed, deal 1 damage to a target enemy unit or objective."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1296,19 +1242,15 @@
         },
         "text": "Action: Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1347,19 +1289,15 @@
         },
         "text": "Action: Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Character"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Sacrifice this unit to look at the top card of an objective or command deck. Then, draw 1 card."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1390,6 +1328,11 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area. Limited.\nAction: Sacrifice this enhancement to reduce the cost of the next [Sith] card you play this phase by 3.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Action"
+            ],
             "traits": [
                 "Item"
             ],
@@ -1399,14 +1342,6 @@
                     "keyword": "Limited"
                 }
             ],
-            "actions": [
-                "Sacrifice this enhancement to reduce the cost of the next [Sith] card you play this phase by 3."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Reduces Cost"
             ]
@@ -1437,17 +1372,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only during your turn.\nAction: Each player must sacrifice a unit, if able.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Each player must sacrifice a unit, if able."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1476,15 +1406,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "This objective gains +1 resource value for each captured card here.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Resource Value"
             ]
@@ -1738,20 +1663,16 @@
         },
         "text": "You may attach units captured from play to this unit facedown.\nReaction: After this unit is focused to strike, it gains 1 combat icon of your choice for each captured card on it until the end of this strike.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Bounty Hunter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, it gains 1 combat icon of your choice for each captured card on it until the end of this strike."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Combat Icon"
             ]
@@ -1790,20 +1711,16 @@
         },
         "text": "Reaction: After this unit is focused to strike, capture a target enemy unit with printed cost 1 or lower if you have the edge.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, capture a target enemy unit with printed cost 1 or lower if you have the edge."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1840,20 +1757,16 @@
         },
         "text": "Reaction: After this unit is focused to strike, capture a target enemy unit with printed cost 1 or lower if you have the edge.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, capture a target enemy unit with printed cost 1 or lower if you have the edge."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1882,17 +1795,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nThe first unit you play each turn enters play with 1 focus token on it.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Location"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1921,15 +1831,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "If you are the attacking player, deal 1 damage to the engaged objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1960,15 +1865,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "While this objective is undamaged, each event card in your edge stack gains 1 Force icon when resolving an edge battle.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Edge",
                 "Gains Force Icon"
@@ -2069,17 +1969,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Reduce the cost of the next card you play this phase by 1."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2108,17 +2003,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Reduce the cost of the next card you play this phase by 1."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2147,17 +2037,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Reduce the cost of the next card you play this phase by 1."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2186,17 +2071,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Reduce the cost of the next card you play this phase by 1."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2225,17 +2105,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Reduce the cost of the next card you play this phase by 1.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "Reduce the cost of the next card you play this phase by 1."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null

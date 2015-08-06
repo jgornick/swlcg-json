@@ -23,15 +23,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Each unit you control gains 1 Force icon during the Force struggle.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Force Icon"
             ]
@@ -302,6 +297,9 @@
         },
         "text": "While the Balance of the Force is with the light side, this unit gains [Blast Damage] [Blast Damage]",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -310,12 +308,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -352,6 +344,9 @@
         },
         "text": "While the Balance of the Force is with the light side, this unit gains [Blast Damage] [Blast Damage].",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Force User"
@@ -360,12 +355,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -394,6 +383,9 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance a Force User unit.\nEnhanced unit gains shielding and +1 damage capacity.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Skill",
                 "Lightsaber Form"
@@ -402,12 +394,6 @@
                 "Force User"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Gains Damage Capacity",
                 "Gains Shielding"
@@ -439,19 +425,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a Force struggle begins, choose a unit you control that is not committed to the Force. That unit counts its Force icons for this struggle, even if it is exhausted.",
         "abilities": {
+            "types": [
+                "Interrupt"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a Force struggle begins, choose a unit you control that is not committed to the Force. That unit counts its Force icons for this struggle, even if it is exhausted."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -480,15 +461,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Deal 1 damage to a target participating enemy unit.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -517,6 +493,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Interrupt: When a Hoth objective leaves play, return a target unit to its owner's hand.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Hoth"
             ],
@@ -524,14 +504,6 @@
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When a Hoth objective leaves play, return a target unit to its owner's hand."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null,
@@ -776,6 +748,10 @@
         },
         "text": "Protect Vehicle. (If a Vehicle card you control would be damaged, you may place the damage on this unit instead.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter",
@@ -787,16 +763,10 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "Vehicle",
+                    "descriptor": "Vehicle",
                     "text": "If a Vehicle card you control would be damaged, you may place the damage on this unit instead."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -833,6 +803,10 @@
         },
         "text": "Protect Vehicle. (If a Vehicle card you control would be damaged, you may place the damage on this unit instead.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter",
@@ -844,16 +818,10 @@
             "keywords": [
                 {
                     "keyword": "Protect",
-                    "trait": "Vehicle",
+                    "descriptor": "Vehicle",
                     "text": "If a Vehicle card you control would be damaged, you may place the damage on this unit instead."
                 }
             ],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -890,6 +858,10 @@
         },
         "text": "Reaction: After this unit is focused to strike, search the top 5 cards of your deck for a Character unit with printed cost 2 or lower and put it into play. Shuffle the remaining cards back into your deck.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Vehicle",
                 "Transport"
@@ -898,14 +870,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit is focused to strike, search the top 5 cards of your deck for a Character unit with printed cost 2 or lower and put it into play. Shuffle the remaining cards back into your deck."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -936,20 +900,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: A target Vehicle or Droid unit cannot be declared as an attacker or defender until the end of the phase.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Droid",
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "A target Vehicle or Droid unit cannot be declared as an attacker or defender until the end of the phase."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -978,17 +937,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
         "abilities": {
+            "types": [],
             "traits": [],
             "referencedTraits": [
                 "Hoth"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1019,17 +973,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "This objective contributes 1 Force icon to your side during the Force struggle.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Coruscant"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Contributes Force Icon"
             ]
@@ -1276,6 +1227,10 @@
         },
         "text": "Reaction: After this unit enters play, look at the top card of your deck. Then, if the Balance of the Force is with the dark side, you may draw that card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force Sensitive"
@@ -1284,14 +1239,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, look at the top card of your deck. Then, if the Balance of the Force is with the dark side, you may draw that card."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1330,6 +1277,10 @@
         },
         "text": "Reaction: After this unit enters play, look at the top card of your deck. Then, if the Balance of the Force is with the dark side, you may draw that card.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Force Sensitive"
@@ -1338,14 +1289,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After this unit enters play, look at the top card of your deck. Then, if the Balance of the Force is with the dark side, you may draw that card."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Draws Card"
             ]
@@ -1384,18 +1327,15 @@
         },
         "text": null,
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Force Sensitive"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1424,6 +1364,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance an enemy Character unit.\nForced Reaction: After enhanced unit's controller loses a Force struggle on his turn, he must sacrifice enhanced unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
             "traits": [
                 "Condition"
             ],
@@ -1431,14 +1375,6 @@
                 "Character"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [
-                "After enhanced unit's controller loses a Force struggle on his turn, he must sacrifice enhanced unit."
-            ],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1467,6 +1403,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Play only during your turn unless the Balance of the Force is with the Dark Side.\nAction: Place 2 focus tokens on a target non-unique unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
             "traits": [
                 "Force",
                 "Control",
@@ -1476,14 +1416,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [
-                "Place 2 focus tokens on a target non-unique unit."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1512,19 +1444,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you refresh, each opponent deals 1 damage to a unit or objective he controls.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Hoth"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you refresh, each opponent deals 1 damage to a unit or objective he controls."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Deals Damage"
             ]
@@ -1771,18 +1699,15 @@
         },
         "text": "This unit gains [Unit Damage] [Unit Damage] [Blast Damage] [Blast Damage] while it is attacking a damaged objective.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Character",
                 "Officer"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1819,17 +1744,14 @@
         },
         "text": "This unit gains [Blast Damage] while it is attacking a damaged objective.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1866,17 +1788,14 @@
         },
         "text": "This unit gains [Blast Damage] while it is attacking a damaged objective.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Vehicle"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1905,18 +1824,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nYour unopposed bonus is raised to 2.",
         "abilities": {
+            "types": [
+                "Trait"
+            ],
             "traits": [
                 "Hoth",
                 "Location"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1945,17 +1861,12 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: A target friendly unit gains either [Unit Damage] or [Blast Damage] until the end of the phase.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [
-                "A target friendly unit gains either [Unit Damage] or [Blast Damage] until the end of the phase."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -1984,20 +1895,15 @@
         "edgeEnabledCombatIcons": null,
         "text": "Reaction: After you capture a unit card at this objective, reveal it to remove 1 focus token from target [Scum and Villainy] card. If that card was Han Solo, increase the Death Star dial by 1.",
         "abilities": {
+            "types": [
+                "Reaction"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Death Star",
                 "Scum"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After you capture a unit card at this objective, reveal it to remove 1 focus token from target [Scum and Villainy] card. If that card was Han Solo, increase the Death Star dial by 1."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": [
                 "Removes Focus Token"
             ]
@@ -2244,6 +2150,10 @@
         },
         "text": "Reaction: After a card is captured, remove 1 damage from a friendly Vehicle or Droid unit.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Character",
                 "Engineer"
@@ -2253,14 +2163,6 @@
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a card is captured, remove 1 damage from a friendly Vehicle or Droid unit."
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2297,20 +2199,16 @@
         },
         "text": "Interrupt: When this unit is focused to strike, reveal 1 card at random from an opponent's hand. If that card is a unit, capture it.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit is focused to strike, reveal 1 card at random from an opponent's hand. If that card is a unit, capture it."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2347,20 +2245,16 @@
         },
         "text": "Interrupt: When this unit is focused to strike, reveal 1 card at random from an opponent's hand. If that card is a unit, capture it.",
         "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
             "traits": [
                 "Vehicle",
                 "Fighter"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [
-                "When this unit is focused to strike, reveal 1 card at random from an opponent's hand. If that card is a unit, capture it."
-            ],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2389,6 +2283,10 @@
         "edgeEnabledCombatIcons": null,
         "text": "Enhance your play area.\nReaction: After a card is captured, discard that card if the Balance of the Force is with the dark side. (Limit once per turn.)",
         "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
             "traits": [
                 "Base",
                 "Cloud City"
@@ -2397,14 +2295,6 @@
                 "Force"
             ],
             "keywords": [],
-            "actions": [],
-            "forcedActions": [],
-            "reactions": [
-                "After a card is captured, discard that card if the Balance of the Force is with the dark side. (Limit once per turn.)"
-            ],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null
@@ -2433,19 +2323,14 @@
         "edgeEnabledCombatIcons": null,
         "text": "Action: Place 1 focus token each on up to 2 target non-Vehicle units with a combined printed cost of 3 or lower.",
         "abilities": {
+            "types": [
+                "Action"
+            ],
             "traits": [],
             "referencedTraits": [
                 "Vehicle"
             ],
             "keywords": [],
-            "actions": [
-                "Place 1 focus token each on up to 2 target non-Vehicle units with a combined printed cost of 3 or lower."
-            ],
-            "forcedActions": [],
-            "reactions": [],
-            "forcedReactions": [],
-            "interrupts": [],
-            "forcedInterrupts": [],
             "scenarios": []
         },
         "illustrator": null

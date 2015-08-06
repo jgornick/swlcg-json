@@ -233,65 +233,57 @@ const CARD_TEXT_FIX = [
     [/\[Smugglers and Spies\]/gmi, '[Smugglers and Spies]']
 ];
 
-const CARD_AFFILIATION_LOCK_RE = /(.*?) affiliation only\./;
-const CARD_OBJECTIVE_DECK_LIMIT_RE = /Limit 1 per objective deck\./
-
-const CARD_ABILITIES = [
-    /^((Forced\s)?(Action))\:\s?(.*)/,
-    /^((Forced\s)?(Reaction))\:\s?(.*)/,
-    /^((Forced\s)?(Interrupt))\:\s?(.*)/
-];
+const CARD_AFFILIATION_LOCK_RE = /(.*?) affiliation only\./gm;
+const CARD_OBJECTIVE_DECK_LIMIT_RE = /Limit 1 per objective deck\./gm
+const CARD_ABILITIES_RE = /((Forced\s)?(Action|Reaction|Interrupt))/gm
 
 const CARD_KEYWORDS = [
-    /(Edge)\s*\((\d+)\)\.(?:\s*\((.*?)\))?\s*\n*/,
-    /(Elite)\.(?:\s*\((.*?)\))?\s*\n*/,
-    /(Influence)\.(?:\s*\((.*?)\))?\s*\n*/,
-    /(Limited)\.(?:\s*\((.*?)\))?\s*\n*/,
-    /(No enhancements)\.(?:\s*\((.*?)\))?\s*\n*/i,
-    /(Pilot)\s*\((\d+)\)\.(?:\s*\((.*?)\))?\s*\n*/,
-    /(Protect)\s*(.*?)\.(?:\s*\((.*?)\))?\s*\n*/,
-    /(Shielding)\.(?:\s*\((.*?)\))?\s*\n*/,
-    /(Targeted Strike)\.(?:\s*\((.*?)\))?\s*\n*/
-];
-
-const CARD_KEYWORDS_MATCHES_MAP = [
     {
         keyword: 'Edge',
+        re: /(Edge)\s*\((\d+)\)\.(?:\s*\((.*?)\))?\s*\n*/,
         forceIcons: (match) => parseInt(match[2]),
         text: (match) => match[3]
     },
     {
         keyword: 'Elite',
+        re: /(Elite)\.(?:\s*\((.*?)\))?\s*\n*/,
         text: (match) => match[2]
     },
     {
         keyword: 'Influence',
+        re: /(Influence)\.(?:\s*\((.*?)\))?\s*\n*/,
         text: (match) => match[2]
     },
     {
         keyword: 'Limited',
+        re: /(Limited)\.(?:\s*\((.*?)\))?\s*\n*/,
         text: (match) => match[2]
     },
     {
         keyword: 'No enhancements',
+        re: /(No enhancements)\.(?:\s*\((.*?)\))?\s*\n*/i,
         text: (match) => match[2]
     },
     {
         keyword: 'Pilot',
+        re: /(Pilot)\s*\((\d+)\)\.(?:\s*\((.*?)\))?\s*\n*/,
         cost: (match) => parseInt(match[2]),
         text: (match) => match[3]
     },
     {
         keyword: 'Protect',
-        trait: (match) => match[2],
+        re: /(Protect)\s*(.*?)\.(?:\s*\((.*?)\))?\s*\n*/,
+        descriptor: (match) => match[2],
         text: (match) => match[3]
     },
     {
         keyword: 'Shielding',
+        re: /(Shielding)\.(?:\s*\((.*?)\))?\s*\n*/,
         text: (match) => match[2]
     },
     {
         keyword: 'Targeted Strike',
+        re: /(Targeted Strike)\.(?:\s*\((.*?)\))?\s*\n*/,
         text: (match) => match[2]
     }
 ];
@@ -507,15 +499,13 @@ when.all(_.map(files, (file) => {
 
                                 _.forEach(CARD_KEYWORDS, (keyword) => {
                                     let
-                                        match = line.match(keyword);
+                                        match = line.match(keyword.re);
+
+                                    keyword = _.omit(keyword, ['re']);
 
                                     if (match) {
-                                        if (result.abilities.keywords == null) {
-                                            result.abilities.keywords = [];
-                                        }
-
                                         keyword = _.mapValues(
-                                            _.find(CARD_KEYWORDS_MATCHES_MAP, 'keyword', match[1]),
+                                            keyword,
                                             (value, key) => {
                                                 if (_.isFunction(value)) {
                                                     return value(match);
@@ -528,27 +518,23 @@ when.all(_.map(files, (file) => {
                                     }
                                 });
 
-                                _.forEach(CARD_ABILITIES, (ability) => {
-                                    let
-                                        match = line.match(ability),
-                                        key;
-
-                                    if (match) {
-                                        key = pluralize(_.camelCase(match[1]));
-
-                                        if (result.abilities[key] == null) {
-                                            result.abilities[key] = [];
-                                        }
-
-                                        result.abilities[key].push(match[4]);
-                                    }
-                                });
-
                                 _.forEach(CARD_SCENARIOS_MAP, (test, scenario) => {
                                     if (test(line)) {
                                         result.abilities.scenarios.push(scenario);
                                     }
                                 });
+                            });
+
+                            if (result.abilities.traits.length) {
+                                result.abilities.types.push('Trait');
+                            }
+
+                            if (result.abilities.keywords.length) {
+                                result.abilities.types.push('Keyword');
+                            }
+
+                            _.forEach(propertyValue.match(CARD_ABILITIES_RE), (ability) => {
+                                result.abilities.types.push(ability);
                             });
 
                             result.text = _.trim(propertyValue) == '' ? null : propertyValue;
@@ -588,15 +574,10 @@ when.all(_.map(files, (file) => {
                         edgeEnabledCombatIcons: null,
                         text: null,
                         abilities: {
+                            types: [],
                             traits: [],
                             referencedTraits: [],
                             keywords: [],
-                            actions: [],
-                            forcedActions: [],
-                            reactions: [],
-                            forcedReactions: [],
-                            interrupts: [],
-                            forcedInterrupts: [],
                             scenarios: []
                         },
                         illustrator: null
