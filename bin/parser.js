@@ -735,6 +735,7 @@ when.all(_.map(files, (file) => {
         _.forEach(
             _.groupBy(cards, 'product'),
             (cards, product) => {
+                product = product.replace('\'', '');
                 cards = _.sortByOrder(cards, ['objectiveSetNumber', 'objectiveSetSequence']);
                 fs.writeFileSync(
                     path.resolve(__dirname, '../json', `${_.kebabCase(product)}.json`),
