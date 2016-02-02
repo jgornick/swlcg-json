@@ -486,7 +486,7 @@
         "cost": null,
         "damageCapacity": 4,
         "forceIcons": null,
-        "resourceValue": 3,
+        "resourceValue": 1,
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
@@ -515,9 +515,9 @@
                 },
                 "resourceValue": {
                     "count": 2,
-                    "total": 4,
-                    "average": 2,
-                    "max": 3,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
                     "min": 1
                 },
                 "cost": {
@@ -596,10 +596,10 @@
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 3,
-                        "average": 3,
-                        "max": 3,
-                        "min": 3
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
                     }
                 },
                 "Unit": {

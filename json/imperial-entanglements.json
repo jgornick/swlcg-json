@@ -347,7 +347,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Reaction: After this unit enters play, name a card. Your opponent must reveal his hand and discard all copies of that card frmo his hand.",
+        "text": "Reaction: After this unit enters play, name a card. Your opponent must reveal his hand and discard all copies of that card from his hand.",
         "abilities": {
             "types": [
                 "Trait",
@@ -385,7 +385,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card each turn.)",
+        "text": "Enhance your play area.\nLimited.",
         "abilities": {
             "types": [
                 "Trait",
@@ -398,8 +398,7 @@
             "referencedTraits": [],
             "keywords": [
                 {
-                    "keyword": "Limited",
-                    "text": "You cannot play more than one limited card each turn."
+                    "keyword": "Limited"
                 }
             ],
             "scenarios": []
@@ -496,7 +495,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Reaction: After a Wookie unit you control is sacrificed or destroyed, shuffle it back into it's owner's deck from the discard pile. (Limit once per turn.)",
+        "text": "Reaction: After a Wookiee unit you control is sacrificed or destroyed, shuffle it back into its owner's deck from the discard pile. (Limit once per turn.)",
         "abilities": {
             "types": [
                 "Trait",
@@ -505,7 +504,9 @@
             "traits": [
                 "Kashyyyk"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Wookiee"
+            ],
             "keywords": [],
             "scenarios": []
         },
@@ -801,7 +802,7 @@
         "affiliation": "Neutral",
         "affiliationLock": null,
         "type": "Unit",
-        "title": "Wookie Defender",
+        "title": "Wookiee Defender",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": 2,
@@ -884,7 +885,7 @@
         "affiliation": "Smugglers and Spies",
         "affiliationLock": null,
         "type": "Event",
-        "title": "Wookie Rage",
+        "title": "Wookiee Rage",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": 1,
@@ -894,13 +895,15 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Action: During an engagement, sacrifice a participating Wookie unit to deal X damage divided among participating enemy units. X is the remaining damage capacity of the sacrificed unit.",
+        "text": "Action: During an engagement, sacrifice a participating Wookiee unit to deal X damage divided among participating enemy units. X is the remaining damage capacity of the sacrificed unit.",
         "abilities": {
             "types": [
                 "Action"
             ],
             "traits": [],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Wookiee"
+            ],
             "keywords": [],
             "scenarios": [
                 "Deals Damage"
@@ -1221,7 +1224,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "Reaction: After this unit is focused to strike, reveal the top 3 cards of your deck. Discard one of those cards, place one on the bottom of your deck, and place on into your hand.",
+        "text": "Reaction: After this unit is focused to strike, reveal the top 3 cards of your deck. Discard one of those cards, place one on the bottom of your deck, and place one into your hand.",
         "abilities": {
             "types": [
                 "Trait",
@@ -2208,7 +2211,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance your play area.\nWhile you are the defending player and have no ready defenders, this enhancement gains: \"Action: Focus this enhancement to have a ready target unit you control participate on your side.\"",
+        "text": "Enhance your play area.\nWhile you are the defending player and have no ready defenders, this enhancement gains: \"Action: Focus this enhancement to have a target ready unit you control participate on your side.\"",
         "abilities": {
             "types": [
                 "Action"
@@ -2573,7 +2576,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "Reaction: After a focus token is placed on a friendly unit by an enemy card effect or combat icon, move that focus to this unit. (Limit once per turn.)",
+        "text": "Reaction: After a focus token is placed on a friendly unit by an enemy card effect or combat icon, move that focus token to this unit. (Limit once per turn.)",
         "abilities": {
             "types": [
                 "Trait",
@@ -2585,7 +2588,9 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "scenarios": []
+            "scenarios": [
+                "Moves Focus Token"
+            ]
         },
         "illustrator": null
     },
@@ -2619,7 +2624,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "Reaction: After a focus token is placed on a friendly unit by an enemy card effect or combat icon, move that focus to this unit. (Limit once per turn.)",
+        "text": "Reaction: After a focus token is placed on a friendly unit by an enemy card effect or combat icon, move that focus token to this unit. (Limit once per turn.)",
         "abilities": {
             "types": [
                 "Trait",
@@ -2631,7 +2636,9 @@
             ],
             "referencedTraits": [],
             "keywords": [],
-            "scenarios": []
+            "scenarios": [
+                "Moves Focus Token"
+            ]
         },
         "illustrator": null
     },
@@ -2664,7 +2671,7 @@
             ],
             "traits": [
                 "Skill",
-                "Light Saber Form"
+                "Lightsaber Form"
             ],
             "referencedTraits": [
                 "Force Sensitive",
@@ -2706,7 +2713,7 @@
             ],
             "traits": [
                 "Skill",
-                "Light Saber Form"
+                "Lightsaber Form"
             ],
             "referencedTraits": [
                 "Force Sensitive",
@@ -2741,7 +2748,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Reaction: After you declare a lone attacker, target up to X ready enemy units. X is the number of focus tokens on a Force User unit you control. Targeted units cannot be declared as defenders at this engagement.",
+        "text": "Reaction: After you declare a lone attacker, target up to X ready enemy units. X is the number of focus tokens on a Force User unit you control. Targeted units cannot be declared as defenders this engagement.",
         "abilities": {
             "types": [
                 "Trait",
@@ -2962,19 +2969,19 @@
                     }
                 },
                 "Enhancement": {
-                    "count": 2,
+                    "count": 1,
                     "cost": {
-                        "count": 2,
+                        "count": 1,
                         "total": 2,
-                        "average": 1,
+                        "average": 2,
                         "max": 2,
-                        "min": 0
+                        "min": 2
                     },
                     "forceIcons": {
-                        "count": 2,
-                        "total": 2,
-                        "average": 1,
-                        "max": 2,
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
                         "min": 0
                     },
                     "resourceValue": {
@@ -2986,17 +2993,17 @@
                     }
                 },
                 "Event": {
-                    "count": 1,
+                    "count": 2,
                     "cost": {
-                        "count": 1,
+                        "count": 2,
                         "total": 2,
-                        "average": 2,
+                        "average": 1,
                         "max": 2,
-                        "min": 2
+                        "min": 0
                     },
                     "forceIcons": {
-                        "count": 1,
-                        "total": 2,
+                        "count": 2,
+                        "total": 4,
                         "average": 2,
                         "max": 2,
                         "min": 2
@@ -3150,7 +3157,7 @@
         "side": "Light",
         "affiliation": "Rebel Alliance",
         "affiliationLock": null,
-        "type": "Enhancement",
+        "type": "Event",
         "title": "Undercover",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
@@ -3161,7 +3168,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Action: Target up to 2 cards in your discard pile. Shuffle the targeted cards back into your deck. Then place this card at an enemy objective as a captured card.",
+        "text": "Action: Target up to 2 cards in your discard pile. Shuffle the targeted cards back into your deck. Then, place this card at an enemy objective as a captured card.",
         "abilities": {
             "types": [
                 "Trait",
@@ -3201,9 +3208,12 @@
         "text": "Action: Rescue 1 captured card. If it is a unit, you may put it into play under its owner's control.",
         "abilities": {
             "types": [
+                "Trait",
                 "Action"
             ],
-            "traits": [],
+            "traits": [
+                "Mission"
+            ],
             "referencedTraits": [],
             "keywords": [],
             "scenarios": [
@@ -3510,7 +3520,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "Elite.\nReaction: After a phase beings, spend 1 [Imperial Navy] resource to tread a target card's printed text box as if it were blank (except for Traits) until the end of the phase. (Limit once per turn.)",
+        "text": "Elite.\nReaction: After a phase begins, spend 1 [Imperial Navy] resource to treat a target card's printed text box as if it were blank (except for Traits) until the end of the phase. (Limit once per turn.)",
         "abilities": {
             "types": [
                 "Trait",
@@ -3561,7 +3571,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Targeted Strike.\n\"This unit gains [Edge-Enabled Unit Damage] for each [Imperial Navy] objective you control.",
+        "text": "Targeted Strike.\nThis unit gains [Edge-Enabled Unit Damage] for each [Imperial Navy] objective you control.",
         "abilities": {
             "types": [
                 "Trait",
@@ -3674,7 +3684,7 @@
         "edgePriorityNumber": 2,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": null,
+        "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle.",
         "abilities": {
             "types": [],
             "traits": [],
@@ -4121,7 +4131,7 @@
         "objectiveSetNumber": 179,
         "objectiveSetSequence": 6,
         "side": "Dark",
-        "affiliation": "Neutral",
+        "affiliation": "Imperial Navy",
         "affiliationLock": null,
         "type": "Event",
         "title": "The Empire Strikes Back",
@@ -4475,7 +4485,7 @@
             "blastDamage": 0,
             "tactics": 1
         },
-        "text": "While this unit is defending, it gains: \"Reaction: After the first enemy Vehicle unit is focused to strike this engagement, it loses [Blast Damage] and [Edge-Enabled Blast Damage] for that strike.\"",
+        "text": "While this unit is defending it gains: \"Reaction: After the first enemy Vehicle unit is focused to strike this engagement, it loses [Blast Damage] and [Edge-Enabled Blast Damage] for that strike.\"",
         "abilities": {
             "types": [
                 "Trait",
@@ -4526,9 +4536,12 @@
         "text": "Action: During the deployment phase, focus this unit to draw 1 card. Any opponent may focus a unit he controls to cancel this effect.",
         "abilities": {
             "types": [
+                "Trait",
                 "Action"
             ],
-            "traits": [],
+            "traits": [
+                "Droid"
+            ],
             "referencedTraits": [],
             "keywords": [],
             "scenarios": [
@@ -4559,7 +4572,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card each turn.)",
+        "text": "Enhance your play area.\nLimited.",
         "abilities": {
             "types": [
                 "Trait",
@@ -4571,8 +4584,7 @@
             "referencedTraits": [],
             "keywords": [
                 {
-                    "keyword": "Limited",
-                    "text": "You cannot play more than one limited card each turn."
+                    "keyword": "Limited"
                 }
             ],
             "scenarios": []
@@ -4601,7 +4613,7 @@
         "edgePriorityNumber": 10,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "If you control a participating unique [Imperial Navy] unit, move up to 2 damage from a target friendly objective to a target enemy objective.",
+        "text": "If you control a participating unique [Imperial Navy] unit, move up to 2 damage from a friendly objective to a target enemy objective.",
         "abilities": {
             "types": [],
             "traits": [],
@@ -4672,8 +4684,8 @@
                 },
                 "forceIcons": {
                     "count": 5,
-                    "total": 9,
-                    "average": 1.8,
+                    "total": 7,
+                    "average": 1.4,
                     "max": 2,
                     "min": 1
                 },
@@ -4756,10 +4768,10 @@
                     },
                     "forceIcons": {
                         "count": 3,
-                        "total": 6,
-                        "average": 2,
+                        "total": 4,
+                        "average": 1.3,
                         "max": 2,
-                        "min": 2
+                        "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
@@ -4906,7 +4918,7 @@
         "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
-        "forceIcons": 2,
+        "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
@@ -4951,7 +4963,7 @@
         "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
-        "forceIcons": 2,
+        "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
@@ -5038,10 +5050,14 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance a Capital Ship or Transport unit.\nEnhanced unit gains [Tactics]",
+        "text": "Enhance a Capital Ship or Transport unit.\nEnhanced unit gains [Tactics].",
         "abilities": {
-            "types": [],
-            "traits": [],
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Weapon"
+            ],
             "referencedTraits": [
                 "Capital Ship",
                 "Transport"
@@ -5853,7 +5869,7 @@
             "blastDamage": 0,
             "tactics": 1
         },
-        "text": "Action: During an engagement in which Gorc is participating, put this unit into play as a participating unit on your side.",
+        "text": "Action: During an engagement in which Gorc is participating, put this unit into play from your hand as a participating unit on your side.",
         "abilities": {
             "types": [
                 "Trait",
@@ -6003,7 +6019,7 @@
         "affiliation": "Scum and Villainy",
         "affiliationLock": null,
         "type": "Objective",
-        "title": "The Hutt's Menagerie ",
+        "title": "The Hutt's Menagerie",
         "isUnique": false,
         "isLimitedToObjectiveDeck": true,
         "cost": null,
@@ -6414,7 +6430,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance your play area.\nAction: Shuffle this enhnacement into its owner's deck to remove a target enemy non-Vehicle unit from an engagement. Then, deal that unit 1 damage.",
+        "text": "Enhance your play area.\nAction: Shuffle this enhancement into its owner's deck to remove a target enemy non-Vehicle unit from an engagement. Then, deal that unit 1 damage.",
         "abilities": {
             "types": [
                 "Trait",
