@@ -1,0 +1,2350 @@
+[
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 815,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001051",
+        "objectiveSetNumber": 166,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Objective",
+        "title": "The Forgotten Masters",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Forced Reaction: After an edge battle resolves, set the Balance of the Force to the side of the player that won the edge battle.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
+            "traits": [
+                "Kashyyyk"
+            ],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 14,
+                    "average": 3.5,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 6,
+                    "average": 1.5,
+                    "max": 4,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 9,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 5,
+                    "average": 5,
+                    "max": 5,
+                    "min": 5
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 6,
+                        "average": 2,
+                        "max": 4,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 9,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 816,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001052",
+        "objectiveSetNumber": 166,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "T'ra Saa",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "text": "This unit gains edge (2) while you have the most units committed to the Force.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Gains Edge"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 817,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001053",
+        "objectiveSetNumber": 166,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Lost Master",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit is considered committed to the Force. (This commitment does not cost a Force card.)\nForced Reaction: After this unit enters play, an opponent may spend 1 resource to return it to its owner's hand.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 817,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001054",
+        "objectiveSetNumber": 166,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Lost Master",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit is considered committed to the Force. (This commitment does not cost a Force card.)\nForced Reaction: After this unit enters play, an opponent may spend 1 resource to return it to its owner's hand.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 818,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001055",
+        "objectiveSetNumber": 166,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "A Gift from the Past",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Remove a target unit you control from the Force. Then, commit a different target unit you control to the Force.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Removes from Force"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 500,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001056",
+        "objectiveSetNumber": 166,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Fate",
+        "title": "Echoes of the Force",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 5,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "You may commit a target unit to or remove a target unit from the Force.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Removes from Force"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 819,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001057",
+        "objectiveSetNumber": 167,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Objective",
+        "title": "Heroes of the Rebellion",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your piloted Vehicle units cannot be targeted by enemy card effects.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Vehicle"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 5,
+                    "total": 15,
+                    "average": 3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 11,
+                    "average": 2.2,
+                    "max": 3,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 7,
+                    "average": 1.4,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 4,
+                    "total": 3,
+                    "average": 0.8,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 4,
+                    "total": 2,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 4,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 4,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 4,
+                    "total": 2,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 4,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 4,
+                    "cost": {
+                        "count": 4,
+                        "total": 10,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 4,
+                        "total": 10,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 4,
+                        "total": 6,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 4,
+                        "total": 3,
+                        "average": 0.8,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 4,
+                        "total": 2,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 4,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 4,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 4,
+                        "total": 2,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 4,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 820,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001058",
+        "objectiveSetNumber": 167,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Tycho Celchu",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Pilot (1). (Enhanced Fighter unit gains shielding and protect Vehicle.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Pilot",
+                "Spy"
+            ],
+            "referencedTraits": [
+                "Fighter",
+                "Pilot",
+                "Vehicle"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Pilot",
+                    "cost": 1,
+                    "text": "Enhanced Fighter unit gains shielding and protect Vehicle."
+                }
+            ],
+            "scenarios": [
+                "Gains Shielding"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 821,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001059",
+        "objectiveSetNumber": 167,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Wes Janson",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Pilot (2). (While this card is piloting a Speeder or Fighter unit, this card gains: \"Action: During an engagement, focus this card to deal 1 damage to a target participating unit. If the Balance of the Force is with the light side, deal 2 damage instead.\")",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Action"
+            ],
+            "traits": [
+                "Character",
+                "Pilot",
+                "Gunner"
+            ],
+            "referencedTraits": [
+                "Fighter",
+                "Force",
+                "Pilot",
+                "Speeder"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Pilot",
+                    "cost": 2,
+                    "text": "While this card is piloting a Speeder or Fighter unit, this card gains: \"Action: During an engagement, focus this card to deal 1 damage to a target participating unit. If the Balance of the Force is with the light side, deal 2 damage instead.\""
+                }
+            ],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 822,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001060",
+        "objectiveSetNumber": 167,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Rogue Six",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "While this unit is piloted, it gains [Unit Damage]. If the pilot is Wes Janson, it also gains targeted strike.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Gains Targeted Strike"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 823,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001061",
+        "objectiveSetNumber": 167,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Rogue Nine",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While this unit is piloted, it gains +1 damage capacity. If the pilot is Tycho Celchu, it gains +3 damage capacity instead.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Gains Damage Capacity"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 824,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001062",
+        "objectiveSetNumber": 167,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Ready for Takeoff",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Search the top 5 cards of your deck for any number of unique [Rebel Alliance] Fighter, Speeder or Pilot units, reveal them, and add them to your hand. Shuffle the remaining cards back into your deck.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Fighter",
+                "Pilot",
+                "Speeder"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 825,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001063",
+        "objectiveSetNumber": 168,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "type": "Objective",
+        "title": "That Bucket o' Bolts",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Smugglers and Spies affiliation only.\nAction: Focus this objective to attach a Pilot unit you control to a friendly Vehicle unit as a Pilot enhancement.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Pilot",
+                "Vehicle"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "total": 11,
+                    "average": 3.7,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 9,
+                    "average": 2.3,
+                    "max": 5,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 10,
+                    "average": 2,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "total": 4,
+                    "average": 2,
+                    "max": 2,
+                    "min": 2
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 5,
+                    "average": 5,
+                    "max": 5,
+                    "min": 5
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 9,
+                        "average": 4.5,
+                        "max": 5,
+                        "min": 4
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "total": 4,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Event": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 826,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001064",
+        "objectiveSetNumber": 168,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Han Solo",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Pilot (2). (Reaction: After enhanced unit is declared as an attacker, target an enemy unit. That unit cannot be declared as a defender during this engagement.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Rogue",
+                "Scoundrel",
+                "Pilot"
+            ],
+            "referencedTraits": [
+                "Pilot"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Pilot",
+                    "cost": 2,
+                    "text": "Reaction: After enhanced unit is declared as an attacker, target an enemy unit. That unit cannot be declared as a defender during this engagement."
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 827,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001065",
+        "objectiveSetNumber": 168,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Millennium Falcon",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 5,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite.\nEdge (1).\nAction: Remove this unit from an engagement. (Limit once per phase.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Action"
+            ],
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                },
+                {
+                    "keyword": "Edge",
+                    "forceIcons": 1
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 828,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001066",
+        "objectiveSetNumber": 168,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Well Paid",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Limited.\nAction: Reduce the cost and pilot cost of each Pilot and each Vehicle card you play this phase by 1.",
+        "abilities": {
+            "types": [
+                "Keyword",
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Pilot",
+                "Vehicle"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Limited"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 828,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001067",
+        "objectiveSetNumber": 168,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Well Paid",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Limited.\nAction: Reduce the cost and pilot cost of each Pilot and each Vehicle card you play this phase by 1.",
+        "abilities": {
+            "types": [
+                "Keyword",
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Pilot",
+                "Vehicle"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Limited"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 65,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001068",
+        "objectiveSetNumber": 168,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Fate",
+        "title": "Heat of Battle",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 5,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Deal 1 damage to a target participating enemy unit.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 829,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001069",
+        "objectiveSetNumber": 169,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Objective",
+        "title": "The Reawakening",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After you win a Force struggle, look at the top 2 cards of a player's deck. Discard 1 of those cards and return the other to the top of the deck.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "total": 10,
+                    "average": 3.3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 9,
+                    "average": 1.8,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 8,
+                    "average": 1.6,
+                    "max": 4,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "total": 4,
+                    "average": 2,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "total": 5,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 5,
+                        "average": 2.5,
+                        "max": 4,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "total": 4,
+                        "average": 2,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                },
+                "Event": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 830,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001070",
+        "objectiveSetNumber": 169,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Arden Lyn",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 4,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 3,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While it is not the draw phase, this unit gains: \"Reaction: After this unit is discarded from your hand or deck, put it into play.\"",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Puts Into Play"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 33,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001071",
+        "objectiveSetNumber": 169,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Dark Side Apprentice",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": null,
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Character",
+                "Force Sensitive"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 831,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001072",
+        "objectiveSetNumber": 169,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Enhancement",
+        "title": "Return to Darkness",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance a Force User or Force Sensitive unit you control.\nInterrupt: When enhanced unit leaves play, return it to the top of your deck instead.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
+            "traits": [
+                "Force",
+                "Control",
+                "Alter"
+            ],
+            "referencedTraits": [
+                "Force Sensitive",
+                "Force User"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 832,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001073",
+        "objectiveSetNumber": 169,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Give in to Your Anger",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Discard the top card of your deck. Deal damage to a target enemy Character or Creature unit equal to the discarded card's printed Force icons.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Force"
+            ],
+            "referencedTraits": [
+                "Character",
+                "Creature"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 832,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001074",
+        "objectiveSetNumber": 169,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Give in to Your Anger",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Discard the top card of your deck. Deal damage to a target enemy Character or Creature unit equal to the discarded card's printed Force icons.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Force"
+            ],
+            "referencedTraits": [
+                "Character",
+                "Creature"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 833,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001075",
+        "objectiveSetNumber": 170,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
+        "type": "Objective",
+        "title": "Behind the Black Sun",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After edge stacks are revealed, choose a card in an edge stack. That card gains 1 Force icon until the end of the edge battle. (Limit once per phase.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Coruscant"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Gains Edge",
+                "Gains Force Icon"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "total": 8,
+                    "average": 2.7,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 7,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 8,
+                    "average": 1.6,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 6,
+                    "average": 6,
+                    "max": 6,
+                    "min": 6
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 4,
+                        "average": 2,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "total": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 6,
+                        "average": 6,
+                        "max": 6,
+                        "min": 6
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 834,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001076",
+        "objectiveSetNumber": 170,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Guri",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you lose an edge battle by 2 or more Force icons, put this unit into play from your hand as a participating unit on your side. You strike first in this engagement.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Droid",
+                "Assassin",
+                "Black Sun"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Puts Into Play",
+                "Loses Force Icon"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 835,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001077",
+        "objectiveSetNumber": 170,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Freelance Assassin",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Targeted Strike.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Assassin",
+                "Mercenary"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Targeted Strike"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 836,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001078",
+        "objectiveSetNumber": 170,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Enhancement",
+        "title": "Hidden Vibroknife",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance a Character or Droid unit.\nEnhanced unit gains [Unit Damage].\nReaction: After you lose an edge battle, put this enhancement into play from your hand attached to an eligible participating unit.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Weapon"
+            ],
+            "referencedTraits": [
+                "Character",
+                "Droid"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Puts Into Play"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 837,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001079",
+        "objectiveSetNumber": 170,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Threat Removal",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After you lose an edge battle by 2 or more Force icons, return a target participating unit without an enhancement on it to its owner's hand.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Loses Force Icon"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Jump to Lightspeed",
+        "productCycle": "Rogue Squadron Cycle",
+        "productOctgnId": "0f0ec32a-100f-409a-88fc-feec553ff971",
+        "number": 169,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001080",
+        "objectiveSetNumber": 170,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Fate",
+        "title": "Heat of Battle",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 6,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Deal 1 damage to a target participating enemy unit.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    }
+]
