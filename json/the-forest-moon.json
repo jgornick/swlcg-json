@@ -1,0 +1,2365 @@
+[
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 959,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001231",
+        "objectiveSetNumber": 196,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Objective",
+        "title": "Matter Under Mind",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 4,
+        "forceIcons": null,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": null,
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Tatooine"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 8,
+                    "average": 2,
+                    "max": 4,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 2,
+                    "average": 2,
+                    "max": 2,
+                    "min": 2
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 5,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 7,
+                    "average": 1.4,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 4,
+                        "average": 4,
+                        "max": 4,
+                        "min": 4
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 960,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001232",
+        "objectiveSetNumber": 196,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Brainiac",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Action: Until the end of the phase, increase or decrease a numeral on a target non-objective card in play by 1. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Character",
+                "Force Sensitive"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 961,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001233",
+        "objectiveSetNumber": 196,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Unhinged Astromech",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While you control 2 or more copies of Unhinged Astromech, this unit gains: \"Action: Sacrifice this unit to (choose 1): Deal 1 damage to a target unit, discard 1 card at random from an opponent's hand, or remove up to 3 damage from a target unit.\"",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Droid"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 961,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001234",
+        "objectiveSetNumber": 196,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Unhinged Astromech",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "While you control 2 or more copies of Unhinged Astromech, this unit gains: \"Action: Sacrifice this unit to (choose 1): Deal 1 damage to a target unit, discard 1 card at random from an opponent's hand, or remove up to 3 damage from a target unit.\"",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Droid"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 962,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001235",
+        "objectiveSetNumber": 196,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Enhancement",
+        "title": "Signal Scrambler",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nUnits committed to the Force do not contribute their Force icons to the Force struggle, and each ready unit not committed to the Force does.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Contributes Force Icon"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 963,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001236",
+        "objectiveSetNumber": 196,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Outwit",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After edge stacks are revealed, resolve fate cards from highest priority to lowest priority (instead of from lowest to highest) for this edge battle. Then, draw 1 card.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Endor"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Draws Card"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 964,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001237",
+        "objectiveSetNumber": 197,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "type": "Objective",
+        "title": "Solidarity of Spirit",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Rebel Alliance affiliation only.\nReaction: After this objective enters play, put a [Rebel Alliance] unit into play from your hand. Then, your opponent may put an in-faction unit with equal or lower printed cost into play from his hand.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Endor"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Puts Into Play"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 15,
+                    "average": 3.8,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 11,
+                    "average": 2.8,
+                    "max": 5,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 6,
+                    "average": 1.2,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 4,
+                    "average": 1.3,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 9,
+                    "average": 9,
+                    "max": 9,
+                    "min": 9
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 11,
+                        "average": 3.7,
+                        "max": 5,
+                        "min": 3
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 10,
+                        "average": 3.3,
+                        "max": 4,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 9,
+                        "average": 9,
+                        "max": 9,
+                        "min": 9
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 965,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001238",
+        "objectiveSetNumber": 197,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Home One",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 5,
+        "damageCapacity": 4,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Elite.\nReaction: After this unit resolves its blast damage icons, resolve those icons again against a different enemy objective. (Limit once per round.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 966,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001239",
+        "objectiveSetNumber": 197,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "MC80 Liberty-type Cruiser",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit enters play, reduce the cost of the next Vehicle unit you play this turn by 1 (to a minimum of 1).",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "referencedTraits": [
+                "Vehicle"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Reduces Cost"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 966,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001240",
+        "objectiveSetNumber": 197,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "MC80 Liberty-type Cruiser",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit enters play, reduce the cost of the next Vehicle unit you play this turn by 1 (to a minimum of 1).",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "referencedTraits": [
+                "Vehicle"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Reduces Cost"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 967,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001241",
+        "objectiveSetNumber": 197,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "affiliationLock": null,
+        "type": "Enhancement",
+        "title": "Rebel Fleet Command",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nLimited.\nResources generated by this enhancement can only be used to play [Rebel Alliance] cards with printed cost 3 or higher.",
+        "abilities": {
+            "types": [
+                "Keyword"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Limited"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 942,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001242",
+        "objectiveSetNumber": 197,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Fate",
+        "title": "Battle of Endor",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": 9,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Endor"
+            ],
+            "referencedTraits": [
+                "Endor"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Gains Force Icon"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 968,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001243",
+        "objectiveSetNumber": 198,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
+        "type": "Objective",
+        "title": "Sowers of Dissension",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After this objective enters play, deal 1 damage to each out-of-faction objective each player controls.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Cloud City"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 12,
+                    "average": 3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "total": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "total": 7,
+                    "average": 1.4,
+                    "max": 3,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 7,
+                    "average": 1.4,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 7,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 7,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 969,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001244",
+        "objectiveSetNumber": 198,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Lobot",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding.\nEach enemy out-of-faction objective requires 1 fewer damage to destroy.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Cyborg"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Shielding"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 970,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001245",
+        "objectiveSetNumber": 198,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Duros Saboteur",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit uses its blast damage to damage an enemy objective, deal damage equal to the damage taken to each other copy of that objective. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Character"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 970,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001246",
+        "objectiveSetNumber": 198,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Duros Saboteur",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit uses its blast damage to damage an enemy objective, deal damage equal to the damage taken to each other copy of that objective. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Character"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 971,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001247",
+        "objectiveSetNumber": 198,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Enhancement",
+        "title": "Paid Off",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance an out-of-faction enemy unit.\nEnhanced unit loses 2 Force icons.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Condition"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Loses Force Icon"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 972,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001248",
+        "objectiveSetNumber": 198,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Hiding Among Friends",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Place 1 shield on a target [Smugglers and Spies] Character unit. Then, draw 1 card.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Tactic"
+            ],
+            "referencedTraits": [
+                "Character"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Draws Card"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 973,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001249",
+        "objectiveSetNumber": 199,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Objective",
+        "title": "Dark Counsel",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After a target damaged enemy unit is focused to strike, place 1 focus token on that unit. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Death Star",
+                "Endor"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Places Focus Token"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "total": 10,
+                    "average": 3.3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 8,
+                    "average": 2,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 6,
+                    "average": 1.2,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "total": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 9,
+                    "average": 9,
+                    "max": 9,
+                    "min": 9
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "total": 6,
+                        "average": 3,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "total": 5,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "total": 4,
+                        "average": 2,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "total": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "total": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "total": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 9,
+                        "average": 9,
+                        "max": 9,
+                        "min": 9
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 974,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001250",
+        "objectiveSetNumber": 199,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Janus Greejatus",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Elite.\nReaction: After this unit is focused to strike, deal 1 damage to each participating enemy unit.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Force Sensitive"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                }
+            ],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 975,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001251",
+        "objectiveSetNumber": 199,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Imperial Functionary",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Each enemy unit loses all instances of protect.\nDamage cannot be removed from units by card effects.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Character"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 72,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001252",
+        "objectiveSetNumber": 199,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Enhancement",
+        "title": "Sith Library",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Coruscant",
+                "Location"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Limited",
+                    "text": "You cannot play more than one limited card per turn."
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 976,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001253",
+        "objectiveSetNumber": 199,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Administrative Detainment",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Place 1 focus token on a target Character unit. If that unit is damaged, place 2 focus tokens on it instead.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Character"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Places Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 977,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001254",
+        "objectiveSetNumber": 199,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Fate",
+        "title": "Battle of Endor",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": 9,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Endor"
+            ],
+            "referencedTraits": [
+                "Endor"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Gains Force Icon"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 978,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001255",
+        "objectiveSetNumber": 200,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "type": "Objective",
+        "title": "Moon Blockade",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Imperial Navy affiliation only.\nEach light side objective that has a copy in your victory pile is treated as if its printed text box were blank (except for Traits).",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Endor"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "total": 14,
+                    "average": 3.5,
+                    "max": 6,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "total": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "total": 11,
+                    "average": 2.8,
+                    "max": 6,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "total": 7,
+                    "average": 1.4,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "total": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "total": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "total": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "total": 9,
+                    "average": 9,
+                    "max": 9,
+                    "min": 9
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "total": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "total": 10,
+                        "average": 3.3,
+                        "max": 6,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "total": 9,
+                        "average": 3,
+                        "max": 6,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "total": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "total": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "total": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "total": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "total": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "total": 9,
+                        "average": 9,
+                        "max": 9,
+                        "min": 9
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 979,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001256",
+        "objectiveSetNumber": 200,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Executor",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 6,
+        "damageCapacity": 6,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Elite.\nReaction: After this unit enters play, deal 3 damage to a target objective.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
+            "traits": [
+                "Vehicle",
+                "Capital Ship",
+                "Death Squadron"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                }
+            ],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 980,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001257",
+        "objectiveSetNumber": 200,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Rear Admiral Chiraneau",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Treat each enemy objective with 3 or more damage on it as if its printed text box were blank (except for Traits).",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Character",
+                "Officer"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 981,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001258",
+        "objectiveSetNumber": 200,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "affiliationLock": null,
+        "type": "Unit",
+        "title": "Imperial Engineer",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Limited.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Engineer"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Limited"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 982,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001259",
+        "objectiveSetNumber": 200,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "affiliationLock": null,
+        "type": "Event",
+        "title": "Jamming Protocol",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Interrupt: When an event card is played, cancel its effects.",
+        "abilities": {
+            "types": [
+                "Interrupt"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "The Forest Moon",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "15d68fb0-747d-4148-bcda-3d89b7f2cfe8",
+        "number": 977,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001260",
+        "objectiveSetNumber": 200,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "affiliationLock": null,
+        "type": "Fate",
+        "title": "Battle of Endor",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": 9,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Endor"
+            ],
+            "referencedTraits": [
+                "Endor"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Gains Force Icon"
+            ]
+        },
+        "illustrator": null
+    }
+]
