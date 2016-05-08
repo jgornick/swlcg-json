@@ -48,8 +48,14 @@ const PRODUCT_CYCLES_MAP = {
     'Between the Shadows': ['Between the Shadows'],
     'Imperial Entanglements': ['Imperial Entanglements'],
     'Endor Cycle': [
-        `Solo's Command`
-    ]
+        `Solo's Command`,
+        'New Alliances',
+        'The Forest Moon',
+        'So Be It',
+        'Press the Attack',
+        'Redemption and Return'
+    ],
+    'Galactic Ambitions': ['Galactic Ambitions']
 };
 
 const IGNORE_CARD_PROPERTIES = [
@@ -94,7 +100,11 @@ const IGNORE_CARD_TYPE_PROPERTIES = {
         'damageCapacity',
         'resources',
         'combatIcons'
-    ]
+    ],
+    'Mission': [
+        'combatIcons',
+        'edgePriority'
+    ],
 };
 
 const CARD_PROPERTY_MAP = {

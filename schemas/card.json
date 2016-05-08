@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "/",
+  "id": "http://api.swlcg.com",
   "type": "object",
   "title": "Card schema.",
   "description": "This schema represents a single card in Star Wars: The Card Game LCG from Fantasy Flight Games.",

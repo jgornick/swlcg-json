@@ -111,11 +111,11 @@
                     "min": 0
                 },
                 "edgePriorityNumber": {
-                    "count": 2,
+                    "count": 1,
                     "total": 7,
-                    "average": 3.5,
+                    "average": 7,
                     "max": 7,
-                    "min": 0
+                    "min": 7
                 }
             },
             "type": {
@@ -434,7 +434,7 @@
         "damageCapacity": 5,
         "forceIcons": 1,
         "resourceValue": null,
-        "edgePriorityNumber": 0,
+        "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
             "blastDamage": 0,
@@ -573,11 +573,11 @@
                     "min": 0
                 },
                 "edgePriorityNumber": {
-                    "count": 2,
+                    "count": 1,
                     "total": 7,
-                    "average": 3.5,
+                    "average": 7,
                     "max": 7,
-                    "min": 0
+                    "min": 7
                 }
             },
             "type": {
@@ -902,7 +902,7 @@
         "damageCapacity": 5,
         "forceIcons": 1,
         "resourceValue": null,
-        "edgePriorityNumber": 0,
+        "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
             "blastDamage": 0,
@@ -1043,11 +1043,11 @@
                     "min": 0
                 },
                 "edgePriorityNumber": {
-                    "count": 2,
+                    "count": 1,
                     "total": 8,
-                    "average": 4,
+                    "average": 8,
                     "max": 8,
-                    "min": 0
+                    "min": 8
                 }
             },
             "type": {
@@ -1365,7 +1365,7 @@
         "damageCapacity": 5,
         "forceIcons": 2,
         "resourceValue": null,
-        "edgePriorityNumber": 0,
+        "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
             "blastDamage": 0,
@@ -1966,11 +1966,11 @@
                     "min": 0
                 },
                 "edgePriorityNumber": {
-                    "count": 2,
+                    "count": 1,
                     "total": 8,
-                    "average": 4,
+                    "average": 8,
                     "max": 8,
-                    "min": 0
+                    "min": 8
                 }
             },
             "type": {
@@ -2283,7 +2283,7 @@
         "damageCapacity": 5,
         "forceIcons": 1,
         "resourceValue": null,
-        "edgePriorityNumber": 0,
+        "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
             "blastDamage": 0,
