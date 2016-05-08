@@ -69,42 +69,42 @@
                     "min": 1
                 },
                 "normalUnitDamage": {
-                    "count": 4,
+                    "count": 3,
                     "total": 2,
-                    "average": 0.5,
+                    "average": 0.7,
                     "max": 2,
                     "min": 0
                 },
                 "normalBlastDamage": {
-                    "count": 4,
+                    "count": 3,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "normalTactics": {
-                    "count": 4,
+                    "count": 3,
                     "total": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
-                    "count": 4,
+                    "count": 3,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
-                    "count": 4,
+                    "count": 3,
                     "total": 3,
-                    "average": 0.8,
+                    "average": 1,
                     "max": 1,
-                    "min": 0
+                    "min": 1
                 },
                 "edgeEnabledTactics": {
-                    "count": 4,
+                    "count": 3,
                     "total": 0,
                     "average": 0,
                     "max": 0,
@@ -435,16 +435,8 @@
         "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this mission is completed, deal 1 damage to each enemy unit and objective.",
         "abilities": {
             "types": [
@@ -531,42 +523,42 @@
                     "min": 1
                 },
                 "normalUnitDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 2,
-                    "average": 0.7,
+                    "average": 1,
                     "max": 2,
                     "min": 0
                 },
                 "normalBlastDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 1,
-                    "average": 0.3,
+                    "average": 0.5,
                     "max": 1,
                     "min": 0
                 },
                 "normalTactics": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 1,
-                    "average": 0.3,
+                    "average": 0.5,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 1,
-                    "average": 0.3,
+                    "average": 0.5,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
@@ -903,16 +895,8 @@
         "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Only Ewok units can be declared as attackers against this objective.\nReaction: After this mission is completed, return up to 2 target enemy units, each with printed cost 3 or lower, to their owners' hand.",
         "abilities": {
             "types": [
@@ -1001,42 +985,42 @@
                     "min": 1
                 },
                 "normalUnitDamage": {
-                    "count": 4,
+                    "count": 3,
                     "total": 3,
-                    "average": 0.8,
+                    "average": 1,
                     "max": 1,
-                    "min": 0
+                    "min": 1
                 },
                 "normalBlastDamage": {
-                    "count": 4,
+                    "count": 3,
                     "total": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "normalTactics": {
-                    "count": 4,
+                    "count": 3,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
-                    "count": 4,
+                    "count": 3,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
-                    "count": 4,
+                    "count": 3,
                     "total": 2,
-                    "average": 0.5,
+                    "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
-                    "count": 4,
+                    "count": 3,
                     "total": 0,
                     "average": 0,
                     "max": 0,
@@ -1366,16 +1350,8 @@
         "forceIcons": 2,
         "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this mission is completed, search your deck and discard pile for an Officer or Trooper unit and put it into play. Shuffle your deck.",
         "abilities": {
             "types": [
@@ -1924,42 +1900,42 @@
                     "min": 1
                 },
                 "normalUnitDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 2,
-                    "average": 0.7,
+                    "average": 1,
                     "max": 1,
-                    "min": 0
+                    "min": 1
                 },
                 "normalBlastDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "normalTactics": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 2,
-                    "average": 0.7,
+                    "average": 1,
                     "max": 1,
-                    "min": 0
+                    "min": 1
                 },
                 "edgeEnabledTactics": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
@@ -2284,16 +2260,8 @@
         "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this mission is completed, destroy each out-of-faction enemy unit.",
         "abilities": {
             "types": [

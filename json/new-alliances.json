@@ -1479,42 +1479,42 @@
                     "min": 1
                 },
                 "normalUnitDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 2,
-                    "average": 0.7,
+                    "average": 1,
                     "max": 2,
                     "min": 0
                 },
                 "normalBlastDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "normalTactics": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
-                    "count": 3,
+                    "count": 2,
                     "total": 1,
-                    "average": 0.3,
+                    "average": 0.5,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
-                    "count": 3,
+                    "count": 2,
                     "total": 0,
                     "average": 0,
                     "max": 0,
@@ -1856,16 +1856,8 @@
         "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
         "text": "Reaction: After this mission is completed, name a Trait other than Character or Vehicle. Deal 66 damage to each enemy unit with that Trait.",
         "abilities": {
             "types": [
