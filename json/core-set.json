@@ -13709,7 +13709,7 @@
         "edgePriorityNumber": 2,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": null,
+        "text": "Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle.",
         "abilities": {
             "types": [],
             "traits": [],
