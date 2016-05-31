@@ -7,6 +7,7 @@ import program from 'commander';
 import xml2js from 'xml2js';
 import glob from 'glob';
 import pluralize from 'pluralize';
+import {OnigRegExp, OnigScanner} from 'oniguruma';
 
 const PRODUCT_FIX = [
     [/Desolation of Hoth/, 'The Desolation of Hoth'],
@@ -134,7 +135,9 @@ const CARD_PROPERTY_MAP = {
     },
     damageCapacity: {
         field: 'damageCapacity',
-        value: (properties) => +properties.damageCapacity
+        value: (properties) => String(properties.damageCapacity).toUpperCase() == 'X'
+            ? 'X'
+            : +properties.damageCapacity
     },
     force: {
         field: 'forceIcons',
@@ -326,8 +329,19 @@ const CARD_SCENARIOS_MAP = {
     'Contributes Force Icon': (text) => !!text.match(/\bcontributes?\b(?:[^\:\n\.]*?)(Force icon)(?:.*?)\./gm),
     // 'Captures Card': (text) => !!text.match(/(?<!After you\s)\bcapture\b/gm),
     'Removes from Force': (text) => !!text.match(/\b[Rr]emoves?\b(?:.*?) from the Force(?!\sstruggle)\b/gm),
-    // 'Commits to Force': (text) => !!text.match(/(?<!After you\s|cannot\s)\b[Cc]ommits?\b(?:.*?)\bto\b(?:.*?)\bthe Force\b/gm),
+    // 'Commits to Force': (text) => {
+    //     const regex = new OnigRegExp(_.escapeRegExp('(?<!After you\s|cannot\s)\b[Cc]ommits?\b(?:.*?)\bto\b(?:.*?)\bthe Force\b'));
+    //     return regex.testSync(text);
+    // },
     // 'Adds Force Icons to Force Struggle': (text) => !!text.match(/(?:(?<=[Dd]ouble the|gain|gains|contribute|contributes|counts)\b(?:[^\:\[\n]*?)\sForce icons?|(?<=its)\b(?:[^\:\[\n]*?)\sForce icons? count towards?)/gm)
+    // 'Gains Unit Damage'
+    // 'Gains Blast Damage'
+    // 'Gains Tactics'
+    // 'Gains Edge-Enabled Unit Damage'
+    // 'Gains Edge-Enabled Blast Damage'
+    // 'Gains Edge-Enabled Tactics'
+    // 'Targets Committed Force Cards'
+    // 'While Committed to Force'
 
 };
 
@@ -447,7 +461,7 @@ when.all(_.map(files, (file) => {
                             );
 
                             result.normalCombatIcons = _.transform(
-                                _.pick(
+                                _.pickBy(
                                     combatIcons,
                                     (value, key) => {
                                         return !_.startsWith(key, 'EE');
@@ -456,11 +470,12 @@ when.all(_.map(files, (file) => {
                                 (result, value, key) => {
                                     result[COMBAT_ICON_PROPERTY_MAP[key]] = value;
                                     return result;
-                                }
+                                },
+                                {}
                             );
 
                             result.edgeEnabledCombatIcons = _.transform(
-                                _.pick(
+                                _.pickBy(
                                     combatIcons,
                                     (value, key) => {
                                         return _.startsWith(key, 'EE');
@@ -470,7 +485,8 @@ when.all(_.map(files, (file) => {
                                     key = key.replace('EE-', '');
                                     result[COMBAT_ICON_PROPERTY_MAP[key]] = value;
                                     return result;
-                                }
+                                },
+                                {}
                             );
                         } else if (propertyName == 'traits') {
                             _.forEach(CARD_TRAITS_FIX, ([search, replace]) => {
@@ -478,7 +494,7 @@ when.all(_.map(files, (file) => {
                             });
 
                             let
-                                traits = _.invoke(_.compact(propertyValue.split(/[\-\.]/)), String.prototype.trim);
+                                traits = _.invokeMap(_.compact(propertyValue.split(/[\-\.]/)), String.prototype.trim);
 
                             if (_.includes(traits, 'Unique')) {
                                 result.isUnique = true;
@@ -497,10 +513,8 @@ when.all(_.map(files, (file) => {
                                 affiliationLockMatch;
 
                             _.forEach(textLines, (line) => {
-                                affiliationLockMatch = line.match(CARD_AFFILIATION_LOCK_RE);
-
-                                if (affiliationLockMatch) {
-                                    result.affiliationLock = affiliationLockMatch[1];
+                                if (line.match(CARD_AFFILIATION_LOCK_RE)) {
+                                    result.isLockedToAffiliation = true;
                                 }
 
                                 if (line.match(CARD_OBJECTIVE_DECK_LIMIT_RE)) {
@@ -535,11 +549,11 @@ when.all(_.map(files, (file) => {
                                 });
                             });
 
-                            if (result.abilities.traits.length) {
+                            if (_.result(result.abilities.traits, 'length', false)) {
                                 result.abilities.types.push('Trait');
                             }
 
-                            if (result.abilities.keywords.length) {
+                            if (_.result(result.abilities.keywords, 'length', false)) {
                                 result.abilities.types.push('Keyword');
                             }
 
@@ -570,7 +584,7 @@ when.all(_.map(files, (file) => {
                         objectiveSetSequence: null,
                         side: null,
                         affiliation: null,
-                        affiliationLock: null,
+                        isLockedToAffiliation: false,
                         type: null,
                         title: null,
                         isUnique: false,
@@ -601,7 +615,7 @@ when.all(_.map(files, (file) => {
 }))
     .then(() => {
         let
-            traits = _.sortBy(_.uniq(_.flatten(_.pluck(cards, 'abilities.traits')))),
+            traits = _.sortBy(_.uniq(_.flatten(_.map(cards, 'abilities.traits')))),
             traitsRegExp = _.map(
                 traits,
                 (trait) => {
@@ -649,7 +663,7 @@ when.all(_.map(files, (file) => {
 
         _.forEach(objectiveSets, (cards, number) => {
             let
-                objectiveCard = _.find(cards, 'objectiveSetSequence', 1),
+                objectiveCard = _.find(cards, ['objectiveSetSequence', 1]),
                 types = _.groupBy(cards, 'type'),
                 objectiveSetStats,
                 typeStats;
@@ -666,14 +680,14 @@ when.all(_.map(files, (file) => {
                             fieldResult = result[fieldName],
                             fieldValue = _.get(card, fieldPath);
 
-                        if (fieldValue == null || fieldValue == 'X') {
+                        if (fieldValue == null || _.isNaN(fieldValue) || fieldValue == 'X') {
                             return true;
                         }
 
                         if (fieldResult == null) {
                             fieldResult = result[fieldName] = {
                                 count: 0,
-                                total: 0,
+                                sum: 0,
                                 average: 0,
                                 max: null,
                                 min: null
@@ -681,8 +695,8 @@ when.all(_.map(files, (file) => {
                         }
 
                         fieldResult.count++;
-                        fieldResult.total += fieldValue;
-                        fieldResult.average = _.round(fieldResult.total / fieldResult.count, 1);
+                        fieldResult.sum += fieldValue;
+                        fieldResult.average = _.round(fieldResult.sum / fieldResult.count, 1);
                         fieldResult.max = Math.max(fieldResult.max, fieldValue);
                         fieldResult.min = Math.min(fieldResult.min == null ? Infinity : fieldResult.min, fieldValue);
                     });
@@ -706,7 +720,7 @@ when.all(_.map(files, (file) => {
                         let
                             fieldTypeResult = typeResult[fieldName] = {
                                 count: 0,
-                                total: 0,
+                                sum: 0,
                                 average: 0,
                                 max: null,
                                 min: null
@@ -721,8 +735,8 @@ when.all(_.map(files, (file) => {
                             }
 
                             fieldTypeResult.count++;
-                            fieldTypeResult.total += fieldValue;
-                            fieldTypeResult.average = _.round(fieldTypeResult.total / fieldTypeResult.count, 1);
+                            fieldTypeResult.sum += fieldValue;
+                            fieldTypeResult.average = _.round(fieldTypeResult.sum / fieldTypeResult.count, 1);
                             fieldTypeResult.max = Math.max(fieldTypeResult.max, fieldValue);
                             fieldTypeResult.min = Math.min(fieldTypeResult.min == null ? Infinity : fieldTypeResult.min, fieldValue);
                         });
@@ -746,7 +760,7 @@ when.all(_.map(files, (file) => {
             _.groupBy(cards, 'product'),
             (cards, product) => {
                 product = product.replace('\'', '');
-                cards = _.sortByOrder(cards, ['objectiveSetNumber', 'objectiveSetSequence']);
+                cards = _.orderBy(cards, ['objectiveSetNumber', 'objectiveSetSequence']);
                 fs.writeFileSync(
                     path.resolve(__dirname, '../json', `${_.kebabCase(product)}.json`),
                     JSON.stringify(cards, null, 4)

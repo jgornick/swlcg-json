@@ -9,7 +9,7 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Rebel Alliance",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Objective",
         "title": "Rogue Squadron Assault",
         "isUnique": false,
@@ -42,77 +42,77 @@
                 "count": 6,
                 "damageCapacity": {
                     "count": 4,
-                    "total": 12,
+                    "sum": 12,
                     "average": 3,
                     "max": 5,
                     "min": 1
                 },
                 "resourceValue": {
                     "count": 2,
-                    "total": 2,
+                    "sum": 2,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "cost": {
                     "count": 4,
-                    "total": 8,
+                    "sum": 8,
                     "average": 2,
                     "max": 2,
                     "min": 2
                 },
                 "forceIcons": {
                     "count": 5,
-                    "total": 5,
+                    "sum": 5,
                     "average": 1,
                     "max": 3,
                     "min": 0
                 },
                 "normalUnitDamage": {
                     "count": 3,
-                    "total": 3,
+                    "sum": 3,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "normalBlastDamage": {
                     "count": 3,
-                    "total": 2,
+                    "sum": 2,
                     "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "normalTactics": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
                     "count": 3,
-                    "total": 1,
+                    "sum": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgePriorityNumber": {
                     "count": 1,
-                    "total": 7,
+                    "sum": 7,
                     "average": 7,
                     "max": 7,
                     "min": 7
@@ -123,14 +123,14 @@
                     "count": 1,
                     "damageCapacity": {
                         "count": 1,
-                        "total": 5,
+                        "sum": 5,
                         "average": 5,
                         "max": 5,
                         "min": 5
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
@@ -140,70 +140,70 @@
                     "count": 3,
                     "cost": {
                         "count": 3,
-                        "total": 6,
+                        "sum": 6,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "damageCapacity": {
                         "count": 3,
-                        "total": 7,
+                        "sum": 7,
                         "average": 2.3,
                         "max": 3,
                         "min": 1
                     },
                     "forceIcons": {
                         "count": 3,
-                        "total": 3,
+                        "sum": 3,
                         "average": 1,
                         "max": 3,
                         "min": 0
                     },
                     "resourceValue": {
                         "count": 0,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": null,
                         "min": null
                     },
                     "normalUnitDamage": {
                         "count": 3,
-                        "total": 3,
+                        "sum": 3,
                         "average": 1,
                         "max": 1,
                         "min": 1
                     },
                     "normalBlastDamage": {
                         "count": 3,
-                        "total": 2,
+                        "sum": 2,
                         "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "normalTactics": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "edgeEnabledUnitDamage": {
                         "count": 3,
-                        "total": 1,
+                        "sum": 1,
                         "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledBlastDamage": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "edgeEnabledTactics": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
@@ -213,21 +213,21 @@
                     "count": 1,
                     "cost": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "forceIcons": {
                         "count": 1,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
@@ -237,14 +237,14 @@
                     "count": 1,
                     "forceIcons": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "edgePriorityNumber": {
                         "count": 1,
-                        "total": 7,
+                        "sum": 7,
                         "average": 7,
                         "max": 7,
                         "min": 7
@@ -263,7 +263,7 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Rebel Alliance",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Derek \"Hobbie\" Klivian",
         "isUnique": true,
@@ -317,7 +317,7 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Rebel Alliance",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Rogue Squadron X-Wing",
         "isUnique": false,
@@ -365,7 +365,7 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Rebel Alliance",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Rogue Squadron X-Wing",
         "isUnique": false,
@@ -413,7 +413,7 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Rebel Alliance",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Enhancement",
         "title": "Pilot Ready Room",
         "isUnique": false,
@@ -451,7 +451,7 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Fate",
         "title": "Stay on Target",
         "isUnique": false,
@@ -488,7 +488,7 @@
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Objective",
         "title": "Memories of Taanab",
         "isUnique": false,
@@ -523,70 +523,70 @@
                 "count": 6,
                 "damageCapacity": {
                     "count": 4,
-                    "total": 11,
+                    "sum": 11,
                     "average": 2.8,
                     "max": 5,
                     "min": 2
                 },
                 "resourceValue": {
                     "count": 1,
-                    "total": 1,
+                    "sum": 1,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "cost": {
                     "count": 5,
-                    "total": 9,
+                    "sum": 9,
                     "average": 1.8,
                     "max": 3,
                     "min": 0
                 },
                 "forceIcons": {
                     "count": 5,
-                    "total": 7,
+                    "sum": 7,
                     "average": 1.4,
                     "max": 2,
                     "min": 1
                 },
                 "normalUnitDamage": {
                     "count": 3,
-                    "total": 2,
+                    "sum": 2,
                     "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "normalBlastDamage": {
                     "count": 3,
-                    "total": 1,
+                    "sum": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "normalTactics": {
                     "count": 3,
-                    "total": 1,
+                    "sum": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
                     "count": 3,
-                    "total": 2,
+                    "sum": 2,
                     "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
@@ -597,14 +597,14 @@
                     "count": 1,
                     "damageCapacity": {
                         "count": 1,
-                        "total": 5,
+                        "sum": 5,
                         "average": 5,
                         "max": 5,
                         "min": 5
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
@@ -614,70 +614,70 @@
                     "count": 3,
                     "cost": {
                         "count": 3,
-                        "total": 7,
+                        "sum": 7,
                         "average": 2.3,
                         "max": 3,
                         "min": 2
                     },
                     "damageCapacity": {
                         "count": 3,
-                        "total": 6,
+                        "sum": 6,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "forceIcons": {
                         "count": 3,
-                        "total": 4,
+                        "sum": 4,
                         "average": 1.3,
                         "max": 2,
                         "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": null,
                         "min": null
                     },
                     "normalUnitDamage": {
                         "count": 3,
-                        "total": 2,
+                        "sum": 2,
                         "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "normalBlastDamage": {
                         "count": 3,
-                        "total": 1,
+                        "sum": 1,
                         "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
                     "normalTactics": {
                         "count": 3,
-                        "total": 1,
+                        "sum": 1,
                         "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledUnitDamage": {
                         "count": 3,
-                        "total": 2,
+                        "sum": 2,
                         "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledBlastDamage": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "edgeEnabledTactics": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
@@ -687,21 +687,21 @@
                     "count": 1,
                     "cost": {
                         "count": 1,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "forceIcons": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": null,
                         "min": null
@@ -711,14 +711,14 @@
                     "count": 1,
                     "cost": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "forceIcons": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
@@ -737,7 +737,7 @@
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Lando Calrissian",
         "isUnique": true,
@@ -792,7 +792,7 @@
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "System Patrol Craft",
         "isUnique": false,
@@ -843,7 +843,7 @@
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "System Patrol Craft",
         "isUnique": false,
@@ -894,7 +894,7 @@
         "objectiveSetSequence": 5,
         "side": "Light",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Enhancement",
         "title": "Conner Net",
         "isUnique": false,
@@ -932,7 +932,7 @@
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Smugglers and Spies",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Event",
         "title": "A Little Maneuver",
         "isUnique": false,
@@ -969,7 +969,7 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Sith",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Objective",
         "title": "Black Squadron Formation",
         "isUnique": false,
@@ -1003,77 +1003,77 @@
                 "count": 6,
                 "damageCapacity": {
                     "count": 4,
-                    "total": 12,
+                    "sum": 12,
                     "average": 3,
                     "max": 5,
                     "min": 2
                 },
                 "resourceValue": {
                     "count": 2,
-                    "total": 2,
+                    "sum": 2,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "cost": {
                     "count": 4,
-                    "total": 10,
+                    "sum": 10,
                     "average": 2.5,
                     "max": 3,
                     "min": 2
                 },
                 "forceIcons": {
                     "count": 5,
-                    "total": 7,
+                    "sum": 7,
                     "average": 1.4,
                     "max": 2,
                     "min": 0
                 },
                 "normalUnitDamage": {
                     "count": 3,
-                    "total": 2,
+                    "sum": 2,
                     "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "normalBlastDamage": {
                     "count": 3,
-                    "total": 2,
+                    "sum": 2,
                     "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "normalTactics": {
                     "count": 3,
-                    "total": 1,
+                    "sum": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
                     "count": 3,
-                    "total": 2,
+                    "sum": 2,
                     "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgePriorityNumber": {
                     "count": 1,
-                    "total": 8,
+                    "sum": 8,
                     "average": 8,
                     "max": 8,
                     "min": 8
@@ -1084,14 +1084,14 @@
                     "count": 1,
                     "damageCapacity": {
                         "count": 1,
-                        "total": 5,
+                        "sum": 5,
                         "average": 5,
                         "max": 5,
                         "min": 5
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
@@ -1101,70 +1101,70 @@
                     "count": 3,
                     "cost": {
                         "count": 3,
-                        "total": 8,
+                        "sum": 8,
                         "average": 2.7,
                         "max": 3,
                         "min": 2
                     },
                     "damageCapacity": {
                         "count": 3,
-                        "total": 7,
+                        "sum": 7,
                         "average": 2.3,
                         "max": 3,
                         "min": 2
                     },
                     "forceIcons": {
                         "count": 3,
-                        "total": 5,
+                        "sum": 5,
                         "average": 1.7,
                         "max": 2,
                         "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": null,
                         "min": null
                     },
                     "normalUnitDamage": {
                         "count": 3,
-                        "total": 2,
+                        "sum": 2,
                         "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "normalBlastDamage": {
                         "count": 3,
-                        "total": 2,
+                        "sum": 2,
                         "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "normalTactics": {
                         "count": 3,
-                        "total": 1,
+                        "sum": 1,
                         "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledUnitDamage": {
                         "count": 3,
-                        "total": 2,
+                        "sum": 2,
                         "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledBlastDamage": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "edgeEnabledTactics": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
@@ -1174,21 +1174,21 @@
                     "count": 1,
                     "cost": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "forceIcons": {
                         "count": 1,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
@@ -1198,14 +1198,14 @@
                     "count": 1,
                     "forceIcons": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "edgePriorityNumber": {
                         "count": 1,
-                        "total": 8,
+                        "sum": 8,
                         "average": 8,
                         "max": 8,
                         "min": 8
@@ -1224,7 +1224,7 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Sith",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "\"Mauler\" Mithel",
         "isUnique": true,
@@ -1281,7 +1281,7 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Sith",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Black Two",
         "isUnique": true,
@@ -1335,7 +1335,7 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "TIE Advanced",
         "isUnique": false,
@@ -1384,7 +1384,7 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Sith",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Enhancement",
         "title": "Death Star Ready Room",
         "isUnique": false,
@@ -1423,7 +1423,7 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Fate",
         "title": "Stay on Target",
         "isUnique": false,
@@ -1460,7 +1460,7 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Objective",
         "title": "The Empire's Elite",
         "isUnique": false,
@@ -1491,77 +1491,77 @@
                 "count": 6,
                 "damageCapacity": {
                     "count": 4,
-                    "total": 14,
+                    "sum": 14,
                     "average": 3.5,
                     "max": 5,
                     "min": 3
                 },
                 "resourceValue": {
                     "count": 2,
-                    "total": 2,
+                    "sum": 2,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "cost": {
                     "count": 4,
-                    "total": 10,
+                    "sum": 10,
                     "average": 2.5,
                     "max": 4,
                     "min": 2
                 },
                 "forceIcons": {
                     "count": 5,
-                    "total": 7,
+                    "sum": 7,
                     "average": 1.4,
                     "max": 3,
                     "min": 0
                 },
                 "normalUnitDamage": {
                     "count": 3,
-                    "total": 3,
+                    "sum": 3,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "normalBlastDamage": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "normalTactics": {
                     "count": 3,
-                    "total": 1,
+                    "sum": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
                     "count": 3,
-                    "total": 1,
+                    "sum": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
                     "count": 3,
-                    "total": 2,
+                    "sum": 2,
                     "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgePriorityNumber": {
                     "count": 1,
-                    "total": 8,
+                    "sum": 8,
                     "average": 8,
                     "max": 8,
                     "min": 8
@@ -1572,14 +1572,14 @@
                     "count": 1,
                     "damageCapacity": {
                         "count": 1,
-                        "total": 5,
+                        "sum": 5,
                         "average": 5,
                         "max": 5,
                         "min": 5
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
@@ -1589,70 +1589,70 @@
                     "count": 3,
                     "cost": {
                         "count": 3,
-                        "total": 8,
+                        "sum": 8,
                         "average": 2.7,
                         "max": 4,
                         "min": 2
                     },
                     "damageCapacity": {
                         "count": 3,
-                        "total": 9,
+                        "sum": 9,
                         "average": 3,
                         "max": 3,
                         "min": 3
                     },
                     "forceIcons": {
                         "count": 3,
-                        "total": 5,
+                        "sum": 5,
                         "average": 1.7,
                         "max": 3,
                         "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": null,
                         "min": null
                     },
                     "normalUnitDamage": {
                         "count": 3,
-                        "total": 3,
+                        "sum": 3,
                         "average": 1,
                         "max": 1,
                         "min": 1
                     },
                     "normalBlastDamage": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "normalTactics": {
                         "count": 3,
-                        "total": 1,
+                        "sum": 1,
                         "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledUnitDamage": {
                         "count": 3,
-                        "total": 1,
+                        "sum": 1,
                         "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledBlastDamage": {
                         "count": 3,
-                        "total": 2,
+                        "sum": 2,
                         "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledTactics": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
@@ -1662,21 +1662,21 @@
                     "count": 1,
                     "cost": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "forceIcons": {
                         "count": 1,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
@@ -1686,14 +1686,14 @@
                     "count": 1,
                     "forceIcons": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "edgePriorityNumber": {
                         "count": 1,
-                        "total": 8,
+                        "sum": 8,
                         "average": 8,
                         "max": 8,
                         "min": 8
@@ -1712,7 +1712,7 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Baron Fel",
         "isUnique": true,
@@ -1770,7 +1770,7 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "181st TIE Interceptor",
         "isUnique": false,
@@ -1819,7 +1819,7 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "181st TIE Interceptor",
         "isUnique": false,
@@ -1868,7 +1868,7 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Enhancement",
         "title": "Flight Academy",
         "isUnique": false,
@@ -1907,7 +1907,7 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Fate",
         "title": "Stay on Target",
         "isUnique": false,
@@ -1944,6 +1944,7 @@
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": true,
         "type": "Objective",
         "title": "The Grand Heist",
         "isUnique": false,
@@ -1972,70 +1973,70 @@
                 "count": 6,
                 "damageCapacity": {
                     "count": 4,
-                    "total": 9,
+                    "sum": 9,
                     "average": 2.3,
                     "max": 5,
                     "min": 1
                 },
                 "resourceValue": {
                     "count": 1,
-                    "total": 1,
+                    "sum": 1,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "cost": {
                     "count": 5,
-                    "total": 9,
+                    "sum": 9,
                     "average": 1.8,
                     "max": 2,
                     "min": 1
                 },
                 "forceIcons": {
                     "count": 5,
-                    "total": 7,
+                    "sum": 7,
                     "average": 1.4,
                     "max": 2,
                     "min": 1
                 },
                 "normalUnitDamage": {
                     "count": 3,
-                    "total": 3,
+                    "sum": 3,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "normalBlastDamage": {
                     "count": 3,
-                    "total": 2,
+                    "sum": 2,
                     "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "normalTactics": {
                     "count": 3,
-                    "total": 1,
+                    "sum": 1,
                     "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
                     "count": 3,
-                    "total": 0,
+                    "sum": 0,
                     "average": 0,
                     "max": 0,
                     "min": 0
@@ -2046,14 +2047,14 @@
                     "count": 1,
                     "damageCapacity": {
                         "count": 1,
-                        "total": 5,
+                        "sum": 5,
                         "average": 5,
                         "max": 5,
                         "min": 5
                     },
                     "resourceValue": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
@@ -2063,70 +2064,70 @@
                     "count": 3,
                     "cost": {
                         "count": 3,
-                        "total": 6,
+                        "sum": 6,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "damageCapacity": {
                         "count": 3,
-                        "total": 4,
+                        "sum": 4,
                         "average": 1.3,
                         "max": 2,
                         "min": 1
                     },
                     "forceIcons": {
                         "count": 3,
-                        "total": 4,
+                        "sum": 4,
                         "average": 1.3,
                         "max": 2,
                         "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": null,
                         "min": null
                     },
                     "normalUnitDamage": {
                         "count": 3,
-                        "total": 3,
+                        "sum": 3,
                         "average": 1,
                         "max": 1,
                         "min": 1
                     },
                     "normalBlastDamage": {
                         "count": 3,
-                        "total": 2,
+                        "sum": 2,
                         "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "normalTactics": {
                         "count": 3,
-                        "total": 1,
+                        "sum": 1,
                         "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
                     "edgeEnabledUnitDamage": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "edgeEnabledBlastDamage": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
                     "edgeEnabledTactics": {
                         "count": 3,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
@@ -2136,21 +2137,21 @@
                     "count": 1,
                     "cost": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
                     },
                     "forceIcons": {
                         "count": 1,
-                        "total": 1,
+                        "sum": 1,
                         "average": 1,
                         "max": 1,
                         "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
-                        "total": 0,
+                        "sum": 0,
                         "average": 0,
                         "max": null,
                         "min": null
@@ -2160,14 +2161,14 @@
                     "count": 1,
                     "cost": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
                     "forceIcons": {
                         "count": 1,
-                        "total": 2,
+                        "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
@@ -2186,7 +2187,7 @@
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Niles Ferrier",
         "isUnique": true,
@@ -2243,7 +2244,7 @@
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Novice Starship Thief",
         "isUnique": false,
@@ -2291,7 +2292,7 @@
         "objectiveSetSequence": 4,
         "side": "Dark",
         "affiliation": "Neutral",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "Novice Starship Thief",
         "isUnique": false,
@@ -2339,7 +2340,7 @@
         "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Enhancement",
         "title": "Pirate Hideout",
         "isUnique": false,
@@ -2375,7 +2376,7 @@
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
-        "affiliationLock": null,
+        "isLockedToAffiliation": false,
         "type": "Event",
         "title": "Salvage Operation",
         "isUnique": false,
