@@ -117,19 +117,19 @@ pipeline(
                                 let
                                     newValue = {};
 
-                                newValue.objectiveSetNumber = card.objectiveSetNumber;
-                                newValue.type = cardType;
-
                                 _.each(cardTypeStats, (value, key) => {
+                                    newValue = {};
+                                    newValue.objectiveSetNumber = card.objectiveSetNumber;
+                                    newValue.type = cardType;
                                     newValue.name = _.snakeCase(key);
                                     newValue.count = _.result(value, 'count', value);
                                     newValue.sum = _.result(value, 'sum', value);
                                     newValue.average = _.result(value, 'average', value);
                                     newValue.min = _.result(value, 'min', value);
                                     newValue.max = _.result(value, 'max', value);
+                                    result.push(newValue);
                                 });
 
-                                result.push(newValue);
                                 return result;
                             },
                             []
