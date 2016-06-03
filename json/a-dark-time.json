@@ -295,7 +295,7 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "While the Balance of the Force is with the light side, this unit gains [Blast Damage] [Blast Damage]",
+        "text": "While the Balance of the Force is with the light side, this unit gains [Blast Damage] [Blast Damage].",
         "abilities": {
             "types": [
                 "Trait"
