@@ -1272,7 +1272,7 @@
         "isLockedToAffiliation": false,
         "type": "Unit",
         "title": "R2-D2",
-        "isUnique": false,
+        "isUnique": true,
         "isLimitedToObjectiveDeck": false,
         "cost": 0,
         "damageCapacity": 1,
