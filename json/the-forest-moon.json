@@ -921,12 +921,8 @@
         "edgeEnabledCombatIcons": null,
         "text": "For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play.",
         "abilities": {
-            "types": [
-                "Trait"
-            ],
-            "traits": [
-                "Endor"
-            ],
+            "types": [],
+            "traits": [],
             "referencedTraits": [
                 "Endor"
             ],
