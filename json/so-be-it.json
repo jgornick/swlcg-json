@@ -554,10 +554,10 @@
                 },
                 "edgePriorityNumber": {
                     "count": 1,
-                    "sum": 8,
-                    "average": 8,
-                    "max": 8,
-                    "min": 8
+                    "sum": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
                 }
             },
             "type": {
@@ -662,10 +662,10 @@
                     },
                     "edgePriorityNumber": {
                         "count": 1,
-                        "sum": 8,
-                        "average": 8,
-                        "max": 8,
-                        "min": 8
+                        "sum": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
                     }
                 },
                 "Mission": {
@@ -833,7 +833,7 @@
         "damageCapacity": null,
         "forceIcons": 3,
         "resourceValue": null,
-        "edgePriorityNumber": 8,
+        "edgePriorityNumber": 7,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
         "text": "If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead.",
