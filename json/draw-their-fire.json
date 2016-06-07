@@ -2359,10 +2359,13 @@
         "text": "Enhance your play area. Limited.\nReaction: After you play a Black Squadron card, reduce the cost of the next Black Squadron card you play this turn by 1.",
         "abilities": {
             "types": [
+                "Trait",
                 "Keyword",
                 "Reaction"
             ],
-            "traits": [],
+            "traits": [
+                "Black Squadron"
+            ],
             "referencedTraits": [
                 "Black Squadron",
                 "Squadron"

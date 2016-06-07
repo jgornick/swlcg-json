@@ -386,7 +386,7 @@
         "isLockedToAffiliation": false,
         "type": "Enhancement",
         "title": "Vader's Meditation Chamber",
-        "isUnique": false,
+        "isUnique": true,
         "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
@@ -4216,7 +4216,7 @@
         "isLockedToAffiliation": false,
         "type": "Enhancement",
         "title": "Massassi Temple War Room",
-        "isUnique": false,
+        "isUnique": true,
         "isLimitedToObjectiveDeck": false,
         "cost": 3,
         "damageCapacity": null,
@@ -4768,10 +4768,11 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "After you refresh, remove 1 focus token from a target Fighter or Speeder unit you control.",
+        "text": "Reaction: After you refresh, remove 1 focus token from a target Fighter or Speeder unit you control.",
         "abilities": {
             "types": [
-                "Trait"
+                "Trait",
+                "Reaction"
             ],
             "traits": [
                 "Home One"
@@ -5109,7 +5110,7 @@
         "isLockedToAffiliation": false,
         "type": "Enhancement",
         "title": "R3-A2",
-        "isUnique": false,
+        "isUnique": true,
         "isLimitedToObjectiveDeck": false,
         "cost": 1,
         "damageCapacity": null,
@@ -5749,10 +5750,10 @@
                 },
                 "forceIcons": {
                     "count": 5,
-                    "sum": 11,
-                    "average": 2.2,
+                    "sum": 9,
+                    "average": 1.8,
                     "max": 3,
-                    "min": 2
+                    "min": 1
                 },
                 "normalUnitDamage": {
                     "count": 3,
@@ -5840,10 +5841,10 @@
                     },
                     "forceIcons": {
                         "count": 3,
-                        "sum": 7,
-                        "average": 2.3,
+                        "sum": 5,
+                        "average": 1.7,
                         "max": 3,
-                        "min": 2
+                        "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
@@ -5999,7 +6000,7 @@
         "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
-        "forceIcons": 2,
+        "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
@@ -6045,7 +6046,7 @@
         "isLimitedToObjectiveDeck": false,
         "cost": 2,
         "damageCapacity": 2,
-        "forceIcons": 2,
+        "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
@@ -6190,8 +6191,8 @@
                 "count": 6,
                 "damageCapacity": {
                     "count": 4,
-                    "sum": 15,
-                    "average": 3.8,
+                    "sum": 11,
+                    "average": 2.8,
                     "max": 5,
                     "min": 2
                 },
@@ -6288,9 +6289,9 @@
                     },
                     "damageCapacity": {
                         "count": 3,
-                        "sum": 10,
-                        "average": 3.3,
-                        "max": 4,
+                        "sum": 6,
+                        "average": 2,
+                        "max": 2,
                         "min": 2
                     },
                     "forceIcons": {
@@ -6441,7 +6442,7 @@
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": 2,
-        "damageCapacity": 4,
+        "damageCapacity": 2,
         "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
@@ -6489,7 +6490,7 @@
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": 2,
-        "damageCapacity": 4,
+        "damageCapacity": 2,
         "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
@@ -6550,7 +6551,8 @@
                 "Action"
             ],
             "traits": [
-                "Trap"
+                "Tatooine",
+                "Location"
             ],
             "referencedTraits": [],
             "keywords": [],
@@ -6587,7 +6589,8 @@
                 "Action"
             ],
             "traits": [
-                "Trap"
+                "Tatooine",
+                "Location"
             ],
             "referencedTraits": [],
             "keywords": [],
