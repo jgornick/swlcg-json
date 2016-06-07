@@ -9493,7 +9493,7 @@
             "blastDamage": 1,
             "tactics": 0
         },
-        "text": "You may play this card on any Fighter unit you control as an enhancement with the text: \"Enhanced unit gains [Unit Damage] [Blast Damage].\"",
+        "text": "This card may enter play as an enhancement on any Fighter unit you control, with the text: \"Enhanced unit gains [Unit Damage] [Blast Damage].\"",
         "abilities": {
             "types": [
                 "Trait"
