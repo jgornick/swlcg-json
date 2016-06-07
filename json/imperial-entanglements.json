@@ -4574,7 +4574,7 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance your play area.\nLimited.",
+        "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card per turn.)",
         "abilities": {
             "types": [
                 "Trait",
@@ -4586,7 +4586,8 @@
             "referencedTraits": [],
             "keywords": [
                 {
-                    "keyword": "Limited"
+                    "keyword": "Limited",
+                    "text": "You cannot play more than one limited card per turn."
                 }
             ],
             "scenarios": []
