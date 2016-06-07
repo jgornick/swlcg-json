@@ -1517,10 +1517,10 @@
                 },
                 "edgePriorityNumber": {
                     "count": 1,
-                    "sum": 9,
-                    "average": 9,
-                    "max": 9,
-                    "min": 9
+                    "sum": 10,
+                    "average": 10,
+                    "max": 10,
+                    "min": 10
                 }
             },
             "type": {
@@ -1666,10 +1666,10 @@
                     },
                     "edgePriorityNumber": {
                         "count": 1,
-                        "sum": 9,
-                        "average": 9,
-                        "max": 9,
-                        "min": 9
+                        "sum": 10,
+                        "average": 10,
+                        "max": 10,
+                        "min": 10
                     }
                 }
             }
@@ -1872,17 +1872,13 @@
         "damageCapacity": null,
         "forceIcons": 1,
         "resourceValue": null,
-        "edgePriorityNumber": 9,
+        "edgePriorityNumber": 10,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
         "text": "For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play.",
         "abilities": {
-            "types": [
-                "Trait"
-            ],
-            "traits": [
-                "Endor"
-            ],
+            "types": [],
+            "traits": [],
             "referencedTraits": [
                 "Endor"
             ],
@@ -2003,10 +1999,10 @@
                 },
                 "edgePriorityNumber": {
                     "count": 1,
-                    "sum": 9,
-                    "average": 9,
-                    "max": 9,
-                    "min": 9
+                    "sum": 10,
+                    "average": 10,
+                    "max": 10,
+                    "min": 10
                 }
             },
             "type": {
@@ -2128,10 +2124,10 @@
                     },
                     "edgePriorityNumber": {
                         "count": 1,
-                        "sum": 9,
-                        "average": 9,
-                        "max": 9,
-                        "min": 9
+                        "sum": 10,
+                        "average": 10,
+                        "max": 10,
+                        "min": 10
                     }
                 }
             }
@@ -2339,17 +2335,13 @@
         "damageCapacity": null,
         "forceIcons": 1,
         "resourceValue": null,
-        "edgePriorityNumber": 9,
+        "edgePriorityNumber": 10,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
         "text": "For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play.",
         "abilities": {
-            "types": [
-                "Trait"
-            ],
-            "traits": [
-                "Endor"
-            ],
+            "types": [],
+            "traits": [],
             "referencedTraits": [
                 "Endor"
             ],
