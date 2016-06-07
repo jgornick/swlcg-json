@@ -582,10 +582,10 @@
                 },
                 "edgePriorityNumber": {
                     "count": 1,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
-                    "min": 0
+                    "sum": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
                 }
             },
             "type": {
@@ -673,10 +673,10 @@
                     },
                     "edgePriorityNumber": {
                         "count": 1,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
-                        "min": 0
+                        "sum": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
                     }
                 },
                 "Event": {
@@ -932,7 +932,7 @@
         "damageCapacity": null,
         "forceIcons": 3,
         "resourceValue": null,
-        "edgePriorityNumber": 0,
+        "edgePriorityNumber": 7,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
         "text": "You may deal 1 damage to or remove 1 damage from a target Hoth objective.",
