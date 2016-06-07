@@ -2230,9 +2230,13 @@
         "text": "Enhance your play area.\nLimited. (You cannot play more than one limited card per turn.)",
         "abilities": {
             "types": [
+                "Trait",
                 "Keyword"
             ],
-            "traits": [],
+            "traits": [
+                "Tatooine",
+                "Item"
+            ],
             "referencedTraits": [],
             "keywords": [
                 {
