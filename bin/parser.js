@@ -56,7 +56,13 @@ const PRODUCT_CYCLES_MAP = {
         'Press the Attack',
         'Redemption and Return'
     ],
-    'Galactic Ambitions': ['Galactic Ambitions']
+    'Galactic Ambitions': ['Galactic Ambitions'],
+    'Opposition Cycle': [
+        'Ancient Rivals',
+        'A Wretched Hive',
+        'Meditation and Mastery',
+        'Scrap Metal'
+    ]
 };
 
 const IGNORE_CARD_PROPERTIES = [
