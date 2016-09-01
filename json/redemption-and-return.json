@@ -1,0 +1,2274 @@
+[
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1029,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001429",
+        "objectiveSetNumber": 212,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "A Hero's Duty",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "While this objective is undamaged, non-unit cards in your opponent's edge stack lose all Force icons.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Endor"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Loses Force Icon"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "sum": 13,
+                    "average": 4.3,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "sum": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "sum": 7,
+                    "average": 1.8,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 10,
+                    "average": 2,
+                    "max": 4,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 1,
+                    "sum": 2,
+                    "average": 2,
+                    "max": 2,
+                    "min": 2
+                },
+                "normalBlastDamage": {
+                    "count": 1,
+                    "sum": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalTactics": {
+                    "count": 1,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 1,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 1,
+                    "sum": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledTactics": {
+                    "count": 1,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "sum": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 4,
+                        "average": 4,
+                        "max": 4,
+                        "min": 4
+                    },
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 4,
+                        "average": 4,
+                        "max": 4,
+                        "min": 4
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "normalBlastDamage": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalTactics": {
+                        "count": 1,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 1,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 1,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Event": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "sum": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "sum": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "sum": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
+                    }
+                },
+                "Mission": {
+                    "count": 1
+                }
+            }
+        }
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1030,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001430",
+        "objectiveSetNumber": 212,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Luke Skywalker",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 4,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Edge (1).\nThis unit gains elite while it is committed to the Force.\nInterrupt: When this unit resolves its unit damage icons as a defender, assign the damage to a target enemy unit not participating in the engagement instead.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Edge",
+                    "forceIcons": 1
+                }
+            ],
+            "scenarios": [
+                "Gains Elite"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1031,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001431",
+        "objectiveSetNumber": 212,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "I Will Not Fight You",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Play only if you control 1 or more participating units.\nReaction: After an edge battle resolves, your opponent must remove participating units from his side of an engagement until he has an equal (or fewer) number of participating units as you, if able.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1032,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001432",
+        "objectiveSetNumber": 212,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Search Your Feelings",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Play only during an engagement in which you control 1 or more participating units and fewer participating units than your opponent.\nAction: Take control of a target participating enemy unit until the end of this engagement. That unit is participating on your side. (Limit 1 per turn.)",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 909,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001433",
+        "objectiveSetNumber": 212,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Secret Objective",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1033,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001434",
+        "objectiveSetNumber": 212,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "isLockedToAffiliation": false,
+        "type": "Mission",
+        "title": "Redeem the Fallen",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 5,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After this mission is completed, put a non-Vehicle unit with 4 or fewer printed Force icons into play under your control from your opponent's discard pile.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Death Star"
+            ],
+            "referencedTraits": [
+                "Vehicle"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Puts Into Play"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1034,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001435",
+        "objectiveSetNumber": 213,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "Engineering the Future",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "While this objective is undamaged, exhausted [Rebel Alliance] units you control cannot be dealt damage by enemy combat icons or card effects.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Cardooine"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "sum": 12,
+                    "average": 3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 3,
+                    "sum": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "sum": 10,
+                    "average": 2,
+                    "max": 4,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 7,
+                    "average": 1.4,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "sum": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "sum": 7,
+                        "average": 2.3,
+                        "max": 4,
+                        "min": 0
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "sum": 7,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "sum": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "sum": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1035,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001436",
+        "objectiveSetNumber": 213,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "General Walex Blissex",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Elite.\nAction: Focus this unit to remove 1 damage from a [Rebel Alliance] objective. Then, place 1 shield on a [Rebel Alliance] unit or objective. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Action"
+            ],
+            "traits": [
+                "Character",
+                "Leader",
+                "Engineer"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1036,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001437",
+        "objectiveSetNumber": 213,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Overworked Engineer",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Forced Reaction: After this unit enters play, place 2 focus tokens on it.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Forced Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Engineer"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Places Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1037,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001438",
+        "objectiveSetNumber": 213,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "A-A5 Heavy Speeder Truck",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After you play this unit from your hand, move all focus tokens from all [Rebel Alliance] Character units you control to this unit.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Vehicle",
+                "Speeder"
+            ],
+            "referencedTraits": [
+                "Character"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Moves Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1038,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001439",
+        "objectiveSetNumber": 213,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Enhancement",
+        "title": "Portable Shield Generator",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nEach ready [Rebel Alliance] unit you control gains: \"Protect exhausted [Rebel Alliance] unit.\"",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Item"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Protect",
+                    "descriptor": "exhausted [Rebel Alliance] unit"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1039,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001440",
+        "objectiveSetNumber": 213,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Engineering Brilliance",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Draw 1 card for each exhausted unit you control.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1040,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001441",
+        "objectiveSetNumber": 214,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "Beyond the Rim",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "While you control 3 or more [Smugglers and Spies] objectives, this objective gains: \"Reaction: After your opponent refreshes, remove 1 focus token from a target [Smugglers and Spies] unit you control.\"",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Outer Rim"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "sum": 11,
+                    "average": 2.8,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "sum": 7,
+                    "average": 1.4,
+                    "max": 3,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 6,
+                    "average": 1.2,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "sum": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "sum": 6,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "sum": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1041,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001442",
+        "objectiveSetNumber": 214,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Pulsar Skate",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Action: Discard a [Smugglers and Spies] card from your hand to remove 1 focus token from this unit. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1042,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001443",
+        "objectiveSetNumber": 214,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Navigation Droid",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect [Smugglers and Spies] Vehicle unit.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Droid"
+            ],
+            "referencedTraits": [
+                "Vehicle"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Protect",
+                    "descriptor": "[Smugglers and Spies] Vehicle unit"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1042,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001444",
+        "objectiveSetNumber": 214,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Navigation Droid",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect [Smugglers and Spies] Vehicle unit.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Droid"
+            ],
+            "referencedTraits": [
+                "Vehicle"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Protect",
+                    "descriptor": "[Smugglers and Spies] Vehicle unit"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1043,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001445",
+        "objectiveSetNumber": 214,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Enhancement",
+        "title": "Smuggler's Hideaway",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nIf you control a [Jedi] or [Rebel Alliance] objective, discard this enhancement from play.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Location"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1044,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001446",
+        "objectiveSetNumber": 214,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Last Ditch Maneuver",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Play only during your Force phase.\nAction: Focus 2 [Smugglers and Spies] units to shuffle all exhausted units back into their owners' decks.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Maneuver"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1045,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001447",
+        "objectiveSetNumber": 215,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "The Emperor's Promise",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After an opponent declares an engagement against an objective not named The Emperor's Promise, deal 1 damage to a target enemy objective.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Death Star"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 5,
+                    "sum": 18,
+                    "average": 3.6,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "sum": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "sum": 10,
+                    "average": 2.5,
+                    "max": 6,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 11,
+                    "average": 2.2,
+                    "max": 5,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "sum": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "sum": 8,
+                    "average": 8,
+                    "max": 8,
+                    "min": 8
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "sum": 9,
+                        "average": 3,
+                        "max": 6,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "sum": 8,
+                        "average": 2.7,
+                        "max": 4,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "sum": 7,
+                        "average": 2.3,
+                        "max": 5,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "sum": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "sum": 8,
+                        "average": 8,
+                        "max": 8,
+                        "min": 8
+                    }
+                },
+                "Mission": {
+                    "count": 1
+                }
+            }
+        }
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1046,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001448",
+        "objectiveSetNumber": 215,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Emperor Palpatine",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 6,
+        "damageCapacity": 4,
+        "forceIcons": 5,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Elite.\nReaction: After an enemy objective is destroyed, take control of a target enemy unit with 3 or fewer printed Force icons.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Force User"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 52,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001449",
+        "objectiveSetNumber": 215,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Emperor's Royal Guard",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Character. (If a Character unit you control would be damaged, you may place the damage on this unit instead.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Imperial Guard"
+            ],
+            "referencedTraits": [
+                "Character"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Protect",
+                    "descriptor": "Character",
+                    "text": "If a Character unit you control would be damaged, you may place the damage on this unit instead."
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1047,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001450",
+        "objectiveSetNumber": 215,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "ISB Officer",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 0,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gains [Blast Damage] while there are 1 or more missions in play.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Character",
+                "Officer"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 919,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001451",
+        "objectiveSetNumber": 215,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Secret Objective",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": 8,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1048,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001452",
+        "objectiveSetNumber": 215,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Mission",
+        "title": "Lure of the Dark Side",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 5,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After this mission is completed, take control of a target unit with 4 or fewer printed Force icons.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Death Star"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1049,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001453",
+        "objectiveSetNumber": 216,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": true,
+        "type": "Objective",
+        "title": "The Lady's Lesson",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Scum and Villainy affiliation only.\nTo declare an engagement against this objective, the attacking player must declare each unit he controls that is able to be declared.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Tatooine"
+            ],
+            "referencedTraits": [
+                "Scum"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "sum": 12,
+                    "average": 3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "sum": 10,
+                    "average": 2,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 8,
+                    "average": 1.6,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "sum": 3,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "sum": 8,
+                        "average": 2.7,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "sum": 7,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "sum": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "sum": 3,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Event": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "sum": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "sum": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1050,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001454",
+        "objectiveSetNumber": 216,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Lady Valarian",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After an opponent's conflict phase ends, deal 1 damage to a target ready unit. If the Balance of the Force is with the dark side, deal 2 damage instead.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Character"
+            ],
+            "referencedTraits": [
+                "Force"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1051,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001455",
+        "objectiveSetNumber": 216,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Whiphid Enforcer",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gets +1 damage capacity while you control Lady Valarian.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Character"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1051,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001456",
+        "objectiveSetNumber": 216,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Whiphid Enforcer",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "This unit gets +1 damage capacity while you control Lady Valarian.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Character"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1052,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001457",
+        "objectiveSetNumber": 216,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Unrefusable Offer",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After the light side conflict phase begins, target an objective you control. If no engagement is declared against that objective this phase, increase the Death Star dial by 2 at the end of the phase.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Death Star"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Redemption and Return",
+        "productCycle": "Endor Cycle",
+        "productOctgnId": "268b8dee-d11a-4461-8e39-7971db99154a",
+        "number": 1053,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001458",
+        "objectiveSetNumber": 216,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Vicious Counterattack",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Play only during an engagement.\nAction: Focus 2 [Scum and Villainy] Character units to destroy each attacking unit.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Character",
+                "Scum"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    }
+]
