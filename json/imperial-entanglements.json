@@ -3254,7 +3254,9 @@
             "traits": [
                 "Eriadu"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [],
             "scenarios": []
         },
@@ -3533,7 +3535,9 @@
                 "Character",
                 "Officer"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [
                 {
                     "keyword": "Elite"
@@ -3583,7 +3587,9 @@
                 "Character",
                 "Trooper"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [
                 {
                     "keyword": "Targeted Strike"
@@ -4078,7 +4084,9 @@
             "traits": [
                 "Location"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [
                 {
                     "keyword": "Limited"
@@ -4620,7 +4628,9 @@
         "abilities": {
             "types": [],
             "traits": [],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [],
             "scenarios": []
         },

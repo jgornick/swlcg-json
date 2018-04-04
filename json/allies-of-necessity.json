@@ -1,0 +1,2277 @@
+[
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2075,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001681",
+        "objectiveSetNumber": 261,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "Pushing Back the Empire",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After you play a [Rebel Alliance] card, reduce the cost of the next non-[Rebel Alliance] card you play this phase by 1. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Yavin 4"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Reduces Cost"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "sum": 12,
+                    "average": 3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 1,
+                    "sum": 1,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "sum": 9,
+                    "average": 2.3,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 8,
+                    "average": 1.6,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "sum": 4,
+                    "average": 1.3,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "sum": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "sum": 8,
+                        "average": 2.7,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "sum": 7,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "sum": 5,
+                        "average": 1.7,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "sum": 4,
+                        "average": 1.3,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "sum": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2076,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001682",
+        "objectiveSetNumber": 261,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Captain Cassian Andor",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Elite.\nReaction: After this unit is focused to strike, remove 1 focus token from a non-[Rebel Alliance] unit. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Leader"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                }
+            ],
+            "scenarios": [
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2077,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001683",
+        "objectiveSetNumber": 261,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Rebel Saboteur",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Shielding.\nInterrupt: When an opponent triggers an ability on an in-faction card he controls, spend 1 resource and discard this unit from your hand to cancel that ability's effects.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Shielding"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2077,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001684",
+        "objectiveSetNumber": 261,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Rebel Saboteur",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Shielding.\nInterrupt: When an opponent triggers an ability on an in-faction card he controls, spend 1 resource and discard this unit from your hand to cancel that ability's effects.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Shielding"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2078,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001685",
+        "objectiveSetNumber": 261,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Teamwork",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After edge stacks are revealed, you gain +X Force icons for your side for this edge battle. X is the number of different affiliations among cards you control.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Gains Edge",
+                "Gains Force Icon"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2079,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001686",
+        "objectiveSetNumber": 261,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Allies of Necessity",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "You may target 2 participating units you control that do not share an affiliation. If you do, one targeted unit gains [Unit Damage] and the other gains [Blast Damage] until the end of the engagement.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2080,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001687",
+        "objectiveSetNumber": 262,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "Spirit of Rebellion",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "While this objective has 2 or fewer damage on it, it gains: \"Reaction: After you play a non-[Smugglers and Spies] unit, your opponent chooses and discards 1 card from his hand. (Limit once per turn.)\"",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Scarif"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "sum": 10,
+                    "average": 3.3,
+                    "max": 5,
+                    "min": 2
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "sum": 9,
+                    "average": 2.3,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 10,
+                    "average": 2,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "sum": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "sum": 6,
+                        "average": 3,
+                        "max": 4,
+                        "min": 2
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "sum": 5,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "sum": 5,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "sum": 2,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "sum": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "sum": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2081,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001688",
+        "objectiveSetNumber": 262,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Jyn Erso",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 2,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Elite.\nWhile this unit is attacking, it gains:\n*\"Reaction: After the first other [Jedi] unit resolves a strike this engagement, draw 2 cards.\n*Reaction: After the first other [Rebel Alliance] unit resolves a strike this engagement, remove all focus tokens from that unit.\"",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction",
+                "Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Spy"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                }
+            ],
+            "scenarios": [
+                "Draws Card",
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2082,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001689",
+        "objectiveSetNumber": 262,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Crafty Smuggler",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Reaction: After the Force phase begins, remove 1 focus token from this unit.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Character"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2083,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001690",
+        "objectiveSetNumber": 262,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Enhancement",
+        "title": "Necessary Alliances",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nInfluence.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Connection"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Influence"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2084,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001691",
+        "objectiveSetNumber": 262,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Well-Laid Ambush",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: During an engagement, a target non-participating enemy Character unit can be damaged by unit damage icons from units you control participating in this engagement.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Character"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2079,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001692",
+        "objectiveSetNumber": 262,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Allies of Necessity",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "You may target 2 participating units you control that do not share an affiliation. If you do, one targeted unit gains [Unit Damage] and the other gains [Blast Damage] until the end of the engagement.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2085,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001693",
+        "objectiveSetNumber": 263,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "Rogue Archaeology",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After you play a non-[Sith] card, place 1 shield on a target objective. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "sum": 9,
+                    "average": 3,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "sum": 8,
+                    "average": 2,
+                    "max": 4,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 8,
+                    "average": 1.6,
+                    "max": 2,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "sum": 8,
+                    "average": 8,
+                    "max": 8,
+                    "min": 8
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "sum": 5,
+                        "average": 2.5,
+                        "max": 4,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "sum": 4,
+                        "average": 2,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "sum": 3,
+                        "average": 1.5,
+                        "max": 2,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "sum": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "sum": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Event": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    }
+                },
+                "Fate": {
+                    "count": 1,
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "edgePriorityNumber": {
+                        "count": 1,
+                        "sum": 8,
+                        "average": 8,
+                        "max": 8,
+                        "min": 8
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2086,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001694",
+        "objectiveSetNumber": 263,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Doctor Aphra",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "[Scum and Villainy] resources provide a resource match for this card.\nAction: During an engagement, focus this unit with 2 focus tokens to put a Droid unit from any discard pile into play as a participating unit on your side. If that unit is still in play at the end of the engagement, place it on the bottom of its owner's deck.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Character"
+            ],
+            "referencedTraits": [
+                "Droid",
+                "Scum"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Puts Into Play"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2087,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001695",
+        "objectiveSetNumber": 263,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "BX-series Droid Commando",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Action: During an engagement, play this unit from your hand as a participating unit on your side.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Action"
+            ],
+            "traits": [
+                "Droid"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2088,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001696",
+        "objectiveSetNumber": 263,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Enhancement",
+        "title": "Secret Information",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nInfluence.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Item"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Influence"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2089,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001697",
+        "objectiveSetNumber": 263,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Reconstruction",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Return a target Droid unit from your discard pile to its owner's hand.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Droid"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2090,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001698",
+        "objectiveSetNumber": 263,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Allies of Necessity",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 8,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "You may target 2 participating units you control that do not share an affiliation. If you do, one targeted unit gains [Unit Damage] and the other gains [Blast Damage] until the end of the engagement.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2091,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001699",
+        "objectiveSetNumber": 264,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "Immeasurable Power",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Reaction: After a Trooper unit you control is destroyed, put a unit named Death Trooper into play from your hand.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Scarif"
+            ],
+            "referencedTraits": [
+                "Trooper"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Puts Into Play"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 5,
+                    "sum": 17,
+                    "average": 3.4,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 5,
+                    "sum": 15,
+                    "average": 3,
+                    "max": 4,
+                    "min": 2
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 9,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 4,
+                    "sum": 3,
+                    "average": 0.8,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 4,
+                    "sum": 3,
+                    "average": 0.8,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 4,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 4,
+                    "sum": 4,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 4,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 4,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 4,
+                    "cost": {
+                        "count": 4,
+                        "sum": 13,
+                        "average": 3.3,
+                        "max": 4,
+                        "min": 3
+                    },
+                    "damageCapacity": {
+                        "count": 4,
+                        "sum": 12,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "forceIcons": {
+                        "count": 4,
+                        "sum": 9,
+                        "average": 2.3,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 4,
+                        "sum": 3,
+                        "average": 0.8,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 4,
+                        "sum": 3,
+                        "average": 0.8,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 4,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 4,
+                        "sum": 4,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 4,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 4,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 1,
+                    "cost": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
+                        "count": 1,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2092,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001700",
+        "objectiveSetNumber": 264,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Director Krennic",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 3,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Elite.\nReaction: After a phase begins, spend 1 resource to target each unit you control named Death Trooper. Until the end of the phase, each targeted unit gains (choose 1): elite, shielding, or edge (1). (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Reaction"
+            ],
+            "traits": [
+                "Character",
+                "Officer"
+            ],
+            "referencedTraits": [
+                "Trooper"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Elite"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2093,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001701",
+        "objectiveSetNumber": 264,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Death Trooper",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Director Krennic.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Protect",
+                    "descriptor": "Director Krennic"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2093,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001702",
+        "objectiveSetNumber": 264,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Death Trooper",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Director Krennic.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Protect",
+                    "descriptor": "Director Krennic"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2093,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001703",
+        "objectiveSetNumber": 264,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Death Trooper",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Protect Director Krennic.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Trooper"
+            ],
+            "referencedTraits": [],
+            "keywords": [
+                {
+                    "keyword": "Protect",
+                    "descriptor": "Director Krennic"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2094,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001704",
+        "objectiveSetNumber": 264,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Enhancement",
+        "title": "Assembly Area",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nReduce the cost of the first Trooper unit you play each turn by 1.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Location"
+            ],
+            "referencedTraits": [
+                "Trooper"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2063,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001669",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Guardians of Justice",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 6 [Jedi] objectives and exactly 6 [Rebel Alliance] and/or neutral objectives.\nStarting Reserve: 7",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2064,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001670",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "No Questions Asked",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 5 [Jedi] objectives and exactly 5 [Smugglers and Spies] and/or neutral objectives.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2065,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001671",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Fighters for Freedom",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 5 [Rebel Alliance] objectives and exactly 5 [Jedi] and/or neutral objectives.\nReaction: After you refresh, remove 1 focus token from a target unit you control.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2066,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001672",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Information Network",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 5 [Rebel Alliance] objectives and exactly 5 [Smugglers and Spies] and/or neutral objectives.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2067,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001673",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Desperate Allies",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 5 [Smugglers and Spies] objectives and exactly 5 [Jedi] and/or neutral objectives.\nReaction: After you refresh, remove 1 focus token from a target unit you control.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2068,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001674",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Mercenary Contacts",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 6 [Smugglers and Spies] objectives and exactly 6 [Rebel Alliance] and/or neutral objectives.\nStarting Reserve: 7",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2069,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001675",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Galactic Enforcers",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 6 [Sith] objectives and exactly 6 [Imperial Navy] and/or neutral objectives.\nStarting Reserve: 7",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2070,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001676",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Dark",
+        "affiliation": "Sith",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Expendable Allies",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 5 [Sith] objectives and exactly 5 [Scum and Villainy] and/or neutral objectives.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Scum"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2071,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001677",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Dark Masters",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 5 [Imperial Navy] objectives and exactly 5 [Sith] and/or neutral objectives.\nReaction: After you refresh, remove 1 focus token from a target unit you control.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2072,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001678",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Any Methods Necessary",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 5 [Imperial Navy] objectives and exactly 5 [Scum and Villainy] and/or neutral objectives.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Imperial Navy",
+                "Scum"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2073,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001679",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Promise of Power",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 5 [Scum and Villainy] objectives and exactly 5 [Sith] and/or neutral objectives.\nReaction: After you refresh, remove 1 focus token from a target unit you control.",
+        "abilities": {
+            "types": [
+                "Reaction"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Scum"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Removes Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Allies of Necessity",
+        "productOctgnId": "afccf84e-cef9-4a0f-b722-e88350b57a3a",
+        "number": 2074,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001680",
+        "objectiveSetNumber": null,
+        "objectiveSetSequence": null,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": false,
+        "type": "Affiliation",
+        "title": "Imperial Contractors",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Your objective deck must contain exactly 6 [Scum and Villainy] objectives and exactly 6 [Imperial Navy] and/or neutral objectives.\nStarting Reserve: 7",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Imperial Navy",
+                "Scum"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    }
+]

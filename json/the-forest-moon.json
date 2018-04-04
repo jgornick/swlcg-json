@@ -1919,7 +1919,9 @@
             "traits": [
                 "Endor"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [],
             "scenarios": []
         },

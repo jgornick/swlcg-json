@@ -12370,7 +12370,9 @@
             "traits": [
                 "Death Star"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [],
             "scenarios": []
         },
@@ -12676,7 +12678,9 @@
                 "Character",
                 "Engineer"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [
                 {
                     "keyword": "Shielding"

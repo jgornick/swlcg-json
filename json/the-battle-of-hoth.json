@@ -1888,7 +1888,9 @@
             "traits": [
                 "Hoth"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
             "keywords": [],
             "scenarios": []
         },
@@ -2293,6 +2295,7 @@
                 "Location"
             ],
             "referencedTraits": [
+                "Imperial Navy",
                 "Vehicle"
             ],
             "keywords": [],

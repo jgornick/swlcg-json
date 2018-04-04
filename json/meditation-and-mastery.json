@@ -1,17 +1,17 @@
 [
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1006,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001297",
-        "objectiveSetNumber": 207,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1172,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001519",
+        "objectiveSetNumber": 241,
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Jedi",
         "isLockedToAffiliation": false,
         "type": "Objective",
-        "title": "Lost in the Forest",
+        "title": "Daughter of Taanab",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": null,
@@ -21,18 +21,20 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Forced Reaction: After a player's refresh phase begins, he chooses 3 units he controls. Units not chosen cannot refresh this phase.",
+        "text": "While this objective has 2 or fewer damage on it, it gains: \"Reaction: After you play an event card, draw 1 card. (Limit once per turn.)\"",
         "abilities": {
             "types": [
                 "Trait",
-                "Forced Reaction"
+                "Reaction"
             ],
             "traits": [
-                "Endor"
+                "Taanab"
             ],
             "referencedTraits": [],
             "keywords": [],
-            "scenarios": []
+            "scenarios": [
+                "Draws Card"
+            ]
         },
         "illustrator": null,
         "stats": {
@@ -43,7 +45,7 @@
                     "sum": 11,
                     "average": 2.8,
                     "max": 5,
-                    "min": 2
+                    "min": 1
                 },
                 "resourceValue": {
                     "count": 1,
@@ -54,29 +56,29 @@
                 },
                 "cost": {
                     "count": 4,
-                    "sum": 5,
-                    "average": 1.3,
-                    "max": 2,
-                    "min": 0
+                    "sum": 8,
+                    "average": 2,
+                    "max": 3,
+                    "min": 1
                 },
                 "forceIcons": {
                     "count": 5,
-                    "sum": 6,
-                    "average": 1.2,
-                    "max": 2,
-                    "min": 0
+                    "sum": 10,
+                    "average": 2,
+                    "max": 3,
+                    "min": 1
                 },
                 "normalUnitDamage": {
                     "count": 3,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 1,
                     "min": 0
                 },
                 "normalBlastDamage": {
                     "count": 3,
-                    "sum": 2,
-                    "average": 0.7,
+                    "sum": 1,
+                    "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
@@ -89,16 +91,16 @@
                 },
                 "edgeEnabledUnitDamage": {
                     "count": 3,
-                    "sum": 2,
-                    "average": 0.7,
-                    "max": 1,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
                     "count": 3,
-                    "sum": 1,
-                    "average": 0.3,
-                    "max": 1,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
                     "min": 0
                 },
                 "edgeEnabledTactics": {
@@ -147,15 +149,15 @@
                         "count": 3,
                         "sum": 6,
                         "average": 2,
-                        "max": 2,
-                        "min": 2
+                        "max": 3,
+                        "min": 1
                     },
                     "forceIcons": {
                         "count": 3,
-                        "sum": 4,
-                        "average": 1.3,
+                        "sum": 5,
+                        "average": 1.7,
                         "max": 2,
-                        "min": 0
+                        "min": 1
                     },
                     "resourceValue": {
                         "count": 0,
@@ -166,15 +168,15 @@
                     },
                     "normalUnitDamage": {
                         "count": 3,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 1,
                         "min": 0
                     },
                     "normalBlastDamage": {
                         "count": 3,
-                        "sum": 2,
-                        "average": 0.7,
+                        "sum": 1,
+                        "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
@@ -187,16 +189,16 @@
                     },
                     "edgeEnabledUnitDamage": {
                         "count": 3,
-                        "sum": 2,
-                        "average": 0.7,
-                        "max": 1,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
                         "min": 0
                     },
                     "edgeEnabledBlastDamage": {
                         "count": 3,
-                        "sum": 1,
-                        "average": 0.3,
-                        "max": 1,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
                         "min": 0
                     },
                     "edgeEnabledTactics": {
@@ -207,38 +209,31 @@
                         "min": 0
                     }
                 },
-                "Enhancement": {
+                "Event": {
                     "count": 1,
                     "cost": {
                         "count": 1,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
-                        "min": 0
+                        "sum": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
                     },
                     "forceIcons": {
                         "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
-                    },
-                    "resourceValue": {
-                        "count": 0,
-                        "sum": 0,
-                        "average": 0,
-                        "max": null,
-                        "min": null
+                        "sum": 3,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
                     }
                 },
                 "Fate": {
                     "count": 1,
                     "forceIcons": {
                         "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
                     },
                     "edgePriorityNumber": {
                         "count": 1,
@@ -252,114 +247,113 @@
         }
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1007,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001298",
-        "objectiveSetNumber": 207,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1173,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001520",
+        "objectiveSetNumber": 241,
         "objectiveSetSequence": 2,
         "side": "Light",
         "affiliation": "Jedi",
         "isLockedToAffiliation": false,
         "type": "Unit",
-        "title": "C-3PO",
+        "title": "Sarenda",
         "isUnique": true,
         "isLimitedToObjectiveDeck": false,
-        "cost": 1,
-        "damageCapacity": 2,
-        "forceIcons": 0,
+        "cost": 2,
+        "damageCapacity": 3,
+        "forceIcons": 2,
         "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
+            "unitDamage": 1,
+            "blastDamage": 1,
             "tactics": 0
         },
         "edgeEnabledCombatIcons": {
             "unitDamage": 0,
-            "blastDamage": 1,
+            "blastDamage": 0,
             "tactics": 0
         },
-        "text": "This unit gains 1 Force icon (to a maximum of 3) for each Ewok unit you control.",
+        "text": "Interrupt: When this unit is destroyed or sacrificed, search your deck for an event card, reveal it, and add it to your hand. Shuffle your deck.",
         "abilities": {
             "types": [
-                "Trait"
+                "Trait",
+                "Interrupt"
             ],
             "traits": [
-                "Droid"
+                "Character",
+                "Force User"
             ],
-            "referencedTraits": [
-                "Ewok"
-            ],
+            "referencedTraits": [],
             "keywords": [],
-            "scenarios": [
-                "Gains Force Icon"
-            ]
+            "scenarios": []
         },
         "illustrator": null
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1008,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001299",
-        "objectiveSetNumber": 207,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1174,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001521",
+        "objectiveSetNumber": 241,
         "objectiveSetSequence": 3,
         "side": "Light",
         "affiliation": "Neutral",
         "isLockedToAffiliation": false,
         "type": "Unit",
-        "title": "Homeland Defender",
+        "title": "Cathar Defender",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
-        "cost": 2,
-        "damageCapacity": 2,
-        "forceIcons": 2,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 1,
         "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
             "unitDamage": 1,
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Reaction: After your conflict phase begins, remove 1 focus token from this unit.",
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Shielding.\nThis unit gains [Unit Damage] while it is defending.",
         "abilities": {
             "types": [
                 "Trait",
-                "Reaction"
+                "Keyword"
             ],
             "traits": [
-                "Character",
-                "Ewok"
+                "Character"
             ],
             "referencedTraits": [],
-            "keywords": [],
-            "scenarios": [
-                "Removes Focus Token"
-            ]
+            "keywords": [
+                {
+                    "keyword": "Shielding"
+                }
+            ],
+            "scenarios": []
         },
         "illustrator": null
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1008,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001300",
-        "objectiveSetNumber": 207,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 229,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001522",
+        "objectiveSetNumber": 241,
         "objectiveSetSequence": 4,
         "side": "Light",
         "affiliation": "Neutral",
         "isLockedToAffiliation": false,
         "type": "Unit",
-        "title": "Homeland Defender",
+        "title": "Gotal Outcast",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": 2,
@@ -369,121 +363,112 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": {
             "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 1,
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Reaction: After your conflict phase begins, remove 1 focus token from this unit.",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Reaction"
-            ],
-            "traits": [
-                "Character",
-                "Ewok"
-            ],
-            "referencedTraits": [],
-            "keywords": [],
-            "scenarios": [
-                "Removes Focus Token"
-            ]
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
         },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1009,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001301",
-        "objectiveSetNumber": 207,
-        "objectiveSetSequence": 5,
-        "side": "Light",
-        "affiliation": "Jedi",
-        "isLockedToAffiliation": false,
-        "type": "Enhancement",
-        "title": "Forest Awareness",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 0,
-        "damageCapacity": null,
-        "forceIcons": 1,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Enhance a [Jedi] or Ewok unit.\nEnhanced unit gains elite.",
+        "text": "While the Balance of the Force is with the light side, this unit gains [Blast Damage] [Blast Damage]",
         "abilities": {
             "types": [
                 "Trait"
             ],
             "traits": [
-                "Skill"
+                "Character",
+                "Force User"
             ],
             "referencedTraits": [
-                "Ewok"
+                "Force"
             ],
             "keywords": [],
-            "scenarios": [
-                "Gains Elite"
-            ]
+            "scenarios": []
         },
         "illustrator": null
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 942,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001302",
-        "objectiveSetNumber": 207,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 119,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001523",
+        "objectiveSetNumber": 241,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Jedi",
+        "isLockedToAffiliation": false,
+        "type": "Event",
+        "title": "Return of the Jedi",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Action: Put a Force User unit into play from your discard pile.",
+        "abilities": {
+            "types": [
+                "Action"
+            ],
+            "traits": [],
+            "referencedTraits": [
+                "Force User"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1150,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001524",
+        "objectiveSetNumber": 241,
         "objectiveSetSequence": 6,
         "side": "Light",
         "affiliation": "Neutral",
         "isLockedToAffiliation": false,
         "type": "Fate",
-        "title": "Battle of Endor",
+        "title": "Preparation and Planning",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
-        "forceIcons": 1,
+        "forceIcons": 2,
         "resourceValue": null,
         "edgePriorityNumber": 9,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play.",
+        "text": "Reduce the cost of the next event card you play this turn by 2.",
         "abilities": {
             "types": [],
             "traits": [],
-            "referencedTraits": [
-                "Endor"
-            ],
+            "referencedTraits": [],
             "keywords": [],
-            "scenarios": [
-                "Gains Force Icon"
-            ]
+            "scenarios": []
         },
         "illustrator": null
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1010,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001303",
-        "objectiveSetNumber": 208,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1175,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001525",
+        "objectiveSetNumber": 242,
         "objectiveSetSequence": 1,
         "side": "Light",
         "affiliation": "Rebel Alliance",
-        "isLockedToAffiliation": false,
+        "isLockedToAffiliation": true,
         "type": "Objective",
-        "title": "Strike Team Assemble",
+        "title": "A Legend Begins",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": null,
@@ -493,13 +478,14 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "While this objective is undamaged, resolve the effect of each fate card in your edge stack an additional time.",
+        "text": "Rebel Alliance affiliation only.\nReaction: After you reveal 1 or more [Rebel Alliance] fate cards in your edge stack, remove a target participating enemy unit from the engagement. (Limit 1 per engagement.)",
         "abilities": {
             "types": [
-                "Trait"
+                "Trait",
+                "Reaction"
             ],
             "traits": [
-                "Endor"
+                "Yavin 4"
             ],
             "referencedTraits": [],
             "keywords": [],
@@ -511,8 +497,8 @@
                 "count": 6,
                 "damageCapacity": {
                     "count": 3,
-                    "sum": 9,
-                    "average": 3,
+                    "sum": 10,
+                    "average": 3.3,
                     "max": 5,
                     "min": 2
                 },
@@ -524,32 +510,32 @@
                     "min": 1
                 },
                 "cost": {
-                    "count": 4,
+                    "count": 3,
                     "sum": 7,
+                    "average": 2.3,
+                    "max": 3,
+                    "min": 2
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 9,
                     "average": 1.8,
                     "max": 3,
                     "min": 0
                 },
-                "forceIcons": {
-                    "count": 5,
-                    "sum": 7,
-                    "average": 1.4,
-                    "max": 3,
-                    "min": 1
-                },
                 "normalUnitDamage": {
                     "count": 2,
-                    "sum": 3,
-                    "average": 1.5,
+                    "sum": 2,
+                    "average": 1,
                     "max": 2,
-                    "min": 1
+                    "min": 0
                 },
                 "normalBlastDamage": {
                     "count": 2,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
-                    "min": 0
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
                 },
                 "normalTactics": {
                     "count": 2,
@@ -560,17 +546,17 @@
                 },
                 "edgeEnabledUnitDamage": {
                     "count": 2,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
                     "min": 0
                 },
                 "edgeEnabledBlastDamage": {
                     "count": 2,
-                    "sum": 2,
-                    "average": 1,
-                    "max": 1,
-                    "min": 1
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
                 },
                 "edgeEnabledTactics": {
                     "count": 2,
@@ -580,11 +566,11 @@
                     "min": 0
                 },
                 "edgePriorityNumber": {
-                    "count": 1,
-                    "sum": 9,
-                    "average": 9,
-                    "max": 9,
-                    "min": 9
+                    "count": 2,
+                    "sum": 6,
+                    "average": 3,
+                    "max": 3,
+                    "min": 3
                 }
             },
             "type": {
@@ -616,16 +602,16 @@
                     },
                     "damageCapacity": {
                         "count": 2,
-                        "sum": 4,
-                        "average": 2,
-                        "max": 2,
+                        "sum": 5,
+                        "average": 2.5,
+                        "max": 3,
                         "min": 2
                     },
                     "forceIcons": {
                         "count": 2,
-                        "sum": 4,
-                        "average": 2,
-                        "max": 3,
+                        "sum": 3,
+                        "average": 1.5,
+                        "max": 2,
                         "min": 1
                     },
                     "resourceValue": {
@@ -637,17 +623,17 @@
                     },
                     "normalUnitDamage": {
                         "count": 2,
-                        "sum": 3,
-                        "average": 1.5,
+                        "sum": 2,
+                        "average": 1,
                         "max": 2,
-                        "min": 1
+                        "min": 0
                     },
                     "normalBlastDamage": {
                         "count": 2,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
-                        "min": 0
+                        "sum": 2,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
                     },
                     "normalTactics": {
                         "count": 2,
@@ -658,17 +644,17 @@
                     },
                     "edgeEnabledUnitDamage": {
                         "count": 2,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
                         "min": 0
                     },
                     "edgeEnabledBlastDamage": {
                         "count": 2,
-                        "sum": 2,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
                     },
                     "edgeEnabledTactics": {
                         "count": 2,
@@ -689,10 +675,10 @@
                     },
                     "forceIcons": {
                         "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
                     },
                     "resourceValue": {
                         "count": 1,
@@ -702,16 +688,469 @@
                         "min": 1
                     }
                 },
-                "Event": {
+                "Fate": {
+                    "count": 2,
+                    "forceIcons": {
+                        "count": 2,
+                        "sum": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "edgePriorityNumber": {
+                        "count": 2,
+                        "sum": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1176,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001526",
+        "objectiveSetNumber": 242,
+        "objectiveSetSequence": 2,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Wedge Antilles",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": 2,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Pilot (2).\n(Enhanced Speeder or Fighter unit gains [Unit Damage] [Blast Damage] and elite.\nWhile this card is a Pilot enhancement it gains: \"Action: Focus this enhancement to move it to another eligible target unit.\"",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Action"
+            ],
+            "traits": [
+                "Character",
+                "Pilot"
+            ],
+            "referencedTraits": [
+                "Fighter",
+                "Pilot",
+                "Speeder"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Pilot",
+                    "cost": 2
+                }
+            ],
+            "scenarios": [
+                "Gains Elite"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1177,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001527",
+        "objectiveSetNumber": 242,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Red Two",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After a Pilot enhancement is attached to this unit, move 1 focus token from an enhancement to another target enhancement controlled by the same player. (Limit once per turn.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Vehicle",
+                "Fighter"
+            ],
+            "referencedTraits": [
+                "Pilot"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Moves Focus Token"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 701,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001528",
+        "objectiveSetNumber": 242,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Enhancement",
+        "title": "Pilot Ready Room",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Location"
+            ],
+            "referencedTraits": [
+                "Pilot"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1179,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001529",
+        "objectiveSetNumber": 242,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Tactical Planning",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": 3,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "A target participating [Imperial Navy] or neutral unit loses a combat icon of your choice until the end of the engagement.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1179,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001530",
+        "objectiveSetNumber": 242,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Rebel Alliance",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Tactical Planning",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": 3,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "A target participating [Imperial Navy] or neutral unit loses a combat icon of your choice until the end of the engagement.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Imperial Navy"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1179,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001531",
+        "objectiveSetNumber": 243,
+        "objectiveSetSequence": 1,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "Resistance and Rebellion",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Each Transport unit you control gains +1 damage capacity for each Pilot enhancement on it.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Sullust"
+            ],
+            "referencedTraits": [
+                "Pilot",
+                "Transport"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Gains Damage Capacity"
+            ]
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 4,
+                    "sum": 11,
+                    "average": 2.8,
+                    "max": 5,
+                    "min": 1
+                },
+                "resourceValue": {
+                    "count": 2,
+                    "sum": 2,
+                    "average": 1,
+                    "max": 1,
+                    "min": 1
+                },
+                "cost": {
+                    "count": 4,
+                    "sum": 8,
+                    "average": 2,
+                    "max": 3,
+                    "min": 1
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 8,
+                    "average": 1.6,
+                    "max": 2,
+                    "min": 0
+                },
+                "normalUnitDamage": {
+                    "count": 3,
+                    "sum": 2,
+                    "average": 0.7,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 3,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 3,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "sum": 7,
+                    "average": 7,
+                    "max": 7,
+                    "min": 7
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
+                        "count": 1,
+                        "sum": 1,
+                        "average": 1,
+                        "max": 1,
+                        "min": 1
+                    }
+                },
+                "Unit": {
+                    "count": 3,
+                    "cost": {
+                        "count": 3,
+                        "sum": 6,
+                        "average": 2,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "damageCapacity": {
+                        "count": 3,
+                        "sum": 6,
+                        "average": 2,
+                        "max": 3,
+                        "min": 1
+                    },
+                    "forceIcons": {
+                        "count": 3,
+                        "sum": 6,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 3,
+                        "sum": 2,
+                        "average": 0.7,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 3,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledUnitDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 3,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
                     "count": 1,
                     "cost": {
+                        "count": 1,
+                        "sum": 2,
+                        "average": 2,
+                        "max": 2,
+                        "min": 2
+                    },
+                    "forceIcons": {
                         "count": 1,
                         "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
-                    "forceIcons": {
+                    "resourceValue": {
                         "count": 1,
                         "sum": 1,
                         "average": 1,
@@ -723,495 +1162,100 @@
                     "count": 1,
                     "forceIcons": {
                         "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
-                    },
-                    "edgePriorityNumber": {
-                        "count": 1,
-                        "sum": 9,
-                        "average": 9,
-                        "max": 9,
-                        "min": 9
-                    }
-                }
-            }
-        }
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1011,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001304",
-        "objectiveSetNumber": 208,
-        "objectiveSetSequence": 2,
-        "side": "Light",
-        "affiliation": "Rebel Alliance",
-        "isLockedToAffiliation": false,
-        "type": "Unit",
-        "title": "Major Bren Derlin",
-        "isUnique": true,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 3,
-        "damageCapacity": 2,
-        "forceIcons": 3,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 2,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "text": "During an engagement in which you have placed at least 1 fate card in your edge stack, this unit gains [Blast Damage] and targeted strike.",
-        "abilities": {
-            "types": [
-                "Trait"
-            ],
-            "traits": [
-                "Character",
-                "Leader",
-                "Trooper"
-            ],
-            "referencedTraits": [],
-            "keywords": [],
-            "scenarios": [
-                "Gains Targeted Strike"
-            ]
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1012,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001305",
-        "objectiveSetNumber": 208,
-        "objectiveSetSequence": 3,
-        "side": "Light",
-        "affiliation": "Neutral",
-        "isLockedToAffiliation": false,
-        "type": "Unit",
-        "title": "Strike Team Specialist",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 2,
-        "damageCapacity": 2,
-        "forceIcons": 1,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 1,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "text": "Edge (X). X is the number of fate cards in your opponent's edge stack.",
-        "abilities": {
-            "types": [
-                "Trait"
-            ],
-            "traits": [
-                "Character",
-                "Trooper"
-            ],
-            "referencedTraits": [],
-            "keywords": [],
-            "scenarios": []
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1013,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001306",
-        "objectiveSetNumber": 208,
-        "objectiveSetSequence": 4,
-        "side": "Light",
-        "affiliation": "Rebel Alliance",
-        "isLockedToAffiliation": false,
-        "type": "Enhancement",
-        "title": "Natural Cover",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 2,
-        "damageCapacity": null,
-        "forceIcons": 1,
-        "resourceValue": 1,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Enhance your play area.\nInterrupt: When a Character unit or an Endor objective is dealt damage, focus this enhancement to prevent 1 point of that damage.",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Interrupt"
-            ],
-            "traits": [
-                "Endor"
-            ],
-            "referencedTraits": [
-                "Character",
-                "Endor"
-            ],
-            "keywords": [],
-            "scenarios": []
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1014,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001307",
-        "objectiveSetNumber": 208,
-        "objectiveSetSequence": 5,
-        "side": "Light",
-        "affiliation": "Rebel Alliance",
-        "isLockedToAffiliation": false,
-        "type": "Event",
-        "title": "Scouting Ahead",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 0,
-        "damageCapacity": null,
-        "forceIcons": 1,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Action: Reveal the top 4 cards of each player's deck. For each player, you choose one of his revealed cards and add it to its owner's hand. Shuffle the remaining cards back into their owners' decks.",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Action"
-            ],
-            "traits": [
-                "Tactic"
-            ],
-            "referencedTraits": [],
-            "keywords": [],
-            "scenarios": []
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 942,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001308",
-        "objectiveSetNumber": 208,
-        "objectiveSetSequence": 6,
-        "side": "Light",
-        "affiliation": "Neutral",
-        "isLockedToAffiliation": false,
-        "type": "Fate",
-        "title": "Battle of Endor",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": null,
-        "damageCapacity": null,
-        "forceIcons": 1,
-        "resourceValue": null,
-        "edgePriorityNumber": 9,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play.",
-        "abilities": {
-            "types": [],
-            "traits": [],
-            "referencedTraits": [
-                "Endor"
-            ],
-            "keywords": [],
-            "scenarios": [
-                "Gains Force Icon"
-            ]
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1015,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001309",
-        "objectiveSetNumber": 209,
-        "objectiveSetSequence": 1,
-        "side": "Dark",
-        "affiliation": "Sith",
-        "isLockedToAffiliation": false,
-        "type": "Objective",
-        "title": "Maw of Madness",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": null,
-        "damageCapacity": 5,
-        "forceIcons": null,
-        "resourceValue": 1,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Reaction: After this objective enters play, discard 1 card at random from each opponent's hand. If the Balance of the Force is with the dark side, discard 2 cards at random from each opponent's hand instead.",
-        "abilities": {
-            "types": [
-                "Reaction"
-            ],
-            "traits": [],
-            "referencedTraits": [
-                "Force"
-            ],
-            "keywords": [],
-            "scenarios": []
-        },
-        "illustrator": null,
-        "stats": {
-            "objective": {
-                "count": 6,
-                "damageCapacity": {
-                    "count": 4,
-                    "sum": 11,
-                    "average": 2.8,
-                    "max": 5,
-                    "min": 1
-                },
-                "resourceValue": {
-                    "count": 1,
-                    "sum": 1,
-                    "average": 1,
-                    "max": 1,
-                    "min": 1
-                },
-                "cost": {
-                    "count": 5,
-                    "sum": 8,
-                    "average": 1.6,
-                    "max": 4,
-                    "min": 0
-                },
-                "forceIcons": {
-                    "count": 5,
-                    "sum": 7,
-                    "average": 1.4,
-                    "max": 2,
-                    "min": 1
-                },
-                "normalUnitDamage": {
-                    "count": 3,
-                    "sum": 3,
-                    "average": 1,
-                    "max": 2,
-                    "min": 0
-                },
-                "normalBlastDamage": {
-                    "count": 3,
-                    "sum": 1,
-                    "average": 0.3,
-                    "max": 1,
-                    "min": 0
-                },
-                "normalTactics": {
-                    "count": 3,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
-                    "min": 0
-                },
-                "edgeEnabledUnitDamage": {
-                    "count": 3,
-                    "sum": 1,
-                    "average": 0.3,
-                    "max": 1,
-                    "min": 0
-                },
-                "edgeEnabledBlastDamage": {
-                    "count": 3,
-                    "sum": 1,
-                    "average": 0.3,
-                    "max": 1,
-                    "min": 0
-                },
-                "edgeEnabledTactics": {
-                    "count": 3,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
-                    "min": 0
-                }
-            },
-            "type": {
-                "Objective": {
-                    "count": 1,
-                    "damageCapacity": {
-                        "count": 1,
-                        "sum": 5,
-                        "average": 5,
-                        "max": 5,
-                        "min": 5
-                    },
-                    "resourceValue": {
-                        "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
-                    }
-                },
-                "Unit": {
-                    "count": 3,
-                    "cost": {
-                        "count": 3,
-                        "sum": 6,
-                        "average": 2,
-                        "max": 4,
-                        "min": 0
-                    },
-                    "damageCapacity": {
-                        "count": 3,
-                        "sum": 6,
-                        "average": 2,
-                        "max": 3,
-                        "min": 1
-                    },
-                    "forceIcons": {
-                        "count": 3,
-                        "sum": 4,
-                        "average": 1.3,
-                        "max": 2,
-                        "min": 1
-                    },
-                    "resourceValue": {
-                        "count": 0,
-                        "sum": 0,
-                        "average": 0,
-                        "max": null,
-                        "min": null
-                    },
-                    "normalUnitDamage": {
-                        "count": 3,
-                        "sum": 3,
-                        "average": 1,
-                        "max": 2,
-                        "min": 0
-                    },
-                    "normalBlastDamage": {
-                        "count": 3,
-                        "sum": 1,
-                        "average": 0.3,
-                        "max": 1,
-                        "min": 0
-                    },
-                    "normalTactics": {
-                        "count": 3,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
-                        "min": 0
-                    },
-                    "edgeEnabledUnitDamage": {
-                        "count": 3,
-                        "sum": 1,
-                        "average": 0.3,
-                        "max": 1,
-                        "min": 0
-                    },
-                    "edgeEnabledBlastDamage": {
-                        "count": 3,
-                        "sum": 1,
-                        "average": 0.3,
-                        "max": 1,
-                        "min": 0
-                    },
-                    "edgeEnabledTactics": {
-                        "count": 3,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
-                        "min": 0
-                    }
-                },
-                "Enhancement": {
-                    "count": 1,
-                    "cost": {
-                        "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
-                    },
-                    "forceIcons": {
-                        "count": 1,
                         "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
                     },
-                    "resourceValue": {
-                        "count": 0,
-                        "sum": 0,
-                        "average": 0,
-                        "max": null,
-                        "min": null
-                    }
-                },
-                "Event": {
-                    "count": 1,
-                    "cost": {
+                    "edgePriorityNumber": {
                         "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
-                    },
-                    "forceIcons": {
-                        "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
+                        "sum": 7,
+                        "average": 7,
+                        "max": 7,
+                        "min": 7
                     }
                 }
             }
         }
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1016,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001310",
-        "objectiveSetNumber": 209,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1180,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001532",
+        "objectiveSetNumber": 243,
         "objectiveSetSequence": 2,
-        "side": "Dark",
-        "affiliation": "Sith",
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
         "isLockedToAffiliation": false,
         "type": "Unit",
-        "title": "Maw",
+        "title": "Nien Numb",
         "isUnique": true,
         "isLimitedToObjectiveDeck": false,
-        "cost": 4,
-        "damageCapacity": 3,
+        "cost": 2,
+        "damageCapacity": 2,
         "forceIcons": 2,
         "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
-            "unitDamage": 2,
-            "blastDamage": 1,
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "text": "Pilot (2). (This Pilot enhancement does not count against the pilot limit. Enhanced Transport unit gains [Unit Damage] [Edge Enabled Tactics])",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword"
+            ],
+            "traits": [
+                "Character",
+                "Pilot"
+            ],
+            "referencedTraits": [
+                "Pilot",
+                "Transport"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Pilot",
+                    "cost": 2,
+                    "text": "This Pilot enhancement does not count against the pilot limit. Enhanced Transport unit gains [Unit Damage] [Edge Enabled Tactics]"
+                }
+            ],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1181,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001533",
+        "objectiveSetNumber": 243,
+        "objectiveSetSequence": 3,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Loyal Co-Pilot",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 1,
+        "damageCapacity": 1,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
             "tactics": 0
         },
         "edgeEnabledCombatIcons": {
@@ -1219,24 +1263,153 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Edge (1).\nReaction: After this unit is focused to strike, discard 1 card at random from the defending player’s hand. Then, if that card is an enhancement, put it into play under your control from his discard pile, enhancing an eligible card or game element.",
+        "text": "Pilot (1). (This Pilot enhancement does not count against the pilot limit. Enhanced Transport unit gains shielding. If enhanced Transport unit has 2 or more Pilot enhancements on it, it also gains elite.)",
         "abilities": {
             "types": [
                 "Trait",
-                "Keyword",
-                "Reaction"
+                "Keyword"
             ],
             "traits": [
                 "Character",
-                "Force User"
+                "Pilot"
             ],
-            "referencedTraits": [],
+            "referencedTraits": [
+                "Pilot",
+                "Transport"
+            ],
             "keywords": [
                 {
-                    "keyword": "Edge",
-                    "forceIcons": 1
+                    "keyword": "Pilot",
+                    "cost": 1,
+                    "text": "This Pilot enhancement does not count against the pilot limit. Enhanced Transport unit gains shielding. If enhanced Transport unit has 2 or more Pilot enhancements on it, it also gains elite."
                 }
             ],
+            "scenarios": [
+                "Gains Shielding",
+                "Gains Elite"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1182,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001534",
+        "objectiveSetNumber": 243,
+        "objectiveSetSequence": 4,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "YT-2000 Freighter",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "This unit gains edge (1) for each Pilot enhancement on it.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Vehicle",
+                "Transport"
+            ],
+            "referencedTraits": [
+                "Pilot"
+            ],
+            "keywords": [],
+            "scenarios": [
+                "Gains Edge"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 734,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001535",
+        "objectiveSetNumber": 243,
+        "objectiveSetSequence": 5,
+        "side": "Light",
+        "affiliation": "Smugglers and Spies",
+        "isLockedToAffiliation": false,
+        "type": "Enhancement",
+        "title": "Spacer Cantina",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 2,
+        "damageCapacity": null,
+        "forceIcons": 0,
+        "resourceValue": 1,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance your play area.\nReduce the cost and pilot cost of the first Pilot card you play each turn by 1.",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Tatooine",
+                "Location"
+            ],
+            "referencedTraits": [
+                "Pilot"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 702,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001536",
+        "objectiveSetNumber": 243,
+        "objectiveSetSequence": 6,
+        "side": "Light",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Stay on Target",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": 7,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "You may put a Pilot card into play from your hand or discard pile as an enhancement on a target friendly Vehicle unit.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [
+                "Pilot",
+                "Vehicle"
+            ],
+            "keywords": [],
             "scenarios": [
                 "Puts Into Play"
             ]
@@ -1244,190 +1417,18 @@
         "illustrator": null
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1017,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001311",
-        "objectiveSetNumber": 209,
-        "objectiveSetSequence": 3,
-        "side": "Dark",
-        "affiliation": "Neutral",
-        "isLockedToAffiliation": false,
-        "type": "Unit",
-        "title": "Fallen Jedi",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 2,
-        "damageCapacity": 2,
-        "forceIcons": 1,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 1,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "While this unit is ready and participating in an engagement, each other participating Character unit you control gains [Unit Damage].",
-        "abilities": {
-            "types": [
-                "Trait"
-            ],
-            "traits": [
-                "Character",
-                "Force User"
-            ],
-            "referencedTraits": [
-                "Character"
-            ],
-            "keywords": [],
-            "scenarios": []
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 945,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001312",
-        "objectiveSetNumber": 209,
-        "objectiveSetSequence": 4,
-        "side": "Dark",
-        "affiliation": "Neutral",
-        "isLockedToAffiliation": false,
-        "type": "Unit",
-        "title": "Expendable Scout",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 0,
-        "damageCapacity": 1,
-        "forceIcons": 1,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "text": "Action: Sacrifice this unit to have a player choose and discard 1 card from his hand. Then, that player draws 1 card.",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Action"
-            ],
-            "traits": [
-                "Character"
-            ],
-            "referencedTraits": [],
-            "keywords": [],
-            "scenarios": [
-                "Draws Card"
-            ]
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1018,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001313",
-        "objectiveSetNumber": 209,
-        "objectiveSetSequence": 5,
-        "side": "Dark",
-        "affiliation": "Sith",
-        "isLockedToAffiliation": false,
-        "type": "Enhancement",
-        "title": "Juyo Training",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 1,
-        "damageCapacity": null,
-        "forceIcons": 2,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Enhance a Force User unit.\nReaction: After this unit resolves its unit damage icons, resolve those icons again against a different target participating enemy unit. (Limit once per strike.)",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Reaction"
-            ],
-            "traits": [
-                "Skill",
-                "Lightsaber Form"
-            ],
-            "referencedTraits": [
-                "Force User"
-            ],
-            "keywords": [],
-            "scenarios": []
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1019,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001314",
-        "objectiveSetNumber": 209,
-        "objectiveSetSequence": 6,
-        "side": "Dark",
-        "affiliation": "Sith",
-        "isLockedToAffiliation": false,
-        "type": "Event",
-        "title": "Force Pull",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 1,
-        "damageCapacity": null,
-        "forceIcons": 1,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Action: Put an enhancement from an opponent's discard pile into play under your control, enhancing an eligible card or game element.",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Action"
-            ],
-            "traits": [
-                "Force",
-                "Alter"
-            ],
-            "referencedTraits": [],
-            "keywords": [],
-            "scenarios": []
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1020,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001315",
-        "objectiveSetNumber": 210,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1183,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001537",
+        "objectiveSetNumber": 244,
         "objectiveSetSequence": 1,
         "side": "Dark",
         "affiliation": "Imperial Navy",
-        "isLockedToAffiliation": false,
+        "isLockedToAffiliation": true,
         "type": "Objective",
-        "title": "Protect the Generator",
+        "title": "Inexorable Destruction",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": null,
@@ -1437,513 +1438,45 @@
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Reaction: After the first enemy unit is focused to strike during the first engagement against an [Imperial Navy] objective this turn, place 1 focus token on that unit.",
+        "text": "Imperial Navy affiliation only.\nReaction: After you reveal 1 or more [Imperial Navy] fate cards in your edge stack, target a participating ready friendly unit. That unit strikes immediately.",
         "abilities": {
             "types": [
                 "Trait",
                 "Reaction"
             ],
             "traits": [
-                "Endor"
+                "Imperial Navy"
             ],
             "referencedTraits": [
                 "Imperial Navy"
             ],
             "keywords": [],
-            "scenarios": [
-                "Places Focus Token"
-            ]
-        },
-        "illustrator": null,
-        "stats": {
-            "objective": {
-                "count": 6,
-                "damageCapacity": {
-                    "count": 4,
-                    "sum": 11,
-                    "average": 2.8,
-                    "max": 5,
-                    "min": 2
-                },
-                "resourceValue": {
-                    "count": 2,
-                    "sum": 2,
-                    "average": 1,
-                    "max": 1,
-                    "min": 1
-                },
-                "cost": {
-                    "count": 5,
-                    "sum": 9,
-                    "average": 1.8,
-                    "max": 3,
-                    "min": 1
-                },
-                "forceIcons": {
-                    "count": 5,
-                    "sum": 7,
-                    "average": 1.4,
-                    "max": 2,
-                    "min": 0
-                },
-                "normalUnitDamage": {
-                    "count": 3,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
-                    "min": 0
-                },
-                "normalBlastDamage": {
-                    "count": 3,
-                    "sum": 2,
-                    "average": 0.7,
-                    "max": 1,
-                    "min": 0
-                },
-                "normalTactics": {
-                    "count": 3,
-                    "sum": 1,
-                    "average": 0.3,
-                    "max": 1,
-                    "min": 0
-                },
-                "edgeEnabledUnitDamage": {
-                    "count": 3,
-                    "sum": 2,
-                    "average": 0.7,
-                    "max": 1,
-                    "min": 0
-                },
-                "edgeEnabledBlastDamage": {
-                    "count": 3,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
-                    "min": 0
-                },
-                "edgeEnabledTactics": {
-                    "count": 3,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
-                    "min": 0
-                }
-            },
-            "type": {
-                "Objective": {
-                    "count": 1,
-                    "damageCapacity": {
-                        "count": 1,
-                        "sum": 5,
-                        "average": 5,
-                        "max": 5,
-                        "min": 5
-                    },
-                    "resourceValue": {
-                        "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
-                    }
-                },
-                "Unit": {
-                    "count": 3,
-                    "cost": {
-                        "count": 3,
-                        "sum": 7,
-                        "average": 2.3,
-                        "max": 3,
-                        "min": 2
-                    },
-                    "damageCapacity": {
-                        "count": 3,
-                        "sum": 6,
-                        "average": 2,
-                        "max": 2,
-                        "min": 2
-                    },
-                    "forceIcons": {
-                        "count": 3,
-                        "sum": 6,
-                        "average": 2,
-                        "max": 2,
-                        "min": 2
-                    },
-                    "resourceValue": {
-                        "count": 0,
-                        "sum": 0,
-                        "average": 0,
-                        "max": null,
-                        "min": null
-                    },
-                    "normalUnitDamage": {
-                        "count": 3,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
-                        "min": 0
-                    },
-                    "normalBlastDamage": {
-                        "count": 3,
-                        "sum": 2,
-                        "average": 0.7,
-                        "max": 1,
-                        "min": 0
-                    },
-                    "normalTactics": {
-                        "count": 3,
-                        "sum": 1,
-                        "average": 0.3,
-                        "max": 1,
-                        "min": 0
-                    },
-                    "edgeEnabledUnitDamage": {
-                        "count": 3,
-                        "sum": 2,
-                        "average": 0.7,
-                        "max": 1,
-                        "min": 0
-                    },
-                    "edgeEnabledBlastDamage": {
-                        "count": 3,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
-                        "min": 0
-                    },
-                    "edgeEnabledTactics": {
-                        "count": 3,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
-                        "min": 0
-                    }
-                },
-                "Enhancement": {
-                    "count": 2,
-                    "cost": {
-                        "count": 2,
-                        "sum": 2,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
-                    },
-                    "forceIcons": {
-                        "count": 2,
-                        "sum": 1,
-                        "average": 0.5,
-                        "max": 1,
-                        "min": 0
-                    },
-                    "resourceValue": {
-                        "count": 1,
-                        "sum": 1,
-                        "average": 1,
-                        "max": 1,
-                        "min": 1
-                    }
-                }
-            }
-        }
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1021,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001316",
-        "objectiveSetNumber": 210,
-        "objectiveSetSequence": 2,
-        "side": "Dark",
-        "affiliation": "Imperial Navy",
-        "isLockedToAffiliation": false,
-        "type": "Unit",
-        "title": "Colonel Dyer",
-        "isUnique": true,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 3,
-        "damageCapacity": 2,
-        "forceIcons": 2,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 1
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "This unit gains [Unit Damage] for each Endor objective you control.\nThis unit gains [Blast Damage] for each Endor objective an opponent controls.",
-        "abilities": {
-            "types": [
-                "Trait"
-            ],
-            "traits": [
-                "Character",
-                "Officer",
-                "Force Sensitive"
-            ],
-            "referencedTraits": [
-                "Endor"
-            ],
-            "keywords": [],
             "scenarios": []
         },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1022,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001317",
-        "objectiveSetNumber": 210,
-        "objectiveSetSequence": 3,
-        "side": "Dark",
-        "affiliation": "Imperial Navy",
-        "isLockedToAffiliation": false,
-        "type": "Unit",
-        "title": "Endor AT-ST",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 2,
-        "damageCapacity": 2,
-        "forceIcons": 2,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 1,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "Action: Focus an Endor objective or enhancement to remove 1 focus token from this unit. (Limit once per phase.)",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Action"
-            ],
-            "traits": [
-                "Vehicle",
-                "Walker"
-            ],
-            "referencedTraits": [
-                "Endor"
-            ],
-            "keywords": [],
-            "scenarios": [
-                "Removes Focus Token"
-            ]
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1022,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001318",
-        "objectiveSetNumber": 210,
-        "objectiveSetSequence": 4,
-        "side": "Dark",
-        "affiliation": "Imperial Navy",
-        "isLockedToAffiliation": false,
-        "type": "Unit",
-        "title": "Endor AT-ST",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 2,
-        "damageCapacity": 2,
-        "forceIcons": 2,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 1,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "text": "Action: Focus an Endor objective or enhancement to remove 1 focus token from this unit. (Limit once per phase.)",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Action"
-            ],
-            "traits": [
-                "Vehicle",
-                "Walker"
-            ],
-            "referencedTraits": [
-                "Endor"
-            ],
-            "keywords": [],
-            "scenarios": [
-                "Removes Focus Token"
-            ]
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1023,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001319",
-        "objectiveSetNumber": 210,
-        "objectiveSetSequence": 5,
-        "side": "Dark",
-        "affiliation": "Imperial Navy",
-        "isLockedToAffiliation": false,
-        "type": "Enhancement",
-        "title": "Endor Command Post",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 1,
-        "damageCapacity": null,
-        "forceIcons": 0,
-        "resourceValue": 1,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Enhance your play area.\nLimited.\nAction: Focus an Officer unit to remove 1 focus token from this enhancement.",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Keyword",
-                "Action"
-            ],
-            "traits": [
-                "Endor",
-                "Location"
-            ],
-            "referencedTraits": [
-                "Officer"
-            ],
-            "keywords": [
-                {
-                    "keyword": "Limited"
-                }
-            ],
-            "scenarios": [
-                "Removes Focus Token"
-            ]
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1024,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001320",
-        "objectiveSetNumber": 210,
-        "objectiveSetSequence": 6,
-        "side": "Dark",
-        "affiliation": "Imperial Navy",
-        "isLockedToAffiliation": false,
-        "type": "Enhancement",
-        "title": "Promotion",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 1,
-        "damageCapacity": null,
-        "forceIcons": 1,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Enhance an [Imperial Navy] Officer unit.\nReaction: After an [Imperial Navy] unit other than enhanced unit is focused to strike, focus this enhancement to have the striking unit gain enhanced unit's combat icons until the end of the strike.",
-        "abilities": {
-            "types": [
-                "Trait",
-                "Reaction"
-            ],
-            "traits": [
-                "Condition"
-            ],
-            "referencedTraits": [
-                "Imperial Navy",
-                "Officer"
-            ],
-            "keywords": [],
-            "scenarios": [
-                "Gains Combat Icon"
-            ]
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1025,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001321",
-        "objectiveSetNumber": 211,
-        "objectiveSetSequence": 1,
-        "side": "Dark",
-        "affiliation": "Scum and Villainy",
-        "isLockedToAffiliation": false,
-        "type": "Objective",
-        "title": "Hunter for Hire",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": null,
-        "damageCapacity": 5,
-        "forceIcons": null,
-        "resourceValue": 1,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": null,
-        "edgeEnabledCombatIcons": null,
-        "text": "Reaction: After you lose a Force struggle by 2 or more Force icons, deal 1 damage to a target enemy unit committed to the Force",
-        "abilities": {
-            "types": [
-                "Reaction"
-            ],
-            "traits": [],
-            "referencedTraits": [
-                "Force"
-            ],
-            "keywords": [],
-            "scenarios": [
-                "Deals Damage"
-            ]
-        },
         "illustrator": null,
         "stats": {
             "objective": {
                 "count": 6,
                 "damageCapacity": {
                     "count": 4,
-                    "sum": 12,
-                    "average": 3,
+                    "sum": 15,
+                    "average": 3.8,
                     "max": 5,
-                    "min": 2
+                    "min": 3
                 },
                 "resourceValue": {
-                    "count": 2,
-                    "sum": 2,
+                    "count": 1,
+                    "sum": 1,
                     "average": 1,
                     "max": 1,
                     "min": 1
                 },
                 "cost": {
-                    "count": 4,
+                    "count": 3,
                     "sum": 10,
-                    "average": 2.5,
+                    "average": 3.3,
                     "max": 4,
-                    "min": 2
+                    "min": 3
                 },
                 "forceIcons": {
                     "count": 5,
@@ -1954,23 +1487,23 @@
                 },
                 "normalUnitDamage": {
                     "count": 3,
-                    "sum": 2,
-                    "average": 0.7,
+                    "sum": 4,
+                    "average": 1.3,
                     "max": 2,
-                    "min": 0
+                    "min": 1
                 },
                 "normalBlastDamage": {
                     "count": 3,
-                    "sum": 1,
-                    "average": 0.3,
+                    "sum": 2,
+                    "average": 0.7,
                     "max": 1,
                     "min": 0
                 },
                 "normalTactics": {
                     "count": 3,
-                    "sum": 0,
-                    "average": 0,
-                    "max": 0,
+                    "sum": 1,
+                    "average": 0.3,
+                    "max": 1,
                     "min": 0
                 },
                 "edgeEnabledUnitDamage": {
@@ -1982,8 +1515,8 @@
                 },
                 "edgeEnabledBlastDamage": {
                     "count": 3,
-                    "sum": 2,
-                    "average": 0.7,
+                    "sum": 1,
+                    "average": 0.3,
                     "max": 1,
                     "min": 0
                 },
@@ -1995,8 +1528,8 @@
                     "min": 0
                 },
                 "edgePriorityNumber": {
-                    "count": 1,
-                    "sum": 4,
+                    "count": 2,
+                    "sum": 8,
                     "average": 4,
                     "max": 4,
                     "min": 4
@@ -2024,24 +1557,24 @@
                     "count": 3,
                     "cost": {
                         "count": 3,
-                        "sum": 8,
-                        "average": 2.7,
+                        "sum": 10,
+                        "average": 3.3,
                         "max": 4,
-                        "min": 2
+                        "min": 3
                     },
                     "damageCapacity": {
                         "count": 3,
-                        "sum": 7,
-                        "average": 2.3,
-                        "max": 3,
-                        "min": 2
+                        "sum": 10,
+                        "average": 3.3,
+                        "max": 4,
+                        "min": 3
                     },
                     "forceIcons": {
                         "count": 3,
-                        "sum": 7,
-                        "average": 2.3,
-                        "max": 3,
-                        "min": 2
+                        "sum": 3,
+                        "average": 1,
+                        "max": 2,
+                        "min": 0
                     },
                     "resourceValue": {
                         "count": 0,
@@ -2052,23 +1585,23 @@
                     },
                     "normalUnitDamage": {
                         "count": 3,
-                        "sum": 2,
-                        "average": 0.7,
+                        "sum": 4,
+                        "average": 1.3,
                         "max": 2,
-                        "min": 0
+                        "min": 1
                     },
                     "normalBlastDamage": {
                         "count": 3,
-                        "sum": 1,
-                        "average": 0.3,
+                        "sum": 2,
+                        "average": 0.7,
                         "max": 1,
                         "min": 0
                     },
                     "normalTactics": {
                         "count": 3,
-                        "sum": 0,
-                        "average": 0,
-                        "max": 0,
+                        "sum": 1,
+                        "average": 0.3,
+                        "max": 1,
                         "min": 0
                     },
                     "edgeEnabledUnitDamage": {
@@ -2080,8 +1613,8 @@
                     },
                     "edgeEnabledBlastDamage": {
                         "count": 3,
-                        "sum": 2,
-                        "average": 0.7,
+                        "sum": 1,
+                        "average": 0.3,
                         "max": 1,
                         "min": 0
                     },
@@ -2093,28 +1626,476 @@
                         "min": 0
                     }
                 },
-                "Enhancement": {
+                "Fate": {
+                    "count": 2,
+                    "forceIcons": {
+                        "count": 2,
+                        "sum": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "edgePriorityNumber": {
+                        "count": 2,
+                        "sum": 8,
+                        "average": 4,
+                        "max": 4,
+                        "min": 4
+                    }
+                }
+            }
+        }
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1184,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001538",
+        "objectiveSetNumber": 244,
+        "objectiveSetSequence": 2,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Admiral Screed",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Pilot (2). (Interrupt: When an engagement in which enhanced Capital Ship unit is participating ends, deal 2 damage to a target participating unit.)",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Keyword",
+                "Interrupt"
+            ],
+            "traits": [
+                "Character",
+                "Officer",
+                "Pilot"
+            ],
+            "referencedTraits": [
+                "Capital Ship",
+                "Pilot"
+            ],
+            "keywords": [
+                {
+                    "keyword": "Pilot",
+                    "cost": 2,
+                    "text": "Interrupt: When an engagement in which enhanced Capital Ship unit is participating ends, deal 2 damage to a target participating unit."
+                }
+            ],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1185,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001539",
+        "objectiveSetNumber": 244,
+        "objectiveSetSequence": 3,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Demolisher",
+        "isUnique": true,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 4,
+        "damageCapacity": 4,
+        "forceIcons": 2,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 2,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 1,
+            "tactics": 0
+        },
+        "text": "Interrupt: When an engagement in which this unit is participating ends, deal 1 damage to a target non-engaged objective.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Interrupt"
+            ],
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Deals Damage"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1186,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001540",
+        "objectiveSetNumber": 244,
+        "objectiveSetSequence": 4,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Unit",
+        "title": "Nebulon-B2 Frigate",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 3,
+        "damageCapacity": 3,
+        "forceIcons": 0,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": {
+            "unitDamage": 1,
+            "blastDamage": 0,
+            "tactics": 1
+        },
+        "edgeEnabledCombatIcons": {
+            "unitDamage": 0,
+            "blastDamage": 0,
+            "tactics": 0
+        },
+        "text": "Reaction: After this unit is focused to strike, it gains 1 edge-enabled combat icon that another participating unit has, until the end of the strike.",
+        "abilities": {
+            "types": [
+                "Trait",
+                "Reaction"
+            ],
+            "traits": [
+                "Vehicle",
+                "Capital Ship"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": [
+                "Gains Combat Icon",
+                "Gains Edge"
+            ]
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1187,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001541",
+        "objectiveSetNumber": 244,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Tactical Planning",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": 4,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "A target participating [Rebel Alliance] or neutral unit loses a combat icon of your choice until the end of the engagement.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1187,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001542",
+        "objectiveSetNumber": 244,
+        "objectiveSetSequence": 6,
+        "side": "Dark",
+        "affiliation": "Imperial Navy",
+        "isLockedToAffiliation": false,
+        "type": "Fate",
+        "title": "Tactical Planning",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": null,
+        "forceIcons": 3,
+        "resourceValue": null,
+        "edgePriorityNumber": 4,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "A target participating [Rebel Alliance] or neutral unit loses a combat icon of your choice until the end of the engagement.",
+        "abilities": {
+            "types": [],
+            "traits": [],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1188,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001543",
+        "objectiveSetNumber": 245,
+        "objectiveSetSequence": 1,
+        "side": "Dark",
+        "affiliation": "Scum and Villainy",
+        "isLockedToAffiliation": false,
+        "type": "Objective",
+        "title": "Hunter in the Night",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": null,
+        "damageCapacity": 5,
+        "forceIcons": null,
+        "resourceValue": 2,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": null,
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Tatooine",
+                "Night"
+            ],
+            "referencedTraits": [],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null,
+        "stats": {
+            "objective": {
+                "count": 6,
+                "damageCapacity": {
+                    "count": 3,
+                    "sum": 11,
+                    "average": 3.7,
+                    "max": 5,
+                    "min": 3
+                },
+                "resourceValue": {
                     "count": 1,
-                    "cost": {
+                    "sum": 2,
+                    "average": 2,
+                    "max": 2,
+                    "min": 2
+                },
+                "cost": {
+                    "count": 4,
+                    "sum": 7,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 0
+                },
+                "forceIcons": {
+                    "count": 5,
+                    "sum": 9,
+                    "average": 1.8,
+                    "max": 3,
+                    "min": 1
+                },
+                "normalUnitDamage": {
+                    "count": 2,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalBlastDamage": {
+                    "count": 2,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "normalTactics": {
+                    "count": 2,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledUnitDamage": {
+                    "count": 2,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgeEnabledBlastDamage": {
+                    "count": 2,
+                    "sum": 0,
+                    "average": 0,
+                    "max": 0,
+                    "min": 0
+                },
+                "edgeEnabledTactics": {
+                    "count": 2,
+                    "sum": 1,
+                    "average": 0.5,
+                    "max": 1,
+                    "min": 0
+                },
+                "edgePriorityNumber": {
+                    "count": 1,
+                    "sum": 8,
+                    "average": 8,
+                    "max": 8,
+                    "min": 8
+                }
+            },
+            "type": {
+                "Objective": {
+                    "count": 1,
+                    "damageCapacity": {
+                        "count": 1,
+                        "sum": 5,
+                        "average": 5,
+                        "max": 5,
+                        "min": 5
+                    },
+                    "resourceValue": {
                         "count": 1,
                         "sum": 2,
                         "average": 2,
                         "max": 2,
                         "min": 2
+                    }
+                },
+                "Unit": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "sum": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
+                    },
+                    "damageCapacity": {
+                        "count": 2,
+                        "sum": 6,
+                        "average": 3,
+                        "max": 3,
+                        "min": 3
                     },
                     "forceIcons": {
-                        "count": 1,
+                        "count": 2,
+                        "sum": 5,
+                        "average": 2.5,
+                        "max": 3,
+                        "min": 2
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
+                    },
+                    "normalUnitDamage": {
+                        "count": 2,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalBlastDamage": {
+                        "count": 2,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "normalTactics": {
+                        "count": 2,
                         "sum": 0,
                         "average": 0,
                         "max": 0,
                         "min": 0
                     },
-                    "resourceValue": {
-                        "count": 1,
+                    "edgeEnabledUnitDamage": {
+                        "count": 2,
                         "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "edgeEnabledBlastDamage": {
+                        "count": 2,
+                        "sum": 0,
+                        "average": 0,
+                        "max": 0,
+                        "min": 0
+                    },
+                    "edgeEnabledTactics": {
+                        "count": 2,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    }
+                },
+                "Enhancement": {
+                    "count": 2,
+                    "cost": {
+                        "count": 2,
+                        "sum": 1,
+                        "average": 0.5,
+                        "max": 1,
+                        "min": 0
+                    },
+                    "forceIcons": {
+                        "count": 2,
+                        "sum": 2,
                         "average": 1,
                         "max": 1,
                         "min": 1
+                    },
+                    "resourceValue": {
+                        "count": 0,
+                        "sum": 0,
+                        "average": 0,
+                        "max": null,
+                        "min": null
                     }
                 },
                 "Fate": {
@@ -2128,37 +2109,37 @@
                     },
                     "edgePriorityNumber": {
                         "count": 1,
-                        "sum": 4,
-                        "average": 4,
-                        "max": 4,
-                        "min": 4
+                        "sum": 8,
+                        "average": 8,
+                        "max": 8,
+                        "min": 8
                     }
                 }
             }
         }
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1026,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001322",
-        "objectiveSetNumber": 211,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1189,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001544",
+        "objectiveSetNumber": 245,
         "objectiveSetSequence": 2,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
         "isLockedToAffiliation": false,
         "type": "Unit",
-        "title": "Bane Malar",
+        "title": "Djas Puhr",
         "isUnique": true,
         "isLimitedToObjectiveDeck": false,
-        "cost": 4,
+        "cost": 3,
         "damageCapacity": 3,
         "forceIcons": 3,
         "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": {
-            "unitDamage": 2,
+            "unitDamage": 1,
             "blastDamage": 1,
             "tactics": 0
         },
@@ -2167,47 +2148,44 @@
             "blastDamage": 0,
             "tactics": 0
         },
-        "text": "Edge (1).\nInterrupt: When this unit resolves its unit damage icons, assign the damage to a target non-participating enemy unit committed to the Force instead.",
+        "text": "This unit gains elite while there are 1 or more Night cards in play.\nThis unit gains targeted strike while there are 2 or more Night cards in play.",
         "abilities": {
             "types": [
-                "Trait",
-                "Keyword",
-                "Interrupt"
+                "Trait"
             ],
             "traits": [
                 "Character",
-                "Bounty Hunter"
+                "Bounty Hunter",
+                "Force Sensitive"
             ],
             "referencedTraits": [
-                "Force"
+                "Night"
             ],
-            "keywords": [
-                {
-                    "keyword": "Edge",
-                    "forceIcons": 1
-                }
-            ],
-            "scenarios": []
+            "keywords": [],
+            "scenarios": [
+                "Gains Elite",
+                "Gains Targeted Strike"
+            ]
         },
         "illustrator": null
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1027,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001323",
-        "objectiveSetNumber": 211,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1190,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001545",
+        "objectiveSetNumber": 245,
         "objectiveSetSequence": 3,
         "side": "Dark",
         "affiliation": "Neutral",
         "isLockedToAffiliation": false,
         "type": "Unit",
-        "title": "Lannik Lackey",
+        "title": "Defel Mercenary",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
-        "cost": 2,
-        "damageCapacity": 2,
+        "cost": 3,
+        "damageCapacity": 3,
         "forceIcons": 2,
         "resourceValue": null,
         "edgePriorityNumber": null,
@@ -2218,20 +2196,21 @@
         },
         "edgeEnabledCombatIcons": {
             "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
+            "blastDamage": 0,
+            "tactics": 1
         },
-        "text": "This unit gains [Tactics] while it is committed to the Force.\nThis unit gains [Unit Damage] while it is not committed to the Force.",
+        "text": "This unit gains [Unit Damage] for each Night card in play.",
         "abilities": {
             "types": [
                 "Trait"
             ],
             "traits": [
                 "Character",
-                "Force Sensitive"
+                "Mercenary",
+                "Night"
             ],
             "referencedTraits": [
-                "Force"
+                "Night"
             ],
             "keywords": [],
             "scenarios": []
@@ -2239,82 +2218,35 @@
         "illustrator": null
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1027,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001324",
-        "objectiveSetNumber": 211,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1191,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001546",
+        "objectiveSetNumber": 245,
         "objectiveSetSequence": 4,
-        "side": "Dark",
-        "affiliation": "Neutral",
-        "isLockedToAffiliation": false,
-        "type": "Unit",
-        "title": "Lannik Lackey",
-        "isUnique": false,
-        "isLimitedToObjectiveDeck": false,
-        "cost": 2,
-        "damageCapacity": 2,
-        "forceIcons": 2,
-        "resourceValue": null,
-        "edgePriorityNumber": null,
-        "normalCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 0,
-            "tactics": 0
-        },
-        "edgeEnabledCombatIcons": {
-            "unitDamage": 0,
-            "blastDamage": 1,
-            "tactics": 0
-        },
-        "text": "This unit gains [Tactics] while it is committed to the Force.\nThis unit gains [Unit Damage] while it is not committed to the Force.",
-        "abilities": {
-            "types": [
-                "Trait"
-            ],
-            "traits": [
-                "Character",
-                "Force Sensitive"
-            ],
-            "referencedTraits": [
-                "Force"
-            ],
-            "keywords": [],
-            "scenarios": []
-        },
-        "illustrator": null
-    },
-    {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 1028,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001325",
-        "objectiveSetNumber": 211,
-        "objectiveSetSequence": 5,
         "side": "Dark",
         "affiliation": "Scum and Villainy",
         "isLockedToAffiliation": false,
         "type": "Enhancement",
-        "title": "Abandoned Hideout",
+        "title": "Master of the Night",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
-        "cost": 2,
+        "cost": 1,
         "damageCapacity": null,
-        "forceIcons": 0,
-        "resourceValue": 1,
+        "forceIcons": 1,
+        "resourceValue": null,
         "edgePriorityNumber": null,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "Enhance your play area.\nAction: Focus this enhancement to move a Force card from a unit to another unit controlled by the same player.",
+        "text": "Enhance a card you control.\nInterrupt: When enhanced card is targeted by an enemy card effect, shuffle this enhancement into its owner's deck to cancel that effect.",
         "abilities": {
             "types": [
                 "Trait",
-                "Action"
+                "Interrupt"
             ],
             "traits": [
-                "Location"
+                "Night"
             ],
             "referencedTraits": [],
             "keywords": [],
@@ -2323,38 +2255,72 @@
         "illustrator": null
     },
     {
-        "product": "Press the Attack",
-        "productCycle": "Endor Cycle",
-        "productOctgnId": "fcb44aba-7631-40ff-808a-ce3b9b2d5d75",
-        "number": 536,
-        "octgnId": "ff4fb461-8060-457a-9c16-000000001326",
-        "objectiveSetNumber": 211,
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 18,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001547",
+        "objectiveSetNumber": 245,
+        "objectiveSetSequence": 5,
+        "side": "Dark",
+        "affiliation": "Neutral",
+        "isLockedToAffiliation": false,
+        "type": "Enhancement",
+        "title": "Blaster Pistol",
+        "isUnique": false,
+        "isLimitedToObjectiveDeck": false,
+        "cost": 0,
+        "damageCapacity": null,
+        "forceIcons": 1,
+        "resourceValue": null,
+        "edgePriorityNumber": null,
+        "normalCombatIcons": null,
+        "edgeEnabledCombatIcons": null,
+        "text": "Enhance a Character unit.\nEnhanced unit gains [Unit Damage].",
+        "abilities": {
+            "types": [
+                "Trait"
+            ],
+            "traits": [
+                "Weapon"
+            ],
+            "referencedTraits": [
+                "Character"
+            ],
+            "keywords": [],
+            "scenarios": []
+        },
+        "illustrator": null
+    },
+    {
+        "product": "Meditation and Mastery",
+        "productCycle": "Opposition Cycle",
+        "productOctgnId": "593eb700-3a41-4520-a761-fa06a1ec4e2b",
+        "number": 1166,
+        "octgnId": "ff4fb461-8060-457a-9c16-000000001548",
+        "objectiveSetNumber": 245,
         "objectiveSetSequence": 6,
         "side": "Dark",
         "affiliation": "Neutral",
         "isLockedToAffiliation": false,
         "type": "Fate",
-        "title": "Echoes of the Force",
+        "title": "Well Equipped",
         "isUnique": false,
         "isLimitedToObjectiveDeck": false,
         "cost": null,
         "damageCapacity": null,
         "forceIcons": 2,
         "resourceValue": null,
-        "edgePriorityNumber": 4,
+        "edgePriorityNumber": 8,
         "normalCombatIcons": null,
         "edgeEnabledCombatIcons": null,
-        "text": "You may commit a target unit to or remove a target unit from the Force.",
+        "text": "Remove 1 token (any type) from a unit or objective card you control with 1 or more enhancements on it.",
         "abilities": {
             "types": [],
             "traits": [],
-            "referencedTraits": [
-                "Force"
-            ],
+            "referencedTraits": [],
             "keywords": [],
-            "scenarios": [
-                "Removes from Force"
-            ]
+            "scenarios": []
         },
         "illustrator": null
     }

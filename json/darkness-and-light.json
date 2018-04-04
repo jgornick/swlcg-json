@@ -1392,7 +1392,8 @@
             ],
             "traits": [],
             "referencedTraits": [
-                "Fighter"
+                "Fighter",
+                "Imperial Navy"
             ],
             "keywords": [],
             "scenarios": [
